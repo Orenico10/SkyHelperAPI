@@ -331,7 +331,7 @@
     "name": "Seeds",
     "id": "SEEDS",
     "category": "FARMING",
-    "maxTiers": 6,
+    "maxTiers": 7,
     "tiers": [
       {
         "tier": 1,
@@ -356,6 +356,10 @@
       {
         "tier": 6,
         "amountRequired": 5000
+      },
+      {
+        "tier": 7,
+        "amountRequired": 25000
       }
     ]
   },
@@ -1659,7 +1663,7 @@
     "name": "Ice",
     "id": "ICE",
     "category": "MINING",
-    "maxTiers": 10,
+    "maxTiers": 11,
     "tiers": [
       {
         "tier": 1,
@@ -1700,6 +1704,10 @@
       {
         "tier": 10,
         "amountRequired": 250000
+      },
+      {
+        "tier": 11,
+        "amountRequired": 500000
       }
     ]
   },

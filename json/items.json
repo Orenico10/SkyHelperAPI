@@ -478,6 +478,13 @@
     "name": "Cactus Knife",
     "category": "HOE",
     "tier": "EPIC",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
     "id": "CACTUS_KNIFE"
   },
   {
@@ -494,6 +501,13 @@
     "name": "Fungi Cutter",
     "category": "HOE",
     "tier": "RARE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
     "id": "FUNGI_CUTTER"
   },
   {
@@ -501,6 +515,13 @@
     "name": "Hoe of Great Tilling",
     "category": "HOE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 2
+      }
+    ],
     "id": "HOE_OF_GREAT_TILLING"
   },
   {
@@ -508,6 +529,13 @@
     "name": "Gauss Carrot Hoe",
     "category": "HOE",
     "tier": "RARE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 25
+      }
+    ],
     "id": "THEORETICAL_HOE_CARROT_3"
   },
   {
@@ -515,18 +543,39 @@
     "name": "Euclid's Wheat Hoe",
     "category": "HOE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 20
+      }
+    ],
     "id": "THEORETICAL_HOE_WHEAT_2"
   },
   {
     "material": "STONE_HOE",
     "name": "Turing Sugar Cane Hoe",
     "category": "HOE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "THEORETICAL_HOE_CANE_1"
   },
   {
     "material": "STONE_HOE",
     "name": "Euclid's Wheat Hoe",
     "category": "HOE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "THEORETICAL_HOE_WHEAT_1"
   },
   {
@@ -534,6 +583,13 @@
     "name": "Gauss Carrot Hoe",
     "category": "HOE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 20
+      }
+    ],
     "id": "THEORETICAL_HOE_CARROT_2"
   },
   {
@@ -541,6 +597,13 @@
     "name": "Turing Sugar Cane Hoe",
     "category": "HOE",
     "tier": "RARE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 25
+      }
+    ],
     "id": "THEORETICAL_HOE_CANE_3"
   },
   {
@@ -548,6 +611,13 @@
     "name": "Pythagorean Potato Hoe",
     "category": "HOE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 20
+      }
+    ],
     "id": "THEORETICAL_HOE_POTATO_2"
   },
   {
@@ -555,6 +625,13 @@
     "name": "Pythagorean Potato Hoe",
     "category": "HOE",
     "tier": "RARE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 25
+      }
+    ],
     "id": "THEORETICAL_HOE_POTATO_3"
   },
   {
@@ -562,12 +639,26 @@
     "name": "Euclid's Wheat Hoe",
     "category": "HOE",
     "tier": "RARE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 25
+      }
+    ],
     "id": "THEORETICAL_HOE_WHEAT_3"
   },
   {
     "material": "STONE_HOE",
     "name": "Gauss Carrot Hoe",
     "category": "HOE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "THEORETICAL_HOE_CARROT_1"
   },
   {
@@ -575,6 +666,13 @@
     "name": "Newton Nether Warts Hoe",
     "category": "HOE",
     "tier": "RARE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 25
+      }
+    ],
     "id": "THEORETICAL_HOE_WARTS_3"
   },
   {
@@ -582,18 +680,39 @@
     "name": "Turing Sugar Cane Hoe",
     "category": "HOE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 20
+      }
+    ],
     "id": "THEORETICAL_HOE_CANE_2"
   },
   {
     "material": "STONE_HOE",
     "name": "Newton Nether Warts Hoe",
     "category": "HOE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "THEORETICAL_HOE_WARTS_1"
   },
   {
     "material": "STONE_HOE",
     "name": "Pythagorean Potato Hoe",
     "category": "HOE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "THEORETICAL_HOE_POTATO_1"
   },
   {
@@ -601,6 +720,13 @@
     "name": "Newton Nether Warts Hoe",
     "category": "HOE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 20
+      }
+    ],
     "id": "THEORETICAL_HOE_WARTS_2"
   },
   {
@@ -623,6 +749,13 @@
     "name": "Hoe of Greater Tilling",
     "category": "HOE",
     "tier": "RARE",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 5
+      }
+    ],
     "id": "HOE_OF_GREATER_TILLING"
   },
   {
@@ -1420,6 +1553,16 @@
     "generator_tier": 3,
     "tier": "RARE",
     "id": "ICE_GENERATOR_3"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTU4NDA5NzI5MywKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNlOWM1ODUwMzFlNDcwNTZkYWM1ZjljZDE2M2Q1ZmU2NDQ4OTk2NWJmOWUyMzUxZDg5MzViNTUzNWNmYTE3MGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+    "name": "Ice Minion XII",
+    "generator": "ICE",
+    "generator_tier": 12,
+    "tier": "RARE",
+    "id": "ICE_GENERATOR_12"
   },
   {
     "material": "SKULL_ITEM",
@@ -3544,6 +3687,16 @@
     "generator_tier": 9,
     "tier": "RARE",
     "id": "SNOW_GENERATOR_9"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTU4Mjg1NTI4NCwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzc4OTZhYzg5NTAzZjlmMzdmZTExNzMxMGMxMjBhYTJkM2QwMjE2MzBlMDEzMzY1YWFmMmFjMTMxMjliYjg1NDMiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+    "name": "Snow Minion XII",
+    "generator": "SNOW",
+    "generator_tier": 12,
+    "tier": "RARE",
+    "id": "SNOW_GENERATOR_12"
   },
   {
     "material": "SKULL_ITEM",
@@ -7799,6 +7952,15 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTY3MjEzODA2MCwKICAicHJvZmlsZUlkIiA6ICIzNmMxODk4ZjlhZGE0NjZlYjk0ZDFmZWFmMjQ0MTkxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJMdW5haWFuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk1ODU2MWMwMjdlMDM2OGE4M2Y4NDk0NjNkNDJhMzA1NmU3MDk3NjRjNGMzYjQwZDgxYzhmM2VhN2EwZDZkMDciLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+    "name": "Snowman Minion Skin",
+    "category": "COSMETIC",
+    "museum": true,
+    "id": "SNOWMAN_PERSONALITY"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY1NTc2MjM1NzU4NiwKICAicHJvZmlsZUlkIiA6ICI1ZmI5NjkwZGEyNzI0OWQxYjgxNGE4MDk2NGU1ZGY1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJMZWV2aWFoIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzViMjAyNmM1NzY3NmJjOTU3N2JjN2QxZWQ2YTNmOGFiYThjM2NjYWRhZTg5NmE1NDE0ZDAzMTVlN2VlMTAzZmYiCiAgICB9CiAgfQp9",
     "name": "Pufferfish Minion Skin",
     "category": "COSMETIC",
@@ -7864,6 +8026,14 @@
     "tier": "EPIC",
     "unstackable": true,
     "id": "DYE_BRICK_RED"
+  },
+  {
+    "material": "INK_SACK",
+    "durability": 2,
+    "name": "Holly Dye",
+    "tier": "EPIC",
+    "unstackable": true,
+    "id": "DYE_HOLLY"
   },
   {
     "material": "INK_SACK",
@@ -8043,7 +8213,7 @@
     "material": "LEATHER_BOOTS",
     "item_durability": -1,
     "color": "191,188,178",
-    "name": "⚚ Adaptive Boots",
+    "name": "Adaptive Boots",
     "category": "BOOTS",
     "tier": "EPIC",
     "stats": {
@@ -8111,7 +8281,7 @@
     "durability": 3,
     "item_durability": -1,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTZmMGQzNGFhYTcxNDM3Nzk4MzcwMWMxYmJlOWIzZjZlN2IzMGNiMzg1NzFiYzBhMmZkNzU0MWQ3ZWRiMTYzNyJ9fX0K",
-    "name": "⚚ Adaptive Helmet",
+    "name": "Adaptive Helmet",
     "category": "HELMET",
     "tier": "EPIC",
     "stats": {
@@ -8313,7 +8483,7 @@
     "material": "LEATHER_LEGGINGS",
     "item_durability": -1,
     "color": "191,188,178",
-    "name": "⚚ Adaptive Leggings",
+    "name": "Adaptive Leggings",
     "category": "LEGGINGS",
     "tier": "EPIC",
     "stats": {
@@ -8380,7 +8550,7 @@
     "material": "LEATHER_CHESTPLATE",
     "item_durability": -1,
     "color": "191,188,178",
-    "name": "⚚ Adaptive Chestplate",
+    "name": "Adaptive Chestplate",
     "category": "CHESTPLATE",
     "tier": "EPIC",
     "stats": {
@@ -13302,7 +13472,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjAyMjZkNGMxZDMwZmJlYmVjYWU5MzlkYTkwMDYwM2U0Y2QwZmVkODU5MmExYmIzZTExZjlhYzkyMzkxYTQ1YSJ9fX0=",
-    "name": "God Potion (Legacy)",
+    "name": "God Potion",
     "glowing": true,
     "tier": "SPECIAL",
     "museum": true,
@@ -13634,8 +13804,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTM0MTU2NjdkZTNmYjg5YzVmNDBjODgwYzM5ZTQ5NzFhMGNhYTdmM2E5ZDJjOGY3MTJiYTM3ZmFkY2VlIn19fQ==",
     "name": "Beastmaster Crest",
     "category": "ACCESSORY",
-    "id": "BEASTMASTER_CREST_COMMON",
-    "tier": "COMMON"
+    "id": "BEASTMASTER_CREST_COMMON"
   },
   {
     "material": "WOOD_SWORD",
@@ -14223,8 +14392,7 @@
     "stats": {
       "STRENGTH": 2
     },
-    "id": "RAGGEDY_SHARK_TOOTH_NECKLACE",
-    "tier": "COMMON"
+    "id": "RAGGEDY_SHARK_TOOTH_NECKLACE"
   },
   {
     "material": "SKULL_ITEM",
@@ -14281,11 +14449,29 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjE1YmEzMWNkZTI2NzFiOGYxNzZkZTZhOWZmZDAwODAzNWYwNTkwZDYzZWUyNDBiZTZlODkyMWNkMjAzN2E0NSJ9fX0=",
+    "name": "Christmas Tree",
+    "furniture": "CHRISTMAS_TREE",
+    "tier": "EPIC",
+    "id": "CHRISTMAS_TREE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODBjZjY0OTVmZjRhMzYwYWExZDY4MWE0ZjNhYTM0YWFkODc0MDljNWY3YzdkYmM5MjBjNzRkMDY5ZjY0ODhjOCJ9fX0=",
     "name": "Witch Hat",
     "furniture": "WITCH_HAT",
     "tier": "RARE",
     "id": "WITCH_HAT"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTBkNmFmMTVhMGYzYzMwZDdlNzFjMTk0MWMzMzc0MzBmYzA5NTQzN2E2NjI0NTA5ZDk2NTY5N2FlYjI2ZmEwOCJ9fX0=",
+    "name": "Bundled Snowman",
+    "furniture": "BUNDLED_SNOWMAN",
+    "tier": "EPIC",
+    "id": "BUNDLED_SNOWMAN"
   },
   {
     "material": "SKULL_ITEM",
@@ -14322,6 +14508,33 @@
     "furniture": "PUMPKIN_CRAFTING_TABLE",
     "tier": "EPIC",
     "id": "PUMPKIN_CRAFTING_TABLE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTMyMjlmODUyNTcyNjY4NGZiMDIyN2RhZDc2MjFmMDVmMGI4YjVkNThhODY5M2ZkMGVhMDY4ODM0OWYxZDUzYyJ9fX0=",
+    "name": "Snowglobe",
+    "furniture": "SNOWGLOBE",
+    "tier": "EPIC",
+    "id": "SNOWGLOBE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzAwZmM3MmU5MGI3NDhkYzI5MzZjNDA5M2Q2MmEyMmZlZjljOTM3ZWY4M2M3MGNhNzZiY2Q1MDBiNDQyMWMwYiJ9fX0=",
+    "name": "Rocking Chair",
+    "furniture": "ROCKING_CHAIR",
+    "tier": "EPIC",
+    "id": "ROCKING_CHAIR"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjRiZDlkZDEyOGM5NGMxMGM5NDVlYWRhYTM0MmZjNmQ5NzY1ZjM3YjNkZjJlMzhmN2IwNTZkYzdjOTI3ZWQifX19",
+    "name": "Festive Mailbox",
+    "furniture": "FESTIVE_MAILBOX",
+    "tier": "EPIC",
+    "id": "FESTIVE_MAILBOX"
   },
   {
     "material": "SKULL_ITEM",
@@ -14367,6 +14580,33 @@
     "furniture": "WISHING_WELL",
     "tier": "LEGENDARY",
     "id": "WISHING_WELL"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVmMzU5OWMxNDVkMzcyZWE5ODY5ODc3NjNlMjQ5OGQyMWI1NjdkNzFmYmY3ZTIzZDVmYTgxOTdlOWFkMWQifX19",
+    "name": "Holiday Train",
+    "furniture": "HOLIDAY_TRAIN",
+    "tier": "EPIC",
+    "id": "HOLIDAY_TRAIN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjY4ZDgxZjJhNDk1Y2Y3NjdlOTdkNTZlYmNiNGRmN2JiMWRmMDU1OWQyNzM1Y2JjOTlmN2M3OGVlZmY0ZjY4ZiJ9fX0=",
+    "name": "Hot Chocolate and Cookies",
+    "furniture": "HOT_CHOCOLATE_AND_COOKIES",
+    "tier": "EPIC",
+    "id": "HOT_CHOCOLATE_AND_COOKIES"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVmZGE0MmNhZjE1OWIxMTY0MDQ5Mjk3OTVmMjgxMmNiODAwOTI5ZTM0Y2I0NWJkZGZkMzA4MGFjMjg5ZjdhOSJ9fX0=",
+    "name": "Advent Calendar Display",
+    "furniture": "ADVENT_CALENDAR_DISPLAY",
+    "tier": "EPIC",
+    "id": "ADVENT_CALENDAR_DISPLAY"
   },
   {
     "material": "PAPER",
@@ -14703,7 +14943,7 @@
     "item_specific": {
       "portal": {
         "holo_name": "Crystal Nucleus",
-        "description_name": "the Crytsal Nucleus",
+        "description_name": "the Crystal Nucleus",
         "destination_mode": "crystal_hollows",
         "location_tag": "nucleus",
         "schematic_file": "sb_portal_crystal_hollows",
@@ -15254,9 +15494,17 @@
     "tier": "RARE",
     "stats": {
       "DEFENSE": 75,
-      "HEALTH": 20
+      "HEALTH": 20,
+      "FARMING_FORTUNE": 10
     },
     "npc_sell_price": 5200,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
     "id": "FARM_ARMOR_CHESTPLATE"
   },
   {
@@ -15328,7 +15576,7 @@
   },
   {
     "material": "RABBIT_STEW",
-    "name": "Mushroom & Warts Stew",
+    "name": "§cMushroom & Warts Stew",
     "tier": "RARE",
     "id": "WARTS_STEW"
   },
@@ -15336,7 +15584,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTU1YjNmZTkzMTFjOTkzNDJlYTU2NTQ4M2NiZjllOTY5YTI1OGZhZjdhZmEzMDI3MGZiOWEwOTI5Mzc3YWNmZCJ9fX0K",
-    "name": "Neon Blue Sheep Skin",
+    "name": "Neon BlueSheep",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -15348,6 +15596,13 @@
     "name": "Chicken Axe",
     "category": "AXE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "CHICKEN_AXE"
   },
   {
@@ -15447,7 +15702,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGU4NmUwYjI5M2RlZjVjMjU3MzM4NDNiYmU2Nzc5Y2NkYTc3NTkwZTEzMjI0YTJkYjYyNzZhZDgyM2VkNTVlIn19fQ==",
     "name": "Titan's Helmet",
     "category": "HELMET",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DEFENSE": 100,
       "HEALTH": 150,
@@ -15544,74 +15799,12 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDg1NTJmZjU5MTA0MmM0YTM4ZjhiYTA2MjY3ODRhZTI4YzQ1NDVhOTdkNDIzZmQ5MDM3YzM0MTAzNTU5MzI3MyJ9fX0K",
-    "name": "Fortified Silverfish Skin",
+    "name": "FortifiedSilverfish",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
     "museum": true,
     "id": "PET_SKIN_SILVERFISH"
-  },
-  {
-    "material": "IRON_HOE",
-    "name": "Frozen Scythe",
-    "category": "SWORD",
-    "sword_type": "SCYTHE",
-    "tier": "RARE",
-    "stats": {
-      "DAMAGE": 80,
-      "WEAPON_ABILITY_DAMAGE": 1000
-    },
-    "ability_damage_scaling": 0.3,
-    "npc_sell_price": 100,
-    "dungeon_item_conversion_cost": {
-      "essence_type": "ICE",
-      "amount": 50
-    },
-    "upgrade_costs": [
-      [
-        {
-          "type": "ESSENCE",
-          "essence_type": "ICE",
-          "amount": 10
-        }
-      ],
-      [
-        {
-          "type": "ESSENCE",
-          "essence_type": "ICE",
-          "amount": 15
-        }
-      ],
-      [
-        {
-          "type": "ESSENCE",
-          "essence_type": "ICE",
-          "amount": 20
-        }
-      ],
-      [
-        {
-          "type": "ESSENCE",
-          "essence_type": "ICE",
-          "amount": 25
-        }
-      ],
-      [
-        {
-          "type": "ESSENCE",
-          "essence_type": "ICE",
-          "amount": 30
-        }
-      ]
-    ],
-    "catacombs_requirements": [
-      {
-        "type": "DUNGEON_SKILL",
-        "dungeon_type": "CATACOMBS",
-        "level": 10
-      }
-    ],
-    "id": "FROZEN_SCYTHE"
   },
   {
     "material": "SKULL_ITEM",
@@ -15858,8 +16051,7 @@
     "name": "Sea Creature Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 180,
-    "id": "SEA_CREATURE_TALISMAN",
-    "tier": "COMMON"
+    "id": "SEA_CREATURE_TALISMAN"
   },
   {
     "material": "LEATHER_CHESTPLATE",
@@ -16357,7 +16549,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmVmY2RiYjdkOTU1MDJhY2MxYWUzNWEzMmE0MGNlNGRlYzhmNGM5ZjBkYTI2YzlkOWZlN2MyYzNlYjc0OGY2In19fQo",
-    "name": "Cool Rock Skin",
+    "name": "CoolRock",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -16578,7 +16770,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJiZTcyMWQ3YWQ4YWI5NjVmMDhjYmVjMGI4MzRmNzc5YjUxOTdmNzlkYTRhZWEzZDEzZDI1M2VjZTlkZWMyIn19fQ==",
     "name": "Kindred",
     "category": "HELMET",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "WALK_SPEED": 70
     },
@@ -16588,7 +16780,7 @@
   {
     "material": "DOUBLE_PLANT",
     "durability": 4,
-    "name": "Rose Bouquet",
+    "name": "§cRose Bouquet",
     "id": "ROSE_BOUQUET"
   },
   {
@@ -16609,6 +16801,13 @@
     "category": "HOE",
     "npc_sell_price": 3,
     "museum": true,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 1
+      }
+    ],
     "id": "ROOKIE_HOE"
   },
   {
@@ -16831,7 +17030,7 @@
   {
     "material": "DIAMOND_SWORD",
     "item_durability": -1,
-    "name": "⚚ Shadow Fury",
+    "name": "Shadow Fury",
     "category": "SWORD",
     "tier": "LEGENDARY",
     "stats": {
@@ -17099,7 +17298,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRjNWJjZDYzZTRhOTg4MGZjOGQ3OWVjMDlhNjg0MGQzMjczNmM2MDliODlkZmI0Mjc2NTkzODFlZmM2NzU0ZCJ9fX0",
     "name": "Arenjey God",
     "category": "HELMET",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "MAGIC_FIND": 1000
     },
@@ -18435,7 +18634,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMxNGQ2NjkxMTU1NGJkMDg4MjMzOTA3NGJmNmI4MTEwYzJkMzUwOWI2OWU3YTYxNDRlNGQ1YTcxNjRiYWNjOCJ9fX0K",
-    "name": "Neon Green Sheep Skin",
+    "name": "Neon GreenSheep",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -19046,7 +19245,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODNiODZiMWI1NTYxMzU5YTg1OTE5NTZiZGFhMTU3ZDY4NDQ3NzFhZmFjYTEyNDdkNmNkZmQzZDJiMDI1MTNiNiJ9fX0K",
-    "name": "Orange Sheep Skin",
+    "name": "OrangeSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -19382,7 +19581,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTQzNjQxNiwKICAicHJvZmlsZUlkIiA6ICI3MmNiMDYyMWU1MTA0MDdjOWRlMDA1OTRmNjAxNTIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3M5OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGI2Mjk2OWMwMDU4MTVkMDQwOTEzNjM4MGZlYmM1YWM0NjhhYWJhOWJkYTRkYjgwOTU0ZmE1NDI2ZWUwYTMyMyIKICAgIH0KICB9Cn0=",
-    "name": "Blue Elephant Skin",
+    "name": "BlueElephant",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -19903,7 +20102,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDIyNDk4NzU2NiwKICAicHJvZmlsZUlkIiA6ICI0ZWQ4MjMzNzFhMmU0YmI3YTVlYWJmY2ZmZGE4NDk1NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJGaXJlYnlyZDg4IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2MwNTc0ZGM3YjlhODk4MzVmMTkxYWNjMGI2OTVlODExZTI3YjY2MjIyZTAyNWMxMGE2MDkwZmI1MTJkOTBmYWIiCiAgICB9CiAgfQp9",
-    "name": "Henzo Doggo Wolf Skin",
+    "name": "Henzo DoggoWolf",
     "category": "COSMETIC",
     "tier": "SPECIAL",
     "unstackable": true,
@@ -20273,6 +20472,16 @@
     "id": "PET_ITEM_FARMING_SKILL_BOOST_LEGENDARY"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjhkYzdlNzdjMjFjNGUzMjI4ZTJjMDI1MWJmZTE3NDc0MWY3YTMzYmYzMjY3YjBjYzFmNThlMjM0YmMyYjljNSJ9fX0=",
+    "name": "Frosty the Howitzer",
+    "tier": "LEGENDARY",
+    "npc_sell_price": 100,
+    "museum": true,
+    "id": "SNOW_HOWITZER"
+  },
+  {
     "material": "LEATHER_LEGGINGS",
     "color": "224,252,247",
     "name": "Speedster Leggings",
@@ -20292,8 +20501,7 @@
     "name": "Night Vision Charm",
     "category": "ACCESSORY",
     "npc_sell_price": 2500,
-    "id": "NIGHT_VISION_CHARM",
-    "tier": "COMMON"
+    "id": "NIGHT_VISION_CHARM"
   },
   {
     "material": "GOLD_RECORD",
@@ -20537,7 +20745,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNjQyODA5NTg3NywKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjVmMjlhOTc1NTI5Mjc2ZDkxNmZjNjc5OTg4MzNjMTFlZTE3OGZmMjFlNTk0MWFmZGZiMGZhNzAxMGY4Mzc0ZSIKICAgIH0KICB9Cn0",
-    "name": "Grown-up Baby Yeti Skin",
+    "name": "Grown-upBaby Yeti",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -22031,8 +22239,7 @@
     "name": "Talisman of Coins",
     "category": "ACCESSORY",
     "npc_sell_price": 70,
-    "id": "COIN_TALISMAN",
-    "tier": "COMMON"
+    "id": "COIN_TALISMAN"
   },
   {
     "material": "BOW",
@@ -22207,7 +22414,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGQyZjc4MWYwM2MzNjViYmM1ZGQxZTcxODZhYjM4ZGM2OTQ2NWU4MzZjOWZlMDY2YTlhODQ0ZjM0YTRkYTkyIn19fQo",
-    "name": "Thinking Rock Skin",
+    "name": "ThinkingRock",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -22625,7 +22832,7 @@
   },
   {
     "material": "PAPER",
-    "name": "Fairy Souls Pamphlet",
+    "name": "§dFairy Souls Pamphlet",
     "tier": "RARE",
     "id": "FAIRY_SOULS_PAMPHLET"
   },
@@ -23661,7 +23868,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTk5Mzk0OTI2NCwKICAicHJvZmlsZUlkIiA6ICJjZGM5MzQ0NDAzODM0ZDdkYmRmOWUyMmVjZmM5MzBiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXdMb2JzdGVycyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lOTI4MWM0ZDg3ZDY4NTI2YjA3NDlkNDM2MWU2ZWY3ODZjOGEzNTcxN2FhMDUzZGE3MDRiMWQ1MzQxMGQzN2E2IgogICAgfQogIH0KfQ==",
-    "name": "Golden Monkey Skin",
+    "name": "GoldenMonkey",
     "category": "COSMETIC",
     "tier": "LEGENDARY",
     "unstackable": true,
@@ -23690,7 +23897,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwODUwODQzNDQ1MSwKICAicHJvZmlsZUlkIiA6ICIyM2YxYTU5ZjQ2OWI0M2RkYmRiNTM3YmZlYzEwNDcxZiIsCiAgInByb2ZpbGVOYW1lIiA6ICIyODA3IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRlYzU0NTVmNDM0MjZjYTE4NzRiNWM3YjRhNDkyZWMzNzIyYTUwMmY4Yjk1OTllNzU4ZTEzM2ZlZDhiM2MxZTQiCiAgICB9CiAgfQp9",
-    "name": "Green Elf Jerry Skin",
+    "name": "Green ElfJerry",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -23928,8 +24135,7 @@
     "name": "Fire Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 6480,
-    "id": "FIRE_TALISMAN",
-    "tier": "COMMON"
+    "id": "FIRE_TALISMAN"
   },
   {
     "material": "SKULL_ITEM",
@@ -24952,7 +25158,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTk0MDQ4NiwKICAicHJvZmlsZUlkIiA6ICI3MmNiMDYyMWU1MTA0MDdjOWRlMDA1OTRmNjAxNTIyZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNb3M5OTAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmZjNGE3NTQyYjc1NDQyMGIxYjE5ZjlhMjhlYTAwMDQwNTU1YTllODc2MDUyYjk3ZjY1ODQwMzA4YTkzMzQ4ZCIKICAgIH0KICB9Cn0",
-    "name": "Radiant Endermite Skin",
+    "name": "RadiantEndermite",
     "category": "COSMETIC",
     "tier": "MYTHIC",
     "unstackable": true,
@@ -25114,6 +25320,14 @@
     "tier": "RARE",
     "dungeon_item": true,
     "id": "FEL_PEARL"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTY1NTkwOTY4OSwKICAicHJvZmlsZUlkIiA6ICIzOTdlMmY5OTAyNmI0NjI1OTcyNTM1OTNjODgyZjRmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4WnlkdWVMeCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lMTk1MTBkN2RkMDllY2Q2NzljYjcwOWVhZDg5NGQ0OWEwOGJlNmJlYTRmOTFmYTA1ZmI2YjE5ZWNhMmE1NTc0IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+    "name": "Winter Island",
+    "private_island": "WINTER",
+    "id": "WINTER_ISLAND"
   },
   {
     "material": "HAY_BLOCK",
@@ -25660,7 +25874,7 @@
   },
   {
     "material": "PAPER",
-    "name": "Poem of True Love",
+    "name": "§dPoem of True Love",
     "glowing": true,
     "tier": "EPIC",
     "id": "POEM_OF_INFINITE_LOVE"
@@ -25702,7 +25916,7 @@
   {
     "material": "GOLD_NUGGET",
     "skin": "eyJ0aW1lc3RhbXAiOjE1NzI5ODA0NDkwNDMsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg2OTBjMThlMmI4NzgwYzkyN2ZkMTIxZDVhMzYxOTZhNTNhNzJjNjcwYTg5ZDc4NWRlZWRlZTMxNTUwMjRiMmEifX19",
-    "name": "Very Official Yellow Rock of Love!",
+    "name": "§eVery Official Yellow Rock of Love!",
     "glowing": true,
     "tier": "LEGENDARY",
     "id": "VERY_OFFICIAL_YELLOW_ROCK"
@@ -25734,7 +25948,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTIyMDM3NywKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGJkZjBmNjI4YzA1ZTg2Y2FiZGVlMmY1ODU4ZGQ1ZGVmN2Y4YjhkOTQwY2JmMjVmOTkzN2UyZmZiNTM0MzJmNCIKICAgIH0KICB9Cn0",
-    "name": "Monochrome Elephant Skin",
+    "name": "MonochromeElephant",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -25782,7 +25996,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODk2MjExZGM1OTkzNjhkYmQ5MDU2YzAxMTZhYjYxMDYzOTkxZGI3OTNiZTkzMDY2YTg1OGViNGU5Y2U1NjQzOCJ9fX0K",
-    "name": "Twilight Tiger Skin",
+    "name": "TwilightTiger",
     "category": "COSMETIC",
     "tier": "MYTHIC",
     "unstackable": true,
@@ -25799,7 +26013,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwODUwODM4MTEwMCwKICAicHJvZmlsZUlkIiA6ICI4MmM2MDZjNWM2NTI0Yjc5OGI5MWExMmQzYTYxNjk3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb3ROb3RvcmlvdXNOZW1vIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzFkODJmOWMzNmU4MjRjMWUzNzk2M2E4NDliZjVhYmQ3NmQzYjM0OTEyNTAyMzUwNGFmNTgzNjkwODYwODllZTkiCiAgICB9CiAgfQp9",
-    "name": "Red Elf Jerry Skin",
+    "name": "Red ElfJerry",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -26659,7 +26873,7 @@
     "material": "GOLD_SWORD",
     "name": "Ferocity Sword 150",
     "category": "SWORD",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DAMAGE": 10,
       "FEROCITY": 150
@@ -26668,7 +26882,7 @@
   },
   {
     "material": "COOKIE",
-    "name": "Booster Cookie (FREE)",
+    "name": "Booster Cookie §8(FREE)",
     "glowing": true,
     "tier": "LEGENDARY",
     "unstackable": true,
@@ -26737,9 +26951,17 @@
     "tier": "RARE",
     "stats": {
       "DEFENSE": 35,
-      "HEALTH": 20
+      "HEALTH": 20,
+      "FARMING_FORTUNE": 10
     },
     "npc_sell_price": 2500,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
     "id": "FARM_ARMOR_BOOTS"
   },
   {
@@ -26885,7 +27107,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY0MzYwMDEzOTEwOCwKICAicHJvZmlsZUlkIiA6ICJmODJmNTQ1MDIzZDA0MTFkYmVlYzU4YWI4Y2JlMTNjNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXNwb25kZW50cyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MzZkNjZjZTMzMDA1YWY0ZWU0ZTk2MzczODYzNDk5NTc5MDJmMjViN2VhNjI5NTc3MTY2ZjgzMGZlMGM1NGY2IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-    "name": "Yellow Belt",
+    "name": "§eYellow Belt",
     "tier": "UNCOMMON",
     "stats": {
       "HEALTH": 15,
@@ -27209,7 +27431,7 @@
     "name": "Zoom",
     "glowing": true,
     "category": "PICKAXE",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "BREAKING_POWER": 10,
       "DAMAGE": 30,
@@ -27282,7 +27504,7 @@
       {
         "type": "DUNGEON_SKILL",
         "dungeon_type": "CATACOMBS",
-        "level": 27
+        "level": 15
       }
     ],
     "gemstone_slots": [
@@ -27338,13 +27560,20 @@
       "HEALTH": 15
     },
     "npc_sell_price": 4,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 5
+      }
+    ],
     "id": "CACTUS_CHESTPLATE"
   },
   {
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzhlNDE0ZTc2MmUxMDI0Yzc5OWU3MGI3YTUyN2MyMmZiOTU2NDhmMTQxZDY2MGIxMGM1MTJjYzEyNDMzNDIxOCJ9fX0K",
-    "name": "Dark Wolf Skin",
+    "name": "DarkWolf",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -27358,7 +27587,7 @@
     },
     "name": "Sword of the Stars 3000",
     "category": "SWORD",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DAMAGE": 999999
     },
@@ -27416,7 +27645,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjkyYTFhNWMzMjVmMjVmNzQzOGEwYWJiNGY4NmJhNmNmNzU1NTJkMDJjNzM0OWE3MjkyOTgxNDU5YjMxZDJmNyJ9fX0K",
-    "name": "White Sheep Skin",
+    "name": "WhiteSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -27894,14 +28123,13 @@
     "name": "Feather Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 160,
-    "id": "FEATHER_TALISMAN",
-    "tier": "COMMON"
+    "id": "FEATHER_TALISMAN"
   },
   {
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjk2MDExNDY4NiwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kN2NkZGY1YjIwY2I1MGQ2NjAwZTUzMzNjNmJiM2ZiMTViNDc0MWYxN2UzNjc1ZmMyYmZjMDljMmNkMDllNjE5IgogICAgfQogIH0KfQ==",
-    "name": "Rose Rabbit Skin",
+    "name": "RoseRabbit",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -27975,6 +28203,13 @@
       "HEALTH": 8
     },
     "npc_sell_price": 8,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 2
+      }
+    ],
     "id": "PUMPKIN_BOOTS"
   },
   {
@@ -28629,7 +28864,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjAyMGMzMzY5MjhkOTRmODhiZmNlYjUxODE4YTY0MDQwYjgyNjZkNDk3ZDM4ZWUxMjhlNDNhNGUwMmUyYTM2In19fQ==",
     "name": "Boss",
     "category": "HELMET",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "WALK_SPEED": 60,
       "DEFENSE": 1000,
@@ -28805,7 +29040,7 @@
     "material": "GOLD_CHESTPLATE",
     "name": "Chestplate of the Stars",
     "category": "CHESTPLATE",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DEFENSE": 5000,
       "HEALTH": 20000,
@@ -29088,7 +29323,7 @@
   {
     "material": "STAINED_GLASS",
     "durability": 14,
-    "name": "Dctr's Space Helmet",
+    "name": "Space Helmet",
     "category": "HELMET",
     "tier": "SPECIAL",
     "museum": true,
@@ -29266,7 +29501,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmRhYzlhNTE4MTNhYmNiNjY2ZWUyYzJjYTg0Y2VmY2ZiMjFlNThiN2IwMWFlMGVhN2U5OWQzNWYzMjNhIn19fQ==",
-    "name": "Secret Gift for Juliette",
+    "name": "§cSecret Gift for Juliette",
     "tier": "EPIC",
     "id": "WRAPPED_GIFT_FOR_JULIETTE"
   },
@@ -29928,7 +30163,7 @@
       {
         "type": "DUNGEON_SKILL",
         "dungeon_type": "CATACOMBS",
-        "level": 27
+        "level": 15
       }
     ],
     "gemstone_slots": [
@@ -29961,6 +30196,13 @@
       "HEALTH": 40
     },
     "npc_sell_price": 163840,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 18
+      }
+    ],
     "id": "FARMER_BOOTS"
   },
   {
@@ -30228,7 +30470,7 @@
     "material": "DIAMOND_BOOTS",
     "name": "Titan's Boots",
     "category": "BOOTS",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DEFENSE": 100,
       "HEALTH": 100,
@@ -30482,7 +30724,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWE4NGNjODgxOGMyOTM0ODRmZGFhZmM4ZmEyZjBiZjM5ZTU1NzMzYTI0N2Q2ODAyM2RmMmM2YzZiOWI2NzFkMCJ9fX0K",
-    "name": "Spooky Enderman Skin",
+    "name": "SpookyEnderman",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -30812,7 +31054,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTU4MmVlNWQxYzVjMDhkMzdkZjI2ZDY5MjJiZTA4MDhiZTljMGI2YjM0N2Q4OWMwZGEyNjM1NjJmYWZjZDUwNSJ9fX0K",
-    "name": "Red Sheep Skin",
+    "name": "RedSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -31464,6 +31706,13 @@
       "HEALTH": 14
     },
     "npc_sell_price": 16,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 2
+      }
+    ],
     "id": "PUMPKIN_CHESTPLATE"
   },
   {
@@ -31498,7 +31747,7 @@
     },
     "name": "Sword of the Stars 9000",
     "category": "SWORD",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DAMAGE": 9999999
     },
@@ -31587,9 +31836,17 @@
     "name": "Farm Suit Boots",
     "category": "BOOTS",
     "stats": {
-      "DEFENSE": 15
+      "DEFENSE": 15,
+      "FARMING_FORTUNE": 5
     },
     "npc_sell_price": 20,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 3
+      }
+    ],
     "id": "FARM_SUIT_BOOTS"
   },
   {
@@ -32631,13 +32888,20 @@
       "HEALTH": 5
     },
     "npc_sell_price": 2,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 5
+      }
+    ],
     "id": "CACTUS_BOOTS"
   },
   {
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTAyMDFkNjg0NmQ3MGQ5NDI1NWY3ZjdkMWZiMWYxN2ZkMjdmZGYyMDQ2NWQyODM0NzJmNmFjYTM0YzIyMDJiZCJ9fX0K",
-    "name": "Green Sheep Skin",
+    "name": "GreenSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -32660,6 +32924,15 @@
     "furniture": "WREATH",
     "tier": "RARE",
     "id": "WREATH"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTI2NWY5NmY1NGI3ODg4NWM0NmU3ZDJmODZiMWMxZGJmZTY0M2M2MDYwZmM3ZmNjOTgzNGMzZTNmZDU5NTEzNSJ9fX0=",
+    "name": "Winter Crystal",
+    "crystal": "WINTER_ISLAND",
+    "tier": "RARE",
+    "id": "WINTER_ISLAND_CRYSTAL"
   },
   {
     "material": "SKULL_ITEM",
@@ -33006,7 +33279,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzRmODlmYmQxMmMyMDlmN2YyNmMxZjM0YTFiZDdmNDc2MzU4MTQ3NTljMDk2ODhkZDIxMmIyMDVjNzNhOGMwMiJ9fX0K",
-    "name": "Derpy Rock Skin",
+    "name": "DerpyRock",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -34540,7 +34813,7 @@
     "material": "DIAMOND_LEGGINGS",
     "name": "Titan's Leggings",
     "category": "LEGGINGS",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DEFENSE": 175,
       "HEALTH": 200,
@@ -34560,7 +34833,7 @@
   },
   {
     "material": "BOW",
-    "name": "⚚ Spider Queen's Stinger",
+    "name": "Spider Queen's Stinger",
     "category": "BOW",
     "tier": "EPIC",
     "stats": {
@@ -35245,8 +35518,7 @@
     "name": "Master Skull - Tier 1",
     "category": "ACCESSORY",
     "dungeon_item": true,
-    "id": "MASTER_SKULL_TIER_1",
-    "tier": "COMMON"
+    "id": "MASTER_SKULL_TIER_1"
   },
   {
     "material": "GHAST_TEAR",
@@ -35267,7 +35539,7 @@
     },
     "name": "Sword of the Stars",
     "category": "SWORD",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DAMAGE": 99999
     },
@@ -35953,9 +36225,17 @@
     "name": "Farm Suit Helmet",
     "category": "HELMET",
     "stats": {
-      "DEFENSE": 15
+      "DEFENSE": 15,
+      "FARMING_FORTUNE": 5
     },
     "npc_sell_price": 25,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 3
+      }
+    ],
     "id": "FARM_SUIT_HELMET"
   },
   {
@@ -36368,19 +36648,6 @@
     "category": "PET_ITEM",
     "tier": "LEGENDARY",
     "id": "PET_ITEM_TOY_JERRY"
-  },
-  {
-    "material": "LEATHER_CHESTPLATE",
-    "color": "255,255,255",
-    "name": "Snow Suit Chestplate",
-    "category": "CHESTPLATE",
-    "tier": "EPIC",
-    "stats": {
-      "DEFENSE": 40,
-      "HEALTH": 100
-    },
-    "npc_sell_price": 1000,
-    "id": "SNOW_SUIT_CHESTPLATE"
   },
   {
     "material": "SKULL_ITEM",
@@ -37186,7 +37453,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2YxODNlYzJmZTU4ZmFhNDNlNTY4NDE5YjdhMGRjNDQ2ZWNlNGVhMGJlNTJlYzc4NGM5NGUxZDc0Yjc1OTM5ZCJ9fX0K",
-    "name": "Light Green Sheep Skin",
+    "name": "Light GreenSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -37203,7 +37470,7 @@
     "material": "LEATHER_LEGGINGS",
     "item_durability": -1,
     "color": "0,0,0",
-    "name": "⚚ Shadow Assassin Leggings",
+    "name": "Shadow Assassin Leggings",
     "category": "LEGGINGS",
     "tier": "LEGENDARY",
     "stats": {
@@ -37311,7 +37578,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmEzNWMwMmUzZjAzNWNkNjU4NmM0MjkzODA2NWZkYzEyNDFkMGVmODgzOGU2ZTkwMWUxNDZlYTZiNmYwYmZmZSJ9fX0K",
-    "name": "Light Gray Sheep Skin",
+    "name": "Light GraySheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -37330,7 +37597,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyMTk4NDE5NTUwNCwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGZmZjQxZTFhZmM1OTdiMTRmNzdiOGU0NGUyYTEzNGRhYmUxNjFhMTUyNmFkZTgwZTYyOTBmMmRmMzMxZGMxMSIKICAgIH0KICB9Cn0=",
-    "name": "Void Conqueror Enderman Skin",
+    "name": "Void ConquerorEnderman",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -37624,6 +37891,14 @@
     "npc_sell_price": 16,
     "museum": true,
     "id": "COW_HEAD"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzQ2NDg3NGRmNDUyYzFkNzE3ZWRkZDBmYjNiODQ4MjAyYWQxNTU3MTI0NWFmNmZhZGUyZWNmNTE0ZjNjODBiYiJ9fX0=",
+    "name": "Cryopowder Shard",
+    "tier": "LEGENDARY",
+    "id": "CRYOPOWDER_SHARD"
   },
   {
     "material": "LEAVES",
@@ -38116,9 +38391,17 @@
     "tier": "RARE",
     "stats": {
       "DEFENSE": 50,
-      "HEALTH": 20
+      "HEALTH": 20,
+      "FARMING_FORTUNE": 10
     },
     "npc_sell_price": 4500,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
     "id": "FARM_ARMOR_LEGGINGS"
   },
   {
@@ -38613,7 +38896,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxMTEwMjQxMTE5MSwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGE2MmVjNGUwMTlmZTBmZWQwNTk2NjNhZTU5ZGFhMGQ5MTcyOTUxN2JmMzNhZTdmN2Q3ZTcyMjkxMzYwMmRmNCIKICAgIH0KICB9Cn0",
-    "name": "Pastel Ender Dragon Skin",
+    "name": "PastelEnder Dragon",
     "category": "COSMETIC",
     "tier": "LEGENDARY",
     "unstackable": true,
@@ -39237,9 +39520,17 @@
     "name": "Farm Suit Chestplate",
     "category": "CHESTPLATE",
     "stats": {
-      "DEFENSE": 40
+      "DEFENSE": 40,
+      "FARMING_FORTUNE": 5
     },
     "npc_sell_price": 40,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 3
+      }
+    ],
     "id": "FARM_SUIT_CHESTPLATE"
   },
   {
@@ -39492,6 +39783,13 @@
       "HEALTH": 8
     },
     "npc_sell_price": 10,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 2
+      }
+    ],
     "id": "PUMPKIN_HELMET"
   },
   {
@@ -39625,7 +39923,7 @@
     "material": "LEATHER_BOOTS",
     "item_durability": -1,
     "color": "0,0,0",
-    "name": "⚚ Shadow Assassin Boots",
+    "name": "Shadow Assassin Boots",
     "category": "BOOTS",
     "tier": "LEGENDARY",
     "stats": {
@@ -39880,7 +40178,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzIyMjIwZGUxYTg2M2JjNWQ5YjllN2E2YTNiMDMyMTRjOWYzZDY5OGVkM2ZlMGQyODIyMGYzYjkzYjc2ODVjNSJ9fX0K",
-    "name": "Light Blue Sheep Skin",
+    "name": "Light BlueSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -39910,7 +40208,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTMxNDcxMCwKICAicHJvZmlsZUlkIiA6ICI5NGMzZGM3YTdiMmQ0NzQ1YmVlYjQzZDc2ZjRjNDVkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEb25fVml0b0Nvcmxlb25lIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM2MGMxMjJhZGU1YjJmZWRjYTE0YWE3OGM4MzRhN2IwYWM5Y2I1ZGEyYTBjOTMxMTIxNjMwODZmOTBjMTNiNjgiCiAgICB9CiAgfQp9",
-    "name": "Green Elephant Skin",
+    "name": "GreenElephant",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -40785,7 +41083,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYxYTI3N2JlYjllNGZhYTZlN2UzNTZjNzQ3ODZlOTY2MTU1NzM2YTY4NThiZjViYjVhZDI5ZGY1YmFiNjFhMSJ9fX0=",
-    "name": "Solved Rubix Prism",
+    "name": "§bSolved Rubix Prism",
     "tier": "EPIC",
     "id": "SOLVED_PRISM"
   },
@@ -40809,7 +41107,7 @@
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDdkN2Y4ZmQ4N2ZlN2UzNGY5MTEzZGQzODVhYWI3YjI0ZWYyMjFjMTlkNDU1MTc1YjI1NzhhZjdmZjQ2ZWVjZiJ9fX0=",
     "name": "Giant pile of Cash",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "npc_sell_price": 1000000000,
     "dungeon_item": true,
     "id": "PILE_OF_CASH"
@@ -40961,7 +41259,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjdmZjM0OTkyZTY2NTk5ZTg1MjkwMDhiZTNmYjU3N2NiMGFiNTQ1Mjk0MjUzZTI1YTBjYzk4OGU0MTZjODQ5In19fQo",
-    "name": "Embarrassed Rock Skin",
+    "name": "EmbarrassedRock",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -41057,7 +41355,7 @@
       {
         "type": "DUNGEON_SKILL",
         "dungeon_type": "CATACOMBS",
-        "level": 27
+        "level": 15
       }
     ],
     "gemstone_slots": [
@@ -41711,7 +42009,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxNjk2MDMyODc3MCwKICAicHJvZmlsZUlkIiA6ICI5ZDIyZGRhOTVmZGI0MjFmOGZhNjAzNTI1YThkZmE4ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYWZlRHJpZnQ0OCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8zNWEyMTE5ZDEyMjk2MTg1MmMwMTBjMTAwN2FiMmFmZjk1YjRiYmViNzQ0MDc0NjNmNmQyZTFmZjA3OTJjODEyIgogICAgfQogIH0KfQ==",
-    "name": "Aquamarine Rabbit Skin",
+    "name": "AquamarineRabbit",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -41881,8 +42179,7 @@
     "glowing": true,
     "category": "ACCESSORY",
     "npc_sell_price": 85,
-    "id": "COMPASS_TALISMAN",
-    "tier": "COMMON"
+    "id": "COMPASS_TALISMAN"
   },
   {
     "material": "BOW",
@@ -42670,7 +42967,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDE1OGE1MDEyMTM3NDdlMTE5NjY5MDgyZGU1Yjc1MWQ2NmMyYzU1ZDdjMDUxY2I1ODM2N2NhNDY2NTI4OWY2MCJ9fX0K",
-    "name": "Blue Sheep Skin",
+    "name": "BlueSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -42681,7 +42978,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDIyNTA0NDA4MiwKICAicHJvZmlsZUlkIiA6ICJiMGQ3MzJmZTAwZjc0MDdlOWU3Zjc0NjMwMWNkOThjYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJPUHBscyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iZTkyNDExNWQzYThiYmFjZmQ0ZmFmYjZjYzcwZjk5YTJmNzU4MGU0NTgzYTUwZmE5YjljMjg1YTk4YWMwYzU2IgogICAgfQogIH0KfQ",
-    "name": "Onyx Black Cat Skin",
+    "name": "OnyxBlack Cat",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -43013,7 +43310,6 @@
     "category": "REFORGE_STONE",
     "tier": "RARE",
     "npc_sell_price": 1,
-    "description": "%%gray%%%%italic%%Extremely rare stone, only found in the Crystal Hollows.",
     "id": "JADERALD"
   },
   {
@@ -43067,7 +43363,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWE5ZGNkYTY0MmE4MDdjZDJkYWE0YWE2YmU4N2NlZjk2ZTA4YThjOGY1Y2VjMjY1N2RkYTQyNjZjNmE4ODRjMiJ9fX0K",
-    "name": "Black Sheep Skin",
+    "name": "BlackSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -43416,8 +43712,7 @@
     "name": "Village Affinity Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 200,
-    "id": "VILLAGE_TALISMAN",
-    "tier": "COMMON"
+    "id": "VILLAGE_TALISMAN"
   },
   {
     "material": "LOG",
@@ -43911,19 +44206,6 @@
     "id": "SPIDER_HAT"
   },
   {
-    "material": "LEATHER_LEGGINGS",
-    "color": "255,255,255",
-    "name": "Snow Suit Leggings",
-    "category": "LEGGINGS",
-    "tier": "EPIC",
-    "stats": {
-      "DEFENSE": 30,
-      "HEALTH": 75
-    },
-    "npc_sell_price": 1000,
-    "id": "SNOW_SUIT_LEGGINGS"
-  },
-  {
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc1YjU4NmQyOWFhNGY2MzAwNjcwN2ZiZTk0YTMzYzg5YzIyNWY0OWIzYjQ0Y2IxODE3Mzg2NTZjOTQyZTI3NyJ9fX0=",
@@ -44283,7 +44565,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWM4NDBiNjZjNjQ0MjA1OWJhMzFmYzM0OTk4ZTE1YzQ0NDdhNDI5ZDNmNzg5YTdlOWY2MmU2YTU3ZGRhMGFiMiJ9fX0K",
-    "name": "Yellow Sheep Skin",
+    "name": "YellowSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -44435,6 +44717,13 @@
     "name": "Sheep Axe",
     "category": "AXE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "SHEEP_AXE"
   },
   {
@@ -44682,6 +44971,13 @@
       "HEALTH": 10
     },
     "npc_sell_price": 16,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 7
+      }
+    ],
     "id": "MUSHROOM_CHESTPLATE"
   },
   {
@@ -44970,8 +45266,7 @@
     "name": "Mine Affinity Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 200,
-    "id": "MINE_TALISMAN",
-    "tier": "COMMON"
+    "id": "MINE_TALISMAN"
   },
   {
     "material": "WOOL",
@@ -45027,6 +45322,13 @@
       "HEALTH": 20
     },
     "npc_sell_price": 82000,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "ENCHANTED_JACK_O_LANTERN"
   },
   {
@@ -45104,7 +45406,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDIyNTAxMTY3MiwKICAicHJvZmlsZUlkIiA6ICIxNzhmMTJkYWMzNTQ0ZjRhYjExNzkyZDc1MDkzY2JmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaWxlbnRkZXRydWN0aW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y1MWIxN2Q3ZGVkNmM3ZThmM2IyZGFjMTIzNzhhNmZjNGU5MjI4YjkxMTk4NmY2NGM4YWY0NTgzN2FlNmQ5ZTEiCiAgICB9CiAgfQp9",
-    "name": "Ivory Black Cat Skin",
+    "name": "IvoryBlack Cat",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -45401,6 +45703,13 @@
       "HEALTH": 5
     },
     "npc_sell_price": 3,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 5
+      }
+    ],
     "id": "CACTUS_HELMET"
   },
   {
@@ -45417,8 +45726,7 @@
     "name": "Wolf Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 50,
-    "id": "WOLF_TALISMAN",
-    "tier": "COMMON"
+    "id": "WOLF_TALISMAN"
   },
   {
     "material": "IRON_HOE",
@@ -45437,8 +45745,7 @@
     "category": "ACCESSORY",
     "npc_sell_price": 22,
     "museum": true,
-    "id": "DANTE_TALISMAN",
-    "tier": "COMMON"
+    "id": "DANTE_TALISMAN"
   },
   {
     "material": "SKULL_ITEM",
@@ -47682,6 +47989,13 @@
     "name": "Pig Axe",
     "category": "AXE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "PIG_AXE"
   },
   {
@@ -48523,7 +48837,7 @@
   {
     "material": "STONE_SWORD",
     "item_durability": -1,
-    "name": "⚚ Adaptive Blade",
+    "name": "Adaptive Blade",
     "category": "SWORD",
     "tier": "EPIC",
     "stats": {
@@ -48872,7 +49186,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMThlOWM5MmIzNzY4YzQ2NGI2ZTU1N2I1ZTNkOGU0ZGFhOGEzNzdjOTgzYjhmYjI1MDE5NzYwYjZlYWUwMzEyNyJ9fX0K",
-    "name": "Gray Sheep Skin",
+    "name": "GraySheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -48881,7 +49195,7 @@
   },
   {
     "material": "BOW",
-    "name": "⚚ Venom's Touch",
+    "name": "Venom's Touch",
     "category": "BOW",
     "tier": "EPIC",
     "stats": {
@@ -49105,8 +49419,7 @@
       "WALK_SPEED": 1
     },
     "museum": true,
-    "id": "POTATO_TALISMAN",
-    "tier": "COMMON"
+    "id": "POTATO_TALISMAN"
   },
   {
     "material": "POTION",
@@ -49626,6 +49939,7 @@
   {
     "material": "SEEDS",
     "name": "Enchanted Seeds",
+    "tier": "UNCOMMON",
     "glowing": true,
     "npc_sell_price": 80,
     "id": "ENCHANTED_SEEDS"
@@ -49708,7 +50022,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJkZTU1ZWQ1NGNiNWM4NzY2MWI4NmMzNDkxODZhOWQ1YmFmZmIzY2I5MzRiNDQ5YTJkMzI5ZTM5OWQzNGJmIn19fQ==",
-    "name": "Baby Chick Chicken Skin",
+    "name": "Baby ChickChicken",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -49801,7 +50115,7 @@
     "durability": 3,
     "item_durability": -1,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4YWY1MmVmMmY3MmMzYmY1ZWNlNmU3MGE4MmYxMzcxOTU5Y2UzZmNiNzM2YzUwMDMwNWNhZGRjNTA1YzVlMiJ9fX0",
-    "name": "⚚ Shadow Assassin Helmet",
+    "name": "Shadow Assassin Helmet",
     "category": "HELMET",
     "tier": "LEGENDARY",
     "stats": {
@@ -50164,7 +50478,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTI2NjY1NCwKICAicHJvZmlsZUlkIiA6ICI5ZDQyNWFiOGFmZjg0MGU1OWM3NzUzZjc5Mjg5YjMyZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUb21wa2luNDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmE1YzY2ZWM2NmNiNmI0YjU1NTAwODVmNTgzYjRlNWMxY2VlNTI0N2JlYzVmYmNjNWMzMThjMzBjNjZjYWI0MiIKICAgIH0KICB9Cn0",
-    "name": "Red Elephant Skin",
+    "name": "RedElephant",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -50201,7 +50515,7 @@
   },
   {
     "material": "POTION",
-    "name": "Bottle of Jyrre",
+    "name": "§cBottle of Jyrre",
     "npc_sell_price": 100,
     "id": "BOTTLE_OF_JYRRE"
   },
@@ -50511,7 +50825,7 @@
     "material": "GOLD_SWORD",
     "name": "Ferocity Sword 50",
     "category": "SWORD",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DAMAGE": 10,
       "FEROCITY": 50
@@ -50522,7 +50836,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI2YzYyOGE0OGY2NDE2MDk5MTU0NGQyYTc4NGVjMmNhMDk1NjNlOGQ2ZGE0OTE5MTU4MjczYWJhYmI5MSJ9fX0=",
-    "name": "Crab Hat of Celebration (2020)",
+    "name": "Crab Hat of Celebration",
     "category": "ACCESSORY",
     "stats": {
       "MAGIC_FIND": 1
@@ -50962,7 +51276,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTEyOTc5NSwKICAicHJvZmlsZUlkIiA6ICJiYzRlZGZiNWYzNmM0OGE3YWM5ZjFhMzlkYzIzZjRmOCIsCiAgInByb2ZpbGVOYW1lIiA6ICI4YWNhNjgwYjIyNDYxMzQwIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU3MGVlZjQ3NGVjMGU1NmNjMzRjMjMwN2VhYTM5ZjAyNDYxMmY4Y2Q3MjQ4ZTdkNWIxNDE2OWViZDMwN2M3NDIiCiAgICB9CiAgfQp9",
-    "name": "Pink Elephant Skin",
+    "name": "PinkElephant",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -51045,8 +51359,7 @@
     "stats": {
       "WALK_SPEED": 1
     },
-    "id": "SPEED_TALISMAN",
-    "tier": "COMMON"
+    "id": "SPEED_TALISMAN"
   },
   {
     "material": "SKULL_ITEM",
@@ -51652,7 +51965,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QxNGUyNTJjYTRhMzQzODgyYzNiMDViYmNmYjhmYzgzN2QyZGU5ZGI0MWRjNTM3MTEzYjczMjA5OCJ9fX0=",
     "name": "The Fast",
     "category": "HELMET",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "WALK_SPEED": 1000
     },
@@ -51865,9 +52178,17 @@
     "name": "Farm Suit Leggings",
     "category": "LEGGINGS",
     "stats": {
-      "DEFENSE": 30
+      "DEFENSE": 30,
+      "FARMING_FORTUNE": 5
     },
     "npc_sell_price": 32,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 3
+      }
+    ],
     "id": "FARM_SUIT_LEGGINGS"
   },
   {
@@ -51974,8 +52295,7 @@
     "name": "Scavenger Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 200,
-    "id": "SCAVENGER_TALISMAN",
-    "tier": "COMMON"
+    "id": "SCAVENGER_TALISMAN"
   },
   {
     "material": "FISHING_ROD",
@@ -52315,19 +52635,6 @@
     "id": "BERSERKER_LEGGINGS"
   },
   {
-    "material": "LEATHER_BOOTS",
-    "color": "255,255,255",
-    "name": "Snow Suit Boots",
-    "category": "BOOTS",
-    "tier": "EPIC",
-    "stats": {
-      "DEFENSE": 25,
-      "HEALTH": 65
-    },
-    "npc_sell_price": 1000,
-    "id": "SNOW_SUIT_BOOTS"
-  },
-  {
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY1MjE0NjQ4ODk4NiwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82N2Q5ZmUwNjUwMjRmZmY0YjM0Yzc4ZjkyY2QzMTUwZDZiZGZhYWI3YzM3NWEwZWU3ODUwNzZlMWE0YTI1NGU5IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
@@ -52430,8 +52737,7 @@
     "stats": {
       "vitality": 5
     },
-    "id": "HEALING_TALISMAN",
-    "tier": "COMMON"
+    "id": "HEALING_TALISMAN"
   },
   {
     "material": "SKULL_ITEM",
@@ -52488,6 +52794,13 @@
       "DEFENSE": 70,
       "HEALTH": 100
     },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 21
+      }
+    ],
     "id": "RANCHERS_BOOTS"
   },
   {
@@ -52509,7 +52822,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTlhODhjZjdkZDMzMDYzNTg3YzZiNTQwZTYxMzBhYmM1ZDA3ZjFhNjVjNDc1NzNhYjNjMWFkM2NjZWM4ODU3ZiJ9fX0K",
-    "name": "Purple Sheep Skin",
+    "name": "PurpleSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -52706,6 +53019,13 @@
       "HEALTH": 15
     },
     "npc_sell_price": 8,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 7
+      }
+    ],
     "id": "MUSHROOM_BOOTS"
   },
   {
@@ -52738,7 +53058,7 @@
     "material": "GOLD_BOOTS",
     "name": "Boots of the Stars",
     "category": "BOOTS",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DEFENSE": 2500,
       "HEALTH": 7500,
@@ -52761,7 +53081,7 @@
     },
     "name": "Raygun",
     "category": "BOW",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DAMAGE": 99999999
     },
@@ -52899,7 +53219,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDkxOGJlMTQyYTIwYjJiMzliYzU4MmY0MjFmNmFlODdiMzE4NGI1Yzk1MjNkMTZmYmU2ZDY5NTMwMTA3ODg2YSJ9fX0K",
-    "name": "Neon Red Sheep Skin",
+    "name": "Neon RedSheep",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -53717,7 +54037,7 @@
     "durability": 3,
     "item_durability": -1,
     "skin": "eyJ0aW1lc3RhbXAiOjE1NzQ0MTkzMTAxNjQsInByb2ZpbGVJZCI6Ijc1MTQ0NDgxOTFlNjQ1NDY4Yzk3MzlhNmUzOTU3YmViIiwicHJvZmlsZU5hbWUiOiJUaGFua3NNb2phbmciLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzEyNzE2ZWNiZjViOGRhMDBiMDVmMzE2ZWM2YWY2MWU4YmQwMjgwNWIyMWViOGU0NDAxNTE0NjhkYzY1NjU0OWMifX19",
-    "name": "⚚ Bonzo's Mask",
+    "name": "Bonzo's Mask",
     "category": "HELMET",
     "tier": "RARE",
     "stats": {
@@ -54240,8 +54560,7 @@
     "name": "Potion Affinity Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 192,
-    "id": "POTION_AFFINITY_TALISMAN",
-    "tier": "COMMON"
+    "id": "POTION_AFFINITY_TALISMAN"
   },
   {
     "material": "BLAZE_ROD",
@@ -54513,7 +54832,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNjQyODA0NDIzNCwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZlNmZiNjZiZmU5NzM3YTMzYmE1M2YzZDVhOGI5ZmRiYTFjNjVhNWQyNzYwYmNkOWE2ZTU0OTI4NTI3MTAzYiIKICAgIH0KICB9Cn0",
-    "name": "Bullhead Megalodon Skin",
+    "name": "BullheadMegalodon",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -54773,7 +55092,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTM5MjY2NDk2MCwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzNlYjNlMzdlOTg3M2JmYzE3NmI5ZWQ4ZWY0ZmJlZjgzM2RlMTQ0NTQ2YmZhZWZkZjI0ODYzYzNlYjg3YmI4NiIKICAgIH0KICB9Cn0",
-    "name": "Gorilla Monkey Skin",
+    "name": "GorillaMonkey",
     "category": "COSMETIC",
     "tier": "MYTHIC",
     "unstackable": true,
@@ -54972,7 +55291,7 @@
     "material": "GOLD_HELMET",
     "name": "Helmet of the Stars",
     "category": "HELMET",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DEFENSE": 3000,
       "HEALTH": 10000,
@@ -55084,8 +55403,7 @@
     "name": "Master Skull - Tier 2",
     "category": "ACCESSORY",
     "dungeon_item": true,
-    "id": "MASTER_SKULL_TIER_2",
-    "tier": "COMMON"
+    "id": "MASTER_SKULL_TIER_2"
   },
   {
     "material": "SKULL_ITEM",
@@ -55234,8 +55552,7 @@
     "name": "Intimidation Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 200,
-    "id": "INTIMIDATION_TALISMAN",
-    "tier": "COMMON"
+    "id": "INTIMIDATION_TALISMAN"
   },
   {
     "material": "JUNGLE_FENCE",
@@ -55320,7 +55637,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxMTEwMjM4NzYxNiwKICAicHJvZmlsZUlkIiA6ICI2ZmU4OTUxZDVhY2M0NDc3OWI2ZmYxMmU3YzFlOTQ2MyIsCiAgInByb2ZpbGVOYW1lIiA6ICJlcGhlbXJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzk2YTRiOWZiY2Y4YzNlN2UxMjMyZTU3ZDZhMjg3MGJhM2VhMzBmNzY0MDdhZTExOTdmZDUyZTlmNzZjYTQ2YWMiCiAgICB9CiAgfQp9",
-    "name": "Neon Blue Ender Dragon Skin",
+    "name": "Neon BlueEnder Dragon",
     "category": "COSMETIC",
     "tier": "LEGENDARY",
     "unstackable": true,
@@ -55361,7 +55678,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTcwODI1ZjNjMDJlYjNkM2Y4ZDEzMTIzYjYyNDkxMWM4YTU3ZDk3OTU1ZjNlYTcxNmFjYzIxMjcxNDQ1MDMyMyJ9fX0=",
     "name": "Voodoo",
     "category": "HELMET",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DEFENSE": 1000
     },
@@ -55645,7 +55962,7 @@
   {
     "material": "BLAZE_ROD",
     "item_durability": -1,
-    "name": "⚚ Bonzo's Staff",
+    "name": "Bonzo's Staff",
     "category": "SWORD",
     "tier": "RARE",
     "stats": {
@@ -55753,7 +56070,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTdmNDA1OWY4MjhkOTc0NTdiZmVkOGM0ZDhhOGJiYWE5NDRjZjhlMjU5ZmMyZjgyZmYyNzg1ZWE1MWQ1NTkwNSJ9fX0K",
-    "name": "Brown Sheep Skin",
+    "name": "BrownSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -56220,6 +56537,13 @@
     "name": "Mushroom Cow Axe",
     "category": "AXE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "MUSHROOM_COW_AXE"
   },
   {
@@ -56337,7 +56661,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWZhNzc0NzY4NGRjYjk2MTkyZDkwMzQyY2VhNjI3NDJlYzM2M2RhMDdjYjVlNmUyNWVlY2VjODg4Y2QyMDc2In19fQo",
-    "name": "Pink Sheep Skin",
+    "name": "PinkSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -56943,8 +57267,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwMzg5ODY4OTY3NiwKICAicHJvZmlsZUlkIiA6ICJhMmY4MzQ1OTVjODk0YTI3YWRkMzA0OTcxNmNhOTEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJiUHVuY2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjg0MWE0OWIxOTlhNTljNDMxYmYzZmMzNzgzZjZiNjU0NWNlNzhjMzgwNDI2MTdmNjZlYmQ4N2NkZDU0OGU4YyIKICAgIH0KICB9Cn0=",
     "name": "Bat Person Talisman",
     "category": "ACCESSORY",
-    "id": "BAT_PERSON_TALISMAN",
-    "tier": "COMMON"
+    "id": "BAT_PERSON_TALISMAN"
   },
   {
     "material": "WOOD",
@@ -56989,20 +57312,6 @@
     "id": "LAMP_CYAN"
   },
   {
-    "material": "SKULL_ITEM",
-    "durability": 3,
-    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QxMTE5NjQzY2VjZmJlMDA0MTQxYTFlYTQwNjJmODMxNWNhNzhlNTAzOTU4YWM1MDUwNWU4NTkyYzQ0YTYwMSJ9fX0=",
-    "name": "Snow Suit Helmet",
-    "category": "HELMET",
-    "tier": "EPIC",
-    "stats": {
-      "DEFENSE": 30,
-      "HEALTH": 70
-    },
-    "npc_sell_price": 1000,
-    "id": "SNOW_SUIT_HELMET"
-  },
-  {
     "material": "LEATHER_LEGGINGS",
     "color": "0,255,0",
     "name": "Cactus Leggings",
@@ -57012,6 +57321,13 @@
       "HEALTH": 10
     },
     "npc_sell_price": 3,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 5
+      }
+    ],
     "id": "CACTUS_LEGGINGS"
   },
   {
@@ -57105,7 +57421,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxMTEwMjQ0MjI1NCwKICAicHJvZmlsZUlkIiA6ICJhNzdkNmQ2YmFjOWE0NzY3YTFhNzU1NjYxOTllYmY5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICIwOEJFRDUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTA1YzliNGY0MjE4Njc3YzViNGJjYzljN2Q5ZTI5ZTE4ZDE2ODRhNTM2NzgxZmVkZTEyODBmYzVlNjk2MTUzOCIKICAgIH0KICB9Cn0",
-    "name": "Neon Red Ender Dragon Skin",
+    "name": "Neon RedEnder Dragon",
     "category": "COSMETIC",
     "tier": "LEGENDARY",
     "unstackable": true,
@@ -57459,7 +57775,7 @@
   {
     "material": "BOW",
     "item_durability": -1,
-    "name": "⚚ Last Breath",
+    "name": "Last Breath",
     "category": "BOW",
     "tier": "LEGENDARY",
     "stats": {
@@ -58837,7 +59153,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxMTEwMjQ5MTY3OCwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2EzYTM2MzM2OGVkMWUwNmNlZTM5MDA3MTdmMDYyZTAyZWMzOWFlZTE3NDc2NzUzOTIyNTViNDhmN2Y4MzYwMCIKICAgIH0KICB9Cn0",
-    "name": "Fossilized Silverfish Skin",
+    "name": "FossilizedSilverfish",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -58884,7 +59200,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNiMmYxMmNmNGYzNGE4YWRmZTNkNzViN2ZmNDg5YjkxYWJhM2M4YjE5OTUyMTNmYTQ2MWQ2ODQ5MGE1MSJ9fX0=",
-    "name": "Flower Maelstrom",
+    "name": "§cFlower Maelstrom",
     "tier": "EPIC",
     "id": "FLOWER_MAELSTROM"
   },
@@ -59068,7 +59384,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdjYzc2ZTdhZjI5ZjVmM2ZiZmQ2ZWNlNzk0MTYwODExZWZmOTZmNzUzNDU5ZmE2MWQ3YWQxNzZhMDY0ZTNjNSJ9fX0K",
-    "name": "Watcher Guardian Skin",
+    "name": "WatcherGuardian",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -59213,8 +59529,7 @@
     "category": "ACCESSORY",
     "npc_sell_price": 2000,
     "soulbound": "COOP",
-    "id": "KING_TALISMAN",
-    "tier": "COMMON"
+    "id": "KING_TALISMAN"
   },
   {
     "material": "LEATHER_LEGGINGS",
@@ -59537,7 +59852,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDQ4MjlkMzlhNTRlZDA2YmI1ZDA0YTJhMjFkMjYzNmM1ZGRmMjdiNTNkYzg0NDgyNjJmZGFiYzc3NWVjNjQwYSJ9fX0K",
-    "name": "Magenta Sheep Skin",
+    "name": "MagentaSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -59618,7 +59933,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjczYTIxMTQxMzZiOGVlNDkyNmNhYTUxNzg1NDE0MDM2YTJiNzZlNGYxNjY4Y2I4OWQ5OTcxNmM0MjEifX19",
-    "name": "Red Gift",
+    "name": "§cRed Gift",
     "tier": "RARE",
     "id": "RED_GIFT"
   },
@@ -60067,7 +60382,7 @@
   },
   {
     "material": "GOLD_NUGGET",
-    "name": "Yellow Rock",
+    "name": "§eYellow Rock",
     "glowing": true,
     "id": "YELLOW_ROCK"
   },
@@ -60193,8 +60508,7 @@
     "name": "Vaccine Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 22,
-    "id": "VACCINE_TALISMAN",
-    "tier": "COMMON"
+    "id": "VACCINE_TALISMAN"
   },
   {
     "material": "SKULL_ITEM",
@@ -60339,7 +60653,7 @@
   },
   {
     "material": "ENDER_STONE",
-    "name": "Chunk of the Moon",
+    "name": "§fChunk of the Moon",
     "tier": "RARE",
     "id": "MOON_CHUNK"
   },
@@ -60841,7 +61155,7 @@
     "material": "DIAMOND_CHESTPLATE",
     "name": "Titan's Chestplate",
     "category": "CHESTPLATE",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DEFENSE": 200,
       "HEALTH": 300,
@@ -60917,8 +61231,7 @@
     "name": "Farming Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 25,
-    "id": "FARMING_TALISMAN",
-    "tier": "COMMON"
+    "id": "FARMING_TALISMAN"
   },
   {
     "material": "LEATHER_HELMET",
@@ -60928,9 +61241,17 @@
     "tier": "RARE",
     "stats": {
       "DEFENSE": 40,
-      "HEALTH": 20
+      "HEALTH": 20,
+      "FARMING_FORTUNE": 10
     },
     "npc_sell_price": 3200,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
     "id": "FARM_ARMOR_HELMET"
   },
   {
@@ -61030,7 +61351,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTQyNjM0MjhjMjNkYTkxNjViMjYzOWE4ZjI0MjhmZjQ4MzUyMjc5NDVjOWUxMDM4NDYxY2Y2NDRkNjdjYzgyYSJ9fX0K",
-    "name": "Neon Yellow Sheep Skin",
+    "name": "Neon YellowSheep",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -61042,8 +61363,7 @@
     "name": "Skeleton Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 50,
-    "id": "SKELETON_TALISMAN",
-    "tier": "COMMON"
+    "id": "SKELETON_TALISMAN"
   },
   {
     "material": "MONSTER_EGG",
@@ -61055,7 +61375,7 @@
     "material": "GOLD_LEGGINGS",
     "name": "Leggings of the Stars",
     "category": "LEGGINGS",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DEFENSE": 4000,
       "HEALTH": 15000,
@@ -61347,7 +61667,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTM0NjMxZDk0MGZkZGI2ODlkZGVmNmEzYjM1MmM1MDIyMGM0NjBkYmEwNWNkMThkYzgzMTkyYjU5ZGM2NDdmOCJ9fX0K",
-    "name": "Pretty Rabbit Skin",
+    "name": "PrettyRabbit",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -61844,7 +62164,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGNjMWVmNTEzZDVmNjE2Njc1MjQyMTc0YWNkZTdiOWQ2MjU5YTQ3YzRmZThmNmU0YjZlMjA5MjAzMTlkNzA3MyJ9fX0K",
-    "name": "Laughing Rock Skin",
+    "name": "LaughingRock",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -61933,7 +62253,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMjg1NDk2NCwKICAicHJvZmlsZUlkIiA6ICJmMzA1ZjA5NDI0NTg0ZjU4YmEyYjY0ZjAyZDcyNDYyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJqcm9ja2EzMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NzgyMTFlMWI0ZDk5ZDFjN2JmZGE0ODM4ZTQ4ZmM4ODRjM2VhZTM3NmY1OGQ5MzJiYzJmNzhiMGE5MTlmOGU3IgogICAgfQogIH0KfQ==",
-    "name": "Zombie Skeleton Horse Skin",
+    "name": "ZombieSkeleton Horse",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -62146,7 +62466,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxMTEwMjQ2NjQwNCwKICAicHJvZmlsZUlkIiA6ICIxNzhmMTJkYWMzNTQ0ZjRhYjExNzkyZDc1MDkzY2JmYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzaWxlbnRkZXRydWN0aW9uIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzU0YmRmNWJhNjI4OWIyOWUyN2M1N2RiMWVjN2Y3NjE1MWMzOTQ5MmQ0MDkyNjhlMDBhOTgzOGU4Yzk2MzE1OSIKICAgIH0KICB9Cn0",
-    "name": "Neon Purple Ender Dragon Skin",
+    "name": "Neon PurpleEnder Dragon",
     "category": "COSMETIC",
     "tier": "LEGENDARY",
     "unstackable": true,
@@ -62390,7 +62710,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTI4Nzc2MiwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81NTRhMzRhODBjNDc0MjA2ZDM3MDBiOGZjZWQ2YjQ0ZmFiMGIwZWQwYjA1YzEyOTNmZjBjNWQ4NmVkYTI1MWQxIgogICAgfQogIH0KfQ",
-    "name": "Orange Elephant Skin",
+    "name": "OrangeElephant",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -63355,7 +63675,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjI0YzJkMTRhMDIxOWFmNWNjZmNhYTM2ZThhMzMzZTI3MTcyNGVkNjEyNzY2MTFmOTUyOWUxNmMxMDI3M2EwZCJ9fX0K",
-    "name": "Dark Wither Skeleton Skin",
+    "name": "DarkWither Skeleton",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -63390,8 +63710,7 @@
         "slot_type": "AMBER"
       }
     ],
-    "id": "POWER_TALISMAN",
-    "tier": "COMMON"
+    "id": "POWER_TALISMAN"
   },
   {
     "material": "FLINT_AND_STEEL",
@@ -63484,6 +63803,13 @@
       "HEALTH": 20
     },
     "npc_sell_price": 10,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 7
+      }
+    ],
     "id": "MUSHROOM_HELMET"
   },
   {
@@ -63627,7 +63953,7 @@
     },
     "name": "Sword of the Universe",
     "category": "SWORD",
-    "tier": "SPECIAL",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "DAMAGE": 99999999
     },
@@ -64176,8 +64502,8 @@
     "id": "SHIMMERING_LIGHT_TUNIC"
   },
   {
-    "material": "PAPER",
-    "name": "Journal Entry",
+    "material": "BOOK",
+    "name": "Journal",
     "tier": "RARE",
     "npc_sell_price": 1,
     "dungeon_item": true,
@@ -64221,7 +64547,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWU5MmMyNDBjNDk2NTE1NWUzMWYyNjU4MGY5ZGNjMGU4YTdiZjVkM2U0MTBhYWI2YzE5OWY1OTMyMzhjZTU2NSJ9fX0K",
-    "name": "Aqua Sheep Skin",
+    "name": "AquaSheep",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "unstackable": true,
@@ -64312,7 +64638,7 @@
       {
         "type": "DUNGEON_SKILL",
         "dungeon_type": "CATACOMBS",
-        "level": 27
+        "level": 15
       }
     ],
     "gemstone_slots": [
@@ -64371,6 +64697,13 @@
       "HEALTH": 10
     },
     "npc_sell_price": 14,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 7
+      }
+    ],
     "id": "MUSHROOM_LEGGINGS"
   },
   {
@@ -64507,8 +64840,7 @@
     "name": "Zombie Talisman",
     "category": "ACCESSORY",
     "npc_sell_price": 50,
-    "id": "ZOMBIE_TALISMAN",
-    "tier": "COMMON"
+    "id": "ZOMBIE_TALISMAN"
   },
   {
     "material": "SKULL_ITEM",
@@ -65048,7 +65380,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNhNjlmY2VlOGFlOWE5Mzg0NTMzZWI5NWY2NDQ3NGJlNTA1OTEwZDk1OWZmNGFjMTI2MTFiMzAxN2UwNzlkMCJ9fX0=",
     "name": "Anubis",
     "category": "HELMET",
-    "tier": "LEGENDARY",
+    "tier": "UNOBTAINABLE",
     "stats": {
       "HEALTH": 3000
     },
@@ -65090,7 +65422,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTk5NDkwMzQ1MCwKICAicHJvZmlsZUlkIiA6ICJmMjc0YzRkNjI1MDQ0ZTQxOGVmYmYwNmM3NWIyMDIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIeXBpZ3NlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iMDA4Y2E5YzAwY2VjZjQ5OTY4NTAzMGU4ZWYwYzIzMGEzMjkwODYxOWNlOWRjMTA2OTBiNjkxMTE1OTFmYWExIgogICAgfQogIH0KfQ==",
-    "name": "Orca Blue Whale Skin",
+    "name": "OrcaBlue Whale",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -65440,7 +65772,7 @@
   },
   {
     "material": "COOKIE",
-    "name": "Booster Cookie (Untradable)",
+    "name": "Booster Cookie §8(Untradable)",
     "glowing": true,
     "tier": "LEGENDARY",
     "unstackable": true,
@@ -65559,6 +65891,13 @@
     "name": "Cow Axe",
     "category": "AXE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "COW_AXE"
   },
   {
@@ -65575,7 +65914,7 @@
   },
   {
     "material": "EMERALD_BLOCK",
-    "name": "Fake Emerald Altar",
+    "name": "§aFake Emerald Altar",
     "tier": "UNCOMMON",
     "id": "FAKE_EMERALD_ALTAR"
   },
@@ -65614,7 +65953,7 @@
   },
   {
     "material": "STRING",
-    "name": "Melody's Hair",
+    "name": "§dMelody's Hair",
     "glowing": true,
     "category": "ACCESSORY",
     "tier": "EPIC",
@@ -65762,7 +66101,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNjQyODA3MTIzOCwKICAicHJvZmlsZUlkIiA6ICIzM2ViZDMyYmIzMzk0YWQ5YWM2NzBjOTZjNTQ5YmE3ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEYW5ub0JhbmFubm9YRCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xZWQ3MjVjZGVmYzAwZjdmZGU0N2NiNzA0OThlOGJmY2U0YWMzMDEzMzkwOTliNDEwZjUyZWJlMjdmOWEyYjgxIgogICAgfQogIH0KfQ",
-    "name": "Snubfin Dolphin Skin",
+    "name": "SnubfinDolphin",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -66431,7 +66770,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTQwMTM0MDY1NSwKICAicHJvZmlsZUlkIiA6ICIwNjEzY2I1Y2QxYjg0M2JjYjI4OTk1NWU4N2QzMGEyYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJicmVhZGxvYWZzcyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81ZmY5ZGYyOTBiNmM1YTQ5ODRmYzZlNTE2NjA1Zjk4MTZiOTg4MmY3YmYwNGRiMDhkM2Y3ZWUzMmQxOTY5YTQ0IgogICAgfQogIH0KfQ",
-    "name": "Purple Elephant Skin",
+    "name": "PurpleElephant",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -66589,7 +66928,7 @@
     "material": "WATCH",
     "name": "Enchanted Clock",
     "glowing": true,
-    "tier": "RARE",
+    "tier": "UNOBTAINABLE",
     "npc_sell_price": 205000,
     "id": "ENCHANTED_CLOCK"
   },
@@ -66739,7 +67078,7 @@
     "material": "LEATHER_CHESTPLATE",
     "item_durability": -1,
     "color": "0,0,0",
-    "name": "⚚ Shadow Assassin Chestplate",
+    "name": "Shadow Assassin Chestplate",
     "category": "CHESTPLATE",
     "tier": "LEGENDARY",
     "stats": {
@@ -66999,6 +67338,13 @@
     "name": "Rabbit Axe",
     "category": "AXE",
     "tier": "UNCOMMON",
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
     "id": "RABBIT_AXE"
   },
   {
@@ -67007,8 +67353,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxODQ5OTQyMDgwMiwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI4YjUxZWFlZmUwZTNhMTBhZDdmYTE2Mjc4MDFkMmNlNDQxMmI0ZTQzMjY4NTkwNjE5MmY4MzI4MzcwODIzMyIKICAgIH0KICB9Cn0=",
     "name": "Blood God Crest",
     "category": "ACCESSORY",
-    "id": "BLOOD_GOD_CREST",
-    "tier": "COMMON"
+    "id": "BLOOD_GOD_CREST"
   },
   {
     "material": "INK_SACK",
@@ -67636,6 +67981,13 @@
       "HEALTH": 10
     },
     "npc_sell_price": 14,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 2
+      }
+    ],
     "id": "PUMPKIN_LEGGINGS"
   },
   {
@@ -67652,7 +68004,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxMDIyNTE0MDc0MywKICAicHJvZmlsZUlkIiA6ICIzZmM3ZmRmOTM5NjM0YzQxOTExOTliYTNmN2NjM2ZlZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJZZWxlaGEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2NkYjFmZjhjOTY3YzgzMWViNjg1ZTA5ZTVkZWE1ODZlZDI5MTQ3MjM5NWFjZjdhMjVlOWQ1YmI0MWQ2YzA4MiIKICAgIH0KICB9Cn0",
-    "name": "Baby Megalodon Skin",
+    "name": "BabyMegalodon",
     "category": "COSMETIC",
     "tier": "EPIC",
     "unstackable": true,
@@ -68207,7 +68559,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzEzYzhiMjkxNmEyNzVkYjRjMTc2MmNmNWYxM2Q3Yjk1YjkxZDYwYmFmNTE2NGE0NDdkNmVmYTc3MDRjZjExYiJ9fX0K",
-    "name": "Smiling Rock Skin",
+    "name": "SmilingRock",
     "category": "COSMETIC",
     "tier": "RARE",
     "unstackable": true,
@@ -69627,8 +69979,7 @@
         "level": 5
       }
     ],
-    "id": "HANDY_BLOOD_CHALICE",
-    "tier": "COMMON"
+    "id": "HANDY_BLOOD_CHALICE"
   },
   {
     "material": "SKULL_ITEM",
@@ -69643,8 +69994,7 @@
         "level": 4
       }
     ],
-    "id": "POCKET_ESPRESSO_MACHINE",
-    "tier": "COMMON"
+    "id": "POCKET_ESPRESSO_MACHINE"
   },
   {
     "material": "SKULL_ITEM",
@@ -69886,7 +70236,7 @@
   },
   {
     "material": "GOLD_HOE",
-    "name": "Sinseeker Scythe",
+    "name": "§4Sin§5seeker Scythe",
     "category": "SWORD",
     "tier": "EPIC",
     "stats": {
@@ -73385,6 +73735,1380 @@
     "id": "TROPICAL_BIRD_2_PERSONALITY"
   },
   {
+    "material": "GOLD_AXE",
+    "name": "Pumpkin Dicer 2.0",
+    "description": "%%italic%%Someone once said, 2 is always better than 1!",
+    "category": "AXE",
+    "tier": "EPIC",
+    "id": "PUMPKIN_DICER_2"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjk0ODA3NCwKICAicHJvZmlsZUlkIiA6ICI2ODAwNzFmZTIxOWE0OWNmYmM3MDIxMjc1NTI0NDIwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXphYm95ODAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZTA3NjY0OWVmMjJmNjBlODUxMTgzMWM2OGZkMmI2ZWE2M2MzMjE2NGRhYjMzYThhZWJjMThmZjJhNTRjOCIKICAgIH0KICB9Cn0",
+    "name": "Squash",
+    "tier": "EPIC",
+    "npc_sell_price": 750,
+    "id": "SQUASH"
+  },
+  {
+    "material": "BROWN_MUSHROOM",
+    "name": "Organic Brown Mushroom",
+    "npc_sell_price": 4,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_BROWN_MUSHROOM"
+  },
+  {
+    "material": "WOOL",
+    "name": "Organic Wool",
+    "npc_sell_price": 3,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_WOOL"
+  },
+  {
+    "material": "CARROT_ITEM",
+    "name": "Organic Carrot",
+    "npc_sell_price": 1,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_CARROT_ITEM"
+  },
+  {
+    "material": "NETHER_STALK",
+    "name": "Organic Nether Wart",
+    "npc_sell_price": 2,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_NETHER_STALK"
+  },
+  {
+    "material": "WHEAT",
+    "name": "Organic Wheat",
+    "npc_sell_price": 1,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_WHEAT"
+  },
+  {
+    "material": "RED_MUSHROOM",
+    "name": "Organic Mushroom",
+    "npc_sell_price": 4,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_MUSHROOM"
+  },
+  {
+    "material": "EGG",
+    "name": "Organic Egg",
+    "npc_sell_price": 3,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_EGG"
+  },
+  {
+    "material": "SUGAR_CANE",
+    "name": "Organic Sugar Cane",
+    "npc_sell_price": 2,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_SUGAR_CANE"
+  },
+  {
+    "material": "MILK_BUCKET",
+    "name": "Organic Milk",
+    "npc_sell_price": 3,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_MILK"
+  },
+  {
+    "material": "POTATO_ITEM",
+    "name": "Organic Potato",
+    "npc_sell_price": 1,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_POTATO_ITEM"
+  },
+  {
+    "material": "CACTUS",
+    "name": "Organic Cactus",
+    "npc_sell_price": 1,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_CACTUS"
+  },
+  {
+    "material": "MELON",
+    "name": "Organic Melon",
+    "npc_sell_price": 0.5,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_MELON"
+  },
+  {
+    "material": "PUMPKIN",
+    "name": "Organic Pumpkin",
+    "npc_sell_price": 4,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_PUMPKIN"
+  },
+  {
+    "material": "RED_MUSHROOM",
+    "name": "Organic Red Mushroom",
+    "npc_sell_price": 4,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_RED_MUSHROOM"
+  },
+  {
+    "material": "INK_SACK",
+    "durability": 3,
+    "name": "Organic Cocoa Beans",
+    "npc_sell_price": 3,
+    "glowing": true,
+    "tier": "UNCOMMON",
+    "id": "ORGANIC_COCOA_BEANS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjg5OTMyNiwKICAicHJvZmlsZUlkIiA6ICI5MWYwNGZlOTBmMzY0M2I1OGYyMGUzMzc1Zjg2ZDM5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJTdG9ybVN0b3JteSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYTM5ZGYzNmE2NjY1ZTlkYzMzZjM0MTM3MTdkYWVmYWZkMWY3OGI5N2VlZjI0ZjNjYWU5ZTNiYmUzYzc3YjliIgogICAgfQogIH0KfQ",
+    "name": "Compost",
+    "tier": "UNCOMMON",
+    "npc_sell_price": 4,
+    "id": "COMPOST"
+  },
+  {
+    "material": "DIAMOND_AXE",
+    "name": "Melon Dicer 3.0",
+    "description": "%%italic%%Almost identical to the Melon Dicer 2.0, but it has 3.0 in the name!",
+    "category": "AXE",
+    "tier": "LEGENDARY",
+    "id": "MELON_DICER_3"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2Mzc1Mzg3MDIxMiwKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS81MDg2ZGRiZTk2MGYzMzQ4MGNhMjI5ZGE3NDAyMzkxYWI0MTdkMzJlYmIyMTc3MDQzMGVhNjEwZGU1ODAxZmUzIgogICAgfQogIH0KfQ",
+    "name": "Fermento Helmet",
+    "tier": "LEGENDARY",
+    "category": "HELMET",
+    "stats": {
+      "FARMING_FORTUNE": 30,
+      "walk_speed": 5,
+      "health": 130,
+      "defense": 40
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 40
+      }
+    ],
+    "id": "FERMENTO_HELMET"
+  },
+  {
+    "material": "LEATHER_CHESTPLATE",
+    "color": "88,137,12",
+    "name": "Fermento Chestplate",
+    "tier": "LEGENDARY",
+    "category": "CHESTPLATE",
+    "stats": {
+      "FARMING_FORTUNE": 35,
+      "walk_speed": 6,
+      "health": 195,
+      "defense": 40
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 40
+      }
+    ],
+    "id": "FERMENTO_CHESTPLATE"
+  },
+  {
+    "material": "LEATHER_BOOTS",
+    "color": "131,176,59",
+    "name": "Fermento Boots",
+    "tier": "LEGENDARY",
+    "category": "BOOTS",
+    "stats": {
+      "FARMING_FORTUNE": 30,
+      "walk_speed": 5,
+      "health": 130,
+      "defense": 40
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 40
+      }
+    ],
+    "id": "FERMENTO_BOOTS"
+  },
+  {
+    "material": "LEATHER_LEGGINGS",
+    "color": "106,156,27",
+    "name": "Fermento Leggings",
+    "category": "LEGGINGS",
+    "tier": "LEGENDARY",
+    "stats": {
+      "FARMING_FORTUNE": 35,
+      "walk_speed": 6,
+      "health": 195,
+      "defense": 40
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 40
+      }
+    ],
+    "id": "FERMENTO_LEGGINGS"
+  },
+  {
+    "material": "LEATHER_LEGGINGS",
+    "color": "148,69,31",
+    "name": "Cropie Leggings",
+    "tier": "RARE",
+    "category": "LEGGINGS",
+    "stats": {
+      "FARMING_FORTUNE": 25,
+      "walk_speed": 4,
+      "health": 165,
+      "defense": 30
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 30
+      }
+    ],
+    "id": "CROPIE_LEGGINGS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2Mzc1MzgzNzM2OCwKICAicHJvZmlsZUlkIiA6ICIzYjgwOTg1YWU4ODY0ZWZlYjA3ODg2MmZkOTRhMTVkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJLaWVyYW5fVmF4aWxpYW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTRiYWNiOTY3MzRlMjQ0YjlmNzMzMWQ0NTNlNjg2ZmEyZTMyNTIyYTQxMWFhNTY4Zjk2MGU3NDFkNzRiMzI4OSIKICAgIH0KICB9Cn0",
+    "name": "Cropie Helmet",
+    "tier": "RARE",
+    "category": "HELMET",
+    "stats": {
+      "FARMING_FORTUNE": 20,
+      "walk_speed": 3,
+      "health": 110,
+      "defense": 30
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 30
+      }
+    ],
+    "id": "CROPIE_HELMET"
+  },
+  {
+    "material": "LEATHER_BOOTS",
+    "color": "187,101,53",
+    "name": "Cropie Boots",
+    "tier": "RARE",
+    "category": "BOOTS",
+    "stats": {
+      "FARMING_FORTUNE": 20,
+      "walk_speed": 4,
+      "health": 110,
+      "defense": 30
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 30
+      }
+    ],
+    "id": "CROPIE_BOOTS"
+  },
+  {
+    "material": "LEATHER_CHESTPLATE",
+    "color": "122,41,0",
+    "name": "Cropie Chestplate",
+    "tier": "RARE",
+    "category": "CHESTPLATE",
+    "stats": {
+      "FARMING_FORTUNE": 25,
+      "walk_speed": 4,
+      "health": 165,
+      "defense": 30
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 30
+      }
+    ],
+    "id": "CROPIE_CHESTPLATE"
+  },
+  {
+    "material": "LEATHER_CHESTPLATE",
+    "name": "Cashmere Jacket",
+    "tier": "RARE",
+    "category": "CHESTPLATE",
+    "stats": {
+      "health": 25,
+      "defense": 10
+    },
+    "id": "CASHMERE_JACKET"
+  },
+  {
+    "material": "LEATHER_BOOTS",
+    "name": "Oxford Shoes",
+    "tier": "RARE",
+    "category": "BOOTS",
+    "stats": {
+      "health": 25,
+      "defense": 10
+    },
+    "id": "OXFORD_SHOES"
+  },
+  {
+    "material": "LEATHER_LEGGINGS",
+    "name": "Satin Trousers",
+    "tier": "RARE",
+    "category": "LEGGINGS",
+    "stats": {
+      "health": 25,
+      "defense": 10
+    },
+    "id": "SATIN_TROUSERS"
+  },
+  {
+    "material": "LEATHER_HELMET",
+    "name": "Velvet Top Hat",
+    "tier": "RARE",
+    "category": "HELMET",
+    "stats": {
+      "health": 25,
+      "defense": 10
+    },
+    "id": "VELVET_TOP_HAT"
+  },
+  {
+    "material": "LEATHER_CHESTPLATE",
+    "color": "203,210,219",
+    "name": "Rabbit Chestplate",
+    "category": "CHESTPLATE",
+    "stats": {
+      "FARMING_FORTUNE": 15
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
+    "id": "RABBIT_CHESTPLATE"
+  },
+  {
+    "material": "LEATHER_LEGGINGS",
+    "color": "203,210,219",
+    "name": "Rabbit Leggings",
+    "category": "LEGGINGS",
+    "stats": {
+      "FARMING_FORTUNE": 15
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
+    "id": "RABBIT_LEGGINGS"
+  },
+  {
+    "material": "LEATHER_HELMET",
+    "color": "203,210,219",
+    "name": "Rabbit Helmet",
+    "category": "HELMET",
+    "stats": {
+      "FARMING_FORTUNE": 15
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
+    "id": "RABBIT_HELMET"
+  },
+  {
+    "material": "LEATHER_BOOTS",
+    "color": "203,210,219",
+    "name": "Rabbit Boots",
+    "category": "BOOTS",
+    "stats": {
+      "FARMING_FORTUNE": 15
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 15
+      }
+    ],
+    "id": "RABBIT_BOOTS"
+  },
+  {
+    "material": "LEATHER_LEGGINGS",
+    "color": "12,74,22",
+    "name": "Squash Leggings",
+    "tier": "EPIC",
+    "category": "LEGGINGS",
+    "stats": {
+      "FARMING_FORTUNE": 30,
+      "walk_speed": 5,
+      "health": 180,
+      "defense": 35
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 35
+      }
+    ],
+    "id": "SQUASH_LEGGINGS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2Mzc1Mzg1NTk5NiwKICAicHJvZmlsZUlkIiA6ICJiNjQ3MDE3MmZiM2Q0NDU5YTIzOGFkMzZiZTgxOTc3YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUWXRyYWNrMjMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUxMDg3YzBjNTE5YTlhMWRjZWU0MzI1NDEwYjE5YTFiZTQ4NTVlYWM1YTY2MmFlMWI1MjMzMjlmOTBmYWVjZCIKICAgIH0KICB9Cn0",
+    "name": "Squash Helmet",
+    "tier": "EPIC",
+    "category": "HELMET",
+    "stats": {
+      "FARMING_FORTUNE": 25,
+      "walk_speed": 4,
+      "health": 120,
+      "defense": 35
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 35
+      }
+    ],
+    "id": "SQUASH_HELMET"
+  },
+  {
+    "material": "LEATHER_CHESTPLATE",
+    "color": "3,67,14",
+    "name": "Squash Chestplate",
+    "tier": "EPIC",
+    "category": "CHESTPLATE",
+    "stats": {
+      "FARMING_FORTUNE": 30,
+      "walk_speed": 5,
+      "health": 180,
+      "defense": 35
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 35
+      }
+    ],
+    "id": "SQUASH_CHESTPLATE"
+  },
+  {
+    "material": "LEATHER_BOOTS",
+    "color": "19,86,30",
+    "name": "Squash Boots",
+    "tier": "EPIC",
+    "category": "BOOTS",
+    "stats": {
+      "FARMING_FORTUNE": 25,
+      "walk_speed": 4,
+      "health": 120,
+      "defense": 35
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 35
+      }
+    ],
+    "id": "SQUASH_BOOTS"
+  },
+  {
+    "material": "MELON_BLOCK",
+    "name": "Melon Helmet",
+    "category": "HELMET",
+    "tier": "UNCOMMON",
+    "stats": {
+      "FARMING_FORTUNE": 15,
+      "walk_speed": 2,
+      "health": 100,
+      "defense": 25
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 25
+      }
+    ],
+    "id": "MELON_HELMET"
+  },
+  {
+    "material": "LEATHER_BOOTS",
+    "color": "137,158,32",
+    "name": "Melon Boots",
+    "tier": "UNCOMMON",
+    "category": "BOOTS",
+    "stats": {
+      "FARMING_FORTUNE": 15,
+      "walk_speed": 2,
+      "health": 100,
+      "defense": 25
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 25
+      }
+    ],
+    "id": "MELON_BOOTS"
+  },
+  {
+    "material": "LEATHER_CHESTPLATE",
+    "color": "137,158,32",
+    "name": "Melon Chestplate",
+    "tier": "UNCOMMON",
+    "category": "CHESTPLATE",
+    "stats": {
+      "FARMING_FORTUNE": 20,
+      "walk_speed": 3,
+      "health": 150,
+      "defense": 25
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 25
+      }
+    ],
+    "id": "MELON_CHESTPLATE"
+  },
+  {
+    "material": "LEATHER_LEGGINGS",
+    "color": "137,158,32",
+    "name": "Melon Leggings",
+    "tier": "UNCOMMON",
+    "category": "LEGGINGS",
+    "stats": {
+      "FARMING_FORTUNE": 20,
+      "walk_speed": 3,
+      "health": 150,
+      "defense": 25
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 25
+      }
+    ],
+    "id": "MELON_LEGGINGS"
+  },
+  {
+    "name": "Copper",
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDhmZDk4NzlmODZlMjI5ZmU4MDNkNjFkOTNlYmVjYTk2M2IyMzIzZmM5YTU5NGIxMjFiMjI5YjVjOTI1NzBlIn19fQ==",
+    "tier": "COMMON",
+    "npc_sell_price": 10,
+    "id": "COPPER"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "tier": "RARE",
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMzZjg1NGJiNjUyNjVhYjNmZjJlMzYyNjY5YTVmODA2YWI4NGRjMjQwYTRiOTlmOWE2MmFiNzI2NzcyOGJhMyJ9fX0=",
+    "name": "Box of Seeds",
+    "id": "BOX_OF_SEEDS"
+  },
+  {
+    "material": "LONG_GRASS",
+    "name": "Fertilizer",
+    "durability": 2,
+    "tier": "UNCOMMON",
+    "npc_sell_price": 4,
+    "id": "FERTILIZER"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjg4MjE2MSwKICAicHJvZmlsZUlkIiA6ICJkOTcwYzEzZTM4YWI0NzlhOTY1OGM1ZDQ1MjZkMTM0YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcmltcHlMYWNlODUxMjciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWRlY2UyOGZhNmRlYzE0Mzg2NzkxZDZmYzFlYzFmNWNhZDg3YWQxOThhNmFjNzU0OTY3Zjk2MWQxMjMyODhmYyIKICAgIH0KICB9Cn0",
+    "name": "Jake's Plushie",
+    "tier": "UNCOMMON",
+    "category": "ACCESSORY",
+    "stats": {
+      "HEALTH": 2
+    },
+    "id": "JAKE_PLUSHIE"
+  },
+  {
+    "material": "GOLD_AXE",
+    "name": "Pumpkin Dicer 3.0",
+    "description": "%%italic%%\"3.0 is better than the 2.0 version\" - CEO of PumpkinDicer LLC.",
+    "category": "AXE",
+    "tier": "LEGENDARY",
+    "id": "PUMPKIN_DICER_3"
+  },
+  {
+    "material": "DIAMOND_AXE",
+    "name": "Melon Dicer 2.0",
+    "description": "%%italic%%Same as the Melon Dicer 1.0, just better!",
+    "category": "AXE",
+    "tier": "EPIC",
+    "id": "MELON_DICER_2"
+  },
+  {
+    "material": "DIAMOND_HOE",
+    "name": "Hoe of Greatest Tilling",
+    "category": "HOE",
+    "tier": "EPIC",
+    "glowing": true,
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
+    "id": "HOE_OF_GREATEST_TILLING"
+  },
+  {
+    "material": "BLAZE_ROD",
+    "name": "Builder's Ruler",
+    "glowing": true,
+    "tier": "LEGENDARY",
+    "unstackable": true,
+    "id": "BUILDERS_RULER"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2Njg4NjkyMDczOSwKICAicHJvZmlsZUlkIiA6ICJkYmQ4MDQ2M2EwMzY0Y2FjYjI3OGNhODBhMDBkZGIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4bG9nMjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIzM2QzYTcwZDgyZWVlMWNhYWE1OGMxNmI4M2VlNjIyNGU4YmZjN2NkYTYzNjc5Mzg1M2UwNDFhMWZiYWE2YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+    "name": "Condensed Fermento",
+    "tier": "LEGENDARY",
+    "npc_sell_price": 9000,
+    "id": "CONDENSED_FERMENTO"
+  },
+  {
+    "material": "CAKE",
+    "name": "Pet Cake",
+    "npc_sell_price": 10,
+    "tier": "COMMON",
+    "id": "PET_CAKE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjkyOTIyNCwKICAicHJvZmlsZUlkIiA6ICJjOWRlZTM4MDUzYjg0YzI5YjZlZjA5YjJlMDM5OTc0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQVJfRGVjZW1iZXI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkMDFjYmEyM2VkZTJjZDI4OTUxMDdmMGMwMjU4ZTk3MWQyNDg1NTM4ZmU5NjQ5ZWYyODUzYmQyNmU2MjMyZGMiCiAgICB9CiAgfQp9",
+    "name": "Cropie",
+    "tier": "RARE",
+    "npc_sell_price": 500,
+    "id": "CROPIE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2Mzc1Mzg4NTM4OSwKICAicHJvZmlsZUlkIiA6ICI2ZTIyNjYxZmNlMTI0MGE0YWE4OTA0NDA0NTFiYjBiNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJncnZleWFyZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lM2M3NzA3YzJjNDE1MzY3MzdlM2RhNTA1OTFmZGU4YjczYTFiZjY2Njg0NTM2NzE1ZWY2NWI3YzBiYzg5OTdiIgogICAgfQogIH0KfQ",
+    "name": "Compost Bundle",
+    "tier": "RARE",
+    "npc_sell_price": 10,
+    "id": "ENCHANTED_COMPOST"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjkxNjU1MiwKICAicHJvZmlsZUlkIiA6ICIwOTZkYWUzZWY1MmU0YWU4ODk3ODY2N2EyOGIwZWFhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHd0FiaXlCZ2dnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NiNDFkYWViNTdkMmFlNjJjNjZlNThlYjZkZWJiMmE3ZDQ0NmUzNDU0MWE3NzEzNTA3MjhjOWRiMTViZWFmYmEiCiAgICB9CiAgfQp9",
+    "name": "Fermento",
+    "tier": "LEGENDARY",
+    "npc_sell_price": 1000,
+    "id": "FERMENTO"
+  },
+  {
+    "material": "DEAD_BUSH",
+    "name": "Mysterious Crop",
+    "glowing": true,
+    "id": "MYSTERIOUS_CROP"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjg2MjI4OCwKICAicHJvZmlsZUlkIiA6ICJkYjJmMTJhMmU5MTI0ZThiODZjZmQyNzU2MDk1N2JhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJpaVJlemEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTc4MzI3OTAxOGNkZGRmZmE5MTNhYmYzNjIxZDc4ZjIwNDQwNTk2MWY3N2ZiOTY4NDFkMDFiMjc0ZjAyN2NhYiIKICAgIH0KICB9Cn0",
+    "name": "Lotus Bracelet",
+    "category": "BRACELET",
+    "tier": "RARE",
+    "npc_sell_price": 100,
+    "stats": {
+      "FARMING_FORTUNE": 5,
+      "health": 10
+    },
+    "requirements": [
+      {
+        "type": "GARDEN_LEVEL",
+        "level": 2
+      },
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
+    "id": "LOTUS_BRACELET"
+  },
+  {
+    "material": "IRON_HOE",
+    "name": "Basic Gardening Hoe",
+    "category": "HOE",
+    "tier": "UNCOMMON",
+    "npc_sell_price": 100,
+    "stats": {
+      "FARMING_FORTUNE": 5
+    },
+    "requirements": [
+      {
+        "type": "GARDEN_LEVEL",
+        "level": 1
+      },
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 5
+      }
+    ],
+    "id": "BASIC_GARDENING_HOE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjg0NTQyNiwKICAicHJvZmlsZUlkIiA6ICJmMTdkOWJlZmM2NGM0YzA4ODVhYWU3NWQ0YjhiNWE0NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJTaXJCYW5kZXJzbmF0Y2giLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGNlOGQxOWIwMTYzZDFlYWRkZTU2MzM3NzM5NGIwNWRlNjM0MjdjNmUzZjhhOTQ5ZTBkZmEzMmJiMjBkN2YyZCIKICAgIH0KICB9Cn0",
+    "name": "Lotus Belt",
+    "category": "BELT",
+    "tier": "RARE",
+    "npc_sell_price": 100,
+    "stats": {
+      "FARMING_FORTUNE": 5,
+      "health": 10
+    },
+    "requirements": [
+      {
+        "type": "GARDEN_LEVEL",
+        "level": 3
+      },
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
+    "id": "LOTUS_BELT"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjgxMTAyMiwKICAicHJvZmlsZUlkIiA6ICIzOTVkZTJlYjVjNjU0ZmRkOWQ2NDAwY2JhNmNmNjFhNyIsCiAgInByb2ZpbGVOYW1lIiA6ICJzcGFyZXN0ZXZlIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2FkODNhYTI1YzExYWNmY2U3NDQyZmYwMTI5ZmQ3MGJiNDJjYTBkZTYzYmEyMTE1MTY5OTY2Y2MzNTFmMTcxNmIiCiAgICB9CiAgfQp9",
+    "name": "Lotus Necklace",
+    "category": "NECKLACE",
+    "tier": "RARE",
+    "npc_sell_price": 100,
+    "stats": {
+      "FARMING_FORTUNE": 5,
+      "health": 10
+    },
+    "requirements": [
+      {
+        "type": "GARDEN_LEVEL",
+        "level": 4
+      },
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
+    "id": "LOTUS_NECKLACE"
+  },
+  {
+    "material": "DIAMOND_HOE",
+    "name": "Advanced Gardening Hoe",
+    "category": "HOE",
+    "tier": "RARE",
+    "npc_sell_price": 100,
+    "stats": {
+      "FARMING_FORTUNE": 10
+    },
+    "requirements": [
+      {
+        "type": "GARDEN_LEVEL",
+        "level": 3
+      },
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 7
+      }
+    ],
+    "id": "ADVANCED_GARDENING_HOE"
+  },
+  {
+    "material": "DIAMOND_AXE",
+    "name": "Advanced Gardening Axe",
+    "category": "AXE",
+    "tier": "RARE",
+    "npc_sell_price": 100,
+    "stats": {
+      "FARMING_FORTUNE": 10
+    },
+    "requirements": [
+      {
+        "type": "GARDEN_LEVEL",
+        "level": 6
+      }
+    ],
+    "id": "ADVANCED_GARDENING_AXE"
+  },
+  {
+    "material": "IRON_AXE",
+    "name": "Basic Gardening Axe",
+    "category": "AXE",
+    "tier": "UNCOMMON",
+    "npc_sell_price": 100,
+    "stats": {
+      "FARMING_FORTUNE": 5
+    },
+    "requirements": [
+      {
+        "type": "GARDEN_LEVEL",
+        "level": 4
+      }
+    ],
+    "id": "BASIC_GARDENING_AXE"
+  },
+  {
+    "material": "IRON_HOE",
+    "name": "Garden Scythe",
+    "tier": "RARE",
+    "npc_sell_price": 100,
+    "glowing": true,
+    "id": "GARDEN_SCYTHE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjgzMDY2NCwKICAicHJvZmlsZUlkIiA6ICJiNTM5NTkyMjMwY2I0MmE0OWY5YTRlYmYxNmRlOTYwYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJpYW5hZmFnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2VlNDBkNzc2MmQyYjdhZWQ1ZDkyNWQxN2Y3YjNjMTQ1MWU3MDljMjUzN2E1NTQ2YjFjZTZlMGQ4ZWUyNzU3ZDQiCiAgICB9CiAgfQp9",
+    "name": "Lotus Cloak",
+    "category": "CLOAK",
+    "tier": "RARE",
+    "npc_sell_price": 100,
+    "stats": {
+      "FARMING_FORTUNE": 5,
+      "health": 10
+    },
+    "requirements": [
+      {
+        "type": "GARDEN_LEVEL",
+        "level": 5
+      },
+      {
+        "type": "SKILL",
+        "skill": "FARMING",
+        "level": 10
+      }
+    ],
+    "id": "LOTUS_CLOAK"
+  },
+  {
+    "material": "WOOD_HOE",
+    "name": "Sam's Scythe",
+    "tier": "COMMON",
+    "npc_sell_price": 1,
+    "glowing": true,
+    "soulbound": "COOP",
+    "id": "SAM_SCYTHE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTM4OTk3ODk1NiwKICAicHJvZmlsZUlkIiA6ICJmYzg3ZTI3YTYwZjY0NjdhOGMwMDgyMmI2ZWY5ZTMyNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJhbmRyZWlvX28iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjEyNGJmYjIyZDZmZjZjMDBhNzNkNWY2NzY5YjkwNzIzMTFiZGU2YzgwMTBkZjU1MWU4Njc1OGU4OTg0YjhiZiIKICAgIH0KICB9Cn0",
+    "name": "Snow Cloak",
+    "category": "CLOAK",
+    "tier": "RARE",
+    "stats": {
+      "HEALTH": 5,
+      "INTELLIGENCE": 5,
+      "WALK_SPEED": 2
+    },
+    "museum": true,
+    "npc_sell_price": 0,
+    "id": "SNOW_CLOAK"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTM4OTk1MzIwMywKICAicHJvZmlsZUlkIiA6ICIwNDNkZWIzOGIyNjE0MTg1YTIzYzU4ZmI2YTc5ZWZkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJWaXRhbFNpZ256MiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lODg3NDUwNDk3OGJkODY4ODgwYjAwNGU4ZTYxMTEzYmI1OGExMDIzYWY4NjczN2U3NzUxMTEwOGEyNmVjMDViIgogICAgfQogIH0KfQ",
+    "name": "Snow Gloves",
+    "category": "GLOVES",
+    "stats": {
+      "HEALTH": 5,
+      "INTELLIGENCE": 5,
+      "WALK_SPEED": 2
+    },
+    "tier": "RARE",
+    "museum": true,
+    "npc_sell_price": 0,
+    "id": "SNOW_GLOVES"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTM4OTk2Nzc3NSwKICAicHJvZmlsZUlkIiA6ICJmZTE0M2FhZTVmNGE0YTdiYjM4MzcxM2U1Mjg0YmIxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJKZWZveHk0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JjMDNlODdmYmZhOTAzMjQ4OTRlOTY4YmU5NmI5OTMwZDk5OGVjY2NmNjYzMmRlMDQ3YjNlOWNjNjkxMTFjYzciCiAgICB9CiAgfQp9",
+    "name": "Snow Belt",
+    "category": "BELT",
+    "stats": {
+      "HEALTH": 5,
+      "INTELLIGENCE": 5,
+      "WALK_SPEED": 2
+    },
+    "tier": "RARE",
+    "museum": true,
+    "npc_sell_price": 0,
+    "id": "SNOW_BELT"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTM4OTk5MzM4NSwKICAicHJvZmlsZUlkIiA6ICJkMmM1MThjMzJjNTY0OGJmOTM2ZjY0YjhmZDQ1ZThjZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcmFjb0JlbGxzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IxMmZhYTJlNzk4OTg5ZDkxMGVmYmY5MjgxYjhjYmEyNDE4NTYyMmU5YWEzNTdjNzUyODVhYTRiN2UzMzE0YmMiCiAgICB9CiAgfQp9",
+    "name": "Snow Necklace",
+    "category": "NECKLACE",
+    "stats": {
+      "HEALTH": 5,
+      "INTELLIGENCE": 5,
+      "WALK_SPEED": 2
+    },
+    "tier": "RARE",
+    "museum": true,
+    "npc_sell_price": 0,
+    "id": "SNOW_NECKLACE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzI0MDdlNjZjODFiMTQ0M2MyZTdkZmM0ZDY1ODNlYjE5YzYyMmZhMjJmMzRmYmY5OWZlNmM0NWY3NmEifX19",
+    "name": "Nutcracker Helmet",
+    "category": "HELMET",
+    "tier": "LEGENDARY",
+    "stats": {
+      "DEFENSE": 35,
+      "HEALTH": 80,
+      "SEA_CREATURE_CHANCE": 1.5,
+      "MAGIC_FIND": 2
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FISHING",
+        "level": 28
+      }
+    ],
+    "npc_sell_price": 1000,
+    "id": "NUTCRACKER_HELMET"
+  },
+  {
+    "material": "LEATHER_CHESTPLATE",
+    "color": "255,255,255",
+    "name": "Snow Suit Chestplate",
+    "category": "CHESTPLATE",
+    "tier": "EPIC",
+    "stats": {
+      "DEFENSE": 40,
+      "HEALTH": 100
+    },
+    "npc_sell_price": 1000,
+    "id": "SNOW_SUIT_CHESTPLATE"
+  },
+  {
+    "material": "LEATHER_BOOTS",
+    "color": "70,52,58",
+    "name": "Nutcracker Boots",
+    "category": "BOOTS",
+    "tier": "LEGENDARY",
+    "stats": {
+      "DEFENSE": 30,
+      "HEALTH": 75,
+      "SEA_CREATURE_CHANCE": 1.5,
+      "MAGIC_FIND": 2
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FISHING",
+        "level": 28
+      }
+    ],
+    "npc_sell_price": 1000,
+    "id": "NUTCRACKER_BOOTS"
+  },
+  {
+    "material": "LEATHER_LEGGINGS",
+    "color": "255,255,255",
+    "name": "Snow Suit Leggings",
+    "category": "LEGGINGS",
+    "tier": "EPIC",
+    "stats": {
+      "DEFENSE": 30,
+      "HEALTH": 75
+    },
+    "npc_sell_price": 1000,
+    "id": "SNOW_SUIT_LEGGINGS"
+  },
+  {
+    "material": "LEATHER_BOOTS",
+    "color": "255,255,255",
+    "name": "Snow Suit Boots",
+    "category": "BOOTS",
+    "tier": "EPIC",
+    "stats": {
+      "DEFENSE": 25,
+      "HEALTH": 65
+    },
+    "npc_sell_price": 1000,
+    "id": "SNOW_SUIT_BOOTS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvM2QxMTE5NjQzY2VjZmJlMDA0MTQxYTFlYTQwNjJmODMxNWNhNzhlNTAzOTU4YWM1MDUwNWU4NTkyYzQ0YTYwMSJ9fX0=",
+    "name": "Snow Suit Helmet",
+    "category": "HELMET",
+    "tier": "EPIC",
+    "stats": {
+      "DEFENSE": 30,
+      "HEALTH": 70
+    },
+    "npc_sell_price": 1000,
+    "id": "SNOW_SUIT_HELMET"
+  },
+  {
+    "material": "LEATHER_CHESTPLATE",
+    "color": "252,47,60",
+    "name": "Nutcracker Chestplate",
+    "category": "CHESTPLATE",
+    "tier": "LEGENDARY",
+    "stats": {
+      "DEFENSE": 45,
+      "HEALTH": 115,
+      "SEA_CREATURE_CHANCE": 1.5,
+      "MAGIC_FIND": 2
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FISHING",
+        "level": 28
+      }
+    ],
+    "npc_sell_price": 1000,
+    "id": "NUTCRACKER_CHESTPLATE"
+  },
+  {
+    "material": "LEATHER_LEGGINGS",
+    "color": "255,249,235",
+    "name": "Nutcracker Leggings",
+    "category": "LEGGINGS",
+    "tier": "LEGENDARY",
+    "stats": {
+      "DEFENSE": 35,
+      "HEALTH": 85,
+      "SEA_CREATURE_CHANCE": 1.5,
+      "MAGIC_FIND": 2
+    },
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "FISHING",
+        "level": 28
+      }
+    ],
+    "npc_sell_price": 1000,
+    "id": "NUTCRACKER_LEGGINGS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjU2NjdiMTgzZDgyNGJlNmY4MjQ5MzE4NDcyYTcyN2M4OWYxMTQ2OTI2YzQ2OTVkZDA1ZjllYTk5ODRjZWQ0NSJ9fX0=",
+    "name": "Glacial Fragment",
+    "description": "A small piece of a giant glacier. Doesn't ever melt.",
+    "category": "NONE",
+    "tier": "EPIC",
+    "npc_sell_price": 200,
+    "id": "GLACIAL_FRAGMENT"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWI4NzhhOTFlZTQyNzhkMTZlZjE1MTc1ZWQ4ZTI4NjE1NDFkZTc5NzQ3NWNmNGE0NzMyOTE1ODc2YzZlOWEifX19",
+    "name": "Walnut",
+    "category": "NONE",
+    "tier": "UNCOMMON",
+    "npc_sell_price": 200,
+    "id": "WALNUT"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDEyNDM5NCwKICAicHJvZmlsZUlkIiA6ICJiMTM1MDRmMjMxOGI0OWNjYWFkZDcyYWVhYmMyNTQ1MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJUeXBrZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWI4NWUyOWYyOWVjOWE5MGU0ODJlYTViODM5MWJjYjQ1NjBiYmFlMGRjZDE1ZDdjZTFkODYwMTZiNDM1NmU5OCIKICAgIH0KICB9Cn0=",
+    "name": "Blue Gift Talisman",
+    "category": "ACCESSORY",
+    "tier": "RARE",
+    "id": "BLUE_GIFT_TALISMAN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDE3ODQzMSwKICAicHJvZmlsZUlkIiA6ICJiMDU4MTFjYTdmNDk0YTM5OTZiNDU4ZjcwMmQ2MzJiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJVeWlsIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U5ZTM5ZDkxYzA0YzMwY2MxZjUzMGZlZTc5OGVlZDI3OWRkZTYwZjk1YzJlMWQxNTVjMGZkZDM2MWQwOTYyZWQiCiAgICB9CiAgfQp9",
+    "name": "Purple Gift Talisman",
+    "category": "ACCESSORY",
+    "tier": "EPIC",
+    "id": "PURPLE_GIFT_TALISMAN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDE0NjQyNywKICAicHJvZmlsZUlkIiA6ICIxMzdmMjg3MjUwOTE0ZmI4YjA0ZTYwYjg4MWUwZWE2YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJub3JtYWxpc2luZyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hYmQ5ODc5MmRkOTJkOTcxOTg5NDM0MWFjOTAxMmE1ODRjNDQyODU1OGZkMmM3MTJmNzhlNWYwZDRkYTg1NDcwIgogICAgfQogIH0KfQ==",
+    "name": "Gold Gift Talisman",
+    "category": "ACCESSORY",
+    "tier": "LEGENDARY",
+    "id": "GOLD_GIFT_TALISMAN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDE5NTI3NCwKICAicHJvZmlsZUlkIiA6ICI3NmRjOWY4OTI3Y2Q0NzY5OWQ2NmYzYjBjZTZlOTRmYSIsCiAgInByb2ZpbGVOYW1lIiA6ICJJQW1Ob3REcnVuayIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9lNDdiMzdlNjdhODkxNTliZjRhY2M0YTQ0ZDQzMjhmNGVmYzAxODE2MDUxNDIyODhlNWVlZDFhYjhhZWQ5MTNjIgogICAgfQogIH0KfQ==",
+    "name": "White Gift Talisman",
+    "category": "ACCESSORY",
+    "tier": "COMMON",
+    "id": "WHITE_GIFT_TALISMAN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2OTUxNDE2NTExMywKICAicHJvZmlsZUlkIiA6ICIyMWUzNjdkNzI1Y2Y0ZTNiYjI2OTJjNGEzMDBhNGRlYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHZXlzZXJNQyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8yOGRjM2M4NDQ5MWM0ZmYxMDNkZTZlYTAxODgwZTJkODM0MzJjZDQ4NzhiODRkNmI0MzI1M2NjNTFmZDk3OGU3IgogICAgfQogIH0KfQ==",
+    "name": "Green Gift Talisman",
+    "category": "ACCESSORY",
+    "tier": "UNCOMMON",
+    "id": "GREEN_GIFT_TALISMAN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWNlMWViYzZjMzFlZmU1NjIxMTQyNzc5YTZjNjY5MjIxYTI3MWJhZTNiMzExNTE3NWJmMDNjOTc2NjkxIn19fQ==",
+    "name": "Glacial Ring",
+    "category": "ACCESSORY",
+    "tier": "UNCOMMON",
+    "id": "GLACIAL_RING"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTJjMWE2YjI5NGFlZDQ5ZGJmMTFjNTg5NTIwODg2YjlmNWQ1M2IzMmE4OTU1YWRjZDU3ZTJkZTNiNjI5YTMxIn19fQ==",
+    "name": "Glacial Artifact",
+    "category": "ACCESSORY",
+    "tier": "RARE",
+    "id": "GLACIAL_ARTIFACT"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjIwYjYyZmFmMTJiOTFmNGE4ZTE0OWEyZjljYjVmOGQxNzQ0M2Y1MWVjNGQ3ZDU4ZjU5NjdlY2JiYjI5NTgifX19",
+    "name": "Glacial Talisman",
+    "category": "ACCESSORY",
+    "tier": "COMMON",
+    "id": "GLACIAL_TALISMAN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTcwNTA5YTY0YzQ5NmNkZGJhNDEzNWU2NzEyYmIwNWQ5YWFkNDIwNTJhMThmZWVlZWQ3ZDQ0ZGEyYzNiZDBjYyJ9fX0=",
+    "name": "Rusty Anchor",
+    "category": "REFORGE_STONE",
+    "tier": "RARE",
+    "npc_sell_price": 1,
+    "id": "RUSTY_ANCHOR"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTUxNmFkYWM3OTRlNjQxY2Q4ZjJjZDY1ZmFmMmIyYzRhMDI1ZmY0YTE3ZGFlODhlNmYxYWMxNzNiZTJiOCJ9fX0=",
+    "name": "Salt Cube",
+    "category": "REFORGE_STONE",
+    "tier": "UNCOMMON",
+    "npc_sell_price": 1,
+    "id": "SALT_CUBE"
+  },
+  {
+    "material": "IRON_HOE",
+    "name": "Frozen Scythe",
+    "category": "SWORD",
+    "sword_type": "SCYTHE",
+    "tier": "RARE",
+    "stats": {
+      "DAMAGE": 80,
+      "WEAPON_ABILITY_DAMAGE": 1000
+    },
+    "ability_damage_scaling": 0.3,
+    "npc_sell_price": 100,
+    "dungeon_item_conversion_cost": {
+      "essence_type": "ICE",
+      "amount": 50
+    },
+    "upgrade_costs": [
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "ICE",
+          "amount": 10
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "ICE",
+          "amount": 15
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "ICE",
+          "amount": 20
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "ICE",
+          "amount": 25
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "ICE",
+          "amount": 30
+        }
+      ]
+    ],
+    "catacombs_requirements": [
+      {
+        "type": "DUNGEON_SKILL",
+        "dungeon_type": "CATACOMBS",
+        "level": 10
+      }
+    ],
+    "id": "FROZEN_SCYTHE"
+  },
+  {
+    "material": "DIAMOND_HOE",
+    "name": "Glacial Scythe",
+    "category": "SWORD",
+    "sword_type": "SCYTHE",
+    "tier": "EPIC",
+    "stats": {
+      "DAMAGE": 120,
+      "INTELLIGENCE": 30,
+      "WEAPON_ABILITY_DAMAGE": 1500
+    },
+    "ability_damage_scaling": 0.3,
+    "gemstone_slots": [
+      {
+        "slot_type": "SAPPHIRE"
+      }
+    ],
+    "npc_sell_price": 500,
+    "dungeon_item_conversion_cost": {
+      "essence_type": "ICE",
+      "amount": 50
+    },
+    "upgrade_costs": [
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "ICE",
+          "amount": 10
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "ICE",
+          "amount": 15
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "ICE",
+          "amount": 20
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "ICE",
+          "amount": 25
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "ICE",
+          "amount": 30
+        }
+      ]
+    ],
+    "catacombs_requirements": [
+      {
+        "type": "DUNGEON_SKILL",
+        "dungeon_type": "CATACOMBS",
+        "level": 10
+      }
+    ],
+    "id": "GLACIAL_SCYTHE"
+  },
+  {
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTMwZmU3NzFmY2MzZWNjMDUzMGVlOTU0NWFiMDc3OTc0MzdmOTVlMDlhMGVhYTliNTEyNDk3ZmU4OTJmNTJmYiJ9fX0=",
@@ -74097,7 +75821,7 @@
   },
   {
     "material": "EGG",
-    "name": "Red Goblin Egg",
+    "name": "§cRed Goblin Egg",
     "tier": "RARE",
     "description": "%%gray%%%%italic%%What came first the goblin or the egg?",
     "id": "GOBLIN_EGG_RED"
@@ -74112,21 +75836,21 @@
   },
   {
     "material": "EGG",
-    "name": "Blue Goblin Egg",
+    "name": "§3Blue Goblin Egg",
     "tier": "RARE",
     "description": "%%gray%%%%italic%%What came first the goblin or the egg?",
     "id": "GOBLIN_EGG_BLUE"
   },
   {
     "material": "EGG",
-    "name": "Yellow Goblin Egg",
+    "name": "§eYellow Goblin Egg",
     "tier": "RARE",
     "description": "%%gray%%%%italic%%What came first the goblin or the egg?",
     "id": "GOBLIN_EGG_YELLOW"
   },
   {
     "material": "EGG",
-    "name": "Green Goblin Egg",
+    "name": "§aGreen Goblin Egg",
     "tier": "UNCOMMON",
     "description": "%%gray%%%%italic%%What came first the goblin or the egg?",
     "id": "GOBLIN_EGG_GREEN"
@@ -74204,6 +75928,12 @@
     "npc_sell_price": 20840,
     "description": "%%gray%%%%italic%%May cause diseases",
     "id": "GOBLIN_OMELETTE"
+  },
+  {
+    "material": "MONSTER_EGG",
+    "durability": 101,
+    "name": "Move Sam",
+    "id": "SAM_ASSISTANT"
   },
   {
     "material": "SKULL_ITEM",
@@ -94557,6 +96287,15 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA5MzY4YTBkYzAzYjU3YTdkNjhlMmIyYzA1YjcyMDQ3YmQ2NWMyNzZjMDE0ZDk5Mzk3NmE3NDdiMjQ0NmM5OSJ9fX0=",
+    "name": "Hardened Kuudra Chunk",
+    "soulbound": "SOLO",
+    "tier": "EPIC",
+    "id": "EPIC_KUUDRA_CHUNK"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjZhNzZjYzIyZTdjMmFiOWM1NDBkMTI0NGVhZGJhNTgxZjVkZDllMThmOWFkYWNmMDUyODBhNWI0OGI4ZjYxOCJ9fX0=",
     "name": "Purchase Revive",
     "glowing": true,
@@ -94571,6 +96310,15 @@
     "tier": "SPECIAL",
     "npc_sell_price": 0,
     "id": "KUUDRA_SHOP_ITEM"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA5MzY4YTBkYzAzYjU3YTdkNjhlMmIyYzA1YjcyMDQ3YmQ2NWMyNzZjMDE0ZDk5Mzk3NmE3NDdiMjQ0NmM5OSJ9fX0=",
+    "name": "Kuudra Chunk",
+    "soulbound": "SOLO",
+    "tier": "UNCOMMON",
+    "id": "UNCOMMON_KUUDRA_CHUNK"
   },
   {
     "material": "IRON_PICKAXE",
@@ -94594,6 +96342,24 @@
     "glowing": true,
     "tier": "SPECIAL",
     "id": "REVIVE_PERK_ITEM"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA5MzY4YTBkYzAzYjU3YTdkNjhlMmIyYzA1YjcyMDQ3YmQ2NWMyNzZjMDE0ZDk5Mzk3NmE3NDdiMjQ0NmM5OSJ9fX0=",
+    "name": "Enriched Kuudra Chunk",
+    "soulbound": "SOLO",
+    "tier": "LEGENDARY",
+    "id": "LEGENDARY_KUUDRA_CHUNK"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDA5MzY4YTBkYzAzYjU3YTdkNjhlMmIyYzA1YjcyMDQ3YmQ2NWMyNzZjMDE0ZDk5Mzk3NmE3NDdiMjQ0NmM5OSJ9fX0=",
+    "name": "Meaty Kuudra Chunk",
+    "soulbound": "SOLO",
+    "tier": "RARE",
+    "id": "RARE_KUUDRA_CHUNK"
   },
   {
     "material": "LEATHER_CHESTPLATE",
@@ -95541,8 +97307,7 @@
     "name": "Campfire Initiate Badge",
     "category": "ACCESSORY",
     "soulbound": "COOP",
-    "id": "CAMPFIRE_TALISMAN_1",
-    "tier": "COMMON"
+    "id": "CAMPFIRE_TALISMAN_1"
   },
   {
     "material": "SKULL_ITEM",
@@ -95611,8 +97376,7 @@
     "name": "Campfire Initiate Badge",
     "category": "ACCESSORY",
     "soulbound": "COOP",
-    "id": "CAMPFIRE_TALISMAN_2",
-    "tier": "COMMON"
+    "id": "CAMPFIRE_TALISMAN_2"
   },
   {
     "material": "SKULL_ITEM",
@@ -95681,8 +97445,7 @@
     "name": "Campfire Initiate Badge",
     "category": "ACCESSORY",
     "soulbound": "COOP",
-    "id": "CAMPFIRE_TALISMAN_3",
-    "tier": "COMMON"
+    "id": "CAMPFIRE_TALISMAN_3"
   },
   {
     "material": "SKULL_ITEM",
@@ -95735,12 +97498,11 @@
   },
   {
     "material": "GOLD_NUGGET",
-    "name": "Yellow Rock of Love",
+    "name": "§eYellow Rock of Love",
     "glowing": true,
     "category": "ACCESSORY",
     "soulbound": "COOP",
-    "id": "WEDDING_RING_1",
-    "tier": "COMMON"
+    "id": "WEDDING_RING_1"
   },
   {
     "material": "SKULL_ITEM",
@@ -95784,12 +97546,11 @@
   },
   {
     "material": "GOLD_NUGGET",
-    "name": "Shiny Yellow Rock",
+    "name": "§eShiny Yellow Rock",
     "glowing": true,
     "category": "ACCESSORY",
     "soulbound": "COOP",
-    "id": "WEDDING_RING_0",
-    "tier": "COMMON"
+    "id": "WEDDING_RING_0"
   },
   {
     "material": "SKULL_ITEM",
@@ -95833,12 +97594,5 @@
       "bundled_amount": 9
     },
     "id": "ECCENTRIC_PAINTING_BUNDLE"
-  },
-  {
-    "name": "Crab Hat of Celebration (2022)",
-    "category": "ACCESSORY",
-    "id": "PARTY_HAT_CRAB_ANIMATED",
-    "tier": "SPECIAL",
-    "manual": true
   }
 ]

@@ -36,7 +36,7 @@ const limiter = rateLimit({
 
 app.use(express.static(__dirname + '/public'));
 app.use(limiter);
-app.use(Auth);
+// app.use(Auth);
 app.use(require('cors')());
 app.use(express.json({ limit: '15mb' }));
 app.use(express.urlencoded({ extended: true }));
