@@ -232,7 +232,7 @@ module.exports = {
                 getTalismans(profile),
                 getCakebag(profile),
             ]);
-
+            
             result.push({
                 username: player.name,
                 uuid: uuid,
@@ -240,7 +240,7 @@ module.exports = {
                 id: profileData.profile_id,
                 rank: player.rank,
                 hypixelLevel: player.hypixelLevel,
-                skyblockLevel: profile?.leveling?.experince / 100 || 0,
+                skyblockLevel: profile?.leveling?.experience / 100 || 0,
                 karma: player.karma,
                 isIronman: profileData?.game_mode === 'ironman' ? true : false,
                 gamemode: profileData?.game_mode ?? 'normal',
