@@ -10,6 +10,7 @@ module.exports = async (profile) => {
     const { slayer_experience } = formatLilySlayer(getSlayer(profile));
 
     const lily = getWeightRaw(skills_levels, skills_experience, catacombs, master_mode, catacombs_experience, slayer_experience);
+    console.log(master_mode);
 
     const senither = calculateTotalSenitherWeight(profile);
     return {
@@ -259,6 +260,7 @@ function formatLilyDungeons(dungeons) {
 
     let master_mode = {};
     for (const floor of Object.keys(dungeons?.catacombs?.master_mode_floors || {})) {
+        if(floor.split('_')[1]>7) continue
         Object.assign(master_mode, { [floor.split('_')[1]]: dungeons?.catacombs?.master_mode_floors?.[floor]?.completions });
     }
 
