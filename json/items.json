@@ -13178,7 +13178,7 @@
     "description": "%%gray%%It's strangely sweet and somewhat sticky...",
     "tier": "UNCOMMON",
     "glowing": true,
-    "npc_sell_price": 0,
+    "npc_sell_price": 1,
     "id": "SWEET_FLESH"
   },
   {
@@ -13198,7 +13198,7 @@
     "name": "Wet Pumpkin",
     "description": "%%gray%%A squishy moist mess.",
     "tier": "EPIC",
-    "npc_sell_price": 0,
+    "npc_sell_price": 1,
     "id": "WET_PUMPKIN"
   },
   {
@@ -13217,7 +13217,7 @@
     "name": "Decayed Bat",
     "description": "%%gray%%A withering husk of its former self.",
     "tier": "RARE",
-    "npc_sell_price": 0,
+    "npc_sell_price": 1,
     "id": "DECAYED_BAT"
   },
   {
@@ -13260,7 +13260,7 @@
     "name": "Poisoned Candy",
     "description": "%%gray%%A delicious, vibrant, and round candy with an extra kick.",
     "tier": "UNCOMMON",
-    "npc_sell_price": 0,
+    "npc_sell_price": 1,
     "hide_from_viewrecipe_command": true,
     "id": "POISONED_CANDY"
   },
@@ -14440,6 +14440,35 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_NOTES_THIRD",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_NOTES_THIRD"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_MEMORY_FIRST",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_MEMORY_FIRST"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzA5ZWMwZDY0NWQwZDVhYTI3MTAwYTg4NmFiNzY0ZjI1ZjdmOWQwYTYwMzQ5ODEzYzQ2N2NmZTBkZGZiZDhlYyJ9fX0=",
+    "name": "Floral Wheelbarrow",
+    "furniture": "FLORAL_WHEELBARROW",
+    "tier": "EPIC",
+    "id": "FLORAL_WHEELBARROW"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU2ZGYxYzJiZjViOTE4ZjZjODg3OWFmNGM0ZWNjMWRhYmJlMzcyMjkyODRlMWY4ZjZiY2NkYjFlYTNkMGFjIn19fQ==",
     "name": "Volleyball Court",
     "furniture": "VOLLEYBALL",
@@ -14454,6 +14483,16 @@
     "furniture": "CHRISTMAS_TREE",
     "tier": "EPIC",
     "id": "CHRISTMAS_TREE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_ART_SECOND",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_ART_SECOND"
   },
   {
     "material": "SKULL_ITEM",
@@ -14476,11 +14515,30 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_ART_THIRD",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_ART_THIRD"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZkZjljMjEyYThhZDgyNTQ1ZjBlNTk0MTBiZmE5OTBmZjNlN2FhYmU4YmE4YzlmZGMzZDRhNWVhMjcyMjY0OCJ9fX0=",
     "name": "Ice Cream Cart",
     "furniture": "ICE_CREAM_CART",
     "tier": "EPIC",
     "id": "ICE_CREAM_CART"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWRiYTM4ZTlmYzY3ZjcyYzQ1OGZkYWM4ZWNkN2NhYmFlZDNlYjgzNzM3MTQzYTAxMjgzNTBhMWFiMzgxZTNlIn19fQ==",
+    "name": "Lattice Bench",
+    "furniture": "LATTICE_BENCH",
+    "tier": "EPIC",
+    "id": "LATTICE_BENCH"
   },
   {
     "material": "SKULL_ITEM",
@@ -14508,6 +14566,26 @@
     "furniture": "PUMPKIN_CRAFTING_TABLE",
     "tier": "EPIC",
     "id": "PUMPKIN_CRAFTING_TABLE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_MEMORY_THIRD",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_MEMORY_THIRD"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_MEME_RUNNERUP",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_MEME_RUNNERUP"
   },
   {
     "material": "SKULL_ITEM",
@@ -14548,6 +14626,26 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_MEME_FIRST",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_MEME_FIRST"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_NOTES_FIRST",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_NOTES_FIRST"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTYzZTY2NDZmMWMwZDQxZmQzYmY1NTg0YTFjZTA0NGY1YzQ2ZDU5ODI1OGRiNDYyMTYxMTc4NTlmNTdhZjE5NyJ9fX0=",
     "name": "Hammock",
     "furniture": "HAMMOCK",
@@ -14557,11 +14655,70 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_MEMORY_SECOND",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_MEMORY_SECOND"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_ART_RUNNERUP",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_ART_RUNNERUP"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDcxMGY5YWEzMjZjNzIwNTAzODM5MmFlYjEyZjQ1Y2UyMmNmNmExMzM2YjgyMTI5NjY4YmVhMWZjNDZkNDI4NSJ9fX0=",
+    "name": "Bee Hive",
+    "furniture": "BEE_HIVE",
+    "tier": "EPIC",
+    "id": "BEE_HIVE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_ART_FIRST",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_ART_FIRST"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_MEME_THIRD",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_MEME_THIRD"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmYyNGVkNjg3NTMwNGZhNGExZjBjNzg1YjJjYjZhNmE3MjU2M2U5ZjNlMjRlYTU1ZTE4MTc4NDUyMTE5YWE2NiJ9fX0=",
     "name": "Skeleton Statue",
     "furniture": "SKELETON_STATUE",
     "tier": "EPIC",
     "id": "SKELETON_STATUE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_NOTES_RUNNERUP",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_NOTES_RUNNERUP"
   },
   {
     "material": "SKULL_ITEM",
@@ -14584,11 +14741,41 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_MEMORY_RUNNERUP",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_MEMORY_RUNNERUP"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmVmMzU5OWMxNDVkMzcyZWE5ODY5ODc3NjNlMjQ5OGQyMWI1NjdkNzFmYmY3ZTIzZDVmYTgxOTdlOWFkMWQifX19",
     "name": "Holiday Train",
     "furniture": "HOLIDAY_TRAIN",
     "tier": "EPIC",
     "id": "HOLIDAY_TRAIN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_NOTES_SECOND",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_NOTES_SECOND"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2FmM2ZkNDczYTY0OGI4NDdjY2RhMWQyMDc0NDc5YmI3NjcyNzcxZGM0MzUyMjM0NjhlZDlmZjdiNzZjYjMifX19",
+    "name": "10th Anniversary Podium",
+    "furniture": "ANNI_PODIUM_MEME_SECOND",
+    "tier": "EPIC",
+    "soulbound": "SOLO",
+    "id": "ANNI_PODIUM_MEME_SECOND"
   },
   {
     "material": "SKULL_ITEM",
@@ -15578,6 +15765,7 @@
     "material": "RABBIT_STEW",
     "name": "§cMushroom & Warts Stew",
     "tier": "RARE",
+    "soulbound": "COOP",
     "id": "WARTS_STEW"
   },
   {
@@ -16781,6 +16969,7 @@
     "material": "DOUBLE_PLANT",
     "durability": 4,
     "name": "§cRose Bouquet",
+    "soulbound": "COOP",
     "id": "ROSE_BOUQUET"
   },
   {
@@ -20529,7 +20718,7 @@
   {
     "material": "MELON",
     "name": "Melon",
-    "npc_sell_price": 0.5,
+    "npc_sell_price": 2,
     "id": "MELON"
   },
   {
@@ -21691,7 +21880,7 @@
     "name": "Enchanted Baked Potato",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 25600,
+    "npc_sell_price": 102400,
     "id": "ENCHANTED_BAKED_POTATO"
   },
   {
@@ -22752,7 +22941,7 @@
   {
     "material": "PUMPKIN",
     "name": "Pumpkin",
-    "npc_sell_price": 4,
+    "npc_sell_price": 10,
     "id": "PUMPKIN"
   },
   {
@@ -24774,7 +24963,7 @@
   {
     "material": "CACTUS",
     "name": "Cactus",
-    "npc_sell_price": 1,
+    "npc_sell_price": 3,
     "id": "CACTUS"
   },
   {
@@ -24908,7 +25097,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRiNzExZmY1MmVlZGRhNTljNDM0YmIwMzE2OTc2M2Q3YzQwYjViODkxMjc3NzhmZWFjZDYzYWE5NGRmYyJ9fX0=",
     "name": "Polished Pumpkin",
     "tier": "RARE",
-    "npc_sell_price": 102400,
+    "npc_sell_price": 256000,
     "id": "POLISHED_PUMPKIN"
   },
   {
@@ -25311,7 +25500,7 @@
   {
     "material": "HUGE_MUSHROOM_1",
     "name": "Brown Mushroom Block",
-    "npc_sell_price": 4,
+    "npc_sell_price": 10,
     "id": "HUGE_MUSHROOM_1"
   },
   {
@@ -25334,7 +25523,7 @@
     "name": "Enchanted Hay Bale",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 1300,
+    "npc_sell_price": 7776,
     "id": "ENCHANTED_HAY_BLOCK"
   },
   {
@@ -25877,6 +26066,7 @@
     "name": "§dPoem of True Love",
     "glowing": true,
     "tier": "EPIC",
+    "soulbound": "COOP",
     "id": "POEM_OF_INFINITE_LOVE"
   },
   {
@@ -25919,6 +26109,7 @@
     "name": "§eVery Official Yellow Rock of Love!",
     "glowing": true,
     "tier": "LEGENDARY",
+    "soulbound": "COOP",
     "id": "VERY_OFFICIAL_YELLOW_ROCK"
   },
   {
@@ -26658,7 +26849,7 @@
   {
     "material": "BROWN_MUSHROOM",
     "name": "Brown Mushroom",
-    "npc_sell_price": 4,
+    "npc_sell_price": 10,
     "id": "BROWN_MUSHROOM"
   },
   {
@@ -27077,7 +27268,7 @@
     "name": "Enchanted Carrot",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 160,
+    "npc_sell_price": 640,
     "id": "ENCHANTED_CARROT"
   },
   {
@@ -27680,6 +27871,7 @@
     "name": "Shady Ring",
     "category": "ACCESSORY",
     "tier": "UNCOMMON",
+    "soulbound": "COOP",
     "id": "SHADY_RING"
   },
   {
@@ -29059,7 +29251,7 @@
     "name": "Enchanted Potato",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 160,
+    "npc_sell_price": 640,
     "id": "ENCHANTED_POTATO"
   },
   {
@@ -29503,6 +29695,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmRhYzlhNTE4MTNhYmNiNjY2ZWUyYzJjYTg0Y2VmY2ZiMjFlNThiN2IwMWFlMGVhN2U5OWQzNWYzMjNhIn19fQ==",
     "name": "§cSecret Gift for Juliette",
     "tier": "EPIC",
+    "soulbound": "COOP",
     "id": "WRAPPED_GIFT_FOR_JULIETTE"
   },
   {
@@ -30050,7 +30243,7 @@
     "material": "INK_SACK",
     "durability": 2,
     "name": "Cactus Green",
-    "npc_sell_price": 1,
+    "npc_sell_price": 3,
     "id": "INK_SACK:2"
   },
   {
@@ -33088,7 +33281,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTExYTNjZWM3YWFmOTA0MjEyY2NmOTNiYjY3YTNjYWYzZDY0OTc4M2JhOTBiOGI2MGJiNjNjNzY4N2ViMzlmIn19fQ==",
     "name": "Mutant Nether Wart",
     "tier": "RARE",
-    "npc_sell_price": 51200,
+    "npc_sell_price": 128000,
     "id": "MUTANT_NETHER_STALK"
   },
   {
@@ -33772,7 +33965,7 @@
   {
     "material": "BAKED_POTATO",
     "name": "Baked Potato",
-    "npc_sell_price": 1,
+    "npc_sell_price": 4,
     "id": "BAKED_POTATO"
   },
   {
@@ -36788,7 +36981,7 @@
     "name": "Enchanted Golden Carrot",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 20608,
+    "npc_sell_price": 81920,
     "id": "ENCHANTED_GOLDEN_CARROT"
   },
   {
@@ -37236,7 +37429,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjdjMzNjZDBjMTRiYTgzMGRhMTQ5OTA3ZjdhNmFhZTgzNWI2YTM1YWVhMDFlMGNlMDczZmIzYzU5Y2M0NjMyNiJ9fX0=",
     "name": "Tightly-Tied Hay Bale",
     "tier": "RARE",
-    "npc_sell_price": 187200,
+    "npc_sell_price": 1119744,
     "id": "TIGHTLY_TIED_HAY_BALE"
   },
   {
@@ -40725,6 +40918,7 @@
     "name": "Seal of the Family",
     "category": "ACCESSORY",
     "tier": "EPIC",
+    "soulbound": "COOP",
     "id": "SEAL_OF_THE_FAMILY"
   },
   {
@@ -41085,6 +41279,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGYxYTI3N2JlYjllNGZhYTZlN2UzNTZjNzQ3ODZlOTY2MTU1NzM2YTY4NThiZjViYjVhZDI5ZGY1YmFiNjFhMSJ9fX0=",
     "name": "§bSolved Rubix Prism",
     "tier": "EPIC",
+    "soulbound": "COOP",
     "id": "SOLVED_PRISM"
   },
   {
@@ -41135,7 +41330,7 @@
     "material": "HUGE_MUSHROOM_2",
     "name": "Enchanted Red Mushroom Block",
     "glowing": true,
-    "npc_sell_price": 20480,
+    "npc_sell_price": 51200,
     "tier": "RARE",
     "id": "ENCHANTED_HUGE_MUSHROOM_2"
   },
@@ -41387,7 +41582,7 @@
     "name": "Enchanted Sugar",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 320,
+    "npc_sell_price": 800,
     "id": "ENCHANTED_SUGAR"
   },
   {
@@ -42587,7 +42782,7 @@
   {
     "material": "CARROT_ITEM",
     "name": "Carrot",
-    "npc_sell_price": 1,
+    "npc_sell_price": 4,
     "id": "CARROT_ITEM"
   },
   {
@@ -42960,7 +43155,7 @@
   {
     "material": "MELON_SEEDS",
     "name": "Melon Seeds",
-    "npc_sell_price": 0.5,
+    "npc_sell_price": 1,
     "id": "MELON_SEEDS"
   },
   {
@@ -43692,7 +43887,7 @@
   {
     "material": "HUGE_MUSHROOM_2",
     "name": "Red Mushroom Block",
-    "npc_sell_price": 4,
+    "npc_sell_price": 10,
     "id": "HUGE_MUSHROOM_2"
   },
   {
@@ -44238,7 +44433,7 @@
     "name": "Enchanted Melon Block",
     "glowing": true,
     "tier": "RARE",
-    "npc_sell_price": 25600,
+    "npc_sell_price": 51200,
     "id": "ENCHANTED_MELON_BLOCK"
   },
   {
@@ -44626,7 +44821,7 @@
   {
     "material": "HAY_BLOCK",
     "name": "Hay Bale",
-    "npc_sell_price": 9,
+    "npc_sell_price": 54,
     "id": "HAY_BLOCK"
   },
   {
@@ -47753,7 +47948,7 @@
   {
     "material": "WHEAT",
     "name": "Wheat",
-    "npc_sell_price": 1,
+    "npc_sell_price": 6,
     "id": "WHEAT"
   },
   {
@@ -49313,7 +49508,7 @@
   {
     "material": "MELON_BLOCK",
     "name": "Melon",
-    "npc_sell_price": 4.5,
+    "npc_sell_price": 18,
     "id": "MELON_BLOCK"
   },
   {
@@ -49941,7 +50136,7 @@
     "name": "Enchanted Seeds",
     "tier": "UNCOMMON",
     "glowing": true,
-    "npc_sell_price": 80,
+    "npc_sell_price": 480,
     "id": "ENCHANTED_SEEDS"
   },
   {
@@ -50760,7 +50955,7 @@
   {
     "material": "SUGAR_CANE",
     "name": "Sugar Cane",
-    "npc_sell_price": 2,
+    "npc_sell_price": 5,
     "id": "SUGAR_CANE"
   },
   {
@@ -51299,7 +51494,7 @@
   {
     "material": "NETHER_STALK",
     "name": "Nether Wart",
-    "npc_sell_price": 2,
+    "npc_sell_price": 5,
     "id": "NETHER_STALK"
   },
   {
@@ -52073,7 +52268,7 @@
     "name": "Enchanted Nether Wart",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 320,
+    "npc_sell_price": 800,
     "id": "ENCHANTED_NETHER_STALK"
   },
   {
@@ -53032,7 +53227,7 @@
     "material": "BROWN_MUSHROOM",
     "name": "Enchanted Brown Mushroom",
     "glowing": true,
-    "npc_sell_price": 640,
+    "npc_sell_price": 1600,
     "tier": "UNCOMMON",
     "id": "ENCHANTED_BROWN_MUSHROOM"
   },
@@ -53284,7 +53479,7 @@
     "name": "Enchanted Cactus Green",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 160,
+    "npc_sell_price": 480,
     "id": "ENCHANTED_CACTUS_GREEN"
   },
   {
@@ -54971,7 +55166,7 @@
     "name": "Enchanted Pumpkin",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 640,
+    "npc_sell_price": 1600,
     "id": "ENCHANTED_PUMPKIN"
   },
   {
@@ -57194,7 +57389,7 @@
     "name": "Hot Potato Book",
     "glowing": true,
     "tier": "EPIC",
-    "npc_sell_price": 13000,
+    "npc_sell_price": 51200,
     "id": "HOT_POTATO_BOOK"
   },
   {
@@ -58735,7 +58930,7 @@
     "material": "HUGE_MUSHROOM_1",
     "name": "Enchanted Brown Mushroom Block",
     "glowing": true,
-    "npc_sell_price": 20480,
+    "npc_sell_price": 51200,
     "tier": "RARE",
     "id": "ENCHANTED_HUGE_MUSHROOM_1"
   },
@@ -59089,6 +59284,7 @@
     "name": "Crooked Artifact",
     "category": "ACCESSORY",
     "tier": "RARE",
+    "soulbound": "COOP",
     "id": "CROOKED_ARTIFACT"
   },
   {
@@ -59202,6 +59398,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmNiMmYxMmNmNGYzNGE4YWRmZTNkNzViN2ZmNDg5YjkxYWJhM2M4YjE5OTUyMTNmYTQ2MWQ2ODQ5MGE1MSJ9fX0=",
     "name": "§cFlower Maelstrom",
     "tier": "EPIC",
+    "soulbound": "COOP",
     "id": "FLOWER_MAELSTROM"
   },
   {
@@ -60655,6 +60852,7 @@
     "material": "ENDER_STONE",
     "name": "§fChunk of the Moon",
     "tier": "RARE",
+    "soulbound": "COOP",
     "id": "MOON_CHUNK"
   },
   {
@@ -61203,7 +61401,7 @@
     "material": "RED_MUSHROOM",
     "name": "Enchanted Red Mushroom",
     "glowing": true,
-    "npc_sell_price": 640,
+    "npc_sell_price": 1600,
     "tier": "UNCOMMON",
     "id": "ENCHANTED_RED_MUSHROOM"
   },
@@ -62767,7 +62965,7 @@
     "name": "Enchanted Melon",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 160,
+    "npc_sell_price": 320,
     "id": "ENCHANTED_MELON"
   },
   {
@@ -62915,7 +63113,7 @@
     "name": "Enchanted Red Sand",
     "glowing": true,
     "tier": "UNCOMMON",
-    "npc_sell_price": 320,
+    "npc_sell_price": 800,
     "id": "ENCHANTED_RED_SAND"
   },
   {
@@ -63928,7 +64126,7 @@
     "name": "Enchanted Sugar Cane",
     "glowing": true,
     "tier": "RARE",
-    "npc_sell_price": 51200,
+    "npc_sell_price": 128000,
     "id": "ENCHANTED_SUGAR_CANE"
   },
   {
@@ -64904,7 +65102,7 @@
   {
     "material": "POTATO_ITEM",
     "name": "Potato",
-    "npc_sell_price": 1,
+    "npc_sell_price": 4,
     "id": "POTATO_ITEM"
   },
   {
@@ -64963,6 +65161,7 @@
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDczYmE1NDZhNjJiMzJjNTE1Mzc2ZGQ3ZjNjOTJmYjM1YTMzNTI0ZjMyM2JiYjJiNTk3OGUzOGM3ZTVmNjJhIn19fQ==",
     "name": "Poorly Wrapped Rock",
+    "soulbound": "COOP",
     "id": "POORLY_WRAPPED_ROCK"
   },
   {
@@ -65916,6 +66115,7 @@
     "material": "EMERALD_BLOCK",
     "name": "§aFake Emerald Altar",
     "tier": "UNCOMMON",
+    "soulbound": "COOP",
     "id": "FAKE_EMERALD_ALTAR"
   },
   {
@@ -66374,7 +66574,7 @@
     "name": "Enchanted Cactus",
     "glowing": true,
     "tier": "RARE",
-    "npc_sell_price": 25600,
+    "npc_sell_price": 76800,
     "id": "ENCHANTED_CACTUS"
   },
   {
@@ -66518,7 +66718,7 @@
   {
     "material": "RED_MUSHROOM",
     "name": "Red Mushroom",
-    "npc_sell_price": 4,
+    "npc_sell_price": 10,
     "id": "RED_MUSHROOM"
   },
   {
@@ -68586,7 +68786,7 @@
   {
     "material": "SEEDS",
     "name": "Seeds",
-    "npc_sell_price": 0.5,
+    "npc_sell_price": 3,
     "id": "SEEDS"
   },
   {
@@ -73735,6 +73935,56 @@
     "id": "TROPICAL_BIRD_2_PERSONALITY"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY3ODgyMjIzNjU2NiwKICAicHJvZmlsZUlkIiA6ICJhYzIzZmEzNzRhMmM0YjU2YmYzYzU2ZTVhODY3NjIzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJxdWVlbnNoYW5pd2EiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzhiZjMzYWVhY2Y4ZjU1OWQ4MjA3YTUzNDQ5YjI4YTc5ODZiNDFkZWQ0ODI2MzE2NDBkYmIxODkyYzY1NGNjNyIKICAgIH0KICB9Cn0=",
+    "name": "Overgrown Grass",
+    "category": "REFORGE_STONE",
+    "tier": "RARE",
+    "npc_sell_price": 1,
+    "id": "OVERGROWN_GRASS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY3ODgyMjI4NzM4MiwKICAicHJvZmlsZUlkIiA6ICI0OGNhZmJmNzg4ODg0NDU3ODNmZmI0MTAyNDE5MzI3MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJEcjRnb25GMWdodGVyIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM5YTFhZGY2NWY0Y2ZiZWYxZTFmYTFkNjQ3NDI2YWUxZGUzMDg1ZjdkOGQ3YjRiN2QzZGM0MWFkMzJmNmM0ZDIiCiAgICB9CiAgfQp9",
+    "name": "Large Walnut",
+    "category": "REFORGE_STONE",
+    "tier": "RARE",
+    "npc_sell_price": 1,
+    "id": "LARGE_WALNUT"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY3ODgyMjIwMjcwMSwKICAicHJvZmlsZUlkIiA6ICI5ZWEyMTQ0NGFiNjI0MWZkYjg5YjE2NDFhNDg2MGZiZiIsCiAgInByb2ZpbGVOYW1lIiA6ICI3QUJDSE9VTiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mOWZjZmFjMmNlNTczY2EzNTEyMmE1MTdlNDMxMTc4Y2E3YmY4OWQwNzkzYWY3NjVmZGY3Zjk0OWM0ZGQwYjhlIgogICAgfQogIH0KfQ==",
+    "name": "Flowering Bouquet",
+    "category": "REFORGE_STONE",
+    "tier": "RARE",
+    "npc_sell_price": 1,
+    "id": "FLOWERING_BOUQUET"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY3ODgyMjIyMzAxNywKICAicHJvZmlsZUlkIiA6ICJhZjQwMzQxMTk1YTg0ZDcwODFkNWNmNDE3MDM5ODJmNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdHJ4dSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MmNmZjg3YzFhYmU2OTJjZGIyMDUyNmE1ODYzYjZjYjc1YWNmMzZjYWYwNTNhMjJjN2YxZmM2YzM2OTZhZGFjIgogICAgfQogIH0KfQ==",
+    "name": "Burrowing Spores",
+    "category": "REFORGE_STONE",
+    "tier": "RARE",
+    "npc_sell_price": 1,
+    "id": "BURROWING_SPORES"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY3ODgyMjI1MzQwMywKICAicHJvZmlsZUlkIiA6ICJhNWVmNzE3YWI0MjA0MTQ4ODlhOTI5ZDA5OTA0MzcwMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJkZXBsZXRpbmciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDJhMzA0OGY1M2IyNGZiMzZlYmFjNjRkODU4Mzg5MTM1ODgzZjI1ODc0ZTQ1NDZkMWZjZDg5YzMwYmQ2ZjY1NiIKICAgIH0KICB9Cn0=",
+    "name": "SkyMart Brochure",
+    "category": "REFORGE_STONE",
+    "tier": "RARE",
+    "npc_sell_price": 1,
+    "id": "SKYMART_BROCHURE"
+  },
+  {
     "material": "GOLD_AXE",
     "name": "Pumpkin Dicer 2.0",
     "description": "%%italic%%Someone once said, 2 is always better than 1!",
@@ -73748,7 +73998,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjk0ODA3NCwKICAicHJvZmlsZUlkIiA6ICI2ODAwNzFmZTIxOWE0OWNmYmM3MDIxMjc1NTI0NDIwMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZXphYm95ODAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzZhZTA3NjY0OWVmMjJmNjBlODUxMTgzMWM2OGZkMmI2ZWE2M2MzMjE2NGRhYjMzYThhZWJjMThmZjJhNTRjOCIKICAgIH0KICB9Cn0",
     "name": "Squash",
     "tier": "EPIC",
-    "npc_sell_price": 750,
+    "npc_sell_price": 75000,
     "id": "SQUASH"
   },
   {
@@ -74340,6 +74590,24 @@
     "id": "MELON_LEGGINGS"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY3ODgyMjI2OTQ0MCwKICAicHJvZmlsZUlkIiA6ICJjYTU4NzNhYmY0Y2U0YWUxODAxZmVmODgzNjhlMWExNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXRocm9uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjg4MWEzODgwMGExYzg2N2QyYTFhOGExMGM4NTQzYWU4YTNiOGE5YTg3YzFhYzU4YmExZTI4M2JiMGRjM2Q2OCIKICAgIH0KICB9Cn0=",
+    "name": "Squash Ring",
+    "tier": "UNCOMMON",
+    "category": "ACCESSORY",
+    "id": "SQUASH_RING"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY3ODgyMjE3NDk0MywKICAicHJvZmlsZUlkIiA6ICIxMWY3ZTIxMDMyOGE0MjRmYTU0NmFlZDk1M2FkNGU3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ1bnR1bmVkMiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hYzdkNTUyMGE3M2UxZDZkNzg1NDk2YjVmNWFmOGM5ZTE0YjQwZDZmNmViZDYyOTIzMWRkYmNlMjdkNDIyMjE0IgogICAgfQogIH0KfQ==",
+    "name": "Cropie Talisman",
+    "tier": "COMMON",
+    "category": "ACCESSORY",
+    "id": "CROPIE_TALISMAN"
+  },
+  {
     "name": "Copper",
     "material": "SKULL_ITEM",
     "durability": 3,
@@ -74354,6 +74622,7 @@
     "tier": "RARE",
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmMzZjg1NGJiNjUyNjVhYjNmZjJlMzYyNjY5YTVmODA2YWI4NGRjMjQwYTRiOTlmOWE2MmFiNzI2NzcyOGJhMyJ9fX0=",
     "name": "Box of Seeds",
+    "npc_sell_price": 76800,
     "id": "BOX_OF_SEEDS"
   },
   {
@@ -74422,7 +74691,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2Njg4NjkyMDczOSwKICAicHJvZmlsZUlkIiA6ICJkYmQ4MDQ2M2EwMzY0Y2FjYjI3OGNhODBhMDBkZGIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJ4bG9nMjEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODIzM2QzYTcwZDgyZWVlMWNhYWE1OGMxNmI4M2VlNjIyNGU4YmZjN2NkYTYzNjc5Mzg1M2UwNDFhMWZiYWE2YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
     "name": "Condensed Fermento",
     "tier": "LEGENDARY",
-    "npc_sell_price": 9000,
+    "npc_sell_price": 2250000,
     "id": "CONDENSED_FERMENTO"
   },
   {
@@ -74438,8 +74707,17 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjkyOTIyNCwKICAicHJvZmlsZUlkIiA6ICJjOWRlZTM4MDUzYjg0YzI5YjZlZjA5YjJlMDM5OTc0ZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTQVJfRGVjZW1iZXI1IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2RkMDFjYmEyM2VkZTJjZDI4OTUxMDdmMGMwMjU4ZTk3MWQyNDg1NTM4ZmU5NjQ5ZWYyODUzYmQyNmU2MjMyZGMiCiAgICB9CiAgfQp9",
     "name": "Cropie",
     "tier": "RARE",
-    "npc_sell_price": 500,
+    "npc_sell_price": 25000,
     "id": "CROPIE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY3ODgyMjE4OTc2MCwKICAicHJvZmlsZUlkIiA6ICJmMTkyZGU3MDUzMTQ0ODcxOTAwMjQ1MmIzZWE3MzA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZVhvU2V0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2UxYWRkNzIzMWM5N2U3N2ExNjliZTc2NGE0MWY5ODFjYzlmNTQyYWE4YzZhMTMzNmQ4YmUyZDgxNzIxMWJiZmQiCiAgICB9CiAgfQp9",
+    "name": "Fermento Artifact",
+    "tier": "RARE",
+    "category": "ACCESSORY",
+    "id": "FERMENTO_ARTIFACT"
   },
   {
     "material": "SKULL_ITEM",
@@ -74456,7 +74734,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY2MjUwMjkxNjU1MiwKICAicHJvZmlsZUlkIiA6ICIwOTZkYWUzZWY1MmU0YWU4ODk3ODY2N2EyOGIwZWFhNCIsCiAgInByb2ZpbGVOYW1lIiA6ICJHd0FiaXlCZ2dnIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NiNDFkYWViNTdkMmFlNjJjNjZlNThlYjZkZWJiMmE3ZDQ0NmUzNDU0MWE3NzEzNTA3MjhjOWRiMTViZWFmYmEiCiAgICB9CiAgfQp9",
     "name": "Fermento",
     "tier": "LEGENDARY",
-    "npc_sell_price": 1000,
+    "npc_sell_price": 250000,
     "id": "FERMENTO"
   },
   {

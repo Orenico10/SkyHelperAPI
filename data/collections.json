@@ -2751,7 +2751,7 @@
     "name": "Clownfish",
     "id": "RAW_FISH:2",
     "category": "FISHING",
-    "maxTiers": 7,
+    "maxTiers": 9,
     "tiers": [
       {
         "tier": 1,
@@ -2780,6 +2780,14 @@
       {
         "tier": 7,
         "amountRequired": 800
+      },
+      {
+        "tier": 8,
+        "amountRequired": 1600
+      },
+      {
+        "tier": 9,
+        "amountRequired": 4000
       }
     ]
   },
