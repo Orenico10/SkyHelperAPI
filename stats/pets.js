@@ -162,10 +162,7 @@ async function getPets(profile) {
       // now we push the lore of the held items
       if (!heldItemObj) {
         heldItemObj = await constants.pet_items[heldItem];
-        // console.log("issue here");
       }
-      console.log(pet);
-      console.log(heldItemObj);
       lore.push("", `§6Held Item: §${constants.rarityColors[heldItemObj?.tier?.toLowerCase() ?? "common"]}${heldItemObj?.name ?? "Unknown"}`);
 
       if (heldItem in constants.pet_items) {
