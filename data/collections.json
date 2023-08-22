@@ -2998,5 +2998,169 @@
         "amountRequired": 4000
       }
     ]
+  },
+  {
+    "name": "Wilted Berberis",
+    "id": "WILTED_BERBERIS",
+    "category": "RIFT",
+    "maxTiers": 4,
+    "tiers": [
+      {
+        "tier": 1,
+        "amountRequired": 20
+      },
+      {
+        "tier": 2,
+        "amountRequired": 60
+      },
+      {
+        "tier": 3,
+        "amountRequired": 140
+      },
+      {
+        "tier": 4,
+        "amountRequired": 400
+      }
+    ]
+  },
+  {
+    "name": "Living Metal Heart",
+    "id": "METAL_HEART",
+    "category": "RIFT",
+    "maxTiers": 4,
+    "tiers": [
+      {
+        "tier": 1,
+        "amountRequired": 1
+      },
+      {
+        "tier": 2,
+        "amountRequired": 20
+      },
+      {
+        "tier": 3,
+        "amountRequired": 60
+      },
+      {
+        "tier": 4,
+        "amountRequired": 100
+      }
+    ]
+  },
+  {
+    "name": "Caducous Stem",
+    "id": "CADUCOUS_STEM",
+    "category": "RIFT",
+    "maxTiers": 4,
+    "tiers": [
+      {
+        "tier": 1,
+        "amountRequired": 20
+      },
+      {
+        "tier": 2,
+        "amountRequired": 60
+      },
+      {
+        "tier": 3,
+        "amountRequired": 150
+      },
+      {
+        "tier": 4,
+        "amountRequired": 500
+      }
+    ]
+  },
+  {
+    "name": "Agaricus Cap",
+    "id": "AGARICUS_CAP",
+    "category": "RIFT",
+    "maxTiers": 4,
+    "tiers": [
+      {
+        "tier": 1,
+        "amountRequired": 20
+      },
+      {
+        "tier": 2,
+        "amountRequired": 60
+      },
+      {
+        "tier": 3,
+        "amountRequired": 100
+      },
+      {
+        "tier": 4,
+        "amountRequired": 200
+      }
+    ]
+  },
+  {
+    "name": "Hemovibe",
+    "id": "HEMOVIBE",
+    "category": "RIFT",
+    "maxTiers": 9,
+    "tiers": [
+      {
+        "tier": 1,
+        "amountRequired": 50
+      },
+      {
+        "tier": 2,
+        "amountRequired": 250
+      },
+      {
+        "tier": 3,
+        "amountRequired": 1000
+      },
+      {
+        "tier": 4,
+        "amountRequired": 5000
+      },
+      {
+        "tier": 5,
+        "amountRequired": 15000
+      },
+      {
+        "tier": 6,
+        "amountRequired": 30000
+      },
+      {
+        "tier": 7,
+        "amountRequired": 80000
+      },
+      {
+        "tier": 8,
+        "amountRequired": 150000
+      },
+      {
+        "tier": 9,
+        "amountRequired": 400000
+      }
+    ]
+  },
+  {
+    "name": "Half-Eaten Carrot",
+    "id": "HALF_EATEN_CARROT",
+    "category": "RIFT",
+    "maxTiers": 4,
+    "tiers": [
+      {
+        "tier": 1,
+        "amountRequired": 1
+      },
+      {
+        "tier": 2,
+        "amountRequired": 400
+      },
+      {
+        "tier": 3,
+        "amountRequired": 1000
+      },
+      {
+        "tier": 4,
+        "amountRequired": 3500
+      }
+    ]
   }
 ]
