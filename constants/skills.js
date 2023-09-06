@@ -51,6 +51,6 @@ module.exports = function calcSkill(skill, experience, ignoreMax) {
         xpCurrent,
         xpForNext,
         progress,
-        levelWithProgress: level < maxLevel ? level + progress : level,
+        levelWithProgress: level < maxLevel ? level + progress : level || 0,
     };
 };
