@@ -8,6 +8,7 @@ module.exports = (profile) => {
             return {
                 xp: 0,
                 level: 0,
+                levelWithProgress: 0,
                 xpForNext: xp_tables.slayer[slayer][0],
                 progress: 0,
                 kills: {},
@@ -41,11 +42,14 @@ module.exports = (profile) => {
                 kills[Number(Object.keys(slayers)[i].charAt(Object.keys(slayers)[i].length - 1)) + 1] = Object.values(slayers)[i];
             }
         }
+        let currentLevelXP = xp_tables.slayer[slayer][level - 1]
+        let levelWithProgress = level + (experience - currentLevelXP / xpForNext - currentLevelXP)
 
         return {
             xp: experience,
             totalKills: total,
             level,
+            levelWithProgress,
             xpForNext,
             progress,
             kills,
