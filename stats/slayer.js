@@ -43,7 +43,7 @@ module.exports = (profile) => {
             }
         }
         let currentLevelXP = xp_tables.slayer[slayer][level - 1]
-        let levelWithProgress = level + (experience - currentLevelXP / xpForNext - currentLevelXP)
+        let levelWithProgress = level + ((experience - currentLevelXP) / (xpForNext - currentLevelXP))
 
         return {
             xp: experience,
