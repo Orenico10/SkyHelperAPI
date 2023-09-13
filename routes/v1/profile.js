@@ -17,7 +17,7 @@ module.exports = wrap(async function (req, res) {
     const player = parseHypixel(playerRes, uuid, res);
 
     const profileRes = await makeRequest(res, `https://api.hypixel.net/skyblock/profiles?key=${req.query.key?.toString()}&uuid=${uuid}`);
-    const profile = await parseProfile(player, profileRes, uuid, profileid, res);
+    const profile = await parseProfile(player, profileRes, uuid, profileid, res, req.query.key?.toString());
 
     return res.status(200).json({ status: 200, data: profile });
 });

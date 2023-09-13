@@ -25,6 +25,7 @@ const { isUuid } = require('./uuid');
 const { getNetworth, getPrices } = require('skyhelper-networth');
 
 const getContent = require('../stats/items');
+const { makeRequest } = require('./request');
 
 let prices = {};
 getPrices().then((data) => {
@@ -101,7 +102,7 @@ module.exports = {
             networth: await getNetworth(profile, profileData.banking?.balance, { prices }),
         };
     },
-    parseProfile: async function parseProfile(player, profileRes, uuid, profileid, res) {
+    parseProfile: async function parseProfile(player, profileRes, uuid, profileid, res, key) {
         if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
             res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'` });
             return;
@@ -124,11 +125,13 @@ module.exports = {
             res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'` });
             return;
         }
+        const museumRes = await makeRequest(res, `https://api.hypixel.net/skyblock/museum?key=${key}&profile=${profileData.profile_id}`);
 
+        const museumData = museumRes.data.members[uuid];
         const profile = profileData.members[uuid];
 
         const [networth, weight, crimson, trophy_fish, missing, armor, equipment, pets, talismans, cakebag] = await Promise.all([
-            getNetworth(profile, profileData.banking?.balance, { prices }),
+            getNetworth(profile, profileData.banking?.balance, { prices, museumData }),
             getWeight(profile),
             getCrimson(profile),
             getTrophyFish(profile),
@@ -206,7 +209,7 @@ module.exports = {
         if (result.length == 0) res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.` });
         return result.sort((a, b) => b.selected - a.selected);
     },
-    parseProfiles: async function parseProfile(player, profileRes, uuid, res) {
+    parseProfiles: async function parseProfile(player, profileRes, uuid, res, key) {
         if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
             res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.` });
             return;
@@ -218,10 +221,12 @@ module.exports = {
             if (!isValidProfile(profileData.members, uuid)) {
                 continue;
             }
+            const museumRes = await makeRequest(res, `https://api.hypixel.net/skyblock/museum?key=${key}&profile=${profileData.profile_id}`);
             const profile = profileData.members[uuid];
+            const museumData = museumRes.data.members[uuid];
 
             const [networth, weight, crimson, trophy_fish, missing, armor, equipment, pets, talismans, cakebag] = await Promise.all([
-                getNetworth(profile, profileData.banking?.balance, { prices }),
+                getNetworth(profile, profileData.banking?.balance, { prices, museumData }),
                 getWeight(profile),
                 getCrimson(profile),
                 getTrophyFish(profile),
@@ -232,7 +237,7 @@ module.exports = {
                 getTalismans(profile),
                 getCakebag(profile),
             ]);
-            
+
             result.push({
                 username: player.name,
                 uuid: uuid,
