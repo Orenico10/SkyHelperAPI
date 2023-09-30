@@ -1,7 +1,7 @@
 //CREDIT: https://github.com/Senither/hypixel-skyblock-facade (Modified)
 const { isUuid } = require('../../utils/uuid');
 const { makeRequest, wrap } = require('../../utils/request');
-const { parseHypixel, parseProfiles } = require('../../utils/hypixel');
+const { parseHypixel, parseProfiles, getRank  } = require('../../utils/hypixel');
 
 module.exports = wrap(async function (req, res) {
     let uuid = req.params.uuid;
