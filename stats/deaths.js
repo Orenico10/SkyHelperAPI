@@ -20,7 +20,7 @@ module.exports = (profile) => {
         }
 
         return {
-            totalDeaths: stats.deaths.total,
+            totalDeaths: stats?.deaths?.total,
             types: deaths.sort((a, b) => b.deaths - a.deaths)
         }
     } else {
