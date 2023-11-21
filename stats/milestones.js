@@ -2,8 +2,8 @@ const milestones = require('../constants/milestones')
 
 module.exports = function getMilestones(profile) {
 
-    const dolphin = getCurrentPet('dolphin', profile?.player_stats?.pets.milestone.sea_creatures_killed || 0)
-    const rock = getCurrentPet('rock', profile?.player_stats?.pets.milestone.ores_mined || 0)
+    const dolphin = getCurrentPet('dolphin', profile?.player_stats?.pets?.milestone?.sea_creatures_killed || 0)
+    const rock = getCurrentPet('rock', profile?.player_stats?.pets?.milestone?.ores_mined || 0)
 
     return {
         fishing: {
