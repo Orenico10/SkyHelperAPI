@@ -226,7 +226,7 @@ module.exports = {
             const museumData = museumRes.data.members[uuid];
 
             const [networth, weight, crimson, trophy_fish, missing, armor, equipment, pets, talismans, cakebag] = await Promise.all([
-                getNetworth(profile, profileData.banking?.balance, { prices, museumData }),
+                getNetworth(profile, profileData.banking?.balance, { v2Endpoint: true, museumData }),
                 getWeight(profile),
                 getCrimson(profile),
                 getTrophyFish(profile),
