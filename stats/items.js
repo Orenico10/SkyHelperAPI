@@ -31,8 +31,8 @@ module.exports = async (profile) => {
     const personal_vault_contents = [];
     const wardrobe_contents = {};
 
-    if (profile.inv_armor?.data) {
-        const invArmor = (await decodeData(Buffer.from(profile.inv_armor?.data, 'base64'))).i;
+    if (profile.inventory.inv_armor?.data) {
+        const invArmor = (await decodeData(Buffer.from(profile.inventory.inv_armor?.data, 'base64'))).i;
         for (let i = 0; i < invArmor.length; i++) {
             if (invArmor[i].tag?.ExtraAttributes?.rarity_upgrades) {
                 invArmor[i].tag.ExtraAttributes.recombobulated = invArmor[i].tag.ExtraAttributes.rarity_upgrades === 1 ? true : false;
@@ -57,8 +57,8 @@ module.exports = async (profile) => {
         }
     }
 
-    if (profile.equippment_contents?.data) {
-        const equipment = (await decodeData(Buffer.from(profile.equippment_contents?.data, 'base64'))).i;
+    if (profile.inventory.equipment_contents?.data) {
+        const equipment = (await decodeData(Buffer.from(profile.inventory.equipment_contents?.data, 'base64'))).i;
         const equipmentPieces = ['necklace', 'cloak', 'belt', 'gloves'];
         for (let i = 0; i < equipment.length; i++) {
             if (equipment[i].tag?.ExtraAttributes?.rarity_upgrades) {
@@ -84,8 +84,8 @@ module.exports = async (profile) => {
         }
     }
 
-    if (profile?.backpack_contents) {
-        for (key of Object.keys(profile?.backpack_contents)) {
+    if (profile?.inventory.backpack_contents) {
+        for (key of Object.keys(profile?.inventory.backpack_contents)) {
             const backpack = (await decodeData(Buffer.from(profile.backpack_contents[key].data, 'base64'))).i;
             for (let i = 0; i < backpack.length; i++) {
                 if (backpack[i].tag?.ExtraAttributes?.rarity_upgrades) {
@@ -114,15 +114,15 @@ module.exports = async (profile) => {
         }
     }
 
-    if (profile.quiver?.data) {
-        const quiver = (await decodeData(Buffer.from(profile.quiver?.data, 'base64'))).i;
+    if (profile.inventory.bag_contents.quiver?.data) {
+        const quiver = (await decodeData(Buffer.from(profile.inventory.bag_contents.quiver?.data, 'base64'))).i;
         for (let i = 0; i < quiver.length; i++) {
             quiver[i] ? quiver_contents.push(quiver[i]) : quiver_contents.push({});
         }
     }
 
-    if (profile.talisman_bag?.data) {
-        for (const talisman of (await decodeData(Buffer.from(profile.talisman_bag?.data, 'base64'))).i) {
+    if (profile.inventory.bag_contents.talisman_bag?.data) {
+        for (const talisman of (await decodeData(Buffer.from(profile.inventory.bag_contents.talisman_bag?.data, 'base64'))).i) {
             if (talisman?.tag?.ExtraAttributes?.rarity_upgrades) {
                 talisman.tag.ExtraAttributes.recombobulated = talisman?.tag?.ExtraAttributes?.rarity_upgrades === 1 ? true : false;
                 delete talisman?.tag?.ExtraAttributes?.rarity_upgrades;
@@ -144,8 +144,8 @@ module.exports = async (profile) => {
         }
     }
 
-    if (profile?.backpack_icons) {
-        for (key of Object.keys(profile?.backpack_icons)) {
+    if (inventory.backpack_icons) {
+        for (key of Object.keys(inventory.backpack_icons)) {
             const backpackIcon = (await decodeData(Buffer.from(profile.backpack_icons[key].data, 'base64'))).i;
             for (let i = 0; i < backpackIcon.length; i++) {
                 if (backpackIcon[i].tag?.ExtraAttributes?.timestamp) {
@@ -159,8 +159,8 @@ module.exports = async (profile) => {
         }
     }
 
-    if (profile.wardrobe_contents?.data) {
-        const wardrobeArmor = (await decodeData(Buffer.from(profile.wardrobe_contents?.data, 'base64'))).i;
+    if (profile.inventory.wardrobe_contents?.data) {
+        const wardrobeArmor = (await decodeData(Buffer.from(profile.inventory.wardrobe_contents?.data, 'base64'))).i;
         for (let i = 0; i < wardrobeArmor.length; i++) {
             for (let j = 0; j < armorPieces.length; j++) {
                 if (wardrobeArmor[i].tag?.ExtraAttributes?.rarity_upgrades) {
@@ -189,8 +189,8 @@ module.exports = async (profile) => {
         }
     }
 
-    if (profile?.ender_chest_contents) {
-        const eChest = (await decodeData(Buffer.from(profile.ender_chest_contents.data, 'base64'))).i;
+    if (profile?.inventory.ender_chest_contents) {
+        const eChest = (await decodeData(Buffer.from(profile.inventory.ender_chest_contents.data, 'base64'))).i;
         for (const enderChestItem of eChest) {
             if (enderChestItem.tag?.ExtraAttributes?.rarity_upgrades) {
                 enderChestItem.tag.ExtraAttributes.recombobulated = enderChestItem.tag.ExtraAttributes.rarity_upgrades === 1 ? true : false;
@@ -215,8 +215,8 @@ module.exports = async (profile) => {
         }
     }
 
-    if (profile?.personal_vault_contents) {
-        const personalVault = (await decodeData(Buffer.from(profile.personal_vault_contents.data, 'base64'))).i;
+    if (profile?.inventory.personal_vault_contents) {
+        const personalVault = (await decodeData(Buffer.from(profile.inventory.personal_vault_contents.data, 'base64'))).i;
         for (const persVault of personalVault) {
             if (persVault.tag?.ExtraAttributes?.rarity_upgrades) {
                 persVault.tag.ExtraAttributes.recombobulated = persVault.tag.ExtraAttributes.rarity_upgrades === 1 ? true : false;
@@ -241,22 +241,22 @@ module.exports = async (profile) => {
         }
     }
 
-    if (profile.fishing_bag?.data) {
-        const fishing_bag = (await decodeData(Buffer.from(profile.fishing_bag?.data, 'base64'))).i;
+    if (profile.inventory.bag_contents.fishing_bag?.data) {
+        const fishing_bag = (await decodeData(Buffer.from(profile.inventory.bag_contents.fishing_bag?.data, 'base64'))).i;
         for (let i = 0; i < fishing_bag.length; i++) {
             fishing_bag[i] ? fishing_bag_contents.push(fishing_bag[i]) : fishing_bag_contents.push({});
         }
     }
 
-    if (profile.potion_bag?.data) {
-        const potion_bag = (await decodeData(Buffer.from(profile.potion_bag?.data, 'base64'))).i;
+    if (profile.inventory.bag_contents.potion_bag?.data) {
+        const potion_bag = (await decodeData(Buffer.from(profile.inventory.bag_contents.potion_bag?.data, 'base64'))).i;
         for (let i = 0; i < potion_bag.length; i++) {
             potion_bag[i] ? potion_bag_contents.push(potion_bag[i]) : potion_bag_contents.push({});
         }
     }
 
-    if (profile?.inv_contents) {
-        const inventory = (await decodeData(Buffer.from(profile.inv_contents.data, 'base64'))).i;
+    if (profile?.inventory.inv_contents) {
+        const inventory = (await decodeData(Buffer.from(profile.inventory.inv_contents.data, 'base64'))).i;
         for (let i = 0; i < inventory.length; i++) {
             if (inventory[i].tag?.ExtraAttributes?.rarity_upgrades) {
                 inventory[i].tag.ExtraAttributes.recombobulated = inventory[i].tag.ExtraAttributes.rarity_upgrades === 1 ? true : false;
@@ -281,8 +281,8 @@ module.exports = async (profile) => {
         }
     }
 
-    if (profile?.candy_inventory_contents) {
-        const candy_inventory = (await decodeData(Buffer.from(profile.candy_inventory_contents.data, 'base64'))).i;
+    if (profile?.shared_inventory.candy_inventory_contents) {
+        const candy_inventory = (await decodeData(Buffer.from(profile.shared_inventory.candy_inventory_contents.data, 'base64'))).i;
         for (let i = 0; i < candy_inventory.length; i++) {
             if (candy_inventory[i].tag?.ExtraAttributes?.rarity_upgrades) {
                 candy_inventory[i].tag.ExtraAttributes.recombobulated = candy_inventory[i].tag.ExtraAttributes.rarity_upgrades === 1 ? true : false;

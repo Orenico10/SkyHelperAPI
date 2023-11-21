@@ -169,20 +169,20 @@ const calcSkill = require('./skills.js');
 function calculateTotalSenitherWeight(profile) {
     const weight = {
         skills: {
-            farming: calculateWeight('farming', calcSkill('farming', profile?.experience_skill_farming || 0).levelWithProgress, profile?.experience_skill_farming || 0),
-            mining: calculateWeight('mining', calcSkill('mining', profile?.experience_skill_mining || 0).levelWithProgress, profile?.experience_skill_mining || 0),
-            combat: calculateWeight('combat', calcSkill('combat', profile?.experience_skill_combat || 0).levelWithProgress, profile?.experience_skill_combat || 0),
-            foraging: calculateWeight('foraging', calcSkill('foraging', profile?.experience_skill_foraging || 0).levelWithProgress, profile?.experience_skill_foraging || 0),
-            fishing: calculateWeight('fishing', calcSkill('fishing', profile?.experience_skill_fishing || 0).levelWithProgress, profile?.experience_skill_fishing || 0),
-            enchanting: calculateWeight('enchanting', calcSkill('enchanting', profile?.experience_skill_enchanting || 0).levelWithProgress, profile?.experience_skill_enchanting || 0),
-            alchemy: calculateWeight('alchemy', calcSkill('alchemy', profile?.experience_skill_alchemy || 0).levelWithProgress, profile?.experience_skill_alchemy || 0),
-            taming: calculateWeight('taming', calcSkill('taming', profile?.experience_skill_taming || 0).levelWithProgress, profile?.experience_skill_taming || 0),
+            farming: calculateWeight('farming', calcSkill('farming', profile?.player_data?.experience?.SKILL_FARMING || 0).levelWithProgress, profile?.player_data?.experience?.SKILL_FARMING || 0),
+            mining: calculateWeight('mining', calcSkill('mining', profile?.player_data?.experience?.SKILL_MINING || 0).levelWithProgress, profile?.player_data?.experience?.SKILL_MINING || 0),
+            combat: calculateWeight('combat', calcSkill('combat', profile?.player_data?.experience?.SKILL_COMBAT || 0).levelWithProgress, profile?.player_data?.experience?.SKILL_COMBAT || 0),
+            foraging: calculateWeight('foraging', calcSkill('foraging', profile?.player_data?.experience?.SKILL_FORAGING || 0).levelWithProgress, profile?.player_data?.experience?.SKILL_FORAGING || 0),
+            fishing: calculateWeight('fishing', calcSkill('fishing', profile?.player_data?.experience?.SKILL_FISHING || 0).levelWithProgress, profile?.player_data?.experience?.SKILL_FISHING || 0),
+            enchanting: calculateWeight('enchanting', calcSkill('enchanting', profile?.player_data?.experience?.SKILL_ENCHANTING || 0).levelWithProgress, profile?.player_data?.experience?.SKILL_ENCHANTING || 0),
+            alchemy: calculateWeight('alchemy', calcSkill('alchemy', profile?.player_data?.experience?.SKILL_ALCHEMY || 0).levelWithProgress, profile?.player_data?.experience?.SKILL_ALCHEMY || 0),
+            taming: calculateWeight('taming', calcSkill('taming', profile?.player_data?.experience?.SKILL_TAMING || 0).levelWithProgress, profile?.player_data?.experience?.SKILL_TAMING || 0),
         },
         slayer: {
-            revenant: calculateWeight('revenant', null, profile.slayer_bosses?.zombie?.xp || 0),
-            tarantula: calculateWeight('tarantula', null, profile.slayer_bosses?.spider?.xp || 0),
-            sven: calculateWeight('sven', null, profile.slayer_bosses?.wolf?.xp || 0),
-            enderman: calculateWeight('enderman', null, profile.slayer_bosses?.enderman?.xp || 0),
+            revenant: calculateWeight('revenant', null, profile.slayer.slayer_bosses?.zombie?.xp || 0),
+            tarantula: calculateWeight('tarantula', null, profile.slayer.slayer_bosses?.spider?.xp || 0),
+            sven: calculateWeight('sven', null, profile.slayer.slayer_bosses?.wolf?.xp || 0),
+            enderman: calculateWeight('enderman', null, profile.slayer.slayer_bosses?.enderman?.xp || 0),
         },
         dungeons: {
             catacombs: calculateWeight(

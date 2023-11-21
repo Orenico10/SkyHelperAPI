@@ -3,7 +3,7 @@ const { capitalize } = require('../constants/functions');
 const { talismans: allTalismans } = require('../constants/talismans');
 
 module.exports = async (profile) => {
-    if (profile.talisman_bag?.data) {
+    if (profile.inventory.bag_contents.talisman_bag?.data) {
         const talismans = {
             common: [],
             uncommon: [],
@@ -14,7 +14,7 @@ module.exports = async (profile) => {
             special: [],
             very: [],
         };
-        const talisman_bag = (await decodeData(Buffer.from(profile.talisman_bag.data, 'base64'))).i;
+        const talisman_bag = (await decodeData(Buffer.from(profile.inventory.bag_contents.talisman_bag.data, 'base64'))).i;
 
         for (const talisman of talisman_bag) {
             if (talisman.tag?.display.Name && talisman.tag?.ExtraAttributes) {

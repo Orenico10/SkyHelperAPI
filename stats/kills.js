@@ -2,7 +2,7 @@ const mobs = require('../constants/mobs')
 const { titleCase } = require('../constants/functions')
 
 module.exports = (profile) => {
-    const stats = profile?.stats
+    const stats = profile?.player_stats
     if (stats) {
         const kills = [];
 

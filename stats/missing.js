@@ -8,9 +8,9 @@ function getPrice(name) {
 }
 
 module.exports = async (profile) => {
-    if (profile.talisman_bag?.data && profile.inv_contents?.data) {
-        let talismans = (await decodeData(Buffer.from(profile.talisman_bag.data, 'base64'))).i;
-        const inventory = (await decodeData(Buffer.from(profile.inv_contents.data, 'base64'))).i;
+    if (profile.inventory.bag_contents.talisman_bag?.data && profile.inventory.inv_contents?.data) {
+        let talismans = (await decodeData(Buffer.from(profile.inventory.bag_contents.talisman_bag.data, 'base64'))).i;
+        const inventory = (await decodeData(Buffer.from(profile.inventory.inv_contents.data, 'base64'))).i;
         talismans = talismans.concat(inventory);
 
         let talisman_ids = [];

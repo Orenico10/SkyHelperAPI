@@ -20,9 +20,9 @@ const rarities = [
 async function getPets(profile) {
   let output = [];
 
-  if (!("pets" in profile)) return output;
+  if (!("pets_data" in profile)) return output;
 
-  for (const pet of profile.pets) {
+  for (const pet of pets_data.pets) {
     if (!("tier" in pet)) {
       continue;
     }
