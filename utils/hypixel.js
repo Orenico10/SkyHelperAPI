@@ -125,7 +125,7 @@ module.exports = {
             res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'` });
             return;
         }
-        const museumRes = await makeRequest(res, `https://api.hypixel.net/skyblock/museum?key=${key}&profile=${profileData.profile_id}`);
+        const museumRes = await makeRequest(res, `https://api.hypixel.net/v2/skyblock/museum?key=${key}&profile=${profileData.profile_id}`);
 
         const museumData = museumRes.data.members[uuid];
         const profile = profileData.members[uuid];
@@ -221,7 +221,7 @@ module.exports = {
             if (!isValidProfile(profileData.members, uuid)) {
                 continue;
             }
-            const museumRes = await makeRequest(res, `https://api.hypixel.net/skyblock/museum?key=${key}&profile=${profileData.profile_id}`);
+            const museumRes = await makeRequest(res, `https://api.hypixel.net/v2/skyblock/museum?key=${key}&profile=${profileData.profile_id}`);
             const profile = profileData.members[uuid];
             const museumData = museumRes.data.members[uuid];
 

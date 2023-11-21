@@ -9,11 +9,11 @@ module.exports = async (profile) => {
             dojo: crimson.dojo,
         }
 
-        crimsonIsland.factions.selected_faction = profile.nether_island_player_data.selected_faction
-        crimsonIsland.factions.mages_reputation = profile.nether_island_player_data.mages_reputation
-        crimsonIsland.factions.barbarians_reputation = profile.nether_island_player_data.barbarians_reputation
-        crimsonIsland.matriarch.pearls_collected = profile.nether_island_player_data.matriarch.pearls_collected
-        crimsonIsland.matriarch.last_attempt = profile.nether_island_player_data.matriarch.last_attempt
+        crimsonIsland.factions.selected_faction = profile.nether_island_player_data?.selected_faction
+        crimsonIsland.factions.mages_reputation = profile.nether_island_player_data?.mages_reputation || 0
+        crimsonIsland.factions.barbarians_reputation = profile.nether_island_player_data?.barbarians_reputation || 0
+        crimsonIsland.matriarch.pearls_collected = profile.nether_island_player_data?.matriarch?.pearls_collected || 0
+        crimsonIsland.matriarch.last_attempt = profile.nether_island_player_data?.matriarch?.last_attempt
 
         Object.keys(profile.nether_island_player_data.kuudra_completed_tiers).forEach((key) => {
             crimsonIsland.kuudra_completed_tiers[key] = profile.nether_island_player_data.kuudra_completed_tiers[key]
