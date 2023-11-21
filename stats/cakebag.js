@@ -1,7 +1,7 @@
 const { decodeData, decodeArrayBuffer } = require('../utils/nbt')
 
 module.exports = async (profile) => {
-    if (profile.inventory.bag_contents.talisman_bag?.data) {
+    if (profile.inventory?.bag_contents.talisman_bag?.data) {
         const cakes = []
         const talisman_bag = (await decodeData(Buffer.from(profile.inventory.bag_contents.talisman_bag.data, 'base64'))).i
 

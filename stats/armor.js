@@ -9,7 +9,7 @@ module.exports = async (profile) => {
         boots: [],
     };
 
-    if (profile.inventory.inventory.inv_armor?.data) {
+    if (profile.inventory?.inv_armor?.data) {
         const invArmor = (await decodeData(Buffer.from(profile.inventory.inv_armor?.data, 'base64'))).i;
         for (let i = 0; i < invArmor.length; i++) {
             if (invArmor[i].tag?.ExtraAttributes?.rarity_upgrades) {

@@ -8,7 +8,7 @@ module.exports = async (profile) => {
         gloves: [],
     };
 
-    if (profile.inventory.equipment_contents?.data) {
+    if (profile.inventory?.equipment_contents?.data) {
         const equipment = (await decodeData(Buffer.from(profile.inventory.equipment_contents?.data, 'base64'))).i;
         const equipmentPieces = ['necklace', 'cloak', 'belt', 'gloves'];
         for (let i = 0; i < equipment.length; i++) {

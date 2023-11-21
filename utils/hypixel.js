@@ -252,7 +252,7 @@ module.exports = {
                 selected: profileData.selected,
                 first_join: profile.profile.first_join,
                 fairy_souls: profile.fairy_soul.total_collected || 0,
-                purse: profile.currencies.coin_purse || 0,
+                purse: profile?.currencies?.coin_purse || 0,
                 bank: profileData.banking?.balance || 0,
                 skills: getSkills(profile),
                 networth,
