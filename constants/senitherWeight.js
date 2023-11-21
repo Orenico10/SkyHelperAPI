@@ -100,10 +100,10 @@ async function calculateTotalSenitherWeight(profile) {
             taming: await calculateSenitherWeight('taming', (calcSkill('taming', profile?.player_data?.experience?.SKILL_TAMING || 0)).levelWithProgress, profile?.player_data?.experience?.SKILL_TAMING || 0)
         },
         slayer: {
-            revenant: await calculateSenitherWeight('revenant', null, profile.slayer.slayer_bosses?.zombie?.xp || 0),
-            tarantula: await calculateSenitherWeight('tarantula', null, profile.slayer.slayer_bosses?.spider?.xp || 0),
-            sven: await calculateSenitherWeight('sven', null, profile.slayer.slayer_bosses?.wolf?.xp || 0),
-            enderman: await calculateSenitherWeight('enderman', null, profile.slayer.slayer_bosses?.enderman?.xp || 0)
+            revenant: await calculateSenitherWeight('revenant', null, profile.slayer?.slayer_bosses?.zombie?.xp || 0),
+            tarantula: await calculateSenitherWeight('tarantula', null, profile.slayer?.slayer_bosses?.spider?.xp || 0),
+            sven: await calculateSenitherWeight('sven', null, profile.slayer?.slayer_bosses?.wolf?.xp || 0),
+            enderman: await calculateSenitherWeight('enderman', null, profile.slayer?.slayer_bosses?.enderman?.xp || 0)
         },
         dungeons: {
             catacombs: await calculateSenitherWeight('catacombs', (calcSkill('dungeoneering', profile.dungeons?.dungeon_types?.catacombs?.experience || 0)).levelWithProgress, profile.dungeons?.dungeon_types?.catacombs?.experience || 0),

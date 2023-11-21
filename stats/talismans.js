@@ -3,7 +3,7 @@ const { capitalize } = require('../constants/functions');
 const { talismans: allTalismans } = require('../constants/talismans');
 
 module.exports = async (profile) => {
-    if (profile.inventory?.bag_contents.talisman_bag?.data) {
+    if (profile.inventory?.bag_contents?.talisman_bag?.data) {
         const talismans = {
             common: [],
             uncommon: [],
@@ -46,7 +46,7 @@ module.exports = async (profile) => {
                 else talismans[getRarity(talisman.tag?.display.Lore)] = new_talisman;
             }
         }
-        
+
         return talismans;
     } else {
         return {

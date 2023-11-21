@@ -179,10 +179,10 @@ function calculateTotalSenitherWeight(profile) {
             taming: calculateWeight('taming', calcSkill('taming', profile?.player_data?.experience?.SKILL_TAMING || 0).levelWithProgress, profile?.player_data?.experience?.SKILL_TAMING || 0),
         },
         slayer: {
-            revenant: calculateWeight('revenant', null, profile.slayer.slayer_bosses?.zombie?.xp || 0),
-            tarantula: calculateWeight('tarantula', null, profile.slayer.slayer_bosses?.spider?.xp || 0),
-            sven: calculateWeight('sven', null, profile.slayer.slayer_bosses?.wolf?.xp || 0),
-            enderman: calculateWeight('enderman', null, profile.slayer.slayer_bosses?.enderman?.xp || 0),
+            revenant: calculateWeight('revenant', null, profile.slayer?.slayer_bosses?.zombie?.xp || 0),
+            tarantula: calculateWeight('tarantula', null, profile.slayer?.slayer_bosses?.spider?.xp || 0),
+            sven: calculateWeight('sven', null, profile.slayer?.slayer_bosses?.wolf?.xp || 0),
+            enderman: calculateWeight('enderman', null, profile.slayer?.slayer_bosses?.enderman?.xp || 0),
         },
         dungeons: {
             catacombs: calculateWeight(

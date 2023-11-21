@@ -15,10 +15,10 @@ module.exports = async (profile) => {
         crimsonIsland.matriarch.pearls_collected = profile.nether_island_player_data?.matriarch?.pearls_collected || 0
         crimsonIsland.matriarch.last_attempt = profile.nether_island_player_data?.matriarch?.last_attempt
 
-        Object.keys(profile.nether_island_player_data.kuudra_completed_tiers).forEach((key) => {
+        if(profile?.nether_island_player_data?.kuudra_completed_tiers) Object.keys(profile?.nether_island_player_data?.kuudra_completed_tiers).forEach((key) => {
             crimsonIsland.kuudra_completed_tiers[key] = profile.nether_island_player_data.kuudra_completed_tiers[key]
         })
-        Object.keys(profile.nether_island_player_data.dojo).forEach((key) => {
+        if(profile?.nether_island_player_data?.dojo) Object.keys(profile?.nether_island_player_data?.dojo).forEach((key) => {
             crimsonIsland.dojo[key.toUpperCase()] = profile.nether_island_player_data.dojo[key]
         })
 
