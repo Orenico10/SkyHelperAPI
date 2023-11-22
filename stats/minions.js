@@ -5,7 +5,7 @@ module.exports = (profile) => {
 
     let unlocked_minions = {}
     for (const member of Object.keys(profile.members)) {
-        const minions = profile.members[member]?.player_data.crafted_generators
+        const minions = profile.members[member]?.player_data?.crafted_generators
         if (minions) {
             for (const minion of minions) {
                 const minion_level = Number(minion.replace(/\D/g, ''))
