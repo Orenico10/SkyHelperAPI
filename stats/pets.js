@@ -19,7 +19,7 @@ const rarities = [
 
 async function getPets(profile) {
   let output = [];
-
+  if (!profile?.pets_data) return output
   if (!("pets" in profile?.pets_data)) return output;
 
   for (const pet of profile.pets_data.pets) {

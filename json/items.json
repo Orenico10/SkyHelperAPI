@@ -376,6 +376,7 @@
     "category": "ACCESSORY",
     "npc_sell_price": 1000,
     "soulbound": "SOLO",
+    "has_uuid": true,
     "id": "ARCHAEOLOGIST_COMPASS"
   },
   {
@@ -488,6 +489,8 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "unstackable": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "INFINIDIRT_WAND"
   },
   {
@@ -525,6 +528,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVlMjRiOGMyZDIwZjllMjNiY2E1MmQ5NGZiZDgyMGFhMDc0NDU5MWFjYjAzNTkxODMzMTJlNDNhMjg3ZTViMCJ9fX0=",
     "name": "Nether Wart Pouch",
     "tier": "RARE",
+    "can_auction": false,
     "id": "NETHER_WART_POUCH"
   },
   {
@@ -557,6 +561,7 @@
     "name": "Basket of Seeds",
     "glowing": true,
     "tier": "EPIC",
+    "can_auction": false,
     "id": "BASKET_OF_SEEDS"
   },
   {
@@ -824,6 +829,7 @@
     "name": "Prismapump",
     "glowing": true,
     "tier": "RARE",
+    "can_auction": false,
     "id": "PRISMAPUMP"
   },
   {
@@ -871,6 +877,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTU5MTEwNzQ2NDE2MCwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmY3NTg3MWM5MGI5NGY0ZmJjMTY3ZTM1MWQzNmU4YWVhZTFjYzJmZWMwM2IxNjYyOTAwN2Y3NGM5ODlkZTY0OCIKICAgIH0KICB9Cn0=",
     "name": "Medium Fishing Sack",
     "tier": "RARE",
+    "unstackable": true,
     "id": "MEDIUM_FISHING_SACK"
   },
   {
@@ -1304,6 +1311,9 @@
     "unstackable": true,
     "soulbound": "COOP",
     "museum": true,
+    "has_uuid": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "EDITOR_PENCIL"
   },
   {
@@ -1314,6 +1324,9 @@
     "unstackable": true,
     "soulbound": "COOP",
     "museum": true,
+    "has_uuid": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "WIKI_JOURNAL"
   },
   {
@@ -12725,6 +12738,19 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI2YzYyOGE0OGY2NDE2MDk5MTU0NGQyYTc4NGVjMmNhMDk1NjNlOGQ2ZGE0OTE5MTU4MjczYWJhYmI5MSJ9fX0=",
+    "name": "Crab Hat of Celebration - 2022 Edition",
+    "category": "ACCESSORY",
+    "stats": {
+      "magic_find": 1
+    },
+    "museum": true,
+    "tier": "SPECIAL",
+    "id": "PARTY_HAT_CRAB_ANIMATED"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWI2YzYyOGE0OGY2NDE2MDk5MTU0NGQyYTc4NGVjMmNhMDk1NjNlOGQ2ZGE0OTE5MTU4MjczYWJhYmI5MSJ9fX0=",
     "name": "Crab Hat of Celebration",
     "category": "ACCESSORY",
     "stats": {
@@ -13853,6 +13879,7 @@
     "name": "Necron's Ladder",
     "tier": "RARE",
     "unstackable": true,
+    "can_place": false,
     "id": "NECRONS_LADDER"
   },
   {
@@ -14331,6 +14358,7 @@
     "skin": "eyJ0aW1lc3RhbXAiOjE1NjgyMjIyNDk2NjgsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYyZjNiM2EwNTQ4MWNkZTc3MjQwMDA1YzBkZGNlZTFjMDY5ZTU1MDRhNjJjZTA5Nzc4NzlmNTVhMzkzOTYxNDYifX19",
     "name": "Medium Backpack",
     "tier": "RARE",
+    "double_tap_to_drop": true,
     "id": "MEDIUM_BACKPACK"
   },
   {
@@ -14363,6 +14391,7 @@
     "skin": "eyJ0aW1lc3RhbXAiOjE1NjgyMjIyMTY1MzUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIxZDgzN2NhMjIyY2JjMGJjMTI0MjZmNWRhMDE4YzNhOTMxYjQwNjAwODgwMDk2MGE5ZGYxMTJhNTk2ZTdkNjIifX19",
     "name": "Small Backpack",
     "tier": "UNCOMMON",
+    "double_tap_to_drop": true,
     "id": "SMALL_BACKPACK"
   },
   {
@@ -14403,6 +14432,7 @@
     "skin": "eyJ0aW1lc3RhbXAiOjE1NjgyMjIyODAwNzAsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRkMDViYWE1ZGRhYTcwYmY0NTJmNTM1NDQ3MTFjYTUxMTZiOGFiYmQ2MjE4YjllMWFlZDk0YjFlNmIwOTQwMjIifX19",
     "name": "Large Backpack",
     "tier": "EPIC",
+    "double_tap_to_drop": true,
     "id": "LARGE_BACKPACK"
   },
   {
@@ -14507,6 +14537,7 @@
     "skin": "eyJ0aW1lc3RhbXAiOjE1NjgyMjIyMTY1MzUsInByb2ZpbGVJZCI6IjQxZDNhYmMyZDc0OTQwMGM5MDkwZDU0MzRkMDM4MzFiIiwicHJvZmlsZU5hbWUiOiJNZWdha2xvb24iLCJzaWduYXR1cmVSZXF1aXJlZCI6dHJ1ZSwidGV4dHVyZXMiOnsiU0tJTiI6eyJ1cmwiOiJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzIxZDgzN2NhMjIyY2JjMGJjMTI0MjZmNWRhMDE4YzNhOTMxYjQwNjAwODgwMDk2MGE5ZGYxMTJhNTk2ZTdkNjIifX19",
     "name": "Jumbo Backpack",
     "tier": "LEGENDARY",
+    "double_tap_to_drop": true,
     "id": "JUMBO_BACKPACK"
   },
   {
@@ -15058,6 +15089,7 @@
     "name": "Colossal Experience Bottle Upgrade",
     "glowing": true,
     "tier": "SPECIAL",
+    "has_uuid": true,
     "id": "COLOSSAL_EXP_BOTTLE_UPGRADE"
   },
   {
@@ -15067,6 +15099,7 @@
     "name": "Ultimate Carrot Candy Upgrade",
     "glowing": true,
     "tier": "SPECIAL",
+    "has_uuid": true,
     "id": "ULTIMATE_CARROT_CANDY_UPGRADE"
   },
   {
@@ -15076,6 +15109,7 @@
     "name": "Heat Core",
     "glowing": true,
     "tier": "SPECIAL",
+    "has_uuid": true,
     "id": "HEAT_CORE"
   },
   {
@@ -15141,6 +15175,7 @@
     "name": "Jumbo Backpack Upgrade",
     "glowing": true,
     "tier": "SPECIAL",
+    "has_uuid": true,
     "id": "JUMBO_BACKPACK_UPGRADE"
   },
   {
@@ -15150,6 +15185,7 @@
     "glowing": true,
     "tier": "SPECIAL",
     "npc_sell_price": 1,
+    "has_uuid": true,
     "id": "KAT_FLOWER"
   },
   {
@@ -15175,6 +15211,7 @@
     "name": "Minion Storage X-pender",
     "glowing": true,
     "tier": "SPECIAL",
+    "has_uuid": true,
     "id": "MINION_STORAGE_EXPANDER"
   },
   {
@@ -15212,6 +15249,8 @@
     "glowing": true,
     "tier": "SPECIAL",
     "museum": true,
+    "has_uuid": true,
+    "unstackable": true,
     "id": "GOD_POTION_2"
   },
   {
@@ -15222,6 +15261,8 @@
     "glowing": true,
     "tier": "SPECIAL",
     "museum": true,
+    "has_uuid": true,
+    "unstackable": true,
     "id": "GOD_POTION"
   },
   {
@@ -15329,6 +15370,8 @@
     "name": "Accessory Enrichment Swapper",
     "glowing": true,
     "tier": "SPECIAL",
+    "can_place": false,
+    "has_uuid": true,
     "id": "TALISMAN_ENRICHMENT_SWAPPER"
   },
   {
@@ -15348,6 +15391,7 @@
     "glowing": true,
     "tier": "SPECIAL",
     "npc_sell_price": 500,
+    "has_uuid": true,
     "id": "HYPER_CATALYST_UPGRADE"
   },
   {
@@ -15391,6 +15435,7 @@
     "glowing": true,
     "tier": "LEGENDARY",
     "npc_sell_price": 1,
+    "unstackable": false,
     "id": "ULTIMATE_CARROT_CANDY"
   },
   {
@@ -15645,6 +15690,7 @@
     "glowing": true,
     "tier": "LEGENDARY",
     "npc_sell_price": 250000,
+    "has_uuid": true,
     "id": "DAEDALUS_STICK"
   },
   {
@@ -16697,6 +16743,7 @@
     "tier": "SPECIAL",
     "museum": true,
     "soulbound": "COOP",
+    "has_uuid": true,
     "id": "BINGO_CARD"
   },
   {
@@ -16802,6 +16849,7 @@
     "tier": "EPIC",
     "unstackable": true,
     "museum": true,
+    "can_place": true,
     "id": "DITTO_SKULL"
   },
   {
@@ -16850,6 +16898,7 @@
     "museum": true,
     "glowing": true,
     "soulbound": "COOP",
+    "has_uuid": true,
     "id": "EXTREME_BINGO_CARD"
   },
   {
@@ -17711,6 +17760,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 30720,
+    "can_place": false,
     "id": "ENCHANTED_REDSTONE_LAMP"
   },
   {
@@ -17775,6 +17825,7 @@
     "glowing": true,
     "tier": "MYTHIC",
     "npc_sell_price": 50000,
+    "has_uuid": true,
     "id": "PLASMA_BUCKET"
   },
   {
@@ -17808,6 +17859,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 153600,
+    "can_place": false,
     "id": "ENCHANTED_EMERALD_BLOCK"
   },
   {
@@ -17968,6 +18020,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 320,
+    "can_place": false,
     "id": "ENCHANTED_ACACIA_LOG"
   },
   {
@@ -17998,6 +18051,7 @@
     "name": "Rune",
     "category": "COSMETIC",
     "tier": "UNCOMMON",
+    "has_uuid": true,
     "id": "UNIQUE_RUNE"
   },
   {
@@ -18295,6 +18349,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 320,
+    "can_place": false,
     "id": "ENCHANTED_BIRCH_LOG"
   },
   {
@@ -19573,6 +19628,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 25600,
+    "can_place": false,
     "id": "ENCHANTED_REDSTONE_BLOCK"
   },
   {
@@ -20451,6 +20507,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 30,
+    "can_burn_in_furnace": true,
     "id": "MAGICAL_LAVA_BUCKET"
   },
   {
@@ -20806,6 +20863,10 @@
     "material": "STAINED_CLAY",
     "durability": 14,
     "name": "Cancel Parkour",
+    "can_place": false,
+    "can_auction": false,
+    "can_trade": false,
+    "serializable": false,
     "id": "CANCEL_PARKOUR_ITEM"
   },
   {
@@ -20967,6 +21028,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 204800,
+    "can_place": false,
     "id": "ENCHANTED_DIAMOND_BLOCK"
   },
   {
@@ -21358,6 +21420,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 320,
+    "can_place": false,
     "id": "ENCHANTED_SAND"
   },
   {
@@ -21563,6 +21626,8 @@
     "tier": "SPECIAL",
     "npc_sell_price": 777,
     "museum": true,
+    "can_place": false,
+    "has_uuid": true,
     "id": "GAME_BREAKER"
   },
   {
@@ -21802,6 +21867,9 @@
         "slot_type": "RUBY"
       }
     ],
+    "unstackable": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "POWER_ARTIFACT"
   },
   {
@@ -22328,6 +22396,7 @@
     "tier": "LEGENDARY",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "REVIVE_STONE"
   },
   {
@@ -22338,6 +22407,9 @@
     "soulbound": "COOP",
     "description": "%%gray%%%%italic%%Self explanatory.",
     "npc_sell_price": 50,
+    "can_place": false,
+    "can_interact": false,
+    "can_interact_right_click": false,
     "id": "LUMP_OF_MAGMA"
   },
   {
@@ -22436,6 +22508,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY4OTk5NTk0ODU3MywKICAicHJvZmlsZUlkIiA6ICIxYmY4ZjBiZDRkZjc0Njg1ODQwNjU2NDc2ZGU0NmNmMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcnV6YWRhMjIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWRiZjVlMTBkMDgzN2YyMGRkN2FlNjkxYWE2YjVjNTA4ZTRjZTExZWIxYzVhYTdiMGFjYzcxYTU1NGZjYmQ4MSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
     "name": "Metaphysical Serum",
     "tier": "EPIC",
+    "has_uuid": true,
     "id": "METAPHYSICAL_SERUM"
   },
   {
@@ -22548,6 +22621,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "EXPLOSIVE_SHOT_ABILITY"
   },
   {
@@ -22672,6 +22746,7 @@
     "tier": "LEGENDARY",
     "npc_sell_price": 100,
     "museum": true,
+    "double_tap_to_drop": true,
     "id": "SNOW_HOWITZER"
   },
   {
@@ -22828,6 +22903,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 4346,
+    "has_uuid": true,
     "id": "MITHRIL_INFUSION"
   },
   {
@@ -22850,8 +22926,9 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGRhMzMyYWJkZTMzM2ExNWE2YzZmY2ZlY2E4M2YwMTU5ZWE5NGI2OGU4ZjI3NGJhZmMwNDg5MmI2ZGJmYyJ9fX0=",
     "name": "Game Annihilator",
     "tier": "VERY_SPECIAL",
-    "soulbound": "COOP",
     "museum": true,
+    "has_uuid": true,
+    "soulbound": "COOP",
     "id": "GAME_ANNIHILATOR"
   },
   {
@@ -22881,6 +22958,8 @@
       "STRENGTH": 300
     },
     "npc_sell_price": 100000,
+    "can_place": false,
+    "has_uuid": true,
     "upgrade_costs": [
       [
         {
@@ -23211,6 +23290,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 50,
     "museum": true,
+    "has_uuid": true,
     "id": "NAME_TAG"
   },
   {
@@ -23447,6 +23527,7 @@
     "name": "Summoning Eye",
     "tier": "EPIC",
     "museum": true,
+    "has_uuid": true,
     "id": "SUMMONING_EYE"
   },
   {
@@ -23598,6 +23679,8 @@
     "category": "ACCESSORY",
     "tier": "UNCOMMON",
     "unstackable": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "PERSONAL_DELETOR_4000"
   },
   {
@@ -25045,6 +25128,7 @@
     "material": "PAPER",
     "name": "§dFairy Souls Pamphlet",
     "tier": "RARE",
+    "can_auction": false,
     "id": "FAIRY_SOULS_PAMPHLET"
   },
   {
@@ -25681,6 +25765,7 @@
       "WEAPON_ABILITY_DAMAGE": 3000
     },
     "ability_damage_scaling": 0.2,
+    "has_uuid": true,
     "id": "VAMPIRE_WITCH_MASK"
   },
   {
@@ -25742,6 +25827,7 @@
     "name": "Cake Soul",
     "tier": "MYTHIC",
     "museum": true,
+    "has_uuid": true,
     "id": "CAKE_SOUL"
   },
   {
@@ -25770,6 +25856,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 80000,
+    "can_place": false,
     "id": "ENCHANTED_WET_SPONGE"
   },
   {
@@ -25958,6 +26045,7 @@
     "tier": "UNCOMMON",
     "description": "%%gray%%%%italic%%A leaf that grows on the ground. Really pushing the envelope.",
     "npc_sell_price": 20,
+    "can_place": false,
     "id": "RED_THORNLEAF"
   },
   {
@@ -25976,6 +26064,11 @@
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTNjOGFhM2ZkZTI5NWZhOWY5YzI3ZjczNGJkYmFiMTFkMzNhMmU0M2U4NTVhY2NkNzQ2NTM1MjM3NzQxM2IifX19",
     "name": "Pet",
+    "has_uuid": true,
+    "unstackable": true,
+    "can_place": false,
+    "can_recombobulate": false,
+    "double_tap_to_drop": true,
     "id": "PET"
   },
   {
@@ -26074,6 +26167,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 576,
+    "can_place": false,
     "id": "ENCHANTED_STRING"
   },
   {
@@ -26200,6 +26294,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 160,
+    "can_place": false,
     "id": "ENCHANTED_COBBLESTONE"
   },
   {
@@ -26319,6 +26414,7 @@
     "material": "STAINED_CLAY",
     "durability": 14,
     "name": "Leave Challenge",
+    "serializable": false,
     "id": "LEAVE_CHALLENGE_BUTTON"
   },
   {
@@ -26819,6 +26915,7 @@
     "tier": "EPIC",
     "npc_sell_price": 100,
     "museum": true,
+    "double_tap_to_drop": true,
     "id": "SNOW_BLASTER"
   },
   {
@@ -26987,6 +27084,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 320,
+    "can_place": false,
     "id": "ENCHANTED_ENDSTONE"
   },
   {
@@ -27003,6 +27101,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "WARRIOR_DUNGEON_ABILITY_1"
   },
   {
@@ -27034,6 +27133,8 @@
       "DAMAGE": 1
     },
     "museum": true,
+    "can_auction": false,
+    "can_have_power_scroll": true,
     "id": "ASPECT_OF_THE_JERRY"
   },
   {
@@ -27149,6 +27250,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 12800,
+    "can_place": false,
     "id": "ENCHANTED_PACKED_ICE"
   },
   {
@@ -27220,6 +27322,7 @@
     "tier": "SPECIAL",
     "description": "%%gray%%%%italic%%Shines bright like a fish",
     "museum": true,
+    "can_place": false,
     "id": "DIAMOND_THE_FISH"
   },
   {
@@ -27568,6 +27671,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 7776,
+    "can_place": false,
     "id": "ENCHANTED_HAY_BLOCK"
   },
   {
@@ -27872,6 +27976,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "HEALER_DUNGEON_ABILITY_3"
   },
   {
@@ -28180,6 +28285,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 800,
+    "can_place": false,
     "id": "ENCHANTED_MYCELIUM"
   },
   {
@@ -28475,6 +28581,9 @@
     "name": "Ancient Elevator",
     "tier": "SPECIAL",
     "museum": true,
+    "can_place": false,
+    "has_uuid": true,
+    "can_auction": false,
     "id": "ANCIENT_ELEVATOR"
   },
   {
@@ -28484,6 +28593,8 @@
     "tier": "SPECIAL",
     "npc_sell_price": 333,
     "museum": true,
+    "can_place": false,
+    "has_uuid": true,
     "id": "DEAD_BUSH_OF_LOVE"
   },
   {
@@ -28753,6 +28864,7 @@
     "name": "Grappling Hook",
     "tier": "UNCOMMON",
     "npc_sell_price": 1200,
+    "double_tap_to_drop": true,
     "id": "GRAPPLING_HOOK"
   },
   {
@@ -28767,6 +28879,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwMDQxODM0MTc3MCwKICAicHJvZmlsZUlkIiA6ICI0M2NmNWJkNjUyMDM0YzU5ODVjMDIwYWI3NDE0OGQxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJrYW1pbDQ0NSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYmNjOTVhYzNiM2U2ZjdlZjA4NTUzMDNmZjBhMTAwMzUyMTQxZmJiZmEwNjczODZiZjlhZmUyZTM3NjI2OWQyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
     "name": "%%green%%Swappable Preview %%gray%%(Click)",
     "description": "Cycle between all the variations of the selected preview!",
+    "serializable": false,
     "id": "SWAPPABLE_PREVIEW"
   },
   {
@@ -28807,6 +28920,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 25600,
+    "can_place": false,
     "id": "ENCHANTED_LAPIS_LAZULI_BLOCK"
   },
   {
@@ -28884,6 +28998,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "HAUNT_ABILITY"
   },
   {
@@ -29125,6 +29240,9 @@
     "glowing": true,
     "tier": "LEGENDARY",
     "unstackable": true,
+    "has_uuid": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "FREE_COOKIE"
   },
   {
@@ -29180,6 +29298,7 @@
         "slot_type": "SAPPHIRE"
       }
     ],
+    "can_have_power_scroll": true,
     "id": "ASPECT_OF_THE_END"
   },
   {
@@ -29316,12 +29435,19 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 480,
+    "can_place": false,
+    "can_interact": false,
+    "can_interact_entity": false,
     "id": "ENCHANTED_CARROT"
   },
   {
     "material": "STAINED_CLAY",
     "durability": 14,
     "name": "Cancel Race",
+    "can_place": false,
+    "can_auction": false,
+    "can_trade": false,
+    "serializable": false,
     "id": "CANCEL_RACE_ITEM"
   },
   {
@@ -30283,6 +30409,8 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 41000,
+    "can_interact": false,
+    "can_interact_right_click": false,
     "id": "ENCHANTED_FIREWORK_ROCKET"
   },
   {
@@ -30346,6 +30474,7 @@
     "glowing": true,
     "tier": "EPIC",
     "npc_sell_price": 0,
+    "has_uuid": true,
     "id": "INFINITE_SUPERBOOM_TNT"
   },
   {
@@ -30354,6 +30483,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 140,
+    "can_interact": false,
     "id": "ENCHANTED_ENDER_PEARL"
   },
   {
@@ -31301,6 +31431,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 480,
+    "can_place": false,
     "id": "ENCHANTED_POTATO"
   },
   {
@@ -31358,6 +31489,8 @@
     "category": "HELMET",
     "tier": "SPECIAL",
     "museum": true,
+    "can_place": false,
+    "has_uuid": true,
     "id": "DUECES_BUILDER_CLAY"
   },
   {
@@ -31567,6 +31700,8 @@
     "category": "HELMET",
     "tier": "SPECIAL",
     "museum": true,
+    "can_place": false,
+    "has_uuid": true,
     "id": "DCTR_SPACE_HELM"
   },
   {
@@ -31637,6 +31772,7 @@
       "WEAPON_ABILITY_DAMAGE": 2000,
       "INTELLIGENCE": 300
     },
+    "can_place": false,
     "ability_damage_scaling": 0.2,
     "upgrade_costs": [
       [
@@ -32122,6 +32258,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QzODljNTVlY2Y3ZGI1NzJkNjk2MWNlM2Q1N2I1NzJlNzYxMzk3YjY3YTJkNmQ5NGM3MmZjOTFkZGRkNzQifX19",
     "name": "Remnant of the Eye",
     "tier": "EPIC",
+    "has_uuid": true,
     "id": "REMNANT_OF_THE_EYE"
   },
   {
@@ -32695,6 +32832,8 @@
     },
     "soulbound": "SOLO",
     "npc_sell_price": 1000,
+    "can_auction": false,
+    "can_trade": false,
     "id": "CHEETAH_TALISMAN"
   },
   {
@@ -32930,6 +33069,7 @@
     "soulbound": "COOP",
     "description": "%%gray%%%%italic%%The bottom of the volcano is filled with it, Moogmas keep on moulting. It's a problem.",
     "npc_sell_price": 50,
+    "can_place": false,
     "id": "MOOGMA_PELT"
   },
   {
@@ -33732,6 +33872,7 @@
     },
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "HEALING_CIRCLE_ITEM"
   },
   {
@@ -33922,6 +34063,7 @@
     "name": "Gold Magmafish",
     "tier": "LEGENDARY",
     "npc_sell_price": 128000,
+    "unstackable": false,
     "id": "MAGMA_FISH_GOLD"
   },
   {
@@ -33979,6 +34121,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 51000,
+    "can_place": false,
     "id": "ENCHANTED_COAL_BLOCK"
   },
   {
@@ -34120,6 +34263,9 @@
     "material": "IRON_HOE",
     "name": "Metal Detector",
     "tier": "SPECIAL",
+    "can_place": false,
+    "can_auction": false,
+    "can_trade": false,
     "id": "DWARVEN_METAL_DETECTOR"
   },
   {
@@ -34322,6 +34468,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "ARCHER_DUNGEON_ABILITY_2"
   },
   {
@@ -35262,6 +35409,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 320,
+    "can_place": false,
     "id": "ENCHANTED_OAK_LOG"
   },
   {
@@ -35271,6 +35419,7 @@
     "name": "Box of Booster Cookies",
     "tier": "LEGENDARY",
     "unstackable": true,
+    "has_uuid": true,
     "id": "BOOSTER_COOKIE_BOX"
   },
   {
@@ -35352,6 +35501,7 @@
     "glowing": true,
     "tier": "EPIC",
     "dungeon_item": true,
+    "has_uuid": true,
     "id": "FUMING_POTATO_BOOK"
   },
   {
@@ -36057,6 +36207,7 @@
     "tier": "SPECIAL",
     "npc_sell_price": 1,
     "museum": true,
+    "has_uuid": true,
     "id": "FRENCH_BREAD"
   },
   {
@@ -36950,6 +37101,7 @@
     "glowing": true,
     "category": "WAND",
     "tier": "EPIC",
+    "can_recombobulate": false,
     "id": "WIZARD_WAND"
   },
   {
@@ -37270,6 +37422,7 @@
     "name": "Braided Griffin Feather",
     "glowing": true,
     "tier": "EPIC",
+    "can_place": false,
     "id": "BRAIDED_GRIFFIN_FEATHER"
   },
   {
@@ -37563,6 +37716,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "TANK_DUNGEON_ABILITY_1"
   },
   {
@@ -37745,6 +37899,7 @@
     "tier": "SPECIAL",
     "museum": true,
     "soulbound": "COOP",
+    "has_uuid": true,
     "id": "SPOOKY_PIE"
   },
   {
@@ -37772,6 +37927,7 @@
       "DAMAGE": 100,
       "RIFT_DAMAGE": 1
     },
+    "unstackable": false,
     "rift_transferrable": true,
     "npc_sell_price": 2000,
     "item_specific": {
@@ -38305,6 +38461,7 @@
     "stats": {
       "STRENGTH": 100
     },
+    "has_uuid": true,
     "id": "TRIBAL_SPEAR"
   },
   {
@@ -38346,6 +38503,8 @@
     "name": "Wizard's Crystal",
     "tier": "RARE",
     "dungeon_item": true,
+    "has_uuid": true,
+    "serializable": false,
     "id": "DUNGEON_WIZARD_CRYSTAL"
   },
   {
@@ -38454,6 +38613,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 80,
+    "can_place": false,
     "id": "ENCHANTED_ICE"
   },
   {
@@ -38463,6 +38623,8 @@
     "category": "ACCESSORY",
     "tier": "LEGENDARY",
     "unstackable": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "PERSONAL_DELETOR_7000"
   },
   {
@@ -38490,6 +38652,7 @@
     "name": "Enchanted Bone Block",
     "glowing": true,
     "tier": "RARE",
+    "can_place": false,
     "id": "ENCHANTED_BONE_BLOCK"
   },
   {
@@ -38752,6 +38915,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWQ5N2Y0ZjQ0ZTc5NmY3OWNhNDMwOTdmYWE3YjRmZTkxYzQ0NWM3NmU1YzI2YTVhZDc5NGY1ZTQ3OTgzNyJ9fX0=",
     "name": "Green Gift",
     "tier": "UNCOMMON",
+    "double_tap_to_drop": true,
     "id": "GREEN_GIFT"
   },
   {
@@ -38990,6 +39154,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 2700,
+    "can_place": false,
     "id": "ENCHANTED_CAKE"
   },
   {
@@ -39207,6 +39372,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 160,
+    "can_place": false,
     "id": "ENCHANTED_REDSTONE"
   },
   {
@@ -39517,6 +39683,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "CASTLE_OF_STONE"
   },
   {
@@ -41156,6 +41323,7 @@
   {
     "material": "FLOWER_POT_ITEM",
     "name": "Pet Satchel",
+    "can_place": false,
     "id": "PET_SATCHEL"
   },
   {
@@ -41459,6 +41627,7 @@
     "name": "Shiny Orb",
     "tier": "LEGENDARY",
     "museum": true,
+    "unstackable": false,
     "id": "SHINY_ORB"
   },
   {
@@ -41980,6 +42149,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 76800,
+    "can_place": false,
     "id": "ENCHANTED_IRON_BLOCK"
   },
   {
@@ -42185,6 +42355,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 480,
+    "can_place": false,
     "id": "ENCHANTED_COCOA"
   },
   {
@@ -42536,6 +42707,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "TANK_DUNGEON_ABILITY_2"
   },
   {
@@ -43189,6 +43361,9 @@
     "name": "Kloonboat",
     "tier": "SPECIAL",
     "museum": true,
+    "has_uuid": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "KLOONBOAT"
   },
   {
@@ -43341,6 +43516,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTUwZjcxMmU4NzdkZmQ5MTBjOTdmMzgxOWEyMDBhMDVkNDllZTZiODNiNTkyNjg2ZTA5OWI5ZWNkNDQzZjIyOCJ9fX0=",
     "name": "Trick or Treat Bag",
     "tier": "UNCOMMON",
+    "double_tap_to_drop": true,
     "id": "TRICK_OR_TREAT_BAG"
   },
   {
@@ -43425,6 +43601,7 @@
     "glowing": true,
     "npc_sell_price": 51200,
     "tier": "RARE",
+    "can_place": false,
     "id": "ENCHANTED_HUGE_MUSHROOM_2"
   },
   {
@@ -43458,6 +43635,7 @@
     "category": "COSMETIC",
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
+    "unstackable": false,
     "id": "RUNE"
   },
   {
@@ -44460,6 +44638,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "MAGE_DUNGEON_ABILITY_2"
   },
   {
@@ -44741,6 +44920,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 1600,
+    "can_place": false,
     "id": "ENCHANTED_WATER_LILY"
   },
   {
@@ -44779,6 +44959,7 @@
     "glowing": true,
     "tier": "LEGENDARY",
     "npc_sell_price": 50000,
+    "has_uuid": true,
     "id": "MAGMA_BUCKET"
   },
   {
@@ -44806,6 +44987,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "ARCHER_ULTIMATE_ABILITY"
   },
   {
@@ -44872,6 +45054,8 @@
     "name": "Potato War Silver Medal",
     "tier": "SPECIAL",
     "museum": true,
+    "can_place": false,
+    "has_uuid": true,
     "id": "POTATO_SILVER_MEDAL"
   },
   {
@@ -44889,6 +45073,7 @@
     "npc_sell_price": 1000000,
     "description": "%%gold%%Sold to shops for 1,000,000 coins!",
     "museum": true,
+    "has_uuid": true,
     "id": "BAG_OF_CASH"
   },
   {
@@ -45294,6 +45479,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjhjYTM2MTBiZjFlZDJkY2NlNWNhN2Y3ZjI5MTRhMWMyNWZiZmFiZDc0ZGNlNTFiM2Y1MTI2YmE0NGJhMWEyMCJ9fX0=",
     "name": "Repelling Candle",
     "tier": "UNCOMMON",
+    "has_uuid": true,
     "id": "REPELLING_CANDLE"
   },
   {
@@ -45503,6 +45689,7 @@
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTBmNTM5ODUxMGIxYTA1YWZjNWIyMDFlYWQ4YmZjNTgzZTU3ZDcyMDJmNTE5M2IwYjc2MWZjYmQwYWUyIn19fQ==",
     "name": "White Gift",
+    "double_tap_to_drop": true,
     "id": "WHITE_GIFT"
   },
   {
@@ -45591,6 +45778,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 1440,
+    "can_place": false,
     "id": "ENCHANTED_OBSIDIAN"
   },
   {
@@ -45969,6 +46157,8 @@
   {
     "material": "ENCHANTED_BOOK",
     "name": "Enchanted Book",
+    "has_uuid": true,
+    "can_auction": false,
     "id": "ENCHANTED_BOOK"
   },
   {
@@ -45985,6 +46175,7 @@
     "npc_sell_price": 1337,
     "museum": true,
     "soulbound": "SOLO",
+    "can_place": false,
     "id": "THE_CAKE"
   },
   {
@@ -46003,6 +46194,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 320,
+    "can_place": false,
     "id": "ENCHANTED_SPRUCE_LOG"
   },
   {
@@ -46520,6 +46712,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 51200,
+    "can_place": false,
     "id": "ENCHANTED_MELON_BLOCK"
   },
   {
@@ -46718,6 +46911,7 @@
     "name": "Silex",
     "glowing": true,
     "tier": "EPIC",
+    "has_uuid": true,
     "id": "SIL_EX"
   },
   {
@@ -46752,6 +46946,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 3520,
+    "can_interact": false,
     "id": "ENCHANTED_EYE_OF_ENDER"
   },
   {
@@ -46792,6 +46987,8 @@
     "category": "ACCESSORY",
     "tier": "EPIC",
     "unstackable": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "PERSONAL_DELETOR_6000"
   },
   {
@@ -46859,6 +47056,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 128000,
+    "can_place": false,
     "id": "ENCHANTED_SLIME_BLOCK"
   },
   {
@@ -46956,6 +47154,7 @@
     },
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "SEISMIC_WAVE_STICK"
   },
   {
@@ -46966,6 +47165,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "HEALER_DUNGEON_ABILITY_1"
   },
   {
@@ -47241,6 +47441,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 51200,
+    "can_place": false,
     "id": "ENCHANTED_GLOWSTONE"
   },
   {
@@ -47333,6 +47534,7 @@
     "material": "MONSTER_EGG",
     "name": "Training Dummy",
     "tier": "UNCOMMON",
+    "has_uuid": true,
     "id": "TRAINING_DUMMY"
   },
   {
@@ -47714,6 +47916,8 @@
     },
     "ability_damage_scaling": 0.2,
     "museum": true,
+    "can_place": false,
+    "has_uuid": true,
     "id": "PUMPKIN_LAUNCHER"
   },
   {
@@ -47948,6 +48152,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWFmODE1MWRlYjM5NTUzMjkyYjlhNjk2NzQ4MzJkZGE4MDAxNzgwY2E5ODE4MGEwNmVhZjliMzY4OTMwYjViYiJ9fX0=",
     "name": "Recall Potion",
     "tier": "EPIC",
+    "has_uuid": true,
     "id": "RECALL_POTION"
   },
   {
@@ -48067,6 +48272,7 @@
     "tier": "LEGENDARY",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "WISH_ULTIMATE"
   },
   {
@@ -48444,6 +48650,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "THUNDERSTORM_ABILITY"
   },
   {
@@ -49372,6 +49579,7 @@
     "glowing": true,
     "tier": "EPIC",
     "dungeon_item": true,
+    "has_uuid": true,
     "id": "NECRON_HANDLE"
   },
   {
@@ -49622,6 +49830,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI4MDk4ODlkYTM2YWRmNTYxODU4MWJiZjdiNjZkMmQ4ODM5ZTJlYjcyNTRjMzMzMmU0ZjNhMjMwZmEifX19",
     "name": "Gemstone Chamber",
     "tier": "EPIC",
+    "has_uuid": true,
     "id": "GEMSTONE_CHAMBER"
   },
   {
@@ -49656,6 +49865,7 @@
     "tier": "RARE",
     "npc_sell_price": 0,
     "soulbound": "SOLO",
+    "has_uuid": true,
     "id": "DEAN_LETTER_OF_RECOMMENDATION"
   },
   {
@@ -49943,6 +50153,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 2000,
+    "can_place": false,
     "id": "ENCHANTED_SPONGE"
   },
   {
@@ -49951,6 +50162,8 @@
     "glowing": true,
     "tier": "EPIC",
     "description": "%%gray%%Used to open the entrance to the Jungle Temple.",
+    "can_place": false,
+    "can_interact": false,
     "id": "JUNGLE_KEY"
   },
   {
@@ -50488,6 +50701,7 @@
     "name": "Mithril",
     "npc_sell_price": 8,
     "description": "%%gray%%%%italic%%\"The Man called it \"true-silver\" while the Dwarves, who loved it above all things, had their own, secret name for it.\"",
+    "can_place": false,
     "id": "MITHRIL_ORE"
   },
   {
@@ -50570,6 +50784,7 @@
     "glowing": true,
     "tier": "LEGENDARY",
     "npc_sell_price": 51200,
+    "unstackable": false,
     "id": "REFINED_TITANIUM"
   },
   {
@@ -50617,6 +50832,9 @@
     "material": "ROTTEN_FLESH",
     "name": "Mysterious Meat",
     "glowing": true,
+    "can_place": false,
+    "can_auction": false,
+    "can_trade": false,
     "id": "MYSTERIOUS_MEAT"
   },
   {
@@ -51188,6 +51406,9 @@
     "glowing": true,
     "tier": "LEGENDARY",
     "unstackable": true,
+    "has_uuid": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "BOOSTER_COOKIE"
   },
   {
@@ -51578,6 +51799,7 @@
       "HEALTH": 66,
       "WEAPON_ABILITY_DAMAGE": 4000
     },
+    "has_uuid": true,
     "id": "WITCH_MASK"
   },
   {
@@ -51587,6 +51809,7 @@
     "name": "Crypt Skull Key",
     "tier": "UNCOMMON",
     "dungeon_item": true,
+    "has_uuid": true,
     "id": "CRYPT_SKULL_KEY"
   },
   {
@@ -51705,6 +51928,7 @@
       "WALK_SPEED": 1
     },
     "museum": true,
+    "has_uuid": true,
     "id": "POTATO_TALISMAN"
   },
   {
@@ -51895,6 +52119,7 @@
         "level": 5
       }
     ],
+    "has_uuid": true,
     "id": "ISLAND_NPC"
   },
   {
@@ -51978,6 +52203,8 @@
     "category": "ACCESSORY",
     "tier": "RARE",
     "unstackable": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "PERSONAL_DELETOR_5000"
   },
   {
@@ -52239,6 +52466,10 @@
     "tier": "UNCOMMON",
     "glowing": true,
     "npc_sell_price": 480,
+    "can_place": false,
+    "can_interact": false,
+    "can_interact_right_click": false,
+    "can_interact_entity": false,
     "id": "ENCHANTED_SEEDS"
   },
   {
@@ -52261,6 +52492,7 @@
     "tier": "RARE",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "ARCHER_DUNGEON_ABILITY_3"
   },
   {
@@ -53882,6 +54114,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "RAGNAROK_ABILITY"
   },
   {
@@ -54366,6 +54599,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 640,
+    "can_place": false,
     "id": "ENCHANTED_NETHER_STALK"
   },
   {
@@ -54386,6 +54620,7 @@
     "tier": "RARE",
     "npc_sell_price": 10,
     "museum": true,
+    "double_tap_to_drop": true,
     "id": "SNOW_CANNON"
   },
   {
@@ -54702,6 +54937,7 @@
     "name": "Toy",
     "tier": "COMMON",
     "soulbound": "SOLO",
+    "has_uuid": true,
     "id": "TOY"
   },
   {
@@ -55077,6 +55313,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 102000,
+    "can_place": false,
     "id": "ENCHANTED_GOLD_BLOCK"
   },
   {
@@ -55296,6 +55533,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGUxYzJhNWM0ZDRjMzVmYzM3NTQyOTVmMzljMzMzZWY2NzhiZDJlZGFkOWM4OGYyZDE2ODBmMTQ5NjgyIn19fQ==",
     "name": "Wheel of Fate",
     "tier": "RARE",
+    "has_uuid": true,
     "id": "WHEEL_OF_FATE"
   },
   {
@@ -55345,6 +55583,7 @@
     "glowing": true,
     "npc_sell_price": 1600,
     "tier": "UNCOMMON",
+    "can_place": false,
     "id": "ENCHANTED_BROWN_MUSHROOM"
   },
   {
@@ -55610,8 +55849,9 @@
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxODI0ODMxMzQ5OSwKICAicHJvZmlsZUlkIiA6ICJjOTAzOGQzZjRiMTg0M2JiYjUwNTU5ZGE3MWFjMTk2MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUQk5SY29vbGNhdCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9iYzhiMTVlODVlZDIyNWMyMWMzMjM2N2RhN2JlMjQ0Nzc5ZTM2YWZlN2Y3NTYzYTZhNTcwYTcxN2NiNWJlMWIxIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
     "name": "Prehistoric Egg",
-    "unstackable": true,
     "npc_sell_price": 1000,
+    "unstackable": true,
+    "can_interact": false,
     "id": "PREHISTORIC_EGG"
   },
   {
@@ -56088,6 +56328,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 432,
+    "can_interact": false,
     "id": "ENCHANTED_EGG"
   },
   {
@@ -56968,6 +57209,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "MAGE_DUNGEON_ABILITY_1"
   },
   {
@@ -57193,6 +57435,7 @@
     "name": "Echolocator",
     "glowing": true,
     "tier": "UNCOMMON",
+    "has_uuid": true,
     "id": "ECHOLOCATOR"
   },
   {
@@ -57289,6 +57532,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 1600,
+    "can_place": false,
     "id": "ENCHANTED_PUMPKIN"
   },
   {
@@ -57403,6 +57647,8 @@
     "material": "NAME_TAG",
     "name": "Raffle Ticket",
     "tier": "UNCOMMON",
+    "can_auction": false,
+    "can_trade": false,
     "id": "MINING_RAFFLE_TICKET"
   },
   {
@@ -57949,6 +58195,8 @@
     "durability": 6,
     "name": "Tasty Mithril",
     "tier": "UNCOMMON",
+    "can_auction": false,
+    "can_trade": false,
     "id": "MITHRIL_GOURMAND"
   },
   {
@@ -58270,6 +58518,8 @@
     "unstackable": true,
     "category": "ACCESSORY",
     "tier": "COMMON",
+    "has_uuid": true,
+    "can_recombobulate": false,
     "id": "PANDORAS_BOX"
   },
   {
@@ -59020,6 +59270,8 @@
       "WALK_SPEED": 1
     },
     "museum": true,
+    "can_place": false,
+    "has_uuid": true,
     "id": "POTATO_CROWN"
   },
   {
@@ -59087,6 +59339,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2FkNTdkMWY2MDQ3OGFmNmFlMWI2YjFjMjhjZWU1MzRkNWRiYjhjOGNhYjg3OTYzZTljMmVmMGM2YWM1OCJ9fX0=",
     "name": "Wood Singularity",
     "tier": "LEGENDARY",
+    "has_uuid": true,
     "id": "WOOD_SINGULARITY"
   },
   {
@@ -59263,6 +59516,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 320,
+    "can_place": false,
     "id": "ENCHANTED_JUNGLE_LOG"
   },
   {
@@ -59513,6 +59767,7 @@
     "glowing": true,
     "tier": "EPIC",
     "npc_sell_price": 38400,
+    "has_uuid": true,
     "id": "HOT_POTATO_BOOK"
   },
   {
@@ -59563,6 +59818,8 @@
     },
     "soulbound": "SOLO",
     "npc_sell_price": 1000,
+    "can_auction": false,
+    "can_trade": false,
     "id": "LYNX_TALISMAN"
   },
   {
@@ -59835,6 +60092,7 @@
     "name": "Enchanted Sulphur",
     "tier": "RARE",
     "npc_sell_price": 1600,
+    "can_place": false,
     "id": "ENCHANTED_SULPHUR"
   },
   {
@@ -59872,6 +60130,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 320,
+    "can_place": false,
     "id": "ENCHANTED_DARK_OAK_LOG"
   },
   {
@@ -59944,6 +60203,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "GHOST_THROWING_AXE"
   },
   {
@@ -60524,6 +60784,8 @@
     "name": "Energy Crystal",
     "tier": "SPECIAL",
     "dungeon_item": true,
+    "has_uuid": true,
+    "serializable": false,
     "id": "MAXOR_ENERGY_CRYSTAL"
   },
   {
@@ -61047,6 +61309,7 @@
     "glowing": true,
     "npc_sell_price": 51200,
     "tier": "RARE",
+    "can_place": false,
     "id": "ENCHANTED_HUGE_MUSHROOM_1"
   },
   {
@@ -61465,6 +61728,7 @@
         "level": 10
       }
     ],
+    "has_uuid": true,
     "id": "SHOWCASE_BLOCK"
   },
   {
@@ -61717,6 +61981,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 160,
+    "can_place": false,
     "id": "ENCHANTED_DANDELION"
   },
   {
@@ -62017,6 +62282,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 102400,
+    "can_place": false,
     "id": "ENCHANTED_QUARTZ_BLOCK"
   },
   {
@@ -62028,6 +62294,7 @@
     "npc_sell_price": 100,
     "soulbound": "COOP",
     "museum": true,
+    "can_have_power_scroll": true,
     "id": "JINGLE_BELLS"
   },
   {
@@ -62236,6 +62503,7 @@
       "DAMAGE": 1
     },
     "dungeon_item": true,
+    "serializable": false,
     "id": "BOSS_SPIRIT_BOW"
   },
   {
@@ -62244,6 +62512,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjczYTIxMTQxMzZiOGVlNDkyNmNhYTUxNzg1NDE0MDM2YTJiNzZlNGYxNjY4Y2I4OWQ5OTcxNmM0MjEifX19",
     "name": "§cRed Gift",
     "tier": "RARE",
+    "double_tap_to_drop": true,
     "id": "RED_GIFT"
   },
   {
@@ -62672,6 +62941,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "ARCHER_DUNGEON_ABILITY_1"
   },
   {
@@ -62797,6 +63067,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 320,
+    "can_place": false,
     "id": "ENCHANTED_WOOL"
   },
   {
@@ -62937,6 +63208,7 @@
     "name": "Tessellated Ender Pearl",
     "tier": "LEGENDARY",
     "npc_sell_price": 96000,
+    "unstackable": false,
     "id": "TESSELLATED_ENDER_PEARL"
   },
   {
@@ -62960,6 +63232,7 @@
     "tier": "SPECIAL",
     "npc_sell_price": 1337,
     "museum": true,
+    "has_uuid": true,
     "id": "QUALITY_MAP"
   },
   {
@@ -63501,6 +63774,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 576,
+    "can_place": false,
     "id": "ENCHANTED_POPPY"
   },
   {
@@ -63519,6 +63793,7 @@
     "glowing": true,
     "npc_sell_price": 1600,
     "tier": "UNCOMMON",
+    "can_place": false,
     "id": "ENCHANTED_RED_MUSHROOM"
   },
   {
@@ -63674,6 +63949,7 @@
     "material": "MONSTER_EGG",
     "durability": 120,
     "name": "Move Jerry",
+    "can_auction": false,
     "id": "ASSISTANT"
   },
   {
@@ -63807,6 +64083,7 @@
     "soulbound": "COOP",
     "description": "%%gray%%%%italic%%Makes pretty \"drip\" necklaces, according to the local youth.",
     "npc_sell_price": 50,
+    "can_place": false,
     "id": "PYROCLASTIC_SCALE"
   },
   {
@@ -64087,6 +64364,8 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzdjMGQwMTBkZDBlNTEyZmZlYTEwOGQ3YzVmZTY5ZDU3NmMzMWVjMjY2Yzg4NGI1MWVjMGIyOGNjNDU3In19fQ==",
     "name": "Sleeping Eye",
     "tier": "EPIC",
+    "has_uuid": true,
+    "can_auction": false,
     "id": "SLEEPING_EYE"
   },
   {
@@ -64516,6 +64795,7 @@
     "name": "Basket of Hope from the Great Potato War",
     "tier": "EPIC",
     "museum": true,
+    "has_uuid": true,
     "id": "POTATO_BASKET"
   },
   {
@@ -65055,6 +65335,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 600,
+    "can_place": false,
     "id": "ENCHANTED_SNOW_BLOCK"
   },
   {
@@ -65095,6 +65376,8 @@
     "tier": "RARE",
     "description": "%%gray%%%%italic%%The head of Matchos is a combination of Sulphur and a crystalline substance. With even the slightest frictions they will light up.",
     "npc_sell_price": 10,
+    "can_place": false,
+    "can_interact": false,
     "id": "MATCH_STICKS"
   },
   {
@@ -65234,6 +65517,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 800,
+    "can_place": false,
     "id": "ENCHANTED_RED_SAND"
   },
   {
@@ -65387,6 +65671,7 @@
     "material": "POTION",
     "name": "Water Bottle",
     "npc_sell_price": 2,
+    "has_uuid": false,
     "id": "POTION"
   },
   {
@@ -65449,6 +65734,7 @@
     "tier": "LEGENDARY",
     "description": "%%gray%%%%italic%%It can take years for Hellwisp to create a pearl, but the Matriarch secretes so much fluid that it can make multiple of those pearls every day.",
     "soulbound": "SOLO",
+    "unstackable": false,
     "id": "HEAVY_PEARL"
   },
   {
@@ -65586,6 +65872,7 @@
     "npc_sell_price": 10000,
     "museum": true,
     "soulbound": "COOP",
+    "unstackable": false,
     "id": "CORRUPTED_NETHER_STAR"
   },
   {
@@ -65601,6 +65888,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 100,
+    "can_place": false,
     "id": "BEJEWELED_HANDLE"
   },
   {
@@ -66012,6 +66300,8 @@
     },
     "soulbound": "SOLO",
     "npc_sell_price": 1000,
+    "can_auction": false,
+    "can_trade": false,
     "id": "CAT_TALISMAN"
   },
   {
@@ -66028,6 +66318,9 @@
         "slot_type": "AMBER"
       }
     ],
+    "unstackable": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "POWER_TALISMAN"
   },
   {
@@ -66047,6 +66340,7 @@
     },
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "THROWING_AXE"
   },
   {
@@ -66167,6 +66461,9 @@
         "slot_type": "AMBER"
       }
     ],
+    "unstackable": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "POWER_RING"
   },
   {
@@ -66247,6 +66544,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 102400,
+    "can_place": false,
     "id": "ENCHANTED_SUGAR_CANE"
   },
   {
@@ -67151,6 +67449,8 @@
     "tier": "SPECIAL",
     "npc_sell_price": 123,
     "museum": true,
+    "can_place": false,
+    "has_uuid": true,
     "id": "CREATIVE_MIND"
   },
   {
@@ -68099,6 +68399,9 @@
     "glowing": true,
     "tier": "LEGENDARY",
     "unstackable": true,
+    "has_uuid": true,
+    "can_auction": false,
+    "can_trade": false,
     "id": "REFUND_COOKIE"
   },
   {
@@ -68291,6 +68594,7 @@
         "type": "MELODY_HAIR"
       }
     ],
+    "can_auction": false,
     "id": "MELODY_HAIR"
   },
   {
@@ -68678,6 +68982,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "HEALER_DUNGEON_ABILITY_2"
   },
   {
@@ -68685,6 +68990,7 @@
     "durability": 1,
     "name": "Charcoal",
     "npc_sell_price": 2,
+    "can_burn_in_furnace": true,
     "id": "CHARCOAL"
   },
   {
@@ -68700,6 +69006,7 @@
     "glowing": true,
     "tier": "RARE",
     "npc_sell_price": 76800,
+    "can_place": false,
     "id": "ENCHANTED_CACTUS"
   },
   {
@@ -68708,6 +69015,8 @@
     "tier": "RARE",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "can_place": false,
+    "can_interact": false,
     "id": "DUNGEON_CHEST_KEY"
   },
   {
@@ -68757,6 +69066,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 576,
     "description": "%%gray%%A refined form of heavy rock from the darkest depths.",
+    "can_place": false,
     "id": "ENCHANTED_HARD_STONE"
   },
   {
@@ -69247,6 +69557,8 @@
     "soulbound": "COOP",
     "description": "%%gray%%%%italic%%The lead has to be exceedingly soft due to the nature of the mount. The chicken needs to be comfy.",
     "npc_sell_price": 50,
+    "can_interact": false,
+    "can_interact_entity": false,
     "id": "KADA_LEAD"
   },
   {
@@ -69644,6 +69956,7 @@
     "glowing": true,
     "tier": "UNCOMMON",
     "npc_sell_price": 160,
+    "can_place": false,
     "id": "ENCHANTED_NETHERRACK"
   },
   {
@@ -69661,6 +69974,8 @@
     "tier": "SPECIAL",
     "npc_sell_price": 100,
     "museum": true,
+    "can_place": false,
+    "has_uuid": true,
     "id": "NEW_YEAR_CAKE"
   },
   {
@@ -69748,6 +70063,7 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 1,
     "dungeon_item": true,
+    "serializable": false,
     "id": "MAGE_DUNGEON_ABILITY_3"
   },
   {
@@ -70150,6 +70466,7 @@
   {
     "material": "PRISMARINE_SHARD",
     "name": "Attribute Shard",
+    "has_uuid": true,
     "id": "ATTRIBUTE_SHARD"
   },
   {
@@ -70447,6 +70764,7 @@
     "name": "Book of Progression",
     "category": "ACCESSORY",
     "tier": "COMMON",
+    "can_recombobulate": false,
     "id": "BOOK_OF_PROGRESSION"
   },
   {
@@ -70932,6 +71250,7 @@
     "name": "Diamond Magmafish",
     "tier": "MYTHIC",
     "unstackable": true,
+    "has_uuid": true,
     "id": "MAGMA_FISH_DIAMOND"
   },
   {
@@ -71834,7 +72153,6 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzU5MjhjMjc4NTAyN2U3YmM0OWZiOTZmZjQ4MDFhNjczZDJhNTllZjMwYjU2MWY5ZjI0NTIxNDZiNDVkZTg5OSJ9fX0=",
     "name": "Capsaicin Eyedrops",
     "tier": "RARE",
-    "unstackable": true,
     "id": "CAPSAICIN_EYEDROPS"
   },
   {
@@ -72038,6 +72356,9 @@
     "name": "Moody Grappleshot",
     "tier": "EPIC",
     "unstackable": true,
+    "can_place": false,
+    "can_interact": false,
+    "can_interact_right_click": false,
     "id": "MOODY_GRAPPLESHOT"
   },
   {
@@ -72067,6 +72388,7 @@
         "level": 4
       }
     ],
+    "can_place": false,
     "id": "TELEPORTER_PILL"
   },
   {
@@ -72207,6 +72529,7 @@
         "level": 5
       }
     ],
+    "can_have_power_scroll": true,
     "id": "GLOOMLOCK_GRIMOIRE"
   },
   {
@@ -72285,6 +72608,7 @@
         "slot_type": "SAPPHIRE"
       }
     ],
+    "can_have_power_scroll": true,
     "id": "ASPECT_OF_THE_VOID"
   },
   {
@@ -73220,6 +73544,7 @@
     "glowing": true,
     "tier": "EPIC",
     "npc_sell_price": 500000,
+    "has_uuid": true,
     "id": "FLY_SWATTER"
   },
   {
@@ -73841,6 +74166,7 @@
       "WEAPON_ABILITY_DAMAGE": 1500
     },
     "unstackable": true,
+    "double_tap_to_drop": true,
     "requirements": [
       {
         "type": "SLAYER",
@@ -74191,6 +74517,7 @@
       "essence_type": "UNDEAD",
       "amount": 500
     },
+    "can_have_power_scroll": true,
     "upgrade_costs": [
       [
         {
@@ -74527,6 +74854,7 @@
       }
     ],
     "rift_transferrable": true,
+    "can_place": false,
     "item_specific": {
       "stats": {
         "strength": 30,
@@ -74560,6 +74888,7 @@
       }
     ],
     "museum": true,
+    "can_place": false,
     "id": "AATROX_BADPHONE"
   },
   {
@@ -74613,6 +74942,7 @@
         "level": 2
       }
     ],
+    "double_tap_to_drop": true,
     "id": "RADIANT_POWER_ORB"
   },
   {
@@ -74630,6 +74960,7 @@
         "level": 6
       }
     ],
+    "double_tap_to_drop": true,
     "id": "MANA_FLUX_POWER_ORB"
   },
   {
@@ -74929,6 +75260,7 @@
     "name": "Overflux Capacitor",
     "glowing": true,
     "tier": "EPIC",
+    "has_uuid": true,
     "id": "OVERFLUX_CAPACITOR"
   },
   {
@@ -75441,6 +75773,7 @@
     "stats": {
       "damage": 200
     },
+    "has_uuid": true,
     "requirements": [
       {
         "type": "GARDEN_LEVEL",
@@ -75457,6 +75790,7 @@
     "stats": {
       "damage": 250
     },
+    "has_uuid": true,
     "requirements": [
       {
         "type": "GARDEN_LEVEL",
@@ -75473,6 +75807,7 @@
     "stats": {
       "damage": 100
     },
+    "has_uuid": true,
     "requirements": [
       {
         "type": "GARDEN_LEVEL",
@@ -75489,6 +75824,7 @@
     "stats": {
       "damage": 150
     },
+    "has_uuid": true,
     "requirements": [
       {
         "type": "GARDEN_LEVEL",
@@ -75505,6 +75841,7 @@
     "stats": {
       "damage": 120
     },
+    "has_uuid": true,
     "requirements": [
       {
         "type": "GARDEN_LEVEL",
@@ -76244,6 +76581,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NDk4MTc4OCwKICAicHJvZmlsZUlkIiA6ICI3YmRhNDBlM2E1YjU0YzE0YWJmZGYzNGMyODY2NjQ0NiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfRWdvcl9wbGF5XyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MjkxNGZiOWMxMGIyMTA5NTNhYjI1OGFmMDhjZGRkNDk4Y2FlZjExOWQyMDRjNGM1ZTc5MDM0OTIwNjQ5OWM1IgogICAgfQogIH0KfQ",
     "name": "Wriggling Larva",
     "tier": "EPIC",
+    "has_uuid": true,
     "id": "WRIGGLING_LARVA"
   },
   {
@@ -76251,6 +76589,7 @@
     "name": "Slow and Groovy Vinyl",
     "tier": "UNCOMMON",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "VINYL_SLOW_AND_GROOVY"
   },
   {
@@ -76260,6 +76599,7 @@
     "name": "Sprayonator",
     "tier": "UNCOMMON",
     "soulbound": "COOP",
+    "has_uuid": true,
     "requirements": [
       {
         "type": "GARDEN_LEVEL",
@@ -76281,6 +76621,7 @@
     "name": "Cicada Symphony Vinyl",
     "tier": "UNCOMMON",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "VINYL_CICADA_SYMPHONY"
   },
   {
@@ -76288,6 +76629,7 @@
     "name": "Earthworm Ensemble Vinyl",
     "tier": "UNCOMMON",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "VINYL_EARTHWORM_ENSEMBLE"
   },
   {
@@ -76295,6 +76637,7 @@
     "name": "Pretty Fly Vinyl",
     "tier": "UNCOMMON",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "VINYL_PRETTY_FLY"
   },
   {
@@ -76303,6 +76646,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY5OTYzMDQyMDg5NiwKICAicHJvZmlsZUlkIiA6ICI3NTA5NzZmODRmMDE0NWFhYTc0MzAwYWJhMzc5MTIzNCIsCiAgInByb2ZpbGVOYW1lIiA6ICIwY2hlYXRzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE2NDA0NWI0YmViYjZiNzI2YzYzMzE4NGU1OGYxYWE0NDMxZDk5YmM1YzhjYmU1MGQyNGEwMWFmNTMzODYxMzkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
     "name": "Pest Repellent MAX",
     "tier": "RARE",
+    "has_uuid": true,
     "id": "PEST_REPELLENT_MAX"
   },
   {
@@ -76322,6 +76666,7 @@
     "tier": "RARE",
     "category": "ACCESSORY",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "ATMOSPHERIC_FILTER"
   },
   {
@@ -76329,6 +76674,7 @@
     "name": "DynaMITES Vinyl",
     "tier": "UNCOMMON",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "VINYL_DYNAMITES"
   },
   {
@@ -76337,6 +76683,7 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY5Njk0NDk5ODgzNSwKICAicHJvZmlsZUlkIiA6ICI0YjJlMGM1ODliZjU0ZTk1OWM1ZmJlMzg5MjQ1MzQzZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJfTmVvdHJvbl8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTg1Njg5MTgyOWY1ZTEyNWMyNTIwMTZhZTdlNDg0NmVmMzllNzBmZTBlYzEzMmI1YTUxMjZjZWFhMGE2NWY0NCIKICAgIH0KICB9Cn0=",
     "name": "Pest Repellent",
     "tier": "UNCOMMON",
+    "has_uuid": true,
     "id": "PEST_REPELLENT"
   },
   {
@@ -76344,6 +76691,7 @@
     "name": "Wings of Harmony Vinyl",
     "tier": "UNCOMMON",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "VINYL_WINGS_OF_HARMONY"
   },
   {
@@ -76351,6 +76699,7 @@
     "name": "Cricket Choir Vinyl",
     "tier": "UNCOMMON",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "VINYL_CRICKET_CHOIR"
   },
   {
@@ -76366,6 +76715,7 @@
     "name": "Bookworm's Favorite Book",
     "tier": "RARE",
     "npc_sell_price": 250,
+    "has_uuid": true,
     "id": "BOOKWORM_BOOK"
   },
   {
@@ -76373,6 +76723,7 @@
     "name": "Buzzin' Beats Vinyl",
     "tier": "UNCOMMON",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "VINYL_BUZZIN_BEATS"
   },
   {
@@ -76380,6 +76731,7 @@
     "name": "Rodent Revolution Vinyl",
     "tier": "UNCOMMON",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "VINYL_RODENT_REVOLUTION"
   },
   {
@@ -76387,6 +76739,7 @@
     "name": "Not Just a Pest Vinyl",
     "tier": "UNCOMMON",
     "npc_sell_price": 1000,
+    "has_uuid": true,
     "id": "VINYL_BEETLE"
   },
   {
@@ -76623,6 +76976,7 @@
     "name": "Compost Bundle",
     "tier": "RARE",
     "npc_sell_price": 10,
+    "has_uuid": true,
     "id": "ENCHANTED_COMPOST"
   },
   {
@@ -77237,6 +77591,7 @@
     "material": "POTION",
     "name": "§cLost Bottle of Jyrre",
     "npc_sell_price": 100,
+    "has_uuid": true,
     "id": "BOTTLE_OF_JYRRE"
   },
   {
@@ -77320,6 +77675,7 @@
     "name": "§cBottle of Jyrre",
     "npc_sell_price": 1000,
     "tier": "RARE",
+    "has_uuid": true,
     "id": "NEW_BOTTLE_OF_JYRRE"
   },
   {
@@ -78292,6 +78648,7 @@
     "category": "ACCESSORY",
     "rift_transferrable": true,
     "origin": "RIFT",
+    "can_recombobulate": false,
     "id": "RIFT_PRISM"
   },
   {
@@ -78823,6 +79180,7 @@
     "tier": "COMMON",
     "origin": "RIFT",
     "description": "The plant equivalent of an alien zombie.",
+    "can_place": false,
     "id": "WILTED_BERBERIS"
   },
   {
@@ -78913,6 +79271,7 @@
     "origin": "RIFT",
     "glowing": true,
     "rift_transferrable": true,
+    "can_place": false,
     "id": "WILTED_BERBERIS_BUNCH"
   },
   {
@@ -79075,6 +79434,7 @@
     "unstackable": true,
     "description": "Deposit on Joey's plate.",
     "soulbound": "SOLO",
+    "serializable": false,
     "id": "HOT_DOG"
   },
   {
@@ -79480,6 +79840,7 @@
     "name": "Empty Odonata Bottle",
     "tier": "UNCOMMON",
     "origin": "RIFT",
+    "can_interact": false,
     "id": "EMPTY_ODONATA_BOTTLE"
   },
   {
@@ -79487,6 +79848,8 @@
     "name": "Bottled Odonata",
     "tier": "RARE",
     "origin": "RIFT",
+    "can_place": false,
+    "can_interact": false,
     "id": "BOTTLED_ODONATA"
   },
   {
@@ -79579,6 +79942,7 @@
     "rift_transferrable": true,
     "origin": "RIFT",
     "description": "Dropped by vampires from the multiverse coven.",
+    "can_place": false,
     "id": "HEMOVIBE"
   },
   {
@@ -79689,6 +80053,7 @@
     "npc_sell_price": 16000,
     "rift_transferrable": true,
     "origin": "RIFT",
+    "can_place": false,
     "id": "HEMOGLASS"
   },
   {
@@ -80181,6 +80546,7 @@
     "material": "MONSTER_EGG",
     "durability": 101,
     "name": "Move Sam",
+    "can_auction": false,
     "id": "SAM_ASSISTANT"
   },
   {
@@ -80614,6 +80980,7 @@
     "tier": "EPIC",
     "npc_sell_price": 10000,
     "description": "%%dark_gray%%%%italic%%It's all that's left from a draconic sacrifice.",
+    "unstackable": false,
     "id": "RITUAL_RESIDUE"
   },
   {
@@ -80621,11 +80988,15 @@
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWQ3OGE5NWIxYmU1ODU5M2EwM2NmMTQ3MjYzYmRhM2I4YjM0Njg5OWJlMTEwZDMxNDY1ZWQyZmViYzBiZDEwIn19fQ==",
     "name": "%%green%%Ballista Fuel Cell",
+    "can_place": false,
+    "serializable": false,
     "id": "ELLE_FUEL_CELL"
   },
   {
     "material": "CHEST",
     "name": "%%green%%Elle's Supplies",
+    "can_place": false,
+    "serializable": false,
     "id": "ELLE_SUPPLIES"
   },
   {
@@ -80659,6 +81030,7 @@
     "name": "Moby's Shears",
     "tier": "RARE",
     "category": "SHEARS",
+    "can_place": false,
     "id": "MOBYS_SHEARS"
   },
   {
@@ -80743,6 +81115,7 @@
     "tier": "RARE",
     "npc_sell_price": 10,
     "unstackable": true,
+    "can_place": false,
     "id": "TALBOTS_THEODOLITE"
   },
   {
@@ -81088,6 +81461,8 @@
       "CRITICAL_DAMAGE": 50
     },
     "npc_sell_price": 100000,
+    "can_place": false,
+    "has_uuid": true,
     "upgrade_costs": [
       [
         {
@@ -81945,6 +82320,7 @@
       "max_contacts": 6,
       "max_musicdiscs": 2
     },
+    "double_tap_to_drop": true,
     "id": "ABIPHONE_XI_ULTRA"
   },
   {
@@ -81991,6 +82367,7 @@
     "item_specific": {
       "max_contacts": 5
     },
+    "double_tap_to_drop": true,
     "id": "ABIPHONE_X_PLUS"
   },
   {
@@ -82052,6 +82429,7 @@
       "max_musicdiscs": 4,
       "has_contact_directory": true
     },
+    "double_tap_to_drop": true,
     "id": "ABIPHONE_XII_MEGA"
   },
   {
@@ -82064,6 +82442,7 @@
     "item_specific": {
       "max_contacts": 5
     },
+    "double_tap_to_drop": true,
     "id": "ABIPHONE_X_PLUS_SPECIAL_EDITION"
   },
   {
@@ -82078,6 +82457,7 @@
       "max_musicdiscs": 2,
       "has_contact_directory": true
     },
+    "double_tap_to_drop": true,
     "id": "ABIPHONE_XI_ULTRA_STYLE"
   },
   {
@@ -101589,6 +101969,7 @@
     "category": "DEPLOYABLE",
     "tier": "SPECIAL",
     "npc_sell_price": 0,
+    "serializable": false,
     "id": "MINIATURE_NUKE"
   },
   {
@@ -101601,6 +101982,7 @@
       "strength": 50,
       "fishing_speed": 8
     },
+    "serializable": false,
     "id": "ELLES_LAVA_ROD"
   },
   {
@@ -101610,6 +101992,7 @@
     "name": "Revive Final Kill",
     "glowing": true,
     "tier": "SPECIAL",
+    "serializable": false,
     "id": "FINAL_REVIVE_PERK_ITEM"
   },
   {
@@ -101660,6 +102043,7 @@
       "MINING_SPEED": 250
     },
     "npc_sell_price": 0,
+    "serializable": false,
     "id": "ELLES_PICKAXE"
   },
   {
@@ -101669,6 +102053,7 @@
     "name": "Revive Dead",
     "glowing": true,
     "tier": "SPECIAL",
+    "serializable": false,
     "id": "REVIVE_PERK_ITEM"
   },
   {
@@ -102496,6 +102881,8 @@
     "tier": "LEGENDARY",
     "npc_sell_price": 12000,
     "description": "It smells like blood and fear.",
+    "can_interact": false,
+    "can_interact_right_click": false,
     "id": "GREAT_WHITE_TOOTH_MEAL"
   },
   {
