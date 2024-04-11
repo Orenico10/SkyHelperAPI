@@ -900,6 +900,50 @@
     ]
   },
   {
+    "name": "Umber",
+    "id": "UMBER",
+    "category": "MINING",
+    "maxTiers": 9,
+    "tiers": [
+      {
+        "tier": 1,
+        "amountRequired": 1000
+      },
+      {
+        "tier": 2,
+        "amountRequired": 2500
+      },
+      {
+        "tier": 3,
+        "amountRequired": 10000
+      },
+      {
+        "tier": 4,
+        "amountRequired": 25000
+      },
+      {
+        "tier": 5,
+        "amountRequired": 100000
+      },
+      {
+        "tier": 6,
+        "amountRequired": 250000
+      },
+      {
+        "tier": 7,
+        "amountRequired": 500000
+      },
+      {
+        "tier": 8,
+        "amountRequired": 750000
+      },
+      {
+        "tier": 9,
+        "amountRequired": 1000000
+      }
+    ]
+  },
+  {
     "name": "Coal",
     "id": "COAL",
     "category": "MINING",
@@ -1228,6 +1272,50 @@
       {
         "tier": 11,
         "amountRequired": 2000000
+      }
+    ]
+  },
+  {
+    "name": "Tungsten",
+    "id": "TUNGSTEN",
+    "category": "MINING",
+    "maxTiers": 9,
+    "tiers": [
+      {
+        "tier": 1,
+        "amountRequired": 1000
+      },
+      {
+        "tier": 2,
+        "amountRequired": 2500
+      },
+      {
+        "tier": 3,
+        "amountRequired": 10000
+      },
+      {
+        "tier": 4,
+        "amountRequired": 25000
+      },
+      {
+        "tier": 5,
+        "amountRequired": 100000
+      },
+      {
+        "tier": 6,
+        "amountRequired": 250000
+      },
+      {
+        "tier": 7,
+        "amountRequired": 500000
+      },
+      {
+        "tier": 8,
+        "amountRequired": 750000
+      },
+      {
+        "tier": 9,
+        "amountRequired": 1000000
       }
     ]
   },
@@ -1708,6 +1796,50 @@
       {
         "tier": 11,
         "amountRequired": 500000
+      }
+    ]
+  },
+  {
+    "name": "Glacite",
+    "id": "GLACITE",
+    "category": "MINING",
+    "maxTiers": 9,
+    "tiers": [
+      {
+        "tier": 1,
+        "amountRequired": 1000
+      },
+      {
+        "tier": 2,
+        "amountRequired": 2500
+      },
+      {
+        "tier": 3,
+        "amountRequired": 10000
+      },
+      {
+        "tier": 4,
+        "amountRequired": 25000
+      },
+      {
+        "tier": 5,
+        "amountRequired": 100000
+      },
+      {
+        "tier": 6,
+        "amountRequired": 250000
+      },
+      {
+        "tier": 7,
+        "amountRequired": 500000
+      },
+      {
+        "tier": 8,
+        "amountRequired": 750000
+      },
+      {
+        "tier": 9,
+        "amountRequired": 1000000
       }
     ]
   },
@@ -2575,7 +2707,7 @@
     "name": "Prismarine Shard",
     "id": "PRISMARINE_SHARD",
     "category": "FISHING",
-    "maxTiers": 6,
+    "maxTiers": 7,
     "tiers": [
       {
         "tier": 1,
@@ -2600,6 +2732,10 @@
       {
         "tier": 6,
         "amountRequired": 400
+      },
+      {
+        "tier": 7,
+        "amountRequired": 800
       }
     ]
   },
@@ -2931,7 +3067,7 @@
     "name": "Clay",
     "id": "CLAY_BALL",
     "category": "FISHING",
-    "maxTiers": 5,
+    "maxTiers": 6,
     "tiers": [
       {
         "tier": 1,
@@ -2951,6 +3087,10 @@
       },
       {
         "tier": 5,
+        "amountRequired": 1500
+      },
+      {
+        "tier": 6,
         "amountRequired": 2500
       }
     ]
