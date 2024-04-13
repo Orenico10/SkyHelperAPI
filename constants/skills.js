@@ -50,7 +50,7 @@ module.exports = function calcSkill(skill, experience, { cap, infinite, ignoreMa
 		level += Math.floor(xpCurrent / maxExperience);
 		xpCurrent %= maxExperience;
 		maxLevel = level >= maxLevel ? level + 1 : maxLevel;
-		xpForNext = maxExperience;
+		xpForNext = xpForNext == 0 ? maxExperience: xpForNext;
 	}
 
 	progress = level >= maxLevel ? 0 : Math.max(0, Math.min(xpCurrent / xpForNext, 1));
