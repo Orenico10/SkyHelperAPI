@@ -158,7 +158,7 @@ module.exports = {
             fairy_souls: profile.fairy_soul?.total_collected || 0,
             purse: profile.currencies.coin_purse || 0,
             bank: profileData.banking?.balance || 0,
-            skills: getSkills(profile),
+            skills: getSkills(player, profile),
             networth,
             weight,
             bestiary: getBestiary(profile),
@@ -227,7 +227,7 @@ module.exports = {
 
             const [networth, weight, crimson, trophy_fish, missing, armor, equipment, pets, talismans, cakebag] = await Promise.all([
                 getNetworth(profile, profileData.banking?.balance, { v2Endpoint: true, museumData }),
-                getWeight(profile),
+                getWeight(player, profile),
                 getCrimson(profile),
                 getTrophyFish(profile),
                 getMissing(profile),
@@ -254,7 +254,7 @@ module.exports = {
                 fairy_souls: profile.fairy_soul?.total_collected || 0,
                 purse: profile?.currencies?.coin_purse || 0,
                 bank: profileData.banking?.balance || 0,
-                skills: getSkills(profile),
+                skills: getSkills(player, profile),
                 networth,
                 weight,
                 bestiary: getBestiary(profile),
