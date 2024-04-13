@@ -132,7 +132,7 @@ module.exports = {
 
         const [networth, weight, crimson, trophy_fish, missing, armor, equipment, pets, talismans, cakebag] = await Promise.all([
             getNetworth(profile, profileData.banking?.balance, { v2Endpoint: true, museumData }),
-            getWeight(profile),
+            getWeight(player, profile),
             getCrimson(profile),
             getTrophyFish(profile),
             getMissing(profile),
