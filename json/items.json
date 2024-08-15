@@ -546,6 +546,22 @@
     "name": "Melon Dicer",
     "category": "AXE",
     "tier": "EPIC",
+    "gemstone_slots": [
+      {
+        "slot_type": "PERIDOT",
+        "costs": [
+          {
+            "type": "ITEM",
+            "item_id": "FINE_PERIDOT_GEM",
+            "amount": 20
+          },
+          {
+            "type": "COINS",
+            "coins": 50000
+          }
+        ]
+      }
+    ],
     "id": "MELON_DICER"
   },
   {
@@ -1396,6 +1412,22 @@
     "name": "Pumpkin Dicer",
     "category": "AXE",
     "tier": "EPIC",
+    "gemstone_slots": [
+      {
+        "slot_type": "PERIDOT",
+        "costs": [
+          {
+            "type": "ITEM",
+            "item_id": "FINE_PERIDOT_GEM",
+            "amount": 20
+          },
+          {
+            "type": "COINS",
+            "coins": 50000
+          }
+        ]
+      }
+    ],
     "id": "PUMPKIN_DICER"
   },
   {
@@ -1528,6 +1560,15 @@
     "tier": "EPIC",
     "unstackable": true,
     "id": "LARGE_AGRONOMY_SACK"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjQxODE1ODc0NCwKICAicHJvZmlsZUlkIiA6ICIxZGI3ZjUxYWZmOWM0NTcyOGZmNmU5MjMxMmZhZGZkOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJsdXNtZW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzFlNjI0ZmVhNGY1YjQ5YjY3OGYxMWUzZWVkOTZmYWE4ZTE5ZDkyMjEzZGI4MzUxOTFiZTE2YmU1ZTQ2YjI1NyIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+    "name": "Events Sack",
+    "tier": "EPIC",
+    "unstackable": true,
+    "id": "LARGE_EVENTS_SACK"
   },
   {
     "material": "SKULL_ITEM",
@@ -8889,6 +8930,18 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNjQyMjM3MDc0MSwKICAicHJvZmlsZUlkIiA6ICJkMDQ3ZGY3ZjMzMzk0MmM1OTA3ODY5ZjIwYmI0YzlkMSIsCiAgInByb2ZpbGVOYW1lIiA6ICJleHBsaXloIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYzMzU0OGM2OWI4ZjVjZDA5MzFkYTZiMTFlZDRjMTc1NmMxNWYwZjg5NmUxMDk1NjFlNzVhYWI0MjQ0NGRjMjkiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+    "name": "Painter's Palette",
+    "tier": "SPECIAL",
+    "category": "MEMENTO",
+    "item_specific": {
+      "memorable_event_key": "artist_abode"
+    },
+    "id": "PAINTERS_PALETTE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDg0YTg2OWFlMjdjMmUyZjBiMWZiODBhOTM0YTBjMGY0MDYzNWNlNzVmNjM5YjlhMDJlOGM3NGM0MThlNzlkZSJ9fX0=",
     "name": "Floral Lamppost",
     "furniture": "FLORAL_LAMPPOST",
@@ -8903,308 +8956,6 @@
     "category": "COSMETIC",
     "museum": true,
     "id": "WHITE_TIGER_PERSONALITY"
-  },
-  {
-    "material": "SKULL_ITEM",
-    "durability": 3,
-    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNzMwNzA5MDE1NCwKICAicHJvZmlsZUlkIiA6ICJiM2E3NjExNGVmMzI0ZjYyYWM4NDRiOWJmNTY1NGFiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNcmd1eW1hbnBlcnNvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ODkxMDg2MzRhNmZmOTNkNDIzZjEwNDNlZWFhMDdmZTdlM2JmNTMwYTNiZDkzYjgxOGEyNGY3N2U2MzAxYTI3IiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
-    "name": "Rose Dye",
-    "tier": "MYTHIC",
-    "unstackable": true,
-    "item_specific": {
-      "colors": [
-        "0xf06766",
-        "0xf06766",
-        "0xf06766",
-        "0xee6364",
-        "0xee6364",
-        "0xeb5e61",
-        "0xe8595e",
-        "0xe45359",
-        "0xe04d55",
-        "0xdb4650",
-        "0xd3404c",
-        "0xcb3947",
-        "0xc43043",
-        "0xbd2b40",
-        "0xb8293e",
-        "0xb3263d",
-        "0xae243b",
-        "0xa8223a",
-        "0xa32038",
-        "0x9c1e36",
-        "0x961c34",
-        "0x901a32",
-        "0x881731",
-        "0x81162e",
-        "0x881830",
-        "0x81162e",
-        "0x7b142d",
-        "0x74122b",
-        "0x6d1029",
-        "0x650e27",
-        "0x5e0d24",
-        "0x560b22",
-        "0x500a20",
-        "0x49081f",
-        "0x44061d",
-        "0x3e061b",
-        "0x39041a",
-        "0x39041a",
-        "0x310417",
-        "0x310417",
-        "0x310417"
-      ],
-      "cycle_back": true,
-      "piece_offset": 5,
-      "tick_interval": 1
-    },
-    "id": "DYE_ROSE"
-  },
-  {
-    "material": "SKULL_ITEM",
-    "durability": 3,
-    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNDUzNDY5ODg3OCwKICAicHJvZmlsZUlkIiA6ICJmOGJmNDBjOWExYzY0ZTllOTIyZTc4M2UwMzNiODBiMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUeGxvbjUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYmIwZjcyMmFlYzI3NDkwY2YwNTZmNTYwYWZkZDQ1N2EwYTc5NGU3MDM1NTZjYzRjM2I1MWE1ODJmNWM1N2FhNCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-    "name": "Warden Dye",
-    "tier": "MYTHIC",
-    "unstackable": true,
-    "item_specific": {
-      "colors": [
-        "0x034150",
-        "0x034150",
-        "0x034150",
-        "0x03404f",
-        "0x03404f",
-        "0x024554",
-        "0x004a59",
-        "0x004f5e",
-        "0x005463",
-        "0x005a68",
-        "0x005f6d",
-        "0x006472",
-        "0x006a76",
-        "0x006a76",
-        "0x00757f",
-        "0x007a84",
-        "0x008088",
-        "0x00868c",
-        "0x008b90",
-        "0x009194",
-        "0x009194",
-        "0x009295",
-        "0x009295",
-        "0x009295"
-      ],
-      "cycle_back": true,
-      "piece_offset": 3
-    },
-    "id": "DYE_WARDEN"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 6,
-    "name": "Livid Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_LIVID"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 12,
-    "name": "Tentacle Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "TENTACLE_DYE"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 1,
-    "name": "Brick Red Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_BRICK_RED"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 2,
-    "name": "Holly Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_HOLLY"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 13,
-    "name": "Wild Strawberry Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_WILD_STRAWBERRY"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 15,
-    "name": "Pure White Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_PURE_WHITE"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 12,
-    "name": "Celeste Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_CELESTE"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 12,
-    "name": "Aquamarine Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_AQUAMARINE"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 5,
-    "name": "Midnight Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_MIDNIGHT"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 4,
-    "name": "Bingo Blue Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_BINGO_BLUE"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 10,
-    "name": "Celadon Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_CELADON"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 9,
-    "name": "Cyclamen Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_CYCLAMEN"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 1,
-    "name": "Carmine Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_CARMINE"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 13,
-    "name": "Byzantium Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_BYZANTIUM"
-  },
-  {
-    "material": "ICE",
-    "name": "Iceberg Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_ICEBERG"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 14,
-    "name": "Mango Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_MANGO"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 5,
-    "name": "Dark Purple Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_DARK_PURPLE"
-  },
-  {
-    "material": "INK_SACK",
-    "name": "Pure Black Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_PURE_BLACK"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 9,
-    "name": "Nadeshiko Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_NADESHIKO"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 2,
-    "name": "Emerald Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_EMERALD"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 10,
-    "name": "Nyanza Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_NYANZA"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 11,
-    "name": "Pure Yellow Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_PURE_YELLOW"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 4,
-    "name": "Pure Blue Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_PURE_BLUE"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 1,
-    "name": "Flame Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_FLAME"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 14,
-    "name": "Necron Dye",
-    "tier": "LEGENDARY",
-    "unstackable": true,
-    "id": "DYE_NECRON"
-  },
-  {
-    "material": "INK_SACK",
-    "durability": 15,
-    "name": "Bone Dye",
-    "tier": "EPIC",
-    "unstackable": true,
-    "id": "DYE_BONE"
   },
   {
     "material": "LEATHER_BOOTS",
@@ -13625,7 +13376,7 @@
     "category": "FISHING_ROD",
     "tier": "UNCOMMON",
     "stats": {
-      "damage": 50,
+      "damage": 100,
       "strength": 50,
       "fishing_speed": 8
     },
@@ -13696,7 +13447,7 @@
     "category": "FISHING_ROD",
     "tier": "LEGENDARY",
     "stats": {
-      "damage": 180,
+      "damage": 270,
       "strength": 180,
       "sea_creature_chance": 14,
       "fishing_speed": 75
@@ -14036,6 +13787,22 @@
         "level": 25
       }
     ],
+    "gemstone_slots": [
+      {
+        "slot_type": "AQUAMARINE",
+        "costs": [
+          {
+            "type": "ITEM",
+            "item_id": "FINE_AQUAMARINE_GEM",
+            "amount": 40
+          },
+          {
+            "type": "COINS",
+            "coins": 100000
+          }
+        ]
+      }
+    ],
     "id": "AUGER_ROD"
   },
   {
@@ -14045,7 +13812,7 @@
     "tier": "RARE",
     "stats": {
       "damage": 150,
-      "strength": 150,
+      "strength": 120,
       "sea_creature_chance": 6,
       "fishing_speed": 40
     },
@@ -14374,8 +14141,8 @@
     "category": "FISHING_ROD",
     "tier": "EPIC",
     "stats": {
-      "damage": 170,
-      "strength": 170,
+      "damage": 210,
+      "strength": 150,
       "sea_creature_chance": 10,
       "fishing_speed": 60
     },
@@ -14745,6 +14512,140 @@
     "tier": "MYTHIC",
     "unstackable": true,
     "id": "FULL_CENTURY_CAKE_PACK"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjQ2NTczMiwKICAicHJvZmlsZUlkIiA6ICIzMTdkODc2MjZjYWM0Mjk0ODBiOTI4NGE4Y2ZjMWRlOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJOaWFtb1IzMjAiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWYxOWNlZWFiZjJlY2IwMjA2MTBiOGFhYmM5Mjk5MjY0ZmE2NzAwNDhjMDEwYzk2OTljZTY4N2ZjOWJmMzUxZSIKICAgIH0KICB9Cn0",
+    "name": "Prestige Chocolate Realm",
+    "category": "ACCESSORY",
+    "tier": "LEGENDARY",
+    "description": "%%dark_gray%%%%italic%%The Factory's pinnacle creation - its epic taste shatters expectations, offering a taste of utopia.",
+    "id": "PRESTIGE_CHOCOLATE_REALM"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjUxMDg3MSwKICAicHJvZmlsZUlkIiA6ICJkNWMyZjNmZWY2NjM0ZDk4OGFmMmJjMDkwNGEzMzAzNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJCTU1HQSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82Zjk0MjcxNzM2NGMwZmVjZjdhZDExYmFjOGNkOThkZDdhZDRkYmQ3MmUzZDNjZTJiNTdlYjQ4NzEzODI0ZmYiCiAgICB9CiAgfQp9",
+    "name": "Rich Chocolate Chunk",
+    "category": "ACCESSORY",
+    "tier": "RARE",
+    "description": "%%dark_gray%%%%italic%%From the Factory's secret reserves, its rich flavor is a deep dive into indulgence.",
+    "id": "RICH_CHOCOLATE_CHUNK"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjU0NzI5MCwKICAicHJvZmlsZUlkIiA6ICI2OGVmMmM5NTc5NjM0MjE4YjYwNTM5YWVlOTU3NWJiNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVNdWx0aUFjb3VudCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84ODgxODhkNjI5MDhhZjZlMTE0ZjczYTEwOWUxNWFjN2YxZmFkZWQzOWFiZDZhMjA1NDAzNGVjNWNjNzBjNzI3IgogICAgfQogIH0KfQ",
+    "name": "Nibble Chocolate Stick",
+    "category": "ACCESSORY",
+    "tier": "COMMON",
+    "description": "%%dark_gray%%%%italic%%A delightful treat from the Factory. Its crisp taste sparks joy with every bite.",
+    "id": "NIBBLE_CHOCOLATE_STICK"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjQ4OTQxNywKICAicHJvZmlsZUlkIiA6ICJkNzJlNGJjZDIyZGI0NjQ4OTUxNTc0M2UyYTRmMWFjMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJhdnZheSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9mODk1MTIzMzFlZGZkYzI3Y2I3ZDRlODBmM2UwZGI0NjBkMDVjYWY2NmM3YzFjNDJlMGU3MTIxMzBhOWI2OTAiCiAgICB9CiAgfQp9",
+    "name": "Ganache Chocolate Slab",
+    "category": "ACCESSORY",
+    "tier": "EPIC",
+    "description": "%%dark_gray%%%%italic%%A Factory masterpiece - its divine taste transcends reality, offering a heavenly escape.",
+    "id": "GANACHE_CHOCOLATE_SLAB"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjUyOTM4NywKICAicHJvZmlsZUlkIiA6ICJjYTU4NzNhYmY0Y2U0YWUxODAxZmVmODgzNjhlMWExNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZXRocm9uZXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTkzNzJlZmQyY2ExYTZjNmRmYzA2NmYxZWM4M2Y5NDU2NTc1YzM4NTBhMGU3ZDAxMTA5YzRmMWFmMzAwYmE4IgogICAgfQogIH0KfQ",
+    "name": "Smooth Chocolate Bar",
+    "category": "ACCESSORY",
+    "tier": "UNCOMMON",
+    "description": "%%dark_gray%%%%italic%%Crafted in the Factory, its smoothness melts hearts and tastes like a sweet escape.",
+    "id": "SMOOTH_CHOCOLATE_BAR"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjYyODM2MCwKICAicHJvZmlsZUlkIiA6ICI5YzM1ZGU3MjdmMzU0ZTVlYjFiOWRhOGViYTZhYzM1YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJtb21teXR3ZXJrZXVzZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZGNiNjdhNzJjMDFmM2NhNzVkYTg0NmY5NTdmZmVkNjQxN2YwYzQ1YWQ4MTRmYjNlMzQwYzMxN2NmMzE2NzE4IgogICAgfQogIH0KfQ",
+    "name": "Chocolate Syringe",
+    "tier": "LEGENDARY",
+    "id": "PET_ITEM_CHOCOLATE_SYRINGE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMjAyNDY1Mzc0MSwKICAicHJvZmlsZUlkIiA6ICI0MDNlYmEzYjhkODg0MDVlYjhjMDlkNTQ4NmFjYzdiZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJWb3J0ZXh0dHYiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODFmNzIyNmE5Mjc1NThkMDY5YTZhZTM0M2I0ZTA4OWZiZDYwZmM2MDM3MTkwMDk3Yzc3MTMyMDhlOTg4ZmFhZSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+    "name": "Zorro's Cape",
+    "category": "CLOAK",
+    "tier": "LEGENDARY",
+    "stats": {
+      "farming_fortune": 10,
+      "farming_wisdom": 1,
+      "strength": 10,
+      "ferocity": 2
+    },
+    "description": "%%dark_gray%%%%italic%%Not all Rabbits wear capes.",
+    "requirements": [
+      {
+        "type": "EASTER_RABBIT",
+        "rabbit": "ZORRO"
+      }
+    ],
+    "id": "ZORROS_CAPE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTk3OTUyOTAwNywKICAicHJvZmlsZUlkIiA6ICJlZjVjZjkzYWFhMTY0ZTMyODQ4NDYxYjIzNGQ1YWJhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjU0YjdmM2YyYTZmMGQxYzJjMDU0Njc4MTI4ZWMyMzIyNjE5YWVmZmYwZjQ1MGMzOTBkNmE0MWI1OTUwMzAyZSIKICAgIH0KICB9Cn0",
+    "name": "Supreme Chocolate Bar",
+    "tier": "UNCOMMON",
+    "npc_sell_price": 3,
+    "id": "SUPREME_CHOCOLATE_BAR"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDc3NjcxMTg5NywKICAicHJvZmlsZUlkIiA6ICJiMmQ4MTA2YTJjM2Y0ZTY4ODA0ODkzOWU0NGM1NmUyMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSZWdoeGQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTBiNTNlYzdkMDNjMjVhMWQ2ZDAxMzM5MzU3NTU3MDA5NjZmYTFmMDU1ZGQ5NDFlODIyODBhYTM0NmNiNzFiMSIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
+    "name": "Rabbit the Fish",
+    "tier": "SPECIAL",
+    "museum": true,
+    "id": "RABBIT_THE_FISH"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjU4ODQwNSwKICAicHJvZmlsZUlkIiA6ICJmZjQ3NzI5YmQwZDI0YWYwOThiMTFjMGE3ZTFiMGVlZiIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXRzY2FuIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmOTkxMjE1ZTI1OGQ2NWY3N2VlZGViNjkzNTZmNTUyMWJiMjRjYjlkZDQ3NzY1ZTM4ZjUyYTg5MmQ3OTg5YWQiCiAgICB9CiAgfQp9",
+    "name": "Refined Dark Cacao Truffle",
+    "tier": "LEGENDARY",
+    "id": "REFINED_DARK_CACAO_TRUFFLE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTk3OTUwOTk3OCwKICAicHJvZmlsZUlkIiA6ICJiYWRkZjIxZTFmNWE0ZGYzOGVjZmNkOTYwY2E0YzA5YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJBbmRlckJUIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzE0YTdmZjlhMTBmZGFlMTQ0NDY0OTllZjNiYzFkZjEzYjc4ODhkNmNkMmUzMTFjY2FiNTFiODM1MmM2MDkzYjQiCiAgICB9CiAgfQp9",
+    "name": "Egglocator",
+    "tier": "COMMON",
+    "unstackable": true,
+    "id": "EGGLOCATOR"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDk1OTAwNzUwOSwKICAicHJvZmlsZUlkIiA6ICJiZmMyODE3ZWRhZWM0OWY5YTVmMWVkNTdjODZhMGFjOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFYm95UmV6YSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MjJiMGU1ZmFhOTdjYTEwOWNkNDVmMWZiYTJkODRjYTJiOWI2MDFkZTUwYjQ3ZjRhZGQyZDgzNWFhMzYwZjc4IgogICAgfQogIH0KfQ",
+    "name": "Fish Chocolat à la Vapeur",
+    "tier": "EPIC",
+    "description": "%%dark_gray%%%%italic%%Savory fish with a chocolate twist. Mwah! C'est magnifique, no?",
+    "has_uuid": true,
+    "id": "STEAMED_CHOCOLATE_FISH"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTQ2MjYxMDEwNCwKICAicHJvZmlsZUlkIiA6ICJkZTE0MGFmM2NmMjM0ZmM0OTJiZTE3M2Y2NjA3MzViYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTUlRlYW0iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGI5ZGIzNzNjYWRiZWMxOTEyYTlhYjM4NmQzMWNlYjNlMGNkNGQ2YTY0ZjIyMjQyNjU4OGEzYjJlYjMxZWQyOSIKICAgIH0KICB9Cn0",
+    "name": "Dark Cacao Truffle",
+    "tier": "RARE",
+    "has_uuid": true,
+    "id": "DARK_CACAO_TRUFFLE"
   },
   {
     "material": "PACKED_ICE",
@@ -16224,7 +16125,6 @@
     "glowing": true,
     "tier": "SPECIAL",
     "npc_sell_price": 1,
-    "has_uuid": true,
     "id": "KAT_FLOWER"
   },
   {
@@ -16270,7 +16170,6 @@
     "category": "COSMETIC",
     "tier": "LEGENDARY",
     "unstackable": true,
-    "soulbound": "COOP",
     "id": "DITTO_BLOB"
   },
   {
@@ -16482,6 +16381,7 @@
     "durability": 12,
     "name": "Refined Mineral",
     "tier": "RARE",
+    "npc_sell_price": 2000,
     "id": "REFINED_MINERAL"
   },
   {
@@ -16497,6 +16397,26 @@
     "id": "MINERAL_TALISMAN"
   },
   {
+    "material": "INK_SACK",
+    "durability": 5,
+    "name": "Glossy Gemstone",
+    "tier": "EPIC",
+    "npc_sell_price": 4000,
+    "id": "GLOSSY_GEMSTONE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMzIxMjY3MzA1NSwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUzYTI2YWQ0NjIwZGRlYzI3YmMxZDY1ZjQzY2VkYzEzMzE1Yzc4M2UxYTVhM2UzMTIyYzBhZDQ1OGRhZDU1YzQiCiAgICB9CiAgfQp9",
+    "name": "Glossy Mineral Talisman",
+    "category": "ACCESSORY",
+    "tier": "EPIC",
+    "stats": {
+      "MINING_FORTUNE": 6
+    },
+    "id": "GLOSSY_MINERAL_TALISMAN"
+  },
+  {
     "material": "LEATHER_BOOTS",
     "color": "204,229,255",
     "name": "Mineral Boots",
@@ -16507,6 +16427,30 @@
       "DEFENSE": 70
     },
     "id": "MINERAL_BOOTS"
+  },
+  {
+    "material": "LEATHER_CHESTPLATE",
+    "color": "91,13,174",
+    "name": "Glossy Mineral Chestplate",
+    "category": "CHESTPLATE",
+    "tier": "LEGENDARY",
+    "stats": {
+      "WALK_SPEED": 25,
+      "DEFENSE": 150
+    },
+    "id": "GLOSSY_MINERAL_CHESTPLATE"
+  },
+  {
+    "material": "LEATHER_LEGGINGS",
+    "color": "91,13,174",
+    "name": "Glossy Mineral Leggings",
+    "category": "LEGGINGS",
+    "tier": "LEGENDARY",
+    "stats": {
+      "WALK_SPEED": 25,
+      "DEFENSE": 150
+    },
+    "id": "GLOSSY_MINERAL_LEGGINGS"
   },
   {
     "material": "SKULL_ITEM",
@@ -16520,6 +16464,31 @@
       "DEFENSE": 70
     },
     "id": "MINERAL_HELMET"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg1MDQ3MzE3OCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY1MjhiMjM1YzYwNzQ2N2MzNjljYTljM2YyYmY4OTAxNGZlMmVhNDVmODhkZjI4ZDAyOWE1ODFmZjRiYjE3MjEiCiAgICB9CiAgfQp9",
+    "name": "Glossy Mineral Helmet",
+    "category": "HELMET",
+    "tier": "LEGENDARY",
+    "stats": {
+      "WALK_SPEED": 20,
+      "DEFENSE": 90
+    },
+    "id": "GLOSSY_MINERAL_HELMET"
+  },
+  {
+    "material": "LEATHER_BOOTS",
+    "color": "91,13,174",
+    "name": "Glossy Mineral Boots",
+    "category": "BOOTS",
+    "tier": "LEGENDARY",
+    "stats": {
+      "WALK_SPEED": 20,
+      "DEFENSE": 90
+    },
+    "id": "GLOSSY_MINERAL_BOOTS"
   },
   {
     "material": "LEATHER_CHESTPLATE",
@@ -16544,6 +16513,192 @@
       "DEFENSE": 125
     },
     "id": "MINERAL_LEGGINGS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNjI5ODEzMDk3NCwKICAicHJvZmlsZUlkIiA6ICJjNTZlMjI0MmNiZWY0MWE2ODdlMzI2MGRjMGNmOTM2MSIsCiAgInByb2ZpbGVOYW1lIiA6ICJMSlI3MzEwMCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS80MWUwNjRhMGUzMmE4MDYxMTI2NzhkNzhiNTYxNTM3ZGZhNWNjYjY1YmE0M2NjYjhiYzNkZDdjNWU2NzY4NTNiIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+    "name": "Divan's Powder Coating",
+    "tier": "LEGENDARY",
+    "id": "DIVAN_POWDER_COATING"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwODUyMjE2NTUxNCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2IxZTUxYTliZTRkMTc5YWViNTQ5ZjRlY2I4YTZjNDNhNTk0Y2ViMTViZjNiMmRiNTMxN2VhYjc4MDEwZjMyMTAiCiAgICB9CiAgfQp9",
+    "name": "Fine Flour",
+    "tier": "UNCOMMON",
+    "npc_sell_price": 500,
+    "item_specific": {
+      "permanent_health": 5,
+      "permanent_crops_farming_fortune": 12
+    },
+    "id": "FINE_FLOUR"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg1MDA0NzAzOSwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY3NGUwNjFlNmQ4NTM4MjJiYmFkNTZkMDc5MzU3YzI0OGM5YTQwZGU0OTRmMjBlYWUwMDc4YTBhMDJlZjBkYTciCiAgICB9CiAgfQp9",
+    "name": "Brown Bandana",
+    "category": "PET_ITEM",
+    "tier": "RARE",
+    "npc_sell_price": 0,
+    "id": "BROWN_BANDANA"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwODYyMzg0NzgzNSwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzY4Yzk0MjI1NWIwZmVmMzExZDcyZmNiNzIzMDg3MzA5YmNhOTA4NGY4YzRhMmMwYzAzYjU2MTg2ODdmODNhZTQiCiAgICB9CiAgfQp9",
+    "name": "Pest Vest",
+    "category": "CLOAK",
+    "tier": "EPIC",
+    "npc_sell_price": 0,
+    "stats": {
+      "bonus_pest_chance": 10
+    },
+    "id": "PEST_VEST"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTk5MjQ5NiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2Y4YmIyNmQxOGJlZmFkNDBhNzUzNWViYWMwZTE4YmUyMGYzNjJjMDAwY2M1MDhmMmIzM2I0M2FiY2MyNzIzZTkiCiAgICB9CiAgfQp9",
+    "name": "Blood-Soaked Coins",
+    "description": "%%gray%%When you pay through the nose, you'll end up with a nosebleed.",
+    "category": "NONE",
+    "tier": "EPIC",
+    "npc_sell_price": 0,
+    "id": "BLOOD_SOAKED_COINS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTg5MzM2MywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzg4OTNhN2QzYTkyYzVjM2MxMjRlNWM4MWE0OTY5ZDYxZDcxNzUxNTI3ZmUwZmJmYjY4NTJjYTcwZmIwZDA5MDgiCiAgICB9CiAgfQp9",
+    "name": "Freshly-Minted Coins",
+    "description": "%%gray%%Nothing beats the smell of fresh %%gold%%Coins%%gray%%. Except for lots of things.",
+    "category": "NONE",
+    "tier": "RARE",
+    "npc_sell_price": 0,
+    "id": "FRESHLY_MINTED_COINS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTYzMzcxNywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgwNGM1Y2UxMjU0NWE3Y2NkZjBhMzViOWRmMGVmOWJhYzE1ODI2YzNhMDc4NmUxY2UxMGYzZWM3ZDA2NTZmNjEiCiAgICB9CiAgfQp9",
+    "name": "Golden Fragment",
+    "description": "%%gold%%Gold%%gray%%, but broken into fragments. This makes it important somehow.",
+    "category": "NONE",
+    "tier": "EPIC",
+    "id": "GOLDEN_FRAGMENT"
+  },
+  {
+    "material": "GOLD_AXE",
+    "name": "Daedalus Axe",
+    "category": "SWORD",
+    "sword_type": "AXE",
+    "tier": "LEGENDARY",
+    "gemstone_slots": [
+      {
+        "slot_type": "COMBAT",
+        "costs": [
+          {
+            "type": "COINS",
+            "coins": 50000
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_JASPER_GEM",
+            "amount": 20
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_SAPPHIRE_GEM",
+            "amount": 20
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_RUBY_GEM",
+            "amount": 20
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_AMETHYST_GEM",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "slot_type": "COMBAT",
+        "costs": [
+          {
+            "type": "COINS",
+            "coins": 100000
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_JASPER_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_SAPPHIRE_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_RUBY_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_AMETHYST_GEM",
+            "amount": 40
+          }
+        ]
+      }
+    ],
+    "id": "STARRED_DAEDALUS_AXE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMzIxMjcyNzUyMCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzJlMDExZjY0OGRlMzdlNDkxNzFlMjY3MjUyNDcyYjIxMzAwMDdlNjMyZGI3MzU4MjIwY2E1NDY3MTJmNzlhODEiCiAgICB9CiAgfQp9",
+    "name": "Scavenger Artifact",
+    "category": "ACCESSORY",
+    "tier": "RARE",
+    "npc_sell_price": 0,
+    "id": "SCAVENGER_ARTIFACT"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg1MTEyOTk3OSwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzMxNWNhOTY5NTRkYjMxOWZlZjU5NzY1NGU1ODY2ZTA4OTFlNjdlZWFiZDk3ZDI4OTEwZjE1ZDYwOTRlMjQ2YjciCiAgICB9CiAgfQp9",
+    "name": "Avaricious Chalice",
+    "description": "%%gray%%Said to make any drink inside it taste like %%gold%%gold%%gray%%.",
+    "category": "NONE",
+    "tier": "EPIC",
+    "npc_sell_price": 0,
+    "id": "AVARICIOUS_CHALICE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTkyOTEwNSwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2JiZTQ4OTgyMTlkYmQ5MTZjOWRmZWUwNjYwODRiODEzZWQ4ZjYzZmY1OGYyZTBiMjMyOGM5MDk4ZTBmZDE0ODUiCiAgICB9CiAgfQp9",
+    "name": "Blood-Stained Coins",
+    "description": "%%gray%%This is probably not what they meant by \"%%red%%blood money%%gray%%\".",
+    "category": "NONE",
+    "tier": "RARE",
+    "npc_sell_price": 0,
+    "id": "BLOOD_STAINED_COINS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMzIxMjc4MDA0MiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRjNTJhMzBlZTUzY2YyYjMzYTQ3NDYyNWZmYjVjY2RlNGVjMzg4NzFhNDI5OTlkYjRlNzJiNjMwODlhY2YwNzIiCiAgICB9CiAgfQp9",
+    "name": "Scavenger Ring",
+    "category": "ACCESSORY",
+    "tier": "UNCOMMON",
+    "npc_sell_price": 0,
+    "id": "SCAVENGER_RING"
   },
   {
     "material": "GOLD_AXE",
@@ -16612,6 +16767,21 @@
       }
     ],
     "id": "DAEDALUS_AXE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg1MDEzMTk0NSwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzliNjBkNmY2NTU3NTIwYzBjYjBkZmMwYTExOTNmMjNhMmYyOWRlNTJjMThkYmI3NDZlNGExYTk5ZjE4ZGM2MWMiCiAgICB9CiAgfQp9",
+    "name": "Crown of Avarice",
+    "glowing": true,
+    "category": "HELMET",
+    "tier": "LEGENDARY",
+    "stats": {
+      "DEFENSE": 110,
+      "HEALTH": 160
+    },
+    "npc_sell_price": 1000000,
+    "id": "CROWN_OF_AVARICE"
   },
   {
     "material": "SKULL_ITEM",
@@ -17032,6 +17202,68 @@
     "id": "PLASMA_NUCLEUS"
   },
   {
+    "material": "GOLD_SPADE",
+    "name": "Midas Staff",
+    "category": "SWORD",
+    "tier": "LEGENDARY",
+    "stats": {
+      "DAMAGE": 130,
+      "STRENGTH": 150,
+      "WEAPON_ABILITY_DAMAGE": 6000,
+      "INTELLIGENCE": 50
+    },
+    "ability_damage_scaling": 0.3,
+    "dungeon_item_conversion_cost": {
+      "essence_type": "GOLD",
+      "amount": 100
+    },
+    "upgrade_costs": [
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "GOLD",
+          "amount": 50
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "GOLD",
+          "amount": 100
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "GOLD",
+          "amount": 150
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "GOLD",
+          "amount": 200
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "GOLD",
+          "amount": 250
+        }
+      ]
+    ],
+    "catacombs_requirements": [
+      {
+        "type": "DUNGEON_SKILL",
+        "dungeon_type": "CATACOMBS",
+        "level": 25
+      }
+    ],
+    "id": "STARRED_MIDAS_STAFF"
+  },
+  {
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZWRmZjkwNDEyNGVmZTQ4NmIzYTU0MjYxZGJiODA3MmIwYTRlMTE2MTVhZDhkNzM5NGQ4MTRlMGU4YzhlZjllYiJ9fX0=",
@@ -17412,6 +17644,15 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzE4Njk5YmFlOWYxZTAyYTdhNjUxODNiZDAwNzk0ODllNGU2MTVkYWRkY2UzYzkyNjQ5Y2RlZDMxMmIyMjZkYyJ9fX0=",
+    "name": "Jungle Cabin",
+    "furniture": "JUNGLE_CABIN",
+    "tier": "EPIC",
+    "id": "JUNGLE_CABIN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTEwMGUxNzdlMjYyNGJhOTQ5NTg4ZWZmODEzODkzMzJlZWMxZDM5MDg1YWExMWMwNWIzZjQxYzcwMjQxNmU4OSJ9fX0=",
     "name": "Bear Bench",
     "furniture": "BEAR_BENCH",
@@ -17676,11 +17917,29 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNGQzNTlkYTRmNzBmMWJjYmU4MTU0NWZjM2E5N2I2NWMxZDcwZjNmOTAxOThkNzU3ODQ1YWFiMTk4YjZlMDA1OSJ9fX0=",
+    "name": "Totem",
+    "furniture": "TOTEM",
+    "tier": "EPIC",
+    "id": "TOTEM"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYjc5N2ZlNTQ5OTE5MWRkZWM5NGY1MGZhNmFiOWNiYzE4YzljZDZmYTFiOTdlMzZiNGQ1MTliNjIzMTkzZDUifX19",
     "name": "Crab",
     "furniture": "CRAB",
     "tier": "RARE",
     "id": "CRAB"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVlMWQzMDhkYzNkNzI1M2YzMmUzMDBlZGE0ZDAwMDNmZTY0YTU2YmYzYTU0NjZmZDIwMTFiMzVmNDAzZGEzYiJ9fX0=",
+    "name": "Jungle Table",
+    "furniture": "JUNGLE_TABLE",
+    "tier": "EPIC",
+    "id": "JUNGLE_TABLE"
   },
   {
     "material": "SKULL_ITEM",
@@ -17834,6 +18093,15 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVlMWQzMDhkYzNkNzI1M2YzMmUzMDBlZGE0ZDAwMDNmZTY0YTU2YmYzYTU0NjZmZDIwMTFiMzVmNDAzZGEzYiJ9fX0=",
+    "name": "Jungle Dresser",
+    "furniture": "JUNGLE_DRESSER",
+    "tier": "EPIC",
+    "id": "JUNGLE_DRESSER"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTQ0MjE3ODJmYTllMDQxY2E4Y2NlNmFhYzNhMGIzMzdlY2MxYjk3MWIxNjhlY2JlZWY2OGI4ODEzZWUzOTZkYiJ9fX0=",
     "name": "Small Pool",
     "furniture": "SMALL_POOL",
@@ -17848,6 +18116,15 @@
     "furniture": "BUNNY_BENCH",
     "tier": "EPIC",
     "id": "BUNNY_BENCH"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVlMWQzMDhkYzNkNzI1M2YzMmUzMDBlZGE0ZDAwMDNmZTY0YTU2YmYzYTU0NjZmZDIwMTFiMzVmNDAzZGEzYiJ9fX0=",
+    "name": "Jungle Chair",
+    "furniture": "JUNGLE_CHAIR",
+    "tier": "EPIC",
+    "id": "JUNGLE_CHAIR"
   },
   {
     "material": "SKULL_ITEM",
@@ -17879,11 +18156,29 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMmY1YTIzZjAzYzQ4MWVkNWY3YTA1NzJkMmNlOWE3Zjg3MTM5Yjg1ZGQ4MTI0MTQ0MTU0MmJlOTc3MzExZDExYSJ9fX0=",
+    "name": "Coconut Drink",
+    "furniture": "COCONUT_DRINK",
+    "tier": "EPIC",
+    "id": "COCONUT_DRINK"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDAwMTRjZTA3NGVhNmU3MTkyODdlNzRhNzk2MTVkNTkyOWZjNmZmNDJhYzgxYTdlMWU0NWEwMDVmNzY0MjE3OSJ9fX0=",
     "name": "Little Chick Bed",
     "furniture": "CHICK_BED",
     "tier": "EPIC",
     "id": "CHICK_BED"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODVlMWQzMDhkYzNkNzI1M2YzMmUzMDBlZGE0ZDAwMDNmZTY0YTU2YmYzYTU0NjZmZDIwMTFiMzVmNDAzZGEzYiJ9fX0=",
+    "name": "Jungle Bed",
+    "furniture": "JUNGLE_BED",
+    "tier": "EPIC",
+    "id": "JUNGLE_BED"
   },
   {
     "material": "SKULL_ITEM",
@@ -18241,7 +18536,7 @@
     "item_specific": {
       "portal": {
         "holo_name": "Crystal Hollows",
-        "description_name": "%%gray%%the %%aqua%%Crystal Hollows",
+        "description_name": "%%gray%%the %%dark_purple%%Crystal Hollows",
         "destination_mode": "crystal_hollows",
         "schematic_file": "sb_portal_crystal_hollows",
         "offset": "NEW",
@@ -19314,6 +19609,15 @@
     "npc_sell_price": 9,
     "motes_sell_price": 105,
     "id": "BOW"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMTI1NDg3ODc3MywKICAicHJvZmlsZUlkIiA6ICJkZTU3MWExMDJjYjg0ODgwOGZlN2M5ZjQ0OTZlY2RhZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJNSEZfTWluZXNraW4iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTk1ZThmZTg4NzE2OTdjNjJiYjE3MTRjNmYwODI4YjNmNDc0ZjBlYTJlNTkyMDE3YmNjMDA4NmQxNjQ2Nzc3YiIKICAgIH0KICB9Cn0",
+    "name": "Bucket of Dye",
+    "category": "ACCESSORY",
+    "tier": "RARE",
+    "id": "BUCKET_OF_DYE"
   },
   {
     "material": "SKULL_ITEM",
@@ -20776,12 +21080,6 @@
   },
   {
     "material": "GOLD_SWORD",
-    "enchantments": {
-      "first_strike": 1,
-      "scavenger": 1,
-      "sharpness": 2,
-      "vampirism": 1
-    },
     "name": "Fancy Sword",
     "category": "SWORD",
     "stats": {
@@ -23398,6 +23696,20 @@
     "id": "BRONZE_HUNTER_LEGGINGS"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjMyNTQ5NiwKICAicHJvZmlsZUlkIiA6ICJmYjNhZTU0OTU3ODQ0MGVlODIzODJlMDY2MzlhYTkzMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJXZWx0ZXJ3ZWlnaHQiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWJmYjY1NjUwODJkOWYyZjdhYjhhNThlYzhiNDU0OTA5MTEwMmE3Mjk0NGI5NTZjN2FhZmU0ZDJkNDljZDZkNyIKICAgIH0KICB9Cn0",
+    "name": "Zombie Mask",
+    "tier": "UNCOMMON",
+    "category": "CARNIVAL_MASK",
+    "unstackable": true,
+    "stats": {
+      "health": 1
+    },
+    "museum": true,
+    "id": "ZOMBIE_MASK"
+  },
+  {
     "material": "GOLD_BOOTS",
     "name": "Boots of Divan",
     "category": "BOOTS",
@@ -23703,6 +24015,16 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNTE3MTUxNjYzMCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzZmNzUxZTU0ZDdjYzkwZDE2MTdiODIxNTRlNWZhYjcyZDk3YTliY2M3NjIyMTM0OGQ3MzZmYTI4N2JiNjFlODQiCiAgICB9CiAgfQp9",
+    "name": "Archery Cube",
+    "description": "%%dark_gray%%Decoration item\n\n%%gray%%Obtained during the %%yellow%%Carnival%%gray%% for placing within the %%green%%Top 500 %%gray%%in %%red%%Zombie Shootout%%gray%%.",
+    "tier": "LEGENDARY",
+    "can_place": true,
+    "id": "ARCHERY_CUBE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjk4M2ZlMzk0ZjQ2NDFhOTc1MjlmN2U0OTI0Njc4YTI5OTk2OTE3M2I3NDFkMmYyZGI2ODMzYTdlOGRiOGQ2In19fQ==",
     "name": "White Lamp",
     "npc_sell_price": 500,
@@ -23856,6 +24178,17 @@
     "id": "NETHER_BRICK"
   },
   {
+    "material": "RAW_FISH",
+    "durability": 1,
+    "name": "Singing Fish",
+    "glowing": true,
+    "tier": "SPECIAL",
+    "museum": true,
+    "soulbound": "COOP",
+    "has_uuid": true,
+    "id": "SINGING_FISH"
+  },
+  {
     "material": "STAINED_GLASS",
     "durability": 14,
     "name": "Red Stained Glass",
@@ -23952,6 +24285,14 @@
     "name": "Stone",
     "npc_sell_price": 1,
     "id": "STONE"
+  },
+  {
+    "material": "LEATHER_HELMET",
+    "color": "0,255,0",
+    "name": "Party Top Hat",
+    "category": "HELMET",
+    "tier": "UNCOMMON",
+    "id": "PARTY_HAT"
   },
   {
     "material": "BEDROCK",
@@ -24741,6 +25082,17 @@
     "tier": "RARE",
     "npc_sell_price": 770,
     "id": "CANDY_CORN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTcxMDEzNiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI0MzE3OGRiMmE5ZjVhZjYwNGZkYTcyZGM0ZjgzZTc1NGZjYzhmZTljYTAzNGU2MjI3MjY4YTkwZWIxZTcwZDciCiAgICB9CiAgfQp9",
+    "name": "Puzzle Cube",
+    "category": "NONE",
+    "tier": "LEGENDARY",
+    "unstackable": true,
+    "museum": true,
+    "id": "PUZZLE_CUBE"
   },
   {
     "material": "SKULL_ITEM",
@@ -26461,6 +26813,7 @@
     "glowing": true,
     "tier": "LEGENDARY",
     "museum": true,
+    "npc_sell_price": 10000,
     "id": "HELIX"
   },
   {
@@ -27130,6 +27483,16 @@
     "id": "SMOOTH_BRICK:1"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM2YjgyMWMxYWZkZDVhNWQxNGUzYjNiZDBhMzIyNjNjOGRmNWRmNWRiNmUxZTg4YmY2NWU5N2IyN2E4NTMwIn19fQ==",
+    "name": "Emerald Artifact",
+    "category": "ACCESSORY",
+    "tier": "RARE",
+    "npc_sell_price": 7600,
+    "id": "EMERALD_ARTIFACT"
+  },
+  {
     "material": "RED_ROSE",
     "durability": 1,
     "name": "Blue Orchid",
@@ -27182,6 +27545,22 @@
     "name": "Egg",
     "npc_sell_price": 3,
     "id": "EGG"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjIyNDg1MywKICAicHJvZmlsZUlkIiA6ICI3ZjU2ZjY1MDI2NjY0ZmM1OWFjNWYyYjVjMTNlZGY3NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJNYXhBbnRvbnkiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjI0NTBmZjc4N2FiZDk2NmRlN2FlODhkYzhhODEyMTQ5YWM5MWRkZDhmMTIwODY2ZjY5MzlmMmExNzk5OWNkMCIKICAgIH0KICB9Cn0",
+    "name": "Bee Mask",
+    "tier": "EPIC",
+    "category": "CARNIVAL_MASK",
+    "unstackable": true,
+    "stats": {
+      "health": 7,
+      "foraging_fortune": 7,
+      "walk_speed": 7
+    },
+    "museum": true,
+    "id": "BEE_MASK"
   },
   {
     "material": "SKULL_ITEM",
@@ -27279,6 +27658,15 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 20,
     "id": "RECORD_6"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg1MTA0MTc2OCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRkNzMxOGMyMWMyYTUzNjkzMjIyY2Q2MDE5MTUxOGE4ZTJhODg1OTU2ZGQwODIzYjYxNDJjOWNlNzdkMTM4MTEiCiAgICB9CiAgfQp9",
+    "name": "Artifact of Coins",
+    "category": "ACCESSORY",
+    "tier": "RARE",
+    "id": "ARTIFACT_OF_COINS"
   },
   {
     "material": "SPONGE",
@@ -27868,6 +28256,15 @@
     "id": "WATER_TROUGH"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTg0NDc2MCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQxYTNlN2M3Njk5YmY4Mzc4ZjU4MmMxZDNlYjlhZjA2OGI4NWRiMjM1YmE3OGViYjI1M2EwNGFmM2VjNTY1YTMiCiAgICB9CiAgfQp9",
+    "name": "Ring of Coins",
+    "category": "ACCESSORY",
+    "tier": "UNCOMMON",
+    "id": "RING_OF_COINS"
+  },
+  {
     "material": "ANVIL",
     "name": "Reforge Anvil",
     "tier": "EPIC",
@@ -28219,6 +28616,16 @@
     ],
     "dungeon_item": true,
     "id": "ZOMBIE_KNIGHT_HELMET"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNTA5NDgwMDQ2NiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2I0OTQ4OGNjYzljOTRmMTRhZmI3NTc0MTg2MGVhZjgwZjRjZWNiNGU3ZGIxNzg3YzlkYjc0YzY2MTMwZmFmM2QiCiAgICB9CiAgfQp9",
+    "name": "Mini Fish Bowl",
+    "description": "%%dark_gray%%Decoration item\n\n%%gray%%Obtained during the %%yellow%%Carnival%%gray%% for placing within the %%green%%Top 500 %%gray%%in %%dark_aqua%%Catch a Fish%%gray%%.",
+    "tier": "LEGENDARY",
+    "can_place": true,
+    "id": "MINI_FISH_BOWL"
   },
   {
     "material": "SKULL_ITEM",
@@ -28666,6 +29073,25 @@
     "name": "Bat Firework",
     "tier": "RARE",
     "id": "BAT_FIREWORK"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwODAwODc4MTIyMiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2U3NWJkZTRjYTg1NmE5OTdmMGJiYzBkNjVlZTJhMmRkZTIxNWI0MDIwZjVmZmQ1ZjdmZTk5ZjZmMTAyNGJkOGEiCiAgICB9CiAgfQp9",
+    "name": "Mithril Belt",
+    "category": "BELT",
+    "tier": "UNCOMMON",
+    "stats": {
+      "mining_speed": 20,
+      "mining_fortune": 5
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 2
+      }
+    ],
+    "id": "MITHRIL_BELT"
   },
   {
     "material": "RED_ROSE",
@@ -29246,6 +29672,20 @@
     "id": "SPEED_WITHER_HELMET"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjI4MzIxMSwKICAicHJvZmlsZUlkIiA6ICJhNDAxZjEzMTZlMjI0ZTNjOTg0ODk1MmVjMzhjMTEwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJHcmVlbnNoZWVwaXJhdGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTk2OTc0N2E1YmJjOWEzNjYxZmRlNjhkMzY5YWNmZmNhNTRjOWY5YjE5Zjk0ZGFhMzg3OTk3MDc5NjYyOTI0NCIKICAgIH0KICB9Cn0",
+    "name": "Salmon Mask",
+    "tier": "UNCOMMON",
+    "category": "CARNIVAL_MASK",
+    "unstackable": true,
+    "stats": {
+      "health": 1
+    },
+    "museum": true,
+    "id": "SALMON_MASK"
+  },
+  {
     "material": "BOW",
     "name": "Machine Gun Shortbow",
     "category": "BOW",
@@ -29266,7 +29706,7 @@
         159
       ],
       "STRENGTH": [
-        50,
+        20,
         23,
         25,
         27,
@@ -30935,6 +31375,22 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 3200,
     "id": "ENCHANTED_CLOWNFISH"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjI0NzQ1NywKICAicHJvZmlsZUlkIiA6ICJmOTEyM2ZjOGQzMzg0OWMwOWFlMzk5YjQ2NDljZDRjZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJab2VfX01heSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NzUyMmExZWFkZjg5OTZmNDJhOGQyZTVmYjBjYTliZmIzYWI0ODNkM2ZiYWY2OGVmMjlhNDJkZThjZWY3NGM1IgogICAgfQogIH0KfQ",
+    "name": "Frog Mask",
+    "tier": "EPIC",
+    "category": "CARNIVAL_MASK",
+    "unstackable": true,
+    "stats": {
+      "health": 7,
+      "foraging_fortune": 7,
+      "walk_speed": 7
+    },
+    "museum": true,
+    "id": "FROG_MASK"
   },
   {
     "material": "GLOWSTONE_DUST",
@@ -33755,6 +34211,7 @@
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2QzODljNTVlY2Y3ZGI1NzJkNjk2MWNlM2Q1N2I1NzJlNzYxMzk3YjY3YTJkNmQ5NGM3MmZjOTFkZGRkNzQifX19",
     "name": "Remnant of the Eye",
     "tier": "EPIC",
+    "npc_sell_price": 1,
     "has_uuid": true,
     "id": "REMNANT_OF_THE_EYE"
   },
@@ -34589,6 +35046,25 @@
     "name": "Stone Brick Slab",
     "npc_sell_price": 0.5,
     "id": "STEP:5"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwODAwMjI5ODQzMywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzYzZGQzYTM1M2FkNWZhNzhlMjQyZTNhMmIyMDI1ZTk5NDQ3MzI1ZjFmM2Y0N2Q1OGMxOTFmZDMwNzBhMWU3NzgiCiAgICB9CiAgfQp9",
+    "name": "Mithril Necklace",
+    "category": "NECKLACE",
+    "tier": "UNCOMMON",
+    "stats": {
+      "mining_speed": 20,
+      "mining_fortune": 5
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 2
+      }
+    ],
+    "id": "MITHRIL_NECKLACE"
   },
   {
     "material": "LEATHER",
@@ -36616,6 +37092,25 @@
     "id": "ZOMBIE_HEART"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNTA5Mjc1MTQ1OCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdlZDMwYmEwNDM1MzA3YmYwNGExNTA0YzU4NmE4ZmZkNzk0OWMwNjg0YjBmMDE1NmFhOTNmYjkyMWNjNmRmMDMiCiAgICB9CiAgfQp9",
+    "name": "Jade Belt",
+    "category": "BELT",
+    "tier": "EPIC",
+    "stats": {
+      "mining_speed": 30,
+      "mining_fortune": 10
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 5
+      }
+    ],
+    "id": "JADE_BELT"
+  },
+  {
     "material": "LEATHER_LEGGINGS",
     "color": "173,255,47",
     "name": "Bouncy Leggings",
@@ -37778,8 +38273,8 @@
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOTA4ZmMzNDUzMWY2NTJmNWJlN2YyN2U0YjI3NDI5OTg2MjU2YWM0MjJhOGZiNTlmNmQ0MDViNWM4NWM3NmY3In19fQ==",
     "name": "French Bread",
+    "category": "MEMENTO",
     "tier": "SPECIAL",
-    "npc_sell_price": 1,
     "museum": true,
     "has_uuid": true,
     "id": "FRENCH_BREAD"
@@ -39649,6 +40144,20 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjIwMjU0NSwKICAicHJvZmlsZUlkIiA6ICIyNDc2OWQ0ODM1MDU0N2JmYjg4OThiZTJlYzQ5ODZiMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBaXJidXNfQTM4TyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS85MjU5YTM0MmJlNGYxMzk5MzM0YzlhNDBlYzI1MDBiODFkMWU3M2FmZThmMjk2ZmU3NjcxMjVkZWRlYzM4ZTRmIgogICAgfQogIH0KfQ",
+    "name": "Armadillo Mask",
+    "tier": "RARE",
+    "category": "CARNIVAL_MASK",
+    "unstackable": true,
+    "stats": {
+      "health": 1
+    },
+    "museum": true,
+    "id": "ARMADILLO_MASK"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOGM1MGFlZTg4MDEzZThmYWY0MjdlMTlmM2I4OTgyOGI4NmJiZjAzZGQyZjE3YzRjNzYwZDFkZGUyMmRlMyJ9fX0=",
     "name": "Half-eaten Protein Bar",
     "tier": "RARE",
@@ -40308,6 +40817,7 @@
     "glowing": true,
     "tier": "RARE",
     "can_place": false,
+    "npc_sell_price": 51200,
     "id": "ENCHANTED_BONE_BLOCK"
   },
   {
@@ -41352,7 +41862,9 @@
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYxODY5OTE1NDEyNSwKICAicHJvZmlsZUlkIiA6ICI0MWQzYWJjMmQ3NDk0MDBjOTA5MGQ1NDM0ZDAzODMxYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJNZWdha2xvb24iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNTIyZGM2MThlMzk2Zjk2YjBmZjdiYjUwMTM1ZTNjYjAwYjcxZjBkNjJmMzkyZWNiMGY4MjczMmNlMzM5ZjEwMiIKICAgIH0KICB9Cn0=",
     "name": "Shiny Relic",
     "tier": "SPECIAL",
+    "category": "MEMENTO",
     "museum": true,
+    "has_uuid": true,
     "id": "SHINY_RELIC"
   },
   {
@@ -42543,7 +43055,7 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
-    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODc5M2VlZjQ4NDkwNzhkZjRjY2Q0OTgwNTRjNzRlMjE3MWM3NzFmMjczMDk0NDE2NGE4ZWU3YjJkNTYzODMyIn19fQ==",
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTg2MjgwODg2NSwKICAicHJvZmlsZUlkIiA6ICJiM2E3NjExNGVmMzI0ZjYyYWM4NDRiOWJmNTY1NGFiOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJNcmd1eW1hbnBlcnNvbiIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xMzMwMTk1MGExZTgwY2RmZWU4MmNmY2E0Y2IwZDhhZWVhNzEyZmUzMzMxY2NkN2UxZTU1NzIyMjMwYmQ0M2ZmIgogICAgfQogIH0KfQ==",
     "name": "Mender Helmet",
     "category": "HELMET",
     "tier": "RARE",
@@ -42889,7 +43401,7 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
-    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTU5NTg2NTE0Njc3MCwKICAicHJvZmlsZUlkIiA6ICI0ZTMwZjUwZTdiYWU0M2YzYWZkMmE3NDUyY2ViZTI5YyIsCiAgInByb2ZpbGVOYW1lIiA6ICJfdG9tYXRvel8iLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWU1OTVlMTQzNDg2YmJkZDk4YjJiNTYyMzAwZDRjNjk4ZTZhNTNhNWFhM2ZhMzI4Zjc0Y2I4MzkwOWUwODhjNCIKICAgIH0KICB9Cn0=",
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTg2Mjg3NDg0NiwKICAicHJvZmlsZUlkIiA6ICI1ZjU5NmViY2JlOTQ0NmQxYmI0M2JlNGYzZjRiOGJlNSIsCiAgInByb2ZpbGVOYW1lIiA6ICJUZWlsMHNzIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzUyZDBlN2I2MGZhZGY5YjA4MDVhYTg2NmVkN2JkMjk4MGFiZWEwODEyZGIyYjcxNTA3NTJhNzFmYmYyZTIwZWYiCiAgICB9CiAgfQp9",
     "name": "Mender Fedora",
     "category": "HELMET",
     "tier": "EPIC",
@@ -46424,6 +46936,17 @@
     "id": "GINGERBREAD_PERSONALITY"
   },
   {
+    "material": "REDSTONE_LAMP_OFF",
+    "name": "Lantern of the Dead",
+    "glowing": true,
+    "tier": "SPECIAL",
+    "museum": true,
+    "soulbound": "COOP",
+    "has_uuid": true,
+    "can_place": false,
+    "id": "LANTERN_OF_THE_DEAD"
+  },
+  {
     "material": "DIAMOND",
     "name": "Diamond Spreading",
     "glowing": true,
@@ -47365,7 +47888,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ5MjY3ODAzMiwKICAicHJvZmlsZUlkIiA6ICI1ZjE4ZmY4NTEyZGQ0NmQ1OGY1MjJlYjg2MDg2ZjU5MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJUYWtlb3MiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvOWZlZjcyMmRhMDVhZThiZDgxMzI5MDVhMTFiNWI2ZGZiZjhlN2FlMGFmNTk5YzgyNjZlMTYwZmIwNWU2MTU5YiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-    "name": "Amber-polished Drill Engine",
+    "name": "Amber-Polished Drill Engine",
     "tier": "RARE",
     "npc_sell_price": 103000,
     "requirements": [
@@ -48499,6 +49022,16 @@
     ],
     "museum": true,
     "id": "SPIDER_HAT"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNTkwODUyNzg2OSwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzhlNmUxMGE5ZWYxYjJjZGQ5OTg1NTc1NTRiMjA5ZjM2OWFkYTdiYzUwYjQ3YzgxZWQxNGFiMjYzMmRhYjM4MzQiCiAgICB9CiAgfQp9",
+    "name": "Golden Bounty",
+    "glowing": true,
+    "tier": "LEGENDARY",
+    "has_uuid": true,
+    "id": "GOLDEN_BOUNTY"
   },
   {
     "material": "SKULL_ITEM",
@@ -49842,6 +50375,25 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwODM1NTg0NDMwNCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzRmM2I5MWI2YWE3MTI0ZjMwZWQ0YWQxYjJiYjAxMmE4Mjk4NWEzMzY0MDU1NWUxOGU3OTJmOTZhZjhmNThlYzYiCiAgICB9CiAgfQp9",
+    "name": "Titanium Necklace",
+    "category": "NECKLACE",
+    "tier": "RARE",
+    "stats": {
+      "mining_speed": 30,
+      "mining_fortune": 10
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 3
+      }
+    ],
+    "id": "TITANIUM_NECKLACE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWEyZjY3NTAwYTY1ZjNjZTc5ZDM0ZWMxNTBkZTkzZGY4ZjYwZWJlNTJlMjQ4ZjVlMWNkYjY5YjA3MjYyNTZmNyJ9fX0K",
     "name": "Catacombs Pass III",
     "category": "DUNGEON_PASS",
@@ -50491,6 +51043,25 @@
     "id": "SILK_EDGE_SWORD"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNzk5NDM0ODE1NywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzcxZmMyNjdiYzc2MTYyY2YxNTE3ZTllNWY0ODc4Zjg3MDA0ZDZjYjk4MWY0ZjAwNzU3ZGM0MDE0MjdiOWMxMGQiCiAgICB9CiAgfQp9",
+    "name": "Sapphire Cloak",
+    "category": "CLOAK",
+    "tier": "EPIC",
+    "stats": {
+      "mining_speed": 30,
+      "mining_fortune": 10
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 5
+      }
+    ],
+    "id": "SAPPHIRE_CLOAK"
+  },
+  {
     "material": "FISHING_ROD",
     "name": "Fishing Rod",
     "category": "FISHING_ROD",
@@ -51026,6 +51597,15 @@
     "id": "HUNTER_KNIFE"
   },
   {
+    "material": "STICK",
+    "name": "Carnival Dart Tube",
+    "tier": "UNCOMMON",
+    "soulbound": "SOLO",
+    "has_uuid": true,
+    "serializable": false,
+    "id": "CARNIVAL_DART_TUBE"
+  },
+  {
     "material": "JUNGLE_WOOD_STAIRS",
     "name": "Jungle Wood Stairs",
     "npc_sell_price": 0.5,
@@ -51311,6 +51891,26 @@
     "name": "Purple Banner",
     "npc_sell_price": 2,
     "id": "BANNER:5"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwODM1NTc1MjgyOCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQxNjIzMDNiY2RkNzcwYWViZTdmZDE5ZmEyNjM3MTM5MGE3NTE1MTQwMzU4NTQ4MDg0MzYxYjUwNTZjZGM0ZTYiCiAgICB9CiAgfQp9",
+    "name": "Titanium Belt",
+    "category": "BELT",
+    "tier": "RARE",
+    "stats": {
+      "mining_speed": 30,
+      "mining_fortune": 10
+    },
+    "MINING_FORTUNE": 150,
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 3
+      }
+    ],
+    "id": "TITANIUM_BELT"
   },
   {
     "material": "WOOL",
@@ -52004,7 +52604,7 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
-    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZjM2YjgyMWMxYWZkZDVhNWQxNGUzYjNiZDBhMzIyNjNjOGRmNWRmNWRiNmUxZTg4YmY2NWU5N2IyN2E4NTMwIn19fQ==",
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDY2MTcwNDU4NywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E4ZTUwZDAyN2RhOTBkYmVhOGE2NjA4OGFiYTZmOTc4ZWFjOGE3YmViNjU2MTAyMGYwMjg5ZmNkNDNkODljNjgiCiAgICB9CiAgfQp9",
     "name": "Emerald Ring",
     "category": "ACCESSORY",
     "tier": "UNCOMMON",
@@ -52220,6 +52820,15 @@
     ],
     "dungeon_item": true,
     "id": "CRYPT_WITHERLORD_SWORD"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0MTE1MzYwNSwKICAicHJvZmlsZUlkIiA6ICJhNzQ0NWIzOTdkMWY0ZjBiOTNkYTMwNGZjY2M2OTM1MiIsCiAgInByb2ZpbGVOYW1lIiA6ICJFc2tyYVRlVCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNjMxMjc0YjRiZDg0ZmFlZjY0ZGMwMWVjM2Y1OGU3YmZiOWU4ZWYxZGEwOTk4MjI1ZTk3YmUzMjQ0YzljZGRhIgogICAgfQogIH0KfQ",
+    "name": "Party Belt",
+    "category": "BELT",
+    "tier": "UNCOMMON",
+    "id": "PARTY_BELT"
   },
   {
     "material": "PACKED_ICE",
@@ -52787,6 +53396,20 @@
     "id": "DIAMOND_BONZO_HEAD"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjMwMzE1MywKICAicHJvZmlsZUlkIiA6ICJlY2Q0ZTI4NjdkMmE0MTE2OTljYzlkMjMzYmM1YmEyMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJSYXRlZEtub3QiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzMyMWMxMmQ0ZDg4MjczYWJiYTRmYTJmNWY5YTkwZjNkMTQ0NTIyOWRjN2NjYWE1NzExOTc1YzhiMGE4MzNiNyIKICAgIH0KICB9Cn0",
+    "name": "Snowman Mask",
+    "tier": "RARE",
+    "category": "CARNIVAL_MASK",
+    "unstackable": true,
+    "stats": {
+      "health": 10
+    },
+    "museum": true,
+    "id": "SNOWMAN_MASK"
+  },
+  {
     "material": "IRON_BOOTS",
     "stats": {
       "HEALTH": 110,
@@ -53276,6 +53899,25 @@
     "id": "STARRED_STONE_BLADE"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwODAwMjEzOTQ2NSwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzM3YWRhMTk4YjY1ZjMwMTJiMTFkNThiMzM2MWNlYmUzZmQ4NTYwMWRmNzI5YmRjYjllYmFlMmJiYjk1NDQ3ODgiCiAgICB9CiAgfQp9",
+    "name": "Mithril Cloak",
+    "category": "CLOAK",
+    "tier": "UNCOMMON",
+    "stats": {
+      "mining_speed": 20,
+      "mining_fortune": 5
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 2
+      }
+    ],
+    "id": "MITHRIL_CLOAK"
+  },
+  {
     "material": "COOKIE",
     "name": "Booster Cookie",
     "glowing": true,
@@ -53693,6 +54335,17 @@
     "furniture": "MINI_SANDCASTLE",
     "tier": "EPIC",
     "id": "MINI_SANDCASTLE"
+  },
+  {
+    "name": "Party the Fish",
+    "material": "RAW_FISH",
+    "durability": 2,
+    "glowing": true,
+    "description": "Big fan of parties, yet its hard to enjoy them without friends.",
+    "tier": "SPECIAL",
+    "unstackable": true,
+    "museum": true,
+    "id": "PARTY_THE_FISH"
   },
   {
     "material": "WOOL",
@@ -54470,6 +55123,14 @@
     "id": "DIRTY_RUG"
   },
   {
+    "material": "NAME_TAG",
+    "name": "Carnival Ticket",
+    "tier": "UNCOMMON",
+    "soulbound": "COOP",
+    "unstackable": false,
+    "id": "CARNIVAL_TICKET"
+  },
+  {
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWJkZTU1ZWQ1NGNiNWM4NzY2MWI4NmMzNDkxODZhOWQ1YmFmZmIzY2I5MzRiNDQ5YTJkMzI5ZTM5OWQzNGJmIn19fQ==",
@@ -55080,9 +55741,26 @@
     "stats": {
       "DAMAGE": 20,
       "STRENGTH": 10,
-      "fishing_speed": 20
+      "fishing_speed": 20,
+      "double_hook_chance": 50
     },
     "museum": true,
+    "gemstone_slots": [
+      {
+        "slot_type": "AQUAMARINE",
+        "costs": [
+          {
+            "type": "ITEM",
+            "item_id": "FINE_AQUAMARINE_GEM",
+            "amount": 40
+          },
+          {
+            "type": "COINS",
+            "coins": 100000
+          }
+        ]
+      }
+    ],
     "id": "GIANT_FISHING_ROD"
   },
   {
@@ -56099,6 +56777,25 @@
     "tier": "RARE",
     "npc_sell_price": 500,
     "id": "CATALYST"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNzk5NDI5ODk1MywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzNkY2EzNWRhMzQzYTg5N2RmNWVkNzk4NTVjMzg2MGNkZDE3ZWI1ODI5MTNjZTJiMWU1ZDJkZTlhNzZkNWY1MzMiCiAgICB9CiAgfQp9",
+    "name": "Amber Necklace",
+    "category": "NECKLACE",
+    "tier": "EPIC",
+    "stats": {
+      "mining_speed": 30,
+      "mining_fortune": 10
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 5
+      }
+    ],
+    "id": "AMBER_NECKLACE"
   },
   {
     "material": "SKULL_ITEM",
@@ -57451,6 +58148,24 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0MTE3NzY5OCwKICAicHJvZmlsZUlkIiA6ICJmYjZkM2E5Zjk3MWY0ZTdlYmQ0MjE2Yjk0MjE5NDA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJjaXhkZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jNWUzMTNlMzBjNTNkZTE3NmU3ZjNjZmNjMjc4MjdmZDQ1ZTE3ZDBjNGI5OWM2YzFmYjUyYTcwYWIyOTM5MzI0IgogICAgfQogIH0KfQ",
+    "name": "Party Necklace",
+    "category": "NECKLACE",
+    "tier": "UNCOMMON",
+    "id": "PARTY_NECKLACE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0MTIyOTk1NSwKICAicHJvZmlsZUlkIiA6ICI3ZGEyYWIzYTkzY2E0OGVlODMwNDhhZmMzYjgwZTY4ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJHb2xkYXBmZWwiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMWE5ZjM5M2Y5MGVhZWFmMzBjMjcyMDk0MDNjZmQxNTc3OGIxMTg3Njk1ZjhlYTBhOWNhNTU3MTFlZTFhODkiCiAgICB9CiAgfQp9",
+    "name": "Party Gloves",
+    "category": "GLOVES",
+    "tier": "UNCOMMON",
+    "id": "PARTY_GLOVES"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwMTc1NjY1ODM3MSwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmYwNTdkMjVhYmM4MDgyYzlhY2Y1M2M3NzFiZjRiZmY1OTUzYjkzOTdkODdmYWE3ZDBiOGFiNjEyZDU5OWVmYiIKICAgIH0KICB9Cn0",
     "name": "Mummy Minion Skin",
     "category": "COSMETIC",
@@ -57992,6 +58707,15 @@
     "name": "Cheap Coffee",
     "unstackable": true,
     "id": "CHEAP_COFFEE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0MTEyOTE3NCwKICAicHJvZmlsZUlkIiA6ICJiOThjNGFkOGM2MjY0NGYxOWUzYzhhZTE0ZThhMDI1OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJ5cnRlZGR5IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzI2OWViODljMjYwMGE0OGIwOGMzMzBkNWEwNjUyNGE5OWY1MGNiNDhkMDg0MTQ0MThiMzJhY2I3YWJhYzIwZDkiCiAgICB9CiAgfQp9",
+    "name": "Party Cloak",
+    "category": "CLOAK",
+    "tier": "UNCOMMON",
+    "id": "PARTY_CLOAK"
   },
   {
     "material": "SKULL_ITEM",
@@ -58779,7 +59503,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ5MjYwMzk4MiwKICAicHJvZmlsZUlkIiA6ICI2MWUwNmYxMjFjNTk0ZDdiYjY5MmQ0ZDg1MDljNDdmOSIsCiAgInByb2ZpbGVOYW1lIiA6ICJJdHpfU2NhcmxldHQ3MDIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvODYzZWZhNmMxM2ExODBlYWE3MWNmMGM2NGE2MjM1MGM0MmIyNDA5M2U5OTU3NDkyYjI0NDk1NzgyNjgyNTZhYiIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-    "name": "Sapphire-polished Drill Engine",
+    "name": "Sapphire-Polished Drill Engine",
     "tier": "RARE",
     "npc_sell_price": 103000,
     "requirements": [
@@ -59283,6 +60007,16 @@
     "id": "TAURUS_HELMET"
   },
   {
+    "material": "IRON_SPADE",
+    "name": "Plastic Shovel",
+    "glowing": true,
+    "tier": "SPECIAL",
+    "museum": true,
+    "soulbound": "COOP",
+    "has_uuid": true,
+    "id": "PLASTIC_SHOVEL"
+  },
+  {
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNjQyODA0NDIzNCwKICAicHJvZmlsZUlkIiA6ICIxOTI1MjFiNGVmZGI0MjVjODkzMWYwMmE4NDk2ZTExYiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTZXJpYWxpemFibGUiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZTZlNmZiNjZiZmU5NzM3YTMzYmE1M2YzZDVhOGI5ZmRiYTFjNjVhNWQyNzYwYmNkOWE2ZTU0OTI4NTI3MTAzYiIKICAgIH0KICB9Cn0",
@@ -59621,6 +60355,20 @@
     "tier": "UNCOMMON",
     "npc_sell_price": 8,
     "id": "EMERALD_ORE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNDI0NjI2NDM0OCwKICAicHJvZmlsZUlkIiA6ICJmYjZkM2E5Zjk3MWY0ZTdlYmQ0MjE2Yjk0MjE5NDA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJtYXJjaXhkZCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS84NGI0M2ZhMzAwMThiMjc5NGNiODJjM2VhYzhhODllODdiMWEyMzA4MGZjZTgwYzUyMjQ2ZTMxYzUzOTQ3YzBkIgogICAgfQogIH0KfQ",
+    "name": "Parrot Mask",
+    "tier": "RARE",
+    "category": "CARNIVAL_MASK",
+    "unstackable": true,
+    "stats": {
+      "health": 1
+    },
+    "museum": true,
+    "id": "PARROT_MASK"
   },
   {
     "material": "SKULL_ITEM",
@@ -59965,6 +60713,15 @@
     "id": "PIGMAN_SWORD"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMDg0OTc2OTM4MiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2E0Mjg1MzgyMTc4ZjdhYmQ5ZWU4MjkxMzQwYWFmYmUzZjYxNjc4NWNlZTM5ZGFiNjU0ZTEzNWM5NTI1ZjFhODciCiAgICB9CiAgfQp9",
+    "name": "Relic of Coins",
+    "category": "ACCESSORY",
+    "tier": "EPIC",
+    "id": "RELIC_OF_COINS"
+  },
+  {
     "material": "RAW_FISH",
     "durability": 3,
     "name": "Enchanted Pufferfish",
@@ -60282,7 +61039,7 @@
     "category": "SWORD",
     "tier": "LEGENDARY",
     "stats": {
-      "DAMAGE": 150
+      "DAMAGE": 170
     },
     "npc_sell_price": 10000,
     "dungeon_item_conversion_cost": {
@@ -61185,6 +61942,16 @@
     "id": "MITHRIL_CRYSTAL"
   },
   {
+    "material": "IRON_SPADE",
+    "name": "Carnival Shovel",
+    "tier": "UNCOMMON",
+    "category": "SPADE",
+    "soulbound": "SOLO",
+    "has_uuid": true,
+    "serializable": false,
+    "id": "CARNIVAL_SHOVEL"
+  },
+  {
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY0ODQ5NDM1MjU3OSwKICAicHJvZmlsZUlkIiA6ICJmMTkyZGU3MDUzMTQ0ODcxOTAwMjQ1MmIzZWE3MzA3NCIsCiAgInByb2ZpbGVOYW1lIiA6ICJOZVhvU2V0IiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2NiZDg2N2IxOTZhZTViN2QwYTE4OGIwYzFmODMxZTA1MmMxZGI0NzhiYTlkYmE0YjFjODUwNjcwMGM0MTFmNWEiCiAgICB9CiAgfQp9",
@@ -62006,6 +62773,16 @@
     "id": "ENCHANTED_BLAZE_ROD"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwNjA3Nzk5ODU0MiwKICAicHJvZmlsZUlkIiA6ICIxMWY3ZTIxMDMyOGE0MjRmYTU0NmFlZDk1M2FkNGU3ZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJ2b2lkd2lyZSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82MTU2MTAxMjk4MmMyMGQ0MGM2MDRiMmRiOWVkZGI4NDc5OTQ0NzE1YjkxZWZiYzEyZGZhYjE3NzVjODYxMGEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
+    "name": "Gleaming Crystal",
+    "category": "REFORGE_STONE",
+    "tier": "EPIC",
+    "npc_sell_price": 1,
+    "id": "GLEAMING_CRYSTAL"
+  },
+  {
     "material": "LEATHER_BOOTS",
     "color": "55,176,66",
     "name": "Goblin Boots",
@@ -62141,7 +62918,7 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
-    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYwNTU0MzQwNjU0NSwKICAicHJvZmlsZUlkIiA6ICI5NGMzZGM3YTdiMmQ0NzQ1YmVlYjQzZDc2ZjRjNDVkYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJEb25fVml0b0Nvcmxlb25lIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2EzMDY1ZDUwNDk1YzBhMmYyNWEzM2Y5MmFhOTBkMDg0OWNhZjkxNDcwYmIxMDI3ZDdmNzljZGI1Y2UzNzM4ZWMiCiAgICB9CiAgfQp9",
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTg2Mjg1NDkzOSwKICAicHJvZmlsZUlkIiA6ICJmNmYxY2IxMmYzNDU0MDRlYjZlNjU2NGE2ZDlmMjU2NyIsCiAgInByb2ZpbGVOYW1lIiA6ICJBdXJlbGl1c0dlbWluaSIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS82YzdlMTA3MGQxMjU4MWJkNDhlODBmNTkwNTRlOTI0MTJlNDUzYTYyN2VkMjk4OGIzYTVhMzVmZDVjNzA4ZTBkIgogICAgfQogIH0KfQ==",
     "name": "Mender Crown",
     "category": "HELMET",
     "tier": "EPIC",
@@ -62840,6 +63617,25 @@
     "id": "LUCKY_DICE"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwODAwMjI0Njc0MiwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQxZmEyYjk3MWRjYTE1N2I3NDJhMGUzN2RmNWUyMmQ2MTE5MjE0NTZmZGVjNDI1OGRkMWFkMGZlMDgwZWRjNDYiCiAgICB9CiAgfQp9",
+    "name": "Mithril Gauntlet",
+    "category": "GLOVES",
+    "tier": "UNCOMMON",
+    "stats": {
+      "mining_speed": 20,
+      "mining_fortune": 5
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 2
+      }
+    ],
+    "id": "MITHRIL_GAUNTLET"
+  },
+  {
     "material": "IRON_INGOT",
     "name": "Iron Claws",
     "glowing": true,
@@ -63244,6 +64040,16 @@
     "id": "ROGUE_SWORD"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNTA5MjYzMTU1OCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ0YWY5NDMzNzFkNzZlNWRiNWRlYjkzZGYyZWFmMTRkOWIwZTAzYTE2NDhiZWU3ZjkwMTI2YWJmODk4M2MxZDYiCiAgICB9CiAgfQp9",
+    "name": "Carnival Mask Bag",
+    "tier": "COMMON",
+    "category": "ACCESSORY",
+    "double_tap_to_drop": true,
+    "id": "CARNIVAL_MASK_BAG"
+  },
+  {
     "material": "PRISMARINE_CRYSTALS",
     "name": "Enchanted Mithril",
     "glowing": true,
@@ -63377,6 +64183,117 @@
     "name": "Pufferfish",
     "npc_sell_price": 15,
     "id": "RAW_FISH:3"
+  },
+  {
+    "material": "GOLD_SWORD",
+    "name": "Midas' Sword",
+    "category": "SWORD",
+    "tier": "LEGENDARY",
+    "stats": {
+      "DAMAGE": 170
+    },
+    "npc_sell_price": 10000,
+    "dungeon_item_conversion_cost": {
+      "essence_type": "GOLD",
+      "amount": 100
+    },
+    "upgrade_costs": [
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "GOLD",
+          "amount": 25
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "GOLD",
+          "amount": 50
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "GOLD",
+          "amount": 75
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "GOLD",
+          "amount": 125
+        }
+      ],
+      [
+        {
+          "type": "ESSENCE",
+          "essence_type": "GOLD",
+          "amount": 200
+        }
+      ]
+    ],
+    "requirements": [
+      {
+        "type": "SKILL",
+        "skill": "COMBAT",
+        "level": 20
+      }
+    ],
+    "catacombs_requirements": [
+      {
+        "type": "DUNGEON_SKILL",
+        "dungeon_type": "CATACOMBS",
+        "level": 17
+      }
+    ],
+    "gemstone_slots": [
+      {
+        "slot_type": "JASPER",
+        "costs": [
+          {
+            "type": "COINS",
+            "coins": 50000
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_JASPER_GEM",
+            "amount": 20
+          }
+        ]
+      },
+      {
+        "slot_type": "COMBAT",
+        "costs": [
+          {
+            "type": "COINS",
+            "coins": 100000
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_JASPER_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_SAPPHIRE_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_RUBY_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_AMETHYST_GEM",
+            "amount": 40
+          }
+        ]
+      }
+    ],
+    "id": "STARRED_MIDAS_SWORD"
   },
   {
     "material": "SKULL_ITEM",
@@ -63704,6 +64621,25 @@
     "category": "PET_ITEM",
     "tier": "EPIC",
     "id": "PET_ITEM_SHARPENED_CLAWS_EPIC"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNTA5Mjk1ODE0MywKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzkzOTI3NjEzYjUyNDRmYzgwOTJmM2FhY2MyNmEwZTJkY2E1MWYyM2M2M2U3ZmE5NTkzY2MxNDBkMGIwOWQ4ODciCiAgICB9CiAgfQp9",
+    "name": "Amethyst Gauntlet",
+    "category": "GLOVES",
+    "tier": "EPIC",
+    "stats": {
+      "mining_speed": 30,
+      "mining_fortune": 10
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 5
+      }
+    ],
+    "id": "AMETHYST_GAUNTLET"
   },
   {
     "material": "ARROW",
@@ -66787,7 +67723,8 @@
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNjhlNjBlYmQ4MGI2MDYzYTk2ZTlhYWY4NGYwMzgyNTcwNThlNzYyZjFiZWMzYmY1YzBmNjI1MWU2NWQ1YzVlZSJ9fX0=",
     "name": "Basket of Hope from the Great Potato War",
-    "tier": "EPIC",
+    "tier": "SPECIAL",
+    "category": "MEMENTO",
     "museum": true,
     "has_uuid": true,
     "id": "POTATO_BASKET"
@@ -67540,21 +68477,7 @@
     "dungeon_item": true,
     "gemstone_slots": [
       {
-        "slot_type": "JASPER",
-        "costs": [
-          {
-            "type": "COINS",
-            "coins": 50000
-          },
-          {
-            "type": "ITEM",
-            "item_id": "FINE_JASPER_GEM",
-            "amount": 20
-          }
-        ]
-      },
-      {
-        "slot_type": "JASPER",
+        "slot_type": "COMBAT",
         "costs": [
           {
             "type": "COINS",
@@ -67563,6 +68486,50 @@
           {
             "type": "ITEM",
             "item_id": "FINE_JASPER_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_SAPPHIRE_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_RUBY_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_AMETHYST_GEM",
+            "amount": 40
+          }
+        ]
+      },
+      {
+        "slot_type": "COMBAT",
+        "costs": [
+          {
+            "type": "COINS",
+            "coins": 100000
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_JASPER_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_SAPPHIRE_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_RUBY_GEM",
+            "amount": 40
+          },
+          {
+            "type": "ITEM",
+            "item_id": "FINE_AMETHYST_GEM",
             "amount": 40
           }
         ]
@@ -67849,6 +68816,25 @@
     "tier": "RARE",
     "npc_sell_price": 1,
     "id": "OPTICAL_LENS"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwODM1NTc5ODUyOCwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ5ODIxNDEwNjMxMTg2YzZmM2ZiYmFlNWYwZWY1Yjk0N2Y0NzVlYjMyMDI3YThhYWQwYTQ1NjUxMjU0N2MyMDkiCiAgICB9CiAgfQp9",
+    "name": "Titanium Cloak",
+    "category": "CLOAK",
+    "tier": "RARE",
+    "stats": {
+      "mining_speed": 30,
+      "mining_fortune": 10
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 3
+      }
+    ],
+    "id": "TITANIUM_CLOAK"
   },
   {
     "material": "SKULL_ITEM",
@@ -71295,6 +72281,15 @@
   {
     "material": "SKULL_ITEM",
     "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMzUzMjcyMjM3OSwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzQ4YWEyZjliZmZkODg1MzY0NmMxMzc1ZDNkZTcxYjgxODdiZDQyNjMzMmQ5ZjlkNzEyMjE2ZjdlOTJhOTMwZCIKICAgIH0KICB9Cn0=",
+    "name": "Party Gift",
+    "tier": "UNCOMMON",
+    "double_tap_to_drop": true,
+    "id": "PARTY_GIFT"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY0MTA5ODU5OTQ1NCwKICAicHJvZmlsZUlkIiA6ICI1NzdhNGViOGFjNzE0Y2M0OTQxOThhOGM2ODkyOTkxMiIsCiAgInByb2ZpbGVOYW1lIiA6ICJTYW1wYXJvIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzgzMzYwNTRjODU4YzBhZDY1MWYwOGJhYjZjNmIzZmRmMWM0N2Y1ZjY1NmZkOTZkNDU0ZTk4MWQzZmNlYjk5YzEiLAogICAgICAibWV0YWRhdGEiIDogewogICAgICAgICJtb2RlbCIgOiAic2xpbSIKICAgICAgfQogICAgfQogIH0KfQ==",
     "name": "Orb of Energy",
     "tier": "RARE",
@@ -71545,6 +72540,17 @@
     "id": "NANSORB_ARROW"
   },
   {
+    "material": "FISHING_ROD",
+    "name": "Carnival Rod",
+    "description": "%%gray%%Used to catch %%dark_aqua%%fish %%gray%%in the %%dark_aqua%%Catch a Fish %%gray%%game.",
+    "tier": "UNCOMMON",
+    "category": "FISHING_ROD",
+    "soulbound": "SOLO",
+    "has_uuid": true,
+    "serializable": false,
+    "id": "CARNIVAL_FISHING_ROD"
+  },
+  {
     "material": "LEASH",
     "name": "Kada Lead",
     "glowing": true,
@@ -71604,7 +72610,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTYyNTQ5MjY0NDU1MywKICAicHJvZmlsZUlkIiA6ICIwNWQ0NTNiZWE0N2Y0MThiOWI2ZDUzODg0MWQxMDY2MCIsCiAgInByb2ZpbGVOYW1lIiA6ICJFY2hvcnJhIiwKICAic2lnbmF0dXJlUmVxdWlyZWQiIDogdHJ1ZSwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlLzdmMGI5YzQ1YmJhZTExYjAwZTQzMjNhZjAxMTljMjc4ODNkMzY5MGU4YzQ4YjQ5Y2YyOWIyNDY5ODExNzllMCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
-    "name": "Ruby-polished Drill Engine",
+    "name": "Ruby-Polished Drill Engine",
     "tier": "RARE",
     "npc_sell_price": 103000,
     "requirements": [
@@ -71983,6 +72989,16 @@
     "id": "PROMISING_SPADE"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNTA5NDg4Njc0OSwKICAicHJvZmlsZUlkIiA6ICJmNzcxMDI1NGMzYWY0YjA5YmRjY2NiNDRjNjg1NjFiMCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDZXJ1c1YyIiwKICAidGV4dHVyZXMiIDogewogICAgIlNLSU4iIDogewogICAgICAidXJsIiA6ICJodHRwOi8vdGV4dHVyZXMubWluZWNyYWZ0Lm5ldC90ZXh0dXJlL2ZmYjJlYjBiNmYxZGE3ZjAxOGVkMzE4ODdkM2Y4Y2EwZWYwN2Y0Yzc2ZmFlMWI5YTM3ZTA3N2YzODlkZmI0YWYiCiAgICB9CiAgfQp9",
+    "name": "Jar of Sand",
+    "description": "%%dark_gray%%Decoration item\n\n%%gray%%Obtained during the %%yellow%%Carnival%%gray%% for placing within the %%green%%Top 500 %%gray%%in %%gold%%Fruit Digging%%gray%%.",
+    "tier": "LEGENDARY",
+    "can_place": true,
+    "id": "JAR_OF_SAND"
+  },
+  {
     "material": "WOOD_AXE",
     "name": "Rabbit Axe",
     "category": "AXE",
@@ -72003,6 +73019,25 @@
     "name": "Blood God Crest",
     "category": "ACCESSORY",
     "id": "BLOOD_GOD_CREST"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNzUyMTQzMzg2MiwKICAicHJvZmlsZUlkIiA6ICJkZDNjZGJiOTE2M2Q0NzgyOGQ0YmZkODZmYWE4NGY5ZSIsCiAgInByb2ZpbGVOYW1lIiA6ICJFTFdhbEtlUkpBSkEiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvN2M4MDI3YzhhOGE2NzY3MDEwN2FkYWRlNDEwMjAwZjExYjIxYzkzYTEwMWE4ZWViMzI1OGVhYzM0NmQ1YzkwIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0=",
+    "name": "Titanium Gauntlet",
+    "category": "GLOVES",
+    "tier": "RARE",
+    "stats": {
+      "mining_speed": 30,
+      "mining_fortune": 10
+    },
+    "requirements": [
+      {
+        "type": "HEART_OF_THE_MOUNTAIN",
+        "tier": 3
+      }
+    ],
+    "id": "TITANIUM_GAUNTLET"
   },
   {
     "material": "INK_SACK",
@@ -73005,11 +74040,6 @@
         }
       ]
     ],
-    "gemstone_slots": [
-      {
-        "slot_type": "SAPPHIRE"
-      }
-    ],
     "id": "HELLSTORM_STAFF"
   },
   {
@@ -73361,6 +74391,15 @@
       }
     ],
     "id": "SHADOW_ASSASSIN_HELMET"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzU3Mzk5MzgxODE0NGFiMDQ2NWY5ZmZhODBiNGZhYzk4MDZiNjlmYzliNTBjOWEzNGQ1NTYzNWIwMzgxY2QxMiJ9fX0=",
+    "name": "Cotton Candy",
+    "tier": "LEGENDARY",
+    "museum": true,
+    "id": "COTTON_CANDY"
   },
   {
     "material": "SKULL_ITEM",
@@ -74580,7 +75619,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1OTIzMWE5NDY5ODdlYTUzMTQxNzg5YTA5NDk2ZjA5OGQ2ZWNhYzQxMmEwMWUwYTI0YzkwNmE5OWZkYmQ5YSJ9fX0=",
-    "name": "Exceedingly Rare Ender Artifact Upgrader",
+    "name": "Exceedingly Rare Ender Artifact Upgrade",
     "tier": "LEGENDARY",
     "id": "EXCEEDINGLY_RARE_ENDER_ARTIFACT_UPGRADER"
   },
@@ -77614,7 +78653,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY0OTQzNjM2MDg1NywKICAicHJvZmlsZUlkIiA6ICIzYTNmNzhkZmExZjQ0OTllYjE5NjlmYzlkOTEwZGYwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJOb19jcmVyYXIiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvY2NlOWVlNmM5NDcyYTFmOThhYjlmNzg0NDc4NTQwNWRmYThiNTZkOGUyMzFjZDMyNjc1YWM1YmFhOTg0OWJlOSIKICAgIH0KICB9Cn0=",
-    "name": "Tropical Bird 1 Minion Skin",
+    "name": "Hyacinth Tropical Bird Minion Skin",
     "category": "COSMETIC",
     "museum": true,
     "id": "TROPICAL_BIRD_1_PERSONALITY"
@@ -77767,6 +78806,7 @@
     "name": "Ugly Fossil",
     "description": "The ugliest fossil to ever exist. It has a face only a mother could love.",
     "tier": "LEGENDARY",
+    "npc_sell_price": 50000,
     "id": "UGLY_FOSSIL"
   },
   {
@@ -77776,6 +78816,7 @@
     "name": "Spine Fossil",
     "description": "A well-preserved set of neural spines. Whatever possessed these was an adept swimmer.",
     "tier": "LEGENDARY",
+    "npc_sell_price": 50000,
     "id": "SPINE_FOSSIL"
   },
   {
@@ -77785,6 +78826,7 @@
     "name": "Clubbed Fossil",
     "description": "A tail ending in a thick club that was used to fend off predators.",
     "tier": "LEGENDARY",
+    "npc_sell_price": 50000,
     "id": "CLUBBED_FOSSIL"
   },
   {
@@ -77794,6 +78836,7 @@
     "name": "Tusk Fossil",
     "description": "A great and powerful tusk belonging to a now-extinct creature.",
     "tier": "LEGENDARY",
+    "npc_sell_price": 50000,
     "id": "TUSK_FOSSIL"
   },
   {
@@ -77803,6 +78846,7 @@
     "name": "Footprint Fossil",
     "description": "The daunting footprint of what was once a colossal and bloodthirsty predator.",
     "tier": "LEGENDARY",
+    "npc_sell_price": 50000,
     "id": "FOOTPRINT_FOSSIL"
   },
   {
@@ -77812,6 +78856,7 @@
     "name": "Claw Fossil",
     "description": "A small but sharp claw once used for digging tunnels.",
     "tier": "LEGENDARY",
+    "npc_sell_price": 10000,
     "id": "CLAW_FOSSIL"
   },
   {
@@ -77821,6 +78866,7 @@
     "name": "Webbed Fossil",
     "description": "The webbed foot of a small, agile creature which was a strong swimmer.",
     "tier": "LEGENDARY",
+    "npc_sell_price": 50000,
     "id": "WEBBED_FOSSIL"
   },
   {
@@ -77853,7 +78899,6 @@
     "name": "Skeleton Key",
     "tier": "LEGENDARY",
     "npc_sell_price": 10000,
-    "description": "Can be used to open any backpack held by %%aqua%%Frozen Corpses %%gray%%in the %%aqua%%Glacite Mineshafts%%gray%%.\n\n%%dark_gray%%Forged by the finest Dwarven Blacksmith around. The name would come to be quite ironic.",
     "can_place": false,
     "id": "SKELETON_KEY"
   },
@@ -77862,7 +78907,7 @@
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTI0MjcyMDI4OSwKICAicHJvZmlsZUlkIiA6ICJlZjVjZjkzYWFhMTY0ZTMyODQ4NDYxYjIzNGQ1YWJhNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJfXzciLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZDE4NWEzZGRhZGUyY2RhZGY0MDRjOTE0NTczMzE3NjRmYWRjOTIwYTIxNDIxOTdmOTk1OTEwNjg2ZThiZDY4OCIsCiAgICAgICJtZXRhZGF0YSIgOiB7CiAgICAgICAgIm1vZGVsIiA6ICJzbGltIgogICAgICB9CiAgICB9CiAgfQp9",
     "name": "Shattered Locket",
-    "description": "A dainty piece of jewelry covered in a thick coat of %%aqua%%Glacite%%gray%%. The frosty layer obscures the details of the photograph nestled within.",
+    "description": "A dainty piece of jewelry covered in a thick coat of glacite. The frosty layer obscures the details of the photograph nestled within.",
     "tier": "LEGENDARY",
     "id": "SHATTERED_PENDANT"
   },
@@ -77870,7 +78915,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcwOTA2MTIyNjgwNSwKICAicHJvZmlsZUlkIiA6ICI0MWZlYzZlMWQzNWM0ZDIyOWYxOGQ3OGRkZjk3ZGQzNiIsCiAgInByb2ZpbGVOYW1lIiA6ICJSaWJva2luZ190dyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9hMGNkYjY2YjUxNzliMmFmNjBiN2NmMDQ1Y2Q0MDNjOWEzMDRhNGIxOGFhMWE1ZWFhMmQ4YzQ3ODIxNDkyOTRmIgogICAgfQogIH0KfQ==",
-    "name": "Tungsten Keychain",
+    "name": "Tungsten Regulator",
     "tier": "RARE",
     "requirements": [
       {
@@ -77901,7 +78946,7 @@
     ],
     "gemstone_slots": [
       {
-        "slot_type": "JADE",
+        "slot_type": "AMBER",
         "costs": [
           {
             "type": "ITEM",
@@ -77911,7 +78956,7 @@
         ]
       },
       {
-        "slot_type": "AMBER",
+        "slot_type": "JADE",
         "costs": [
           {
             "type": "ITEM",
@@ -77999,8 +79044,8 @@
     "tier": "EPIC",
     "npc_sell_price": 2500,
     "stats": {
-      "MINING_SPEED": 15,
-      "MINING_FORTUNE": 6,
+      "MINING_SPEED": 45,
+      "MINING_FORTUNE": 30,
       "COLD_RESISTANCE": 5
     },
     "requirements": [
@@ -78101,7 +79146,7 @@
   },
   {
     "material": "ARMOR_STAND",
-    "name": "Glacite Chisel",
+    "name": "Glacite-Plated Chisel",
     "tier": "EPIC",
     "category": "CHISEL",
     "unstackable": true,
@@ -78334,7 +79379,7 @@
     "material": "SKULL_ITEM",
     "durability": 3,
     "skin": "ewogICJ0aW1lc3RhbXAiIDogMTY0OTQzNjM5MDc5NywKICAicHJvZmlsZUlkIiA6ICJmMjc0YzRkNjI1MDQ0ZTQxOGVmYmYwNmM3NWIyMDIxMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJIeXBpZ3NlbCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS83ZDNjYzE2OTg0N2I0ZWYyOTM4ZmNmN2Y4Yzg0NzAxMTI1ZjlmYWY5MTBjZDA4MjBlY2Q2ZmRjZmNhZjViOGIiCiAgICB9CiAgfQp9",
-    "name": "Tropical Bird 2 Minion Skin",
+    "name": "Blue Gold Tropical Bird Minion Skin",
     "category": "COSMETIC",
     "museum": true,
     "id": "TROPICAL_BIRD_2_PERSONALITY"
@@ -78345,6 +79390,7 @@
     "tier": "EPIC",
     "category": "VACUUM",
     "stats": {
+      "farming_fortune": 20,
       "damage": 200
     },
     "has_uuid": true,
@@ -78367,6 +79413,7 @@
     "tier": "LEGENDARY",
     "category": "VACUUM",
     "stats": {
+      "farming_fortune": 25,
       "damage": 250
     },
     "has_uuid": true,
@@ -78403,6 +79450,7 @@
     "tier": "COMMON",
     "category": "VACUUM",
     "stats": {
+      "farming_fortune": 5,
       "damage": 100
     },
     "has_uuid": true,
@@ -78420,6 +79468,7 @@
     "tier": "RARE",
     "category": "VACUUM",
     "stats": {
+      "farming_fortune": 15,
       "damage": 150
     },
     "has_uuid": true,
@@ -78437,6 +79486,7 @@
     "tier": "UNCOMMON",
     "category": "VACUUM",
     "stats": {
+      "farming_fortune": 10,
       "damage": 120
     },
     "has_uuid": true,
@@ -78536,6 +79586,20 @@
           {
             "type": "COINS",
             "coins": 50000
+          }
+        ]
+      },
+      {
+        "slot_type": "PERIDOT",
+        "costs": [
+          {
+            "type": "ITEM",
+            "item_id": "FINE_PERIDOT_GEM",
+            "amount": 40
+          },
+          {
+            "type": "COINS",
+            "coins": 100000
           }
         ]
       }
@@ -78713,6 +79777,20 @@
           {
             "type": "COINS",
             "coins": 100000
+          }
+        ]
+      },
+      {
+        "slot_type": "PERIDOT",
+        "costs": [
+          {
+            "type": "ITEM",
+            "item_id": "FLAWLESS_PERIDOT_GEM",
+            "amount": 1
+          },
+          {
+            "type": "COINS",
+            "coins": 250000
           }
         ]
       }
@@ -79725,6 +80803,20 @@
             "coins": 100000
           }
         ]
+      },
+      {
+        "slot_type": "PERIDOT",
+        "costs": [
+          {
+            "type": "ITEM",
+            "item_id": "FLAWLESS_PERIDOT_GEM",
+            "amount": 1
+          },
+          {
+            "type": "COINS",
+            "coins": 250000
+          }
+        ]
       }
     ],
     "id": "PUMPKIN_DICER_3"
@@ -79747,6 +80839,20 @@
           {
             "type": "COINS",
             "coins": 50000
+          }
+        ]
+      },
+      {
+        "slot_type": "PERIDOT",
+        "costs": [
+          {
+            "type": "ITEM",
+            "item_id": "FINE_PERIDOT_GEM",
+            "amount": 40
+          },
+          {
+            "type": "COINS",
+            "coins": 100000
           }
         ]
       }
@@ -79774,6 +80880,15 @@
     "tier": "LEGENDARY",
     "category": "COSMETIC",
     "id": "MUSHROOM_BARN_SKIN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxNTM1NDQ1NjY0OCwKICAicHJvZmlsZUlkIiA6ICI2NGRiNmMwNTliOTk0OTM2YTY0M2QwODEwODE0ZmJkMyIsCiAgInByb2ZpbGVOYW1lIiA6ICJUaGVTaWx2ZXJEcmVhbXMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYWY5MGRhNDBjNTU3YWY0YWMwMWQzOWI2NzMzZTIwNGM3NGFlOWZlZThjMmJjNDBiZTFmZDRmMjhmODM3ZDUyIiwKICAgICAgIm1ldGFkYXRhIiA6IHsKICAgICAgICAibW9kZWwiIDogInNsaW0iCiAgICAgIH0KICAgIH0KICB9Cn0",
+    "name": "Chocolate Factory Barn Skin",
+    "tier": "LEGENDARY",
+    "category": "COSMETIC",
+    "id": "CHOCOLATE_FACTORY_BARN_SKIN"
   },
   {
     "material": "COBBLESTONE",
@@ -79821,6 +80936,15 @@
     "id": "AUTUMN_HUT_BARN_SKIN"
   },
   {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "name": "Sand Castle Barn Skin",
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTMzMzY0MjE3NCwKICAicHJvZmlsZUlkIiA6ICIzZDU1OGQ3Y2NmZjk0ODdkYWE1MzhkMjM4NGE3OWFkZCIsCiAgInByb2ZpbGVOYW1lIiA6ICJDcnlwdGljTG9zZXIxMyIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9jODU0M2M5NjFjYzUzMWI5MDZjZTRmYTQ1YzNjNGZjZWE3MmQ3MDI5MWQ1MTdlMDFmMTRkNDkwNWE2ODYxMzliIgogICAgfQogIH0KfQ==",
+    "tier": "LEGENDARY",
+    "category": "COSMETIC",
+    "id": "SAND_CASTLE_BARN_SKIN"
+  },
+  {
     "material": "WOOL",
     "durability": 14,
     "name": "Cube Barn Skin",
@@ -79865,6 +80989,15 @@
     "tier": "LEGENDARY",
     "category": "COSMETIC",
     "id": "HIVE_BARN_SKIN"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "name": "Beach Ball Barn Skin",
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxOTMzMzYyODIyOCwKICAicHJvZmlsZUlkIiA6ICI2NGVkZjMxNTljZGY0ODBmYTZmY2UzYzA0NzlmNzUwYyIsCiAgInByb2ZpbGVOYW1lIiA6ICJnYW1lc2t5MTIzNCIsCiAgInNpZ25hdHVyZVJlcXVpcmVkIiA6IHRydWUsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS9kMjA1NzA1N2I3MDk1Y2RkOGE2MGE1YzRlZGVjMmNkN2YxZmQ1ZDY0NzllYmVkMGFkZDRjZTExNWEzMzM4YzJmIgogICAgfQogIH0KfQ==",
+    "tier": "LEGENDARY",
+    "category": "COSMETIC",
+    "id": "BEACH_BALL_BARN_SKIN"
   },
   {
     "material": "MOSSY_COBBLESTONE",
@@ -82085,7 +83218,7 @@
     "tier": "RARE",
     "origin": "RIFT",
     "motes_sell_price": 5,
-    "description": "It snakes around your blocky hand as your hold it.",
+    "description": "It snakes around your blocky hand as you hold it.",
     "id": "LIVING_METAL"
   },
   {
@@ -97686,11 +98819,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 13,
-      "DEFENSE": 164,
-      "HEALTH": 580,
-      "STRENGTH": 38,
-      "CRITICAL_DAMAGE": 25,
-      "INTELLIGENCE": 214
+      "DEFENSE": 171,
+      "HEALTH": 610,
+      "INTELLIGENCE": 214,
+      "mending": 12
     },
     "requirements": [
       {
@@ -97918,11 +99050,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 13,
-      "DEFENSE": 101,
-      "HEALTH": 328,
-      "STRENGTH": 38,
-      "CRITICAL_DAMAGE": 25,
-      "INTELLIGENCE": 214
+      "DEFENSE": 110,
+      "HEALTH": 366,
+      "INTELLIGENCE": 214,
+      "mending": 12
     },
     "requirements": [
       {
@@ -98150,11 +99281,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 13,
-      "DEFENSE": 139,
-      "HEALTH": 517,
-      "STRENGTH": 38,
-      "CRITICAL_DAMAGE": 25,
-      "INTELLIGENCE": 214
+      "DEFENSE": 146,
+      "HEALTH": 549,
+      "INTELLIGENCE": 214,
+      "mending": 12
     },
     "requirements": [
       {
@@ -98383,11 +99513,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 13,
-      "DEFENSE": 126,
-      "HEALTH": 403,
-      "STRENGTH": 38,
-      "CRITICAL_DAMAGE": 25,
-      "INTELLIGENCE": 328
+      "DEFENSE": 134,
+      "HEALTH": 427,
+      "INTELLIGENCE": 328,
+      "mending": 12
     },
     "requirements": [
       {
@@ -98638,11 +99767,10 @@
     "tier": "LEGENDARY",
     "stats": {
       "WALK_SPEED": 5,
-      "DEFENSE": 55,
-      "HEALTH": 205,
-      "STRENGTH": 15,
-      "CRITICAL_DAMAGE": 10,
-      "INTELLIGENCE": 85
+      "DEFENSE": 60,
+      "HEALTH": 225,
+      "INTELLIGENCE": 85,
+      "mending": 5
     },
     "requirements": [
       {
@@ -98824,11 +99952,10 @@
     "tier": "LEGENDARY",
     "stats": {
       "WALK_SPEED": 5,
-      "DEFENSE": 65,
-      "HEALTH": 230,
-      "STRENGTH": 15,
-      "CRITICAL_DAMAGE": 10,
-      "INTELLIGENCE": 85
+      "DEFENSE": 70,
+      "HEALTH": 250,
+      "INTELLIGENCE": 85,
+      "mending": 5
     },
     "requirements": [
       {
@@ -99010,11 +100137,10 @@
     "tier": "LEGENDARY",
     "stats": {
       "WALK_SPEED": 5,
-      "DEFENSE": 40,
-      "HEALTH": 130,
-      "STRENGTH": 15,
-      "CRITICAL_DAMAGE": 10,
-      "INTELLIGENCE": 85
+      "DEFENSE": 45,
+      "HEALTH": 150,
+      "INTELLIGENCE": 85,
+      "mending": 5
     },
     "requirements": [
       {
@@ -99197,11 +100323,10 @@
     "tier": "LEGENDARY",
     "stats": {
       "WALK_SPEED": 5,
-      "DEFENSE": 50,
-      "HEALTH": 160,
-      "STRENGTH": 15,
-      "CRITICAL_DAMAGE": 10,
-      "INTELLIGENCE": 130
+      "DEFENSE": 55,
+      "HEALTH": 175,
+      "INTELLIGENCE": 130,
+      "mending": 5
     },
     "requirements": [
       {
@@ -99385,11 +100510,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 8,
-      "DEFENSE": 79,
-      "HEALTH": 254,
-      "STRENGTH": 24,
-      "CRITICAL_DAMAGE": 16,
-      "INTELLIGENCE": 206
+      "DEFENSE": 86,
+      "HEALTH": 273,
+      "INTELLIGENCE": 206,
+      "mending": 8
     },
     "requirements": [
       {
@@ -99572,11 +100696,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 8,
-      "DEFENSE": 103,
-      "HEALTH": 365,
-      "STRENGTH": 24,
-      "CRITICAL_DAMAGE": 16,
-      "INTELLIGENCE": 135
+      "DEFENSE": 109,
+      "HEALTH": 391,
+      "INTELLIGENCE": 135,
+      "mending": 8
     },
     "requirements": [
       {
@@ -99759,11 +100882,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 8,
-      "DEFENSE": 64,
-      "HEALTH": 206,
-      "STRENGTH": 24,
-      "CRITICAL_DAMAGE": 16,
-      "INTELLIGENCE": 135
+      "DEFENSE": 70,
+      "HEALTH": 234,
+      "INTELLIGENCE": 135,
+      "mending": 8
     },
     "requirements": [
       {
@@ -99946,11 +101068,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 8,
-      "DEFENSE": 87,
-      "HEALTH": 325,
-      "STRENGTH": 24,
-      "CRITICAL_DAMAGE": 16,
-      "INTELLIGENCE": 135
+      "DEFENSE": 94,
+      "HEALTH": 352,
+      "INTELLIGENCE": 135,
+      "mending": 8
     },
     "requirements": [
       {
@@ -100133,11 +101254,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 6,
-      "DEFENSE": 82,
-      "HEALTH": 290,
-      "STRENGTH": 19,
-      "CRITICAL_DAMAGE": 13,
-      "INTELLIGENCE": 107
+      "DEFENSE": 88,
+      "HEALTH": 313,
+      "INTELLIGENCE": 107,
+      "mending": 6
     },
     "requirements": [
       {
@@ -100320,11 +101440,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 6,
-      "DEFENSE": 50,
-      "HEALTH": 164,
-      "STRENGTH": 19,
-      "CRITICAL_DAMAGE": 13,
-      "INTELLIGENCE": 107
+      "DEFENSE": 56,
+      "HEALTH": 188,
+      "INTELLIGENCE": 107,
+      "mending": 6
     },
     "requirements": [
       {
@@ -100507,11 +101626,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 6,
-      "DEFENSE": 69,
-      "HEALTH": 258,
-      "STRENGTH": 19,
-      "CRITICAL_DAMAGE": 13,
-      "INTELLIGENCE": 107
+      "DEFENSE": 75,
+      "HEALTH": 281,
+      "INTELLIGENCE": 107,
+      "mending": 6
     },
     "requirements": [
       {
@@ -100695,11 +101813,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 6,
-      "DEFENSE": 63,
-      "HEALTH": 202,
-      "STRENGTH": 19,
-      "CRITICAL_DAMAGE": 13,
-      "INTELLIGENCE": 164
+      "DEFENSE": 69,
+      "HEALTH": 219,
+      "INTELLIGENCE": 164,
+      "mending": 6
     },
     "requirements": [
       {
@@ -100882,11 +101999,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 10,
-      "DEFENSE": 130,
-      "HEALTH": 460,
-      "STRENGTH": 30,
-      "CRITICAL_DAMAGE": 20,
-      "INTELLIGENCE": 170
+      "DEFENSE": 137,
+      "HEALTH": 488,
+      "INTELLIGENCE": 170,
+      "mending": 10
     },
     "requirements": [
       {
@@ -101069,11 +102185,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 10,
-      "DEFENSE": 110,
-      "HEALTH": 410,
-      "STRENGTH": 30,
-      "CRITICAL_DAMAGE": 20,
-      "INTELLIGENCE": 170
+      "DEFENSE": 117,
+      "HEALTH": 439,
+      "INTELLIGENCE": 170,
+      "mending": 10
     },
     "requirements": [
       {
@@ -101257,11 +102372,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 10,
-      "DEFENSE": 100,
-      "HEALTH": 320,
-      "STRENGTH": 30,
-      "CRITICAL_DAMAGE": 20,
-      "INTELLIGENCE": 260
+      "DEFENSE": 107,
+      "HEALTH": 342,
+      "INTELLIGENCE": 260,
+      "mending": 10
     },
     "requirements": [
       {
@@ -101444,11 +102558,10 @@
     "soulbound": "COOP",
     "stats": {
       "WALK_SPEED": 10,
-      "DEFENSE": 80,
-      "HEALTH": 260,
-      "STRENGTH": 30,
-      "CRITICAL_DAMAGE": 20,
-      "INTELLIGENCE": 170
+      "DEFENSE": 88,
+      "HEALTH": 293,
+      "INTELLIGENCE": 170,
+      "mending": 10
     },
     "requirements": [
       {
@@ -101632,7 +102745,8 @@
     "stats": {
       "DEFENSE": 290,
       "HEALTH": 529,
-      "INTELLIGENCE": 13
+      "INTELLIGENCE": 13,
+      "TRUE_DEFENSE": 12
     },
     "requirements": [
       {
@@ -101862,7 +102976,8 @@
     "stats": {
       "DEFENSE": 252,
       "HEALTH": 454,
-      "INTELLIGENCE": 38
+      "INTELLIGENCE": 38,
+      "TRUE_DEFENSE": 12
     },
     "requirements": [
       {
@@ -102091,7 +103206,8 @@
     "stats": {
       "DEFENSE": 353,
       "HEALTH": 668,
-      "INTELLIGENCE": 13
+      "INTELLIGENCE": 13,
+      "TRUE_DEFENSE": 12
     },
     "requirements": [
       {
@@ -102320,7 +103436,8 @@
     "stats": {
       "DEFENSE": 214,
       "HEALTH": 403,
-      "INTELLIGENCE": 13
+      "INTELLIGENCE": 13,
+      "TRUE_DEFENSE": 12
     },
     "requirements": [
       {
@@ -102548,7 +103665,8 @@
     "stats": {
       "DEFENSE": 115,
       "HEALTH": 210,
-      "INTELLIGENCE": 5
+      "INTELLIGENCE": 5,
+      "TRUE_DEFENSE": 5
     },
     "requirements": [
       {
@@ -102732,7 +103850,8 @@
     "stats": {
       "DEFENSE": 100,
       "HEALTH": 180,
-      "INTELLIGENCE": 15
+      "INTELLIGENCE": 15,
+      "TRUE_DEFENSE": 5
     },
     "requirements": [
       {
@@ -102915,7 +104034,8 @@
     "stats": {
       "DEFENSE": 85,
       "HEALTH": 160,
-      "INTELLIGENCE": 5
+      "INTELLIGENCE": 5,
+      "TRUE_DEFENSE": 5
     },
     "requirements": [
       {
@@ -103098,7 +104218,8 @@
     "stats": {
       "DEFENSE": 140,
       "HEALTH": 265,
-      "INTELLIGENCE": 5
+      "INTELLIGENCE": 5,
+      "TRUE_DEFENSE": 5
     },
     "requirements": [
       {
@@ -103283,7 +104404,8 @@
     "stats": {
       "DEFENSE": 159,
       "HEALTH": 286,
-      "INTELLIGENCE": 24
+      "INTELLIGENCE": 24,
+      "TRUE_DEFENSE": 8
     },
     "requirements": [
       {
@@ -103467,7 +104589,8 @@
     "stats": {
       "DEFENSE": 135,
       "HEALTH": 254,
-      "INTELLIGENCE": 8
+      "INTELLIGENCE": 8,
+      "TRUE_DEFENSE": 8
     },
     "requirements": [
       {
@@ -103651,7 +104774,8 @@
     "stats": {
       "DEFENSE": 222,
       "HEALTH": 421,
-      "INTELLIGENCE": 8
+      "INTELLIGENCE": 8,
+      "TRUE_DEFENSE": 8
     },
     "requirements": [
       {
@@ -103835,7 +104959,8 @@
     "stats": {
       "DEFENSE": 183,
       "HEALTH": 333,
-      "INTELLIGENCE": 8
+      "INTELLIGENCE": 8,
+      "TRUE_DEFENSE": 8
     },
     "requirements": [
       {
@@ -104019,7 +105144,8 @@
     "stats": {
       "DEFENSE": 145,
       "HEALTH": 265,
-      "INTELLIGENCE": 6
+      "INTELLIGENCE": 6,
+      "TRUE_DEFENSE": 6
     },
     "requirements": [
       {
@@ -104203,7 +105329,8 @@
     "stats": {
       "DEFENSE": 176,
       "HEALTH": 334,
-      "INTELLIGENCE": 6
+      "INTELLIGENCE": 6,
+      "TRUE_DEFENSE": 6
     },
     "requirements": [
       {
@@ -104388,7 +105515,8 @@
     "stats": {
       "DEFENSE": 126,
       "HEALTH": 227,
-      "INTELLIGENCE": 19
+      "INTELLIGENCE": 19,
+      "TRUE_DEFENSE": 6
     },
     "requirements": [
       {
@@ -104572,7 +105700,8 @@
     "stats": {
       "DEFENSE": 107,
       "HEALTH": 202,
-      "INTELLIGENCE": 6
+      "INTELLIGENCE": 6,
+      "TRUE_DEFENSE": 6
     },
     "requirements": [
       {
@@ -104756,7 +105885,8 @@
     "stats": {
       "DEFENSE": 230,
       "HEALTH": 420,
-      "INTELLIGENCE": 10
+      "INTELLIGENCE": 10,
+      "TRUE_DEFENSE": 10
     },
     "requirements": [
       {
@@ -104940,7 +106070,8 @@
     "stats": {
       "DEFENSE": 280,
       "HEALTH": 530,
-      "INTELLIGENCE": 10
+      "INTELLIGENCE": 10,
+      "TRUE_DEFENSE": 10
     },
     "requirements": [
       {
@@ -105125,7 +106256,8 @@
     "stats": {
       "DEFENSE": 200,
       "HEALTH": 360,
-      "INTELLIGENCE": 30
+      "INTELLIGENCE": 30,
+      "TRUE_DEFENSE": 10
     },
     "requirements": [
       {
@@ -105309,7 +106441,8 @@
     "stats": {
       "DEFENSE": 170,
       "HEALTH": 320,
-      "INTELLIGENCE": 10
+      "INTELLIGENCE": 10,
+      "TRUE_DEFENSE": 10
     },
     "requirements": [
       {
@@ -106529,7 +107662,6 @@
     "name": "Finwave Gloves",
     "category": "GLOVES",
     "tier": "EPIC",
-    "soulbound": "COOP",
     "npc_sell_price": 9000,
     "stats": {
       "health": 12,
@@ -106545,7 +107677,6 @@
     "name": "Finwave Cloak",
     "category": "CLOAK",
     "tier": "EPIC",
-    "soulbound": "COOP",
     "npc_sell_price": 9000,
     "stats": {
       "health": 15,
@@ -106561,7 +107692,6 @@
     "name": "Gillsplash Gloves",
     "category": "GLOVES",
     "tier": "LEGENDARY",
-    "soulbound": "COOP",
     "npc_sell_price": 9000,
     "stats": {
       "health": 20,
@@ -106577,7 +107707,6 @@
     "name": "Finwave Belt",
     "category": "BELT",
     "tier": "EPIC",
-    "soulbound": "COOP",
     "npc_sell_price": 9000,
     "stats": {
       "health": 18,
@@ -106593,7 +107722,6 @@
     "name": "Gillsplash Cloak",
     "category": "CLOAK",
     "tier": "LEGENDARY",
-    "soulbound": "COOP",
     "npc_sell_price": 9000,
     "stats": {
       "health": 25,
@@ -106609,7 +107737,6 @@
     "name": "Ichthyic Gloves",
     "category": "GLOVES",
     "tier": "RARE",
-    "soulbound": "COOP",
     "npc_sell_price": 4500,
     "stats": {
       "health": 8,
@@ -106624,7 +107751,6 @@
     "name": "Gillsplash Belt",
     "category": "BELT",
     "tier": "LEGENDARY",
-    "soulbound": "COOP",
     "npc_sell_price": 9000,
     "stats": {
       "health": 30,
@@ -106651,7 +107777,6 @@
     "name": "Ichthyic Cloak",
     "category": "CLOAK",
     "tier": "RARE",
-    "soulbound": "COOP",
     "npc_sell_price": 4500,
     "stats": {
       "health": 10,
@@ -106666,7 +107791,6 @@
     "name": "Ichthyic Belt",
     "category": "BELT",
     "tier": "RARE",
-    "soulbound": "COOP",
     "npc_sell_price": 4500,
     "stats": {
       "health": 12,
@@ -107068,5 +108192,20 @@
       "bundled_amount": 9
     },
     "id": "ECCENTRIC_PAINTING_BUNDLE"
+  },
+  {
+    "material": "SKULL_ITEM",
+    "durability": 3,
+    "skin": "ewogICJ0aW1lc3RhbXAiIDogMTcxMzMxODQ4MzY1MiwKICAicHJvZmlsZUlkIiA6ICIzZWIxZDExYWE5NDU0YTZjODU5NWVhNWExZjg4ZjA0OSIsCiAgInByb2ZpbGVOYW1lIiA6ICJEZWl2aWNpdG9fRWMiLAogICJzaWduYXR1cmVSZXF1aXJlZCIgOiB0cnVlLAogICJ0ZXh0dXJlcyIgOiB7CiAgICAiU0tJTiIgOiB7CiAgICAgICJ1cmwiIDogImh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZGYyNDEyZDYzZGQyZTBlMjMyMjMwYWJkMDRhOGY3MjZlNTFjOTNhNzI2ODZjN2RhZTE3MjJjNDY3N2Y5ZjU0OCIKICAgIH0KICB9Cn0",
+    "name": "Magic 8 Ball",
+    "tier": "EPIC",
+    "category": "ACCESSORY",
+    "id": "MAGIC_8_BALL"
+  },
+  {
+    "material": "NAME_TAG",
+    "name": "Sirius' Personal Phone Number",
+    "tier": "LEGENDARY",
+    "id": "SIRIUS_PERSONAL_PHONE_NUMBER"
   }
 ]
