@@ -1,3 +1,4 @@
+const { ignoredKeys } = require('../constants/events');
 module.exports = function getEvents(profile) {
 	return (eventsData = {
 		easter: {
@@ -14,6 +15,8 @@ module.exports = function getEvents(profile) {
 				grandma: profile.events?.easter?.employees.rabbit_grandma || 0,
 			},
 			level: profile.events?.easter?.chocolate_level || 0,
+			uniqueRabbits: Object.keys(profile.events?.easter?.rabbits).filter((key) => !ignoredKeys.includes(key))
+				.length,
 		},
 	});
 };
