@@ -20,6 +20,7 @@ const getCrimson = require('../stats/crimson.js');
 const getWeight = require('../stats/weight');
 const getMissing = require('../stats/missing');
 const getBestiary = require('../stats/bestiary');
+const getEvents = require('../stats/events.js');
 const { isUuid } = require('./uuid');
 
 const { getNetworth, getPrices } = require('skyhelper-networth');
@@ -29,322 +30,380 @@ const { makeRequest } = require('./request');
 
 let prices = {};
 getPrices().then((data) => {
-    prices = data;
+	prices = data;
 });
 setInterval(async () => {
-    prices = await getPrices();
+	prices = await getPrices();
 }, 1000 * 60 * 5); // 5 minutes
 
 module.exports = {
-    parseHypixel: function parseHypixel(playerRes, uuid, res) {
-        if (playerRes.data.hasOwnProperty('player') && playerRes.data.player == null) {
-            res.status(404).json({ status: 404, reason: `Found no Player data for a user with a UUID of '${uuid}'` });
-            return;
-        }
-        const data = playerRes.data.player;
-        const achievements = data.achievements;
+	parseHypixel: function parseHypixel(playerRes, uuid, res) {
+		if (playerRes.data.hasOwnProperty('player') && playerRes.data.player == null) {
+			res.status(404).json({ status: 404, reason: `Found no Player data for a user with a UUID of '${uuid}'` });
+			return;
+		}
+		const data = playerRes.data.player;
+		const achievements = data.achievements;
 
-        return {
-            name: data.displayname,
-            rank: getRank(data),
-            hypixelLevel: getHypixelLevel(data),
-            karma: data.karma,
-            skills: {
-                mining: achievements?.skyblock_excavator || 0,
-                foraging: achievements?.skyblock_gatherer || 0,
-                enchanting: achievements?.skyblock_augmentation || 0,
-                farming: achievements?.skyblock_harvester || 0,
-                combat: achievements?.skyblock_combat || 0,
-                fishing: achievements?.skyblock_angler || 0,
-                alchemy: achievements?.skyblock_concoctor || 0,
-                taming: achievements?.skyblock_domesticator || 0,
-            },
-            dungeons: {
-                secrets: achievements?.skyblock_treasure_hunter || 0,
-            },
-        };
-    },
-    parseNetworthProfile: async function parseNetworthProfile(profileRes, uuid, profileid, res) {
-        if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'` });
-            return;
-        }
-        if (!isUuid(profileid)) {
-            for (const profile of profileRes.data?.profiles || []) {
-                if (profile.cute_name.toLowerCase() === profileid.toLowerCase()) {
-                    profileid = profile.profile_id;
-                }
-            }
-        }
+		return {
+			name: data.displayname,
+			rank: getRank(data),
+			hypixelLevel: getHypixelLevel(data),
+			karma: data.karma,
+			skills: {
+				mining: achievements?.skyblock_excavator || 0,
+				foraging: achievements?.skyblock_gatherer || 0,
+				enchanting: achievements?.skyblock_augmentation || 0,
+				farming: achievements?.skyblock_harvester || 0,
+				combat: achievements?.skyblock_combat || 0,
+				fishing: achievements?.skyblock_angler || 0,
+				alchemy: achievements?.skyblock_concoctor || 0,
+				taming: achievements?.skyblock_domesticator || 0,
+			},
+			dungeons: {
+				secrets: achievements?.skyblock_treasure_hunter || 0,
+			},
+		};
+	},
+	parseNetworthProfile: async function parseNetworthProfile(profileRes, uuid, profileid, res) {
+		if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'`,
+			});
+			return;
+		}
+		if (!isUuid(profileid)) {
+			for (const profile of profileRes.data?.profiles || []) {
+				if (profile.cute_name.toLowerCase() === profileid.toLowerCase()) {
+					profileid = profile.profile_id;
+				}
+			}
+		}
 
-        const profileData = profileRes.data.profiles.find((a) => a.profile_id === profileid);
-        if (!profileData) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'` });
-            return;
-        }
+		const profileData = profileRes.data.profiles.find((a) => a.profile_id === profileid);
+		if (!profileData) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'`,
+			});
+			return;
+		}
 
-        if (!isValidProfile(profileData.members, uuid)) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'` });
-            return;
-        }
+		if (!isValidProfile(profileData.members, uuid)) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'`,
+			});
+			return;
+		}
 
-        const profile = profileData.members[uuid];
+		const profile = profileData.members[uuid];
 
-        return {
-            uuid: uuid,
-            name: profileData.cute_name,
-            id: profileData.profile_id,
-            selected: profileData.selected,
-            first_join: profile.profile.first_join,
-            gamemode: profileData?.game_mode || 'normal',
-            purse: profile.currencies.currencies.coin_purse || 0,
-            bank: profileData.banking?.balance || 0,
-            networth: await getNetworth(profile, profileData.banking?.balance, { prices }),
-        };
-    },
-    parseProfile: async function parseProfile(player, profileRes, uuid, profileid, res, key) {
-        if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'` });
-            return;
-        }
-        if (!isUuid(profileid)) {
-            for (const profile of profileRes.data?.profiles || []) {
-                if (profile.cute_name.toLowerCase() === profileid.toLowerCase()) {
-                    profileid = profile.profile_id;
-                }
-            }
-        }
+		return {
+			uuid: uuid,
+			name: profileData.cute_name,
+			id: profileData.profile_id,
+			selected: profileData.selected,
+			first_join: profile.profile.first_join,
+			gamemode: profileData?.game_mode || 'normal',
+			purse: profile.currencies.currencies.coin_purse || 0,
+			bank: profileData.banking?.balance || 0,
+			networth: await getNetworth(profile, profileData.banking?.balance, { prices }),
+		};
+	},
+	parseProfile: async function parseProfile(player, profileRes, uuid, profileid, res, key) {
+		if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'`,
+			});
+			return;
+		}
+		if (!isUuid(profileid)) {
+			for (const profile of profileRes.data?.profiles || []) {
+				if (profile.cute_name.toLowerCase() === profileid.toLowerCase()) {
+					profileid = profile.profile_id;
+				}
+			}
+		}
 
-        const profileData = profileRes.data.profiles.find((a) => a.profile_id === profileid);
-        if (!profileData) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'` });
-            return;
-        }
+		const profileData = profileRes.data.profiles.find((a) => a.profile_id === profileid);
+		if (!profileData) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'`,
+			});
+			return;
+		}
 
-        if (!isValidProfile(profileData.members, uuid)) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'` });
-            return;
-        }
-        const museumRes = await makeRequest(res, `https://api.hypixel.net/v2/skyblock/museum?key=${key}&profile=${profileData.profile_id}`);
+		if (!isValidProfile(profileData.members, uuid)) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'`,
+			});
+			return;
+		}
+		const museumRes = await makeRequest(
+			res,
+			`https://api.hypixel.net/v2/skyblock/museum?key=${key}&profile=${profileData.profile_id}`
+		);
 
-        const museumData = museumRes.data.members[uuid];
-        const profile = profileData.members[uuid];
+		const museumData = museumRes.data.members[uuid];
+		const profile = profileData.members[uuid];
 
-        const [networth, weight, crimson, trophy_fish, missing, armor, equipment, pets, talismans, cakebag] = await Promise.all([
-            getNetworth(profile, profileData.banking?.balance, { v2Endpoint: true, museumData }),
-            getWeight(player, profile),
-            getCrimson(profile),
-            getTrophyFish(profile),
-            getMissing(profile),
-            getArmor(profile),
-            getEquipment(profile),
-            getPets(profile),
-            getTalismans(profile),
-            getCakebag(profile),
-        ]);
+		const [networth, weight, crimson, trophy_fish, missing, armor, equipment, pets, talismans, cakebag] =
+			await Promise.all([
+				getNetworth(profile, profileData.banking?.balance, { v2Endpoint: true, museumData }),
+				getWeight(player, profile),
+				getCrimson(profile),
+				getTrophyFish(profile),
+				getMissing(profile),
+				getArmor(profile),
+				getEquipment(profile),
+				getPets(profile),
+				getTalismans(profile),
+				getCakebag(profile),
+			]);
 
-        return {
-            uuid: uuid,
-            name: profileData.cute_name,
-            id: profileData.profile_id,
-            rank: player.rank,
-            hypixelLevel: player.hypixelLevel,
-            skyblockLevel: profile?.leveling?.experience / 100 || 0,
-            karma: player.karma,
-            isIronman: profileData?.game_mode === 'ironman' ? true : false,
-            gamemode: profileData?.game_mode ?? 'normal',
-            selected: profileData.selected,
-            first_join: profile.profile.first_join,
-            fairy_souls: profile.fairy_soul?.total_collected || 0,
-            purse: profile.currencies.coin_purse || 0,
-            bank: profileData.banking?.balance || 0,
-            skills: getSkills(player, profile),
-            networth,
-            weight,
-            bestiary: getBestiary(profile),
-            dungeons: getDungeons(player, profile),
-            crimson,
-            trophy_fish,
-            mining: getMining(player, profile),
-            slayer: getSlayer(profile),
-            milestones: getMilestones(profile),
-            missing,
-            kills: getKills(profile),
-            deaths: getDeaths(profile),
-            armor,
-            equipment,
-            pets,
-            talismans,
-            collections: getCollections(profileData),
-            minions: getMinions(profileData),
-            cakebag,
-        };
-    },
-    parseNetworthProfiles: async function parseNetworthProfiles(profileRes, uuid, res) {
-        if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.` });
-            return;
-        }
+		return {
+			uuid: uuid,
+			name: profileData.cute_name,
+			id: profileData.profile_id,
+			rank: player.rank,
+			hypixelLevel: player.hypixelLevel,
+			skyblockLevel: profile?.leveling?.experience / 100 || 0,
+			karma: player.karma,
+			isIronman: profileData?.game_mode === 'ironman' ? true : false,
+			gamemode: profileData?.game_mode ?? 'normal',
+			selected: profileData.selected,
+			first_join: profile.profile.first_join,
+			fairy_souls: profile.fairy_soul?.total_collected || 0,
+			purse: profile.currencies.coin_purse || 0,
+			bank: profileData.banking?.balance || 0,
+			skills: getSkills(player, profile),
+			networth,
+			weight,
+			bestiary: getBestiary(profile),
+			dungeons: getDungeons(player, profile),
+			crimson,
+			trophy_fish,
+			mining: getMining(player, profile),
+			slayer: getSlayer(profile),
+			milestones: getMilestones(profile),
+			missing,
+			kills: getKills(profile),
+			deaths: getDeaths(profile),
+			armor,
+			equipment,
+			pets,
+			talismans,
+			collections: getCollections(profileData),
+			minions: getMinions(profileData),
+			cakebag,
+			events: getEvents(profile),
+		};
+	},
+	parseNetworthProfiles: async function parseNetworthProfiles(profileRes, uuid, res) {
+		if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.`,
+			});
+			return;
+		}
 
-        const result = [];
+		const result = [];
 
-        for (const profileData of profileRes.data.profiles) {
-            if (!isValidProfile(profileData.members, uuid)) {
-                continue;
-            }
-            const profile = profileData.members[uuid];
+		for (const profileData of profileRes.data.profiles) {
+			if (!isValidProfile(profileData.members, uuid)) {
+				continue;
+			}
+			const profile = profileData.members[uuid];
 
-            result.push({
-                uuid: uuid,
-                name: profileData.cute_name,
-                id: profileData.profile_id,
-                selected: profileData.selected,
-                first_join: profile.profile.first_join,
-                gamemode: profileData?.game_mode || 'normal',
-                purse: profile.currencies.coin_purse || 0,
-                bank: profileData.banking?.balance || 0,
-                networth: await getNetworth(profile, profileData.banking?.balance, { prices }),
-            });
-        }
-        if (result.length == 0) res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.` });
-        return result.sort((a, b) => b.selected - a.selected);
-    },
-    parseProfiles: async function parseProfile(player, profileRes, uuid, res, key) {
-        if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.` });
-            return;
-        }
+			result.push({
+				uuid: uuid,
+				name: profileData.cute_name,
+				id: profileData.profile_id,
+				selected: profileData.selected,
+				first_join: profile.profile.first_join,
+				gamemode: profileData?.game_mode || 'normal',
+				purse: profile.currencies.coin_purse || 0,
+				bank: profileData.banking?.balance || 0,
+				networth: await getNetworth(profile, profileData.banking?.balance, { prices }),
+			});
+		}
+		if (result.length == 0)
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.`,
+			});
+		return result.sort((a, b) => b.selected - a.selected);
+	},
+	parseProfiles: async function parseProfile(player, profileRes, uuid, res, key) {
+		if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.`,
+			});
+			return;
+		}
 
-        const result = [];
+		const result = [];
 
-        for (const profileData of profileRes.data.profiles) {
-            if (!isValidProfile(profileData.members, uuid)) {
-                continue;
-            }
-            const museumRes = await makeRequest(res, `https://api.hypixel.net/v2/skyblock/museum?key=${key}&profile=${profileData.profile_id}`);
-            const profile = profileData.members[uuid];
-            const museumData = museumRes.data.members[uuid];
+		for (const profileData of profileRes.data.profiles) {
+			if (!isValidProfile(profileData.members, uuid)) {
+				continue;
+			}
+			const museumRes = await makeRequest(
+				res,
+				`https://api.hypixel.net/v2/skyblock/museum?key=${key}&profile=${profileData.profile_id}`
+			);
+			const profile = profileData.members[uuid];
+			const museumData = museumRes.data.members[uuid];
 
-            const [networth, weight, crimson, trophy_fish, missing, armor, equipment, pets, talismans, cakebag] = await Promise.all([
-                getNetworth(profile, profileData.banking?.balance, { v2Endpoint: true, museumData }),
-                getWeight(player, profile),
-                getCrimson(profile),
-                getTrophyFish(profile),
-                getMissing(profile),
-                getArmor(profile),
-                getEquipment(profile),
-                getPets(profile),
-                getTalismans(profile),
-                getCakebag(profile),
-            ]);
+			const [networth, weight, crimson, trophy_fish, missing, armor, equipment, pets, talismans, cakebag] =
+				await Promise.all([
+					getNetworth(profile, profileData.banking?.balance, { v2Endpoint: true, museumData }),
+					getWeight(player, profile),
+					getCrimson(profile),
+					getTrophyFish(profile),
+					getMissing(profile),
+					getArmor(profile),
+					getEquipment(profile),
+					getPets(profile),
+					getTalismans(profile),
+					getCakebag(profile),
+				]);
 
-            result.push({
-                username: player.name,
-                uuid: uuid,
-                name: profileData.cute_name,
-                id: profileData.profile_id,
-                rank: player.rank,
-                hypixelLevel: player.hypixelLevel,
-                skyblockLevel: profile?.leveling?.experience / 100 || 0,
-                karma: player.karma,
-                isIronman: profileData?.game_mode === 'ironman' ? true : false,
-                gamemode: profileData?.game_mode ?? 'normal',
-                selected: profileData.selected,
-                first_join: profile.profile.first_join,
-                fairy_souls: profile.fairy_soul?.total_collected || 0,
-                purse: profile?.currencies?.coin_purse || 0,
-                bank: profileData.banking?.balance || 0,
-                skills: getSkills(player, profile),
-                networth,
-                weight,
-                bestiary: getBestiary(profile),
-                dungeons: getDungeons(player, profile),
-                crimson,
-                trophy_fish,
-                mining: getMining(player, profile),
-                slayer: getSlayer(profile),
-                milestones: getMilestones(profile),
-                missing,
-                kills: getKills(profile),
-                deaths: getDeaths(profile),
-                armor,
-                equipment,
-                pets,
-                talismans,
-                collections: getCollections(profileData),
-                minions: getMinions(profileData),
-                cakebag,
-            });
-        }
-        if (result.length == 0) res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.` });
+			result.push({
+				username: player.name,
+				uuid: uuid,
+				name: profileData.cute_name,
+				id: profileData.profile_id,
+				rank: player.rank,
+				hypixelLevel: player.hypixelLevel,
+				skyblockLevel: profile?.leveling?.experience / 100 || 0,
+				karma: player.karma,
+				isIronman: profileData?.game_mode === 'ironman' ? true : false,
+				gamemode: profileData?.game_mode ?? 'normal',
+				selected: profileData.selected,
+				first_join: profile.profile.first_join,
+				fairy_souls: profile.fairy_soul?.total_collected || 0,
+				purse: profile?.currencies?.coin_purse || 0,
+				bank: profileData.banking?.balance || 0,
+				skills: getSkills(player, profile),
+				networth,
+				weight,
+				bestiary: getBestiary(profile),
+				dungeons: getDungeons(player, profile),
+				crimson,
+				trophy_fish,
+				mining: getMining(player, profile),
+				slayer: getSlayer(profile),
+				milestones: getMilestones(profile),
+				missing,
+				kills: getKills(profile),
+				deaths: getDeaths(profile),
+				armor,
+				equipment,
+				pets,
+				talismans,
+				collections: getCollections(profileData),
+				minions: getMinions(profileData),
+				cakebag,
+				events: getEvents(profile),
+			});
+		}
+		if (result.length == 0)
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.`,
+			});
 
-        return result.sort((a, b) => b.selected - a.selected);
-    },
-    parseProfileItems: async function parseProfileItems(player, profileRes, uuid, profileid, res) {
-        if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'` });
-            return;
-        }
+		return result.sort((a, b) => b.selected - a.selected);
+	},
+	parseProfileItems: async function parseProfileItems(player, profileRes, uuid, profileid, res) {
+		if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'`,
+			});
+			return;
+		}
 
-        if (!isUuid(profileid)) {
-            for (const profile of profileRes.data?.profiles || []) {
-                if (profile.cute_name.toLowerCase() === profileid.toLowerCase()) {
-                    profileid = profile.profile_id;
-                }
-            }
-        }
+		if (!isUuid(profileid)) {
+			for (const profile of profileRes.data?.profiles || []) {
+				if (profile.cute_name.toLowerCase() === profileid.toLowerCase()) {
+					profileid = profile.profile_id;
+				}
+			}
+		}
 
-        const profileData = profileRes.data.profiles.find((a) => a.profile_id === profileid);
-        if (!profileData) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'` });
-            return;
-        }
+		const profileData = profileRes.data.profiles.find((a) => a.profile_id === profileid);
+		if (!profileData) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}' and profile of '${profileid}'`,
+			});
+			return;
+		}
 
-        if (!isValidProfile(profileData.members, uuid)) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'` });
-            return;
-        }
+		if (!isValidProfile(profileData.members, uuid)) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'`,
+			});
+			return;
+		}
 
-        const profile = profileData.members[uuid];
+		const profile = profileData.members[uuid];
 
-        return {
-            username: player.name,
-            uuid: uuid,
-            name: profileData.cute_name,
-            id: profileData.profile_id,
-            selected: profileData.selected,
-            data: await getContent(profile),
-        };
-    },
+		return {
+			username: player.name,
+			uuid: uuid,
+			name: profileData.cute_name,
+			id: profileData.profile_id,
+			selected: profileData.selected,
+			data: await getContent(profile),
+		};
+	},
 
-    parseProfilesItems: async function parseProfileItems(player, profileRes, uuid, res) {
-        if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
-            res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.` });
-            return;
-        }
+	parseProfilesItems: async function parseProfileItems(player, profileRes, uuid, res) {
+		if (profileRes.data.hasOwnProperty('profiles') && profileRes.data.profiles == null) {
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.`,
+			});
+			return;
+		}
 
-        const result = [];
+		const result = [];
 
-        for (const profileData of profileRes.data.profiles) {
-            if (!isValidProfile(profileData.members, uuid)) {
-                continue;
-            }
-            const profile = profileData.members[uuid];
+		for (const profileData of profileRes.data.profiles) {
+			if (!isValidProfile(profileData.members, uuid)) {
+				continue;
+			}
+			const profile = profileData.members[uuid];
 
-            result.push({
-                username: player.name,
-                uuid: uuid,
-                name: profileData.cute_name,
-                id: profileData.profile_id,
-                selected: profile.selected,
-                data: await getContent(profile),
-            });
-        }
-        if (result.length == 0) res.status(404).json({ status: 404, reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.` });
-        return result.sort((a, b) => b.selected - a.selected);
-    },
+			result.push({
+				username: player.name,
+				uuid: uuid,
+				name: profileData.cute_name,
+				id: profileData.profile_id,
+				selected: profile.selected,
+				data: await getContent(profile),
+			});
+		}
+		if (result.length == 0)
+			res.status(404).json({
+				status: 404,
+				reason: `Found no SkyBlock profiles for a user with a UUID of '${uuid}'.`,
+			});
+		return result.sort((a, b) => b.selected - a.selected);
+	},
 };
 
 function isValidProfile(profileMembers, uuid) {
-    return profileMembers.hasOwnProperty(uuid) && profileMembers[uuid] !== undefined;
+	return profileMembers.hasOwnProperty(uuid) && profileMembers[uuid] !== undefined;
 }

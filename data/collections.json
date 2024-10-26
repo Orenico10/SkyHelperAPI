@@ -647,7 +647,7 @@
     "name": "Leather",
     "id": "LEATHER",
     "category": "FARMING",
-    "maxTiers": 10,
+    "maxTiers": 11,
     "tiers": [
       {
         "tier": 1,
@@ -663,30 +663,34 @@
       },
       {
         "tier": 4,
-        "amountRequired": 1000
+        "amountRequired": 500
       },
       {
         "tier": 5,
-        "amountRequired": 2500
+        "amountRequired": 1000
       },
       {
         "tier": 6,
-        "amountRequired": 5000
+        "amountRequired": 2500
       },
       {
         "tier": 7,
-        "amountRequired": 10000
+        "amountRequired": 5000
       },
       {
         "tier": 8,
-        "amountRequired": 25000
+        "amountRequired": 10000
       },
       {
         "tier": 9,
-        "amountRequired": 50000
+        "amountRequired": 25000
       },
       {
         "tier": 10,
+        "amountRequired": 50000
+      },
+      {
+        "tier": 11,
         "amountRequired": 100000
       }
     ]
@@ -1635,19 +1639,19 @@
       },
       {
         "tier": 3,
-        "amountRequired": 1000
-      },
-      {
-        "tier": 4,
         "amountRequired": 2500
       },
       {
+        "tier": 4,
+        "amountRequired": 10000
+      },
+      {
         "tier": 5,
-        "amountRequired": 5000
+        "amountRequired": 50000
       },
       {
         "tier": 6,
-        "amountRequired": 10000
+        "amountRequired": 100000
       },
       {
         "tier": 7,
@@ -3267,7 +3271,7 @@
       },
       {
         "tier": 7,
-        "amountRequired": 80000
+        "amountRequired": 75000
       },
       {
         "tier": 8,
@@ -3275,7 +3279,7 @@
       },
       {
         "tier": 9,
-        "amountRequired": 400000
+        "amountRequired": 250000
       }
     ]
   },
@@ -3287,7 +3291,7 @@
     "tiers": [
       {
         "tier": 1,
-        "amountRequired": 1
+        "amountRequired": 50
       },
       {
         "tier": 2,
